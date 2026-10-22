@@ -1,0 +1,29 @@
+.assessment { max-width: 760px; }
+.assessment h1,.assessment h2,.assessment-review h4 { overflow-wrap: anywhere; }
+.assessment-meta { flex-wrap: wrap; gap: 8px; margin: 22px 0 12px; font-size: 14px; }
+.assessment-question { margin-top: 28px; white-space: pre-line; }
+.assessment-prompt { margin: 20px 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 16px; line-height: 1.65; font-weight: 400; }
+.assessment fieldset { border: 0; padding: 0; margin: 24px 0; min-width: 0; }
+.assessment legend { margin-bottom: 12px; }
+.assessment .answer { min-height: 52px; align-items: flex-start; gap: 12px; }
+.assessment .answer input { flex: 0 0 auto; margin-top: 4px; accent-color: #ff7b16; }
+.assessment .answer span { min-width: 0; overflow-wrap: anywhere; }
+.assessment-option-content { display: block; flex: 1; }
+.assessment-option-image { display: block; width: 100%; max-width: 360px; height: auto; max-height: 240px; object-fit: contain; border-radius: 10px; margin-top: 12px; background: #fff; }
+.assessment-manager-option { margin-bottom: 18px; overflow-wrap: anywhere; }
+.assessment-text-label { display: block; margin: 24px 0 10px; font-weight: 600; }
+.assessment textarea { display:block; width:100%; min-height: 190px; resize: vertical; margin-bottom: 8px; font: inherit; }
+.assessment-actions { display:flex; flex-wrap:wrap; gap: 12px; margin-top: 24px; }
+.assessment-actions .btn { min-height: 48px; }
+.assessment-result { padding: 8px 0; }
+.assessment-image { max-width:100%; height:auto; border-radius:12px; }
+.assessment-free-answer { white-space:pre-wrap; overflow-wrap:anywhere; background:#f9f5f2; border-radius:12px; padding:16px; }
+.assessment-review { margin-bottom:16px; }
+@media(max-width:600px) {
+  .assessment h1 { font-size:28px; }
+  .assessment-question { font-size:21px; line-height:1.4; }
+  .assessment-actions .btn { flex:1 1 140px; }
+  .assessment-meta { font-size:13px; }
+}
+
+.assessment-question-images{display:grid;gap:12px;margin:16px 0;min-width:0}.assessment-question-images .assessment-image{display:block;width:auto;max-width:100%;height:auto;object-fit:contain}.assessment-review .assessment-question-images{margin:12px 0}
