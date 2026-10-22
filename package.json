@@ -1,0 +1,11 @@
+{
+  "name": "academy-team",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node apps/web/scripts/preview.cjs",
+    "build": "node build.cjs",
+    "check": "node --check apps/web/secure-dist/portal.js && node --check apps/web/secure-dist/material-files.js && node --check apps/web/secure-dist/pdf-viewer.js"
+  },
+  "engines": {"node": ">=22"}
+}
