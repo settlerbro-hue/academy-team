@@ -31,7 +31,7 @@ window.createAcademyMaterialFiles=function({client,rpc,esc,getProfile}){
  async function editAction(root,id,fn){if(state.busy)return;try{await fn();await list(id);renderList(root,id);root.querySelector('#material-file-preview')?.replaceChildren();}catch(e){Object.assign(state,{message:errorText(e),error:true});updateStatus(root);}}
  async function refreshEditor(root,id){try{await list(id);renderList(root,id);}catch(e){const box=root.querySelector('#material-file-list');if(box)box.textContent=errorText(e);}updateStatus(root);}
  function bindEditor(root,d,ensureSaved){updateStatus(root);if(!d.isNew)refreshEditor(root,d.id);const input=root.querySelector('#material-files-input');if(!input)return;
-  input.onchange=async e=>{if(state.busy)return;const selected=[...e.target.files];if(!selected.length)return;
+  input.onchange=async e=>{if(state.busy)return;const selected=[...e.target.files];if(!selected.length)return;const notify=root.querySelector('[name="notify_team"]')?.checked,comment=root.querySelector('[name="notify_comment"]')?.value||'';
    try{const files=selected.map(file=>{const ext=file.name.split('.').pop().toLowerCase(),mime=file.type||mimeByExtension[ext];if(!allowed.has(mime)||!mimeByExtension[ext])throw Error('Формат «'+file.name+'» не поддерживается. Выберите PDF, фото или видео MP4/WebM.');if(!file.size||file.size>limit)throw Error('Файл «'+file.name+'» должен быть не пустым и не больше 50 МБ.');return {file,mime};});
     if((lists.get(d.id)||[]).filter(f=>f.status!=='archived').length+files.length>10)throw Error('В одном материале может быть до 10 файлов.');
     const saved=ensureSaved();Object.assign(state,{busy:true,done:0,total:files.length,message:'Подготавливаем загрузку…',error:false});updateStatus(root);const material=await saved;state.materialId=material.id;
@@ -40,7 +40,8 @@ window.createAcademyMaterialFiles=function({client,rpc,esc,getProfile}){
      const {error}=await client.storage.from(bucket).upload(reserved.storage_path,file,{contentType:mime,upsert:false,cacheControl:'3600'});if(error)throw error;
      await rpc('academy_finish_material_file',{p_file_id:reserved.id});state.done++;await list(material.id);renderList(root,material.id);updateStatus(root);
     }
-    state.message='Загружено файлов: '+state.done+'. Сохраните материал, чтобы применить настройку публикации.';
+    if(notify&&material.published)await rpc('academy_announce_content',{p_content_ids:[material.id],p_comment:comment});
+    state.message='Загружено файлов: '+state.done+'. '+(notify&&material.published?'Уведомление отправлено доступной команде.':'Сохраните материал, чтобы применить настройку публикации.');
    }catch(e){state.error=true;state.message=errorText(e);}finally{state.busy=false;updateStatus(root);input.value='';if(state.materialId)refreshEditor(root,state.materialId);}
   };
  }

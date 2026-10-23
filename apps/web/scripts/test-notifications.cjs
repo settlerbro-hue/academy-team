@@ -1,0 +1,23 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const calls=[],handlers=new Map(),profile={id:'employee',role:'employee',status:'active'};
+const row={id:'n1',category:'publication',title:'<script>bad()</script>',body:'Состав\n<svg onload="bad()">',route:'#/menu/x',created_at:'2026-10-24T09:00:00Z',read_at:null,targets:[{id:'x&y',kind:'menu',title:'<B>'},{id:'other',kind:'menu',title:'Второй'}]};
+const data={items:[row],unread:1,total:1,as_of:'2026-10-24T10:00:00Z'};
+const context={window:{},document:{querySelectorAll:()=>[],visibilityState:'visible'},setInterval:()=>0,Date,FormData,console};
+vm.createContext(context);vm.runInContext(fs.readFileSync(require('node:path').join(__dirname,'../secure-dist/notifications.js'),'utf8'),context);
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let opened,rendered=0;
+const api=context.window.createAcademyNotifications({rpc:async(name,args)=>{calls.push({name,args});return name==='academy_notifications'?structuredClone(data):null;},esc,getProfile:()=>profile,openRoute:async x=>opened=x,render:()=>rendered++});
+const node=key=>({dataset:key.includes('open')?{notificationOpen:'n1',notificationRoute:'#/menu/x'}:key.includes('read]')?{notificationRead:'n1'}:key.includes('filter')?{notificationFilter:'unread'}:{},addEventListener:(name,fn)=>handlers.set(key,fn),set onclick(fn){handlers.set(key,fn);}});
+const root={querySelector:key=>['#notification-refresh','#notification-read-all','#notification-more'].includes(key)?node(key):null,querySelectorAll:key=>['[data-notification-read]','[data-notification-open]','[data-notification-filter]','[data-notification-inbox]'].includes(key)?[node(key)]:[]};
+(async()=>{
+ await api.load();assert(api.badge().includes('непрочитано: 1'));let html=api.view();assert(!html.includes('<script>'));assert(!html.includes('<svg onload='));assert(html.includes('&lt;script&gt;'));assert(html.includes('x%26y'));assert(html.includes('Изменённые позиции · 2'));
+ api.bind(root);await handlers.get('[data-notification-read]')();assert.equal(calls.at(-2).name,'academy_read_notifications');assert.equal(calls.at(-2).args.p_id,'n1');
+ await handlers.get('#notification-read-all')();assert.equal(calls.at(-2).args.p_through,data.as_of,'Read-all must use the last received server cutoff');
+ await handlers.get('[data-notification-filter]')();assert.equal(calls.at(-1).args.p_unread,true);
+ await handlers.get('[data-notification-open]')();assert.equal(opened,'#/menu/x');assert(!calls.some(c=>/complete_lesson|set_mark|submit_test/.test(c.name)));
+ assert(api.controls({isNew:true}).includes('name="notify_team" checked'));assert(!api.controls({}).includes('name="notify_team" checked'));
+ const quiet=new FormData();await api.publish({id:'draft',published:false},quiet);assert(!calls.some(c=>c.name==='academy_announce_content'));
+ api.clear();assert.equal(api.state.unread,0);assert.equal(api.state.items.length,0,'Signing out must clear the previous user inbox');assert(api.view().includes('Пока тихо'));assert(rendered>=3);
+ let deliver;const racing=context.window.createAcademyNotifications({rpc:()=>new Promise(r=>deliver=r),esc,getProfile:()=>profile,openRoute:async()=>{},render:()=>{}});const pending=racing.load();racing.clear();profile.id='other-user';deliver(structuredClone(data));await pending;assert.equal(racing.state.items.length,0,'An old session response must not populate the next user inbox');
+ console.log('Notifications UI passed: escaping, grouped targets, scoped read APIs, server read cutoff, unread filter, direct link, no learning side effects and account reset.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

@@ -29,3 +29,5 @@ SQL-проверки не равны проверке OAuth и опублико�
 8. `migrations/009_menu_editor.sql` и затем `seed-kitchen-menu.sql` — редактор меню в области ресторана и раздела менеджера; 92 карточки кухни РВБ. Фото и исходник загружены в private bucket по `kitchen-assets-manifest.json` / `kitchen-source.json`. Проверка `tests/kitchen-menu.sql` откатывает все изменения. Повторный seed сохраняет правки менеджера.
 
 9. `migrations/010_manager_position.sql` — должность «Управляющий» в подразделении «Руководитель», без назначения серверных ролей; проверка `tests/manager-position.sql`.
+
+`migrations/015_notifications.sql` применяется после 011–014. Закрытая лента уведомлений, публикации курсов/меню/файлов, события заявок и результатов, серверный планировщик напоминаний. Проверка `../scripts/test-notifications.sql` выполняется с полным откатом. Подробности: `../../../docs/notifications-2026-10-24.md`.
