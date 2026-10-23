@@ -1,4 +1,7 @@
 begin;
+update public.academy_content set published=false where kind in ('course','test');
+insert into public.academy_content(id,kind,title,published,restaurant_id,department,payload) values('qa-oral-general','course','QA general prerequisite',true,'minsk','Зал','{"priority":"start","audiencePositions":["Официант"],"lessons":[{"id":"one"}]}');
+insert into public.academy_progress(user_id,course_id,lesson_id) values('68a8567e-625e-41bc-bb37-6744d729c3d4','qa-oral-general','one');
 update public.academy_profiles set role='employee',status='active',restaurant_id='minsk',department='Зал',position='Официант' where id='68a8567e-625e-41bc-bb37-6744d729c3d4';
 update public.academy_profiles set role='manager',status='active',restaurant_id='minsk',department='Кухня',position='Шеф-повар' where id='4233956d-46bb-44c6-a266-759203b6648a';
 set local role authenticated;
