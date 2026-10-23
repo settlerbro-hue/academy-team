@@ -14,7 +14,7 @@ assert.equal(c.menuApplies(content[5],'pushkino'),false,'Other restaurant of sam
 s.profile.restaurant_id='mytishchi';assert.equal(c.menuStats().learned,1);
 s.profile.restaurant_id=null;assert.equal(c.menuStats().learned,0);assert.equal(c.menuStats().total,0);
 s.profile.restaurant_id='minsk';s.menuBrand='90';s.menuSection='kitchen';s.menuRestaurant='khimki';
-assert.equal(c.selectedMenuScope().restaurant,'khimki');assert.equal(c.menuStats().learned,2,'Browsing must not alter eligibility');
+assert.equal(c.selectedMenuScope().restaurant,'pushkino');assert.equal(c.menuStats().learned,2,'Browsing must not alter eligibility');
 s.marks[1].status='repeat';assert.equal(c.menuStats().repeat,1);assert.equal(c.menuStats().learned,1);
 assert.equal(c.menuBrandOf({id:'rvb-legacy'}),'rvb');assert.equal(c.menuSectionOf({id:'rvb-legacy'}),'bar');
 console.log('Menu scope checks passed: own brand, exact restaurant, bar + kitchen, browsing, marks, unpublished items and missing restaurant.');

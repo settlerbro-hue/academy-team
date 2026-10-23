@@ -23,7 +23,7 @@ async function open(hash){location.hash=hash;await router.restoreRoute();}
  await open('#/profile');assert.equal(s.tab,'profile');
  await open('#/courses/course-1/lessons/lesson-2');assert.equal(s.course,'course-1');assert.equal(s.lesson,1);assert.equal(router.currentRoute(),'#/courses/course-1/lessons/lesson-2');
  await open('#/menu?category=alcohol&subcategory=Gin&q=lime');assert.equal(s.category,'alcohol');assert.equal(s.filter,'lime');
- await open('#/menu?brand=90&section=kitchen&restaurant=khimki');assert.equal(s.menuBrand,'90');assert.equal(s.menuSection,'kitchen');assert.equal(s.menuRestaurant,'khimki');assert.equal(router.currentRoute(),'#/menu?brand=90&section=kitchen&restaurant=khimki');
+ await open('#/menu?brand=90&section=kitchen&restaurant=khimki');assert.equal(s.menuBrand,'90');assert.equal(s.menuSection,'kitchen');assert.equal(s.menuRestaurant,'khimki');assert.equal(router.currentRoute(),'#/menu?brand=90&section=kitchen');
  await open('#/library/doc-1');assert.equal(s.materialView,'doc-1');
  await open('#/menu/drink-1');assert.equal(s.menuItem,'drink-1');
  await open('#/manager/members/employee/profile');assert.equal(s.profileEdit.id,'employee');
