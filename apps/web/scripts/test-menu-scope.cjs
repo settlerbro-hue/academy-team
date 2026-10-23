@@ -1,0 +1,20 @@
+// Exercise the actual browser eligibility functions, including other branches of one brand.
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const text=fs.readFileSync(path.join(__dirname,'../secure-dist/portal.js'),'utf8');
+const source=text.slice(text.indexOf('const menuBrands='),text.indexOf('let routeReady='));
+const shared=(id,brand,menuSection='bar')=>({id,kind:'menu',published:true,restaurant_id:null,payload:{brand,menuSection}});
+const content=[{...shared('other-department','rvb'),department:'Кухня'},shared('rvb-legacy','rvb'),shared('rvb-kitchen','rvb','kitchen'),shared('common-90','90'),{...shared('pushkino-only','90'),restaurant_id:'pushkino'},{...shared('khimki-only','90'),restaurant_id:'khimki'},{...shared('hidden','rvb'),published:false},{...shared('not-menu','rvb'),kind:'material'}];
+const s={content,profile:{id:'a',restaurant_id:'minsk'},marks:content.map(c=>({user_id:'a',item_id:c.id,status:'learned'}))};
+const context={s,kind:k=>s.content.filter(d=>d.kind===k&&d.published!==false),restaurants:{minsk:'RVB',pushkino:'Pushkino',khimki:'Khimki',mytishchi:'Mytishchi'}};
+vm.createContext(context);vm.runInContext(source+'\nglobalThis.check={menuApplies,menuStats,menuBrandOf,menuSectionOf,selectedMenuScope};',context);
+const c=context.check;
+assert.equal(c.menuStats().learned,2);assert.equal(c.menuStats().total,2);
+s.profile.restaurant_id='pushkino';assert.equal(c.menuStats().learned,2);assert.equal(c.menuStats().total,2);
+assert.equal(c.menuApplies(content[5],'pushkino'),false,'Other restaurant of same brand must not count');
+s.profile.restaurant_id='mytishchi';assert.equal(c.menuStats().learned,1);
+s.profile.restaurant_id=null;assert.equal(c.menuStats().learned,0);assert.equal(c.menuStats().total,0);
+s.profile.restaurant_id='minsk';s.menuBrand='90';s.menuSection='kitchen';s.menuRestaurant='khimki';
+assert.equal(c.selectedMenuScope().restaurant,'khimki');assert.equal(c.menuStats().learned,2,'Browsing must not alter eligibility');
+s.marks[1].status='repeat';assert.equal(c.menuStats().repeat,1);assert.equal(c.menuStats().learned,1);
+assert.equal(c.menuBrandOf({id:'rvb-legacy'}),'rvb');assert.equal(c.menuSectionOf({id:'rvb-legacy'}),'bar');
+console.log('Menu scope checks passed: own brand, exact restaurant, bar + kitchen, browsing, marks, unpublished items and missing restaurant.');

@@ -1,18 +1,18 @@
 // Routing regression checks without browser dependencies or a live database.
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const portal=fs.readFileSync(path.join(__dirname,'../secure-dist/portal.js'),'utf8');
-const source=portal.slice(portal.indexOf('let routeReady='),portal.indexOf('const s={'));
+const source=portal.slice(portal.indexOf('const menuBrands='),portal.indexOf('const s={'));
 assert(source.includes('async function restoreRoute()'),'Routing source boundary missing');
 const memory=new Map(),queries=[],calls=[];
 const attemptId='11111111-1111-4111-8111-111111111111';
 const attempt={id:attemptId,user_id:'employee',test_id:'test-1',started_at:'2026-10-23T10:00:00Z',submitted_at:null,snapshot:{title:'Immutable test',questions:[{id:'q1',type:'single',options:['A','B']}],timeLimitSeconds:120},answers:null};
-const s={session:{user:{id:'employee'}},profile:{id:'employee',role:'manager',status:'active'},content:[{id:'course-1',kind:'course',published:true,payload:{lessons:[{id:'lesson-1',title:'One'},{id:'lesson-2',title:'Two'}]}},{id:'test-1',kind:'test',course_id:'course-1',published:true,title:'Test',payload:{}},{id:'doc-1',kind:'material',published:true,payload:{}},{id:'drink-1',kind:'menu',published:true,payload:{}}],progress:[],tab:'home'};
+const s={session:{user:{id:'employee'}},profile:{id:'employee',role:'manager',status:'active',restaurant_id:'minsk'},content:[{id:'course-1',kind:'course',published:true,payload:{lessons:[{id:'lesson-1',title:'One'},{id:'lesson-2',title:'Two'}]}},{id:'test-1',kind:'test',course_id:'course-1',published:true,title:'Test',payload:{}},{id:'doc-1',kind:'material',published:true,payload:{}},{id:'drink-1',kind:'menu',published:true,payload:{}}],progress:[],tab:'home'};
 const location={hash:'#/profile',pathname:'/',search:''};
 const context={s,location,URLSearchParams,encodeURIComponent,decodeURIComponent,structuredClone,Date,Promise,setTimeout,clearTimeout,clearInterval,console,timer:null,
  priorities:{start:'Start',attestation:'Exam',additional:'Extra'},
  sessionStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)},
  window:{addEventListener(){}},history:{pushState(a,b,url){location.hash=url.slice(url.indexOf('#'));calls.push('push');},replaceState(a,b,url){location.hash=url.slice(url.indexOf('#'));calls.push('replace');}},
- payload:d=>d.payload||d,kind:k=>s.content.filter(x=>x.kind===k&&x.published!==false),manager:()=>s.profile.role==='manager',canEdit:()=>true,
+ restaurants:{minsk:'RVB',pushkino:'Pushkino',khimki:'Khimki',mytishchi:'Mytishchi'},payload:d=>d.payload||d,kind:k=>s.content.filter(x=>x.kind===k&&x.published!==false),manager:()=>s.profile.role==='manager',canEdit:()=>true,
  loadTeam:async()=>{s.team={profiles:[{id:'employee',full_name:'Test employee'}]};},rpc:async name=>{calls.push(name);assert.notEqual(name,'academy_start_test','Refreshing must never start another attempt');return [];},
  client:{from(table){const filters={};return {select(){return this;},eq(k,v){filters[k]=v;return this;},async maybeSingle(){queries.push({table,filters});return {data:filters.id===attempt.id&&filters.user_id===attempt.user_id?{...attempt}:null,error:null};}};}}
 };
@@ -23,6 +23,7 @@ async function open(hash){location.hash=hash;await router.restoreRoute();}
  await open('#/profile');assert.equal(s.tab,'profile');
  await open('#/courses/course-1/lessons/lesson-2');assert.equal(s.course,'course-1');assert.equal(s.lesson,1);assert.equal(router.currentRoute(),'#/courses/course-1/lessons/lesson-2');
  await open('#/menu?category=alcohol&subcategory=Gin&q=lime');assert.equal(s.category,'alcohol');assert.equal(s.filter,'lime');
+ await open('#/menu?brand=90&section=kitchen&restaurant=khimki');assert.equal(s.menuBrand,'90');assert.equal(s.menuSection,'kitchen');assert.equal(s.menuRestaurant,'khimki');assert.equal(router.currentRoute(),'#/menu?brand=90&section=kitchen&restaurant=khimki');
  await open('#/library/doc-1');assert.equal(s.materialView,'doc-1');
  await open('#/menu/drink-1');assert.equal(s.menuItem,'drink-1');
  await open('#/manager/members/employee/profile');assert.equal(s.profileEdit.id,'employee');

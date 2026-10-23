@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "node scripts/preview.cjs",
     "build": "node build-secure.cjs",
-    "check": "node --check secure-dist/portal.js && node --check secure-dist/material-files.js && node --check secure-dist/pdf-viewer.js && node scripts/test-routing.cjs"
+    "check": "node --check secure-dist/portal.js && node --check secure-dist/material-files.js && node --check secure-dist/pdf-viewer.js && node scripts/test-routing.cjs && node scripts/test-menu-scope.cjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }
