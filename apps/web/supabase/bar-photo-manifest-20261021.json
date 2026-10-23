@@ -1,0 +1,132 @@
+[
+  {
+    "itemId": "rvb-minsk-001",
+    "name": "Ночное Рандеву",
+    "file": "rvb-minsk-001.png",
+    "path": "rvb-bar-20261021/rvb-minsk-001.png",
+    "page": 6,
+    "xref": 39,
+    "bytes": 57138,
+    "sha256": "e5a6308729b0f432de17c970be5ec9c6af4c4d144fbd1faa6539345355ed93e6"
+  },
+  {
+    "itemId": "rvb-minsk-004",
+    "name": "Фиолетовая Пудра",
+    "file": "rvb-minsk-004.png",
+    "path": "rvb-bar-20261021/rvb-minsk-004.png",
+    "page": 6,
+    "xref": 41,
+    "bytes": 50984,
+    "sha256": "28065b1e65925284f58031ea3eae8e82b625431e1e051229bb235a0be71e2b15"
+  },
+  {
+    "itemId": "rvb-minsk-003",
+    "name": "Укрощение Строптивой",
+    "file": "rvb-minsk-003.png",
+    "path": "rvb-bar-20261021/rvb-minsk-003.png",
+    "page": 6,
+    "xref": 45,
+    "bytes": 60010,
+    "sha256": "fed2e2c596481dc597edcf7e19833b6297fed6fbc7f4898ffdbbfbdaba06f5fb"
+  },
+  {
+    "itemId": "rvb-minsk-010",
+    "name": "Босс Любит Послаще",
+    "file": "rvb-minsk-010.png",
+    "path": "rvb-bar-20261021/rvb-minsk-010.png",
+    "page": 7,
+    "xref": 51,
+    "bytes": 77156,
+    "sha256": "2f682441cab3fa1f7289d91f31b0ca94a7d1c6f8a2fc465fc06c6fa36176b3f0"
+  },
+  {
+    "itemId": "rvb-minsk-008",
+    "name": "Джентельмены Предпочитают Блондинок",
+    "file": "rvb-minsk-008.png",
+    "path": "rvb-bar-20261021/rvb-minsk-008.png",
+    "page": 7,
+    "xref": 53,
+    "bytes": 46322,
+    "sha256": "938268245cb5a55868d1d3a7d14594867ac00a74b8a312fcac62bed14c50d928"
+  },
+  {
+    "itemId": "rvb-minsk-007",
+    "name": "Не Фейхоя Себе",
+    "file": "rvb-minsk-007.png",
+    "path": "rvb-bar-20261021/rvb-minsk-007.png",
+    "page": 7,
+    "xref": 129,
+    "bytes": 151716,
+    "sha256": "e4af22ee6ea12eff5eeffc122b596e9f342bc369a693671a9a83f011eaf64473"
+  },
+  {
+    "itemId": "rvb-minsk-013",
+    "name": "Beautiful Life",
+    "file": "rvb-minsk-013.png",
+    "path": "rvb-bar-20261021/rvb-minsk-013.png",
+    "page": 7,
+    "xref": 55,
+    "bytes": 62908,
+    "sha256": "382993e1e39680f95a34271d44f2c4b99fe63673b06121dbe7a175c0229ba527"
+  },
+  {
+    "itemId": "rvb-minsk-005",
+    "name": "Just Dance",
+    "file": "rvb-minsk-005.png",
+    "path": "rvb-bar-20261021/rvb-minsk-005.png",
+    "page": 8,
+    "xref": 63,
+    "bytes": 88615,
+    "sha256": "3cdf91bc2824914dea49ecc50cf2b7b842ff29f6e67d8f484d916b67c97de40a"
+  },
+  {
+    "itemId": "rvb-minsk-011",
+    "name": "Константин Всегда на Стиле",
+    "file": "rvb-minsk-011.png",
+    "path": "rvb-bar-20261021/rvb-minsk-011.png",
+    "page": 8,
+    "xref": 67,
+    "bytes": 82762,
+    "sha256": "d74940331a79115f45cdf0eea349460010187ebf0b2d9368eed14fcac8d776a8"
+  },
+  {
+    "itemId": "rvb-minsk-015",
+    "name": "Счастливый Билет",
+    "file": "rvb-minsk-015.png",
+    "path": "rvb-bar-20261021/rvb-minsk-015.png",
+    "page": 9,
+    "xref": 75,
+    "bytes": 88641,
+    "sha256": "089acfde87c0478746d15738a6c9ef49a30a607743682e864750a56b1214c1cd"
+  },
+  {
+    "itemId": "rvb-minsk-012",
+    "name": "Абонент Вне Зоны Доступа",
+    "file": "rvb-minsk-012.png",
+    "path": "rvb-bar-20261021/rvb-minsk-012.png",
+    "page": 9,
+    "xref": 77,
+    "bytes": 85693,
+    "sha256": "d4b9e66eefa2f6f35a1ce61ea98b56c25089ab6afd9daadb341cf1cd3b8460a4"
+  },
+  {
+    "itemId": "rvb-minsk-006",
+    "name": "Я Знаю Кто Убил Сару",
+    "file": "rvb-minsk-006.png",
+    "path": "rvb-bar-20261021/rvb-minsk-006.png",
+    "page": 9,
+    "xref": 132,
+    "bytes": 71801,
+    "sha256": "cb1d918b2a7ab7165c725f4f34ac73cccda3c06dc0cb19c0573a79d30b5826ba"
+  },
+  {
+    "itemId": "rvb-autumn26-228-1",
+    "name": "Мятный Носорог",
+    "file": "rvb-autumn26-228-1.png",
+    "path": "rvb-bar-20261021/rvb-autumn26-228-1.png",
+    "page": 5,
+    "xref": 33,
+    "bytes": 38013,
+    "sha256": "158420a4a2b0d5bf9c8ba3b5a17cabdf579c76fe503376ba8ac2192e2e1f8340"
+  }
+]
