@@ -13,7 +13,7 @@ const context={s,location,URLSearchParams,encodeURIComponent,decodeURIComponent,
  sessionStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)},
  window:{addEventListener(){}},history:{pushState(a,b,url){location.hash=url.slice(url.indexOf('#'));calls.push('push');},replaceState(a,b,url){location.hash=url.slice(url.indexOf('#'));calls.push('replace');}},
  restaurants:{minsk:'RVB',pushkino:'Pushkino',khimki:'Khimki',mytishchi:'Mytishchi'},payload:d=>d.payload||d,kind:k=>s.content.filter(x=>x.kind===k&&x.published!==false),manager:()=>s.profile.role==='manager',canEdit:()=>true,
- loadTeam:async()=>{s.team={profiles:[{id:'employee',full_name:'Test employee'}]};},rpc:async name=>{calls.push(name);assert.notEqual(name,'academy_start_test','Refreshing must never start another attempt');return [];},
+ canViewOral:()=>s.profile.role==='manager'||s.profile.role==='admin'||s.profile.department==='Руководитель',loadOralDashboard:async()=>{s.oralDashboard={members:[{id:'employee'}]};},loadTeam:async()=>{s.team={profiles:[{id:'employee',full_name:'Test employee'}]};},rpc:async name=>{calls.push(name);assert.notEqual(name,'academy_start_test','Refreshing must never start another attempt');return [];},
  client:{from(table){const filters={};return {select(){return this;},eq(k,v){filters[k]=v;return this;},async maybeSingle(){queries.push({table,filters});return {data:filters.id===attempt.id&&filters.user_id===attempt.user_id?{...attempt}:null,error:null};}};}}
 };
 vm.createContext(context);vm.runInContext(source+'\nglobalThis.router={restoreRoute,currentRoute,syncRoute,draftKey};',context);
@@ -21,6 +21,8 @@ const {router}=context;
 async function open(hash){location.hash=hash;await router.restoreRoute();}
 (async()=>{
  await open('#/profile');assert.equal(s.tab,'profile');
+ await open('#/attestation/members/employee');assert.equal(s.oralMember,'employee');assert.equal(router.currentRoute(),'#/attestation/members/employee');
+ s.profile.role='employee';await open('#/attestation');assert(s.routeError,'Employees cannot open examination cabinet');s.profile.role='manager';
  await open('#/courses/course-1/lessons/lesson-2');assert.equal(s.course,'course-1');assert.equal(s.lesson,1);assert.equal(router.currentRoute(),'#/courses/course-1/lessons/lesson-2');
  await open('#/menu?category=alcohol&subcategory=Gin&q=lime');assert.equal(s.category,'alcohol');assert.equal(s.filter,'lime');
  await open('#/menu?brand=90&section=kitchen&restaurant=khimki');assert.equal(s.menuBrand,'90');assert.equal(s.menuSection,'kitchen');assert.equal(s.menuRestaurant,'khimki');assert.equal(router.currentRoute(),'#/menu?brand=90&section=kitchen');
