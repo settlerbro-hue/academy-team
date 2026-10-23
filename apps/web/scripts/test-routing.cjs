@@ -9,7 +9,7 @@ const attempt={id:attemptId,user_id:'employee',test_id:'test-1',started_at:'2026
 const s={session:{user:{id:'employee'}},profile:{id:'employee',role:'manager',status:'active',restaurant_id:'minsk'},content:[{id:'course-1',kind:'course',published:true,payload:{lessons:[{id:'lesson-1',title:'One'},{id:'lesson-2',title:'Two'}]}},{id:'test-1',kind:'test',course_id:'course-1',published:true,title:'Test',payload:{}},{id:'doc-1',kind:'material',published:true,payload:{}},{id:'drink-1',kind:'menu',published:true,payload:{}}],progress:[],tab:'home'};
 const location={hash:'#/profile',pathname:'/',search:''};
 const context={s,location,URLSearchParams,encodeURIComponent,decodeURIComponent,structuredClone,Date,Promise,setTimeout,clearTimeout,clearInterval,console,timer:null,
- priorities:{start:'Start',attestation:'Exam',additional:'Extra'},
+ departments:{'Бар':['Бармен'],'Зал':['Хостес']},priorities:{start:'Start',attestation:'Exam',additional:'Extra'},
  sessionStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)},
  window:{addEventListener(){}},history:{pushState(a,b,url){location.hash=url.slice(url.indexOf('#'));calls.push('push');},replaceState(a,b,url){location.hash=url.slice(url.indexOf('#'));calls.push('replace');}},
  restaurants:{minsk:'RVB',pushkino:'Pushkino',khimki:'Khimki',mytishchi:'Mytishchi'},payload:d=>d.payload||d,kind:k=>s.content.filter(x=>x.kind===k&&x.published!==false),manager:()=>s.profile.role==='manager',canEdit:()=>true,
@@ -39,3 +39,4 @@ async function open(hash){location.hash=hash;await router.restoreRoute();}
  await open('#/profile');assert.equal(s.routeError,'');assert.equal(s.tab,'profile');
  console.log('Routing checks passed: deep links, lesson/filter restoration, scoped attempts, answer draft, unchanged timer origin, results and invalid routes.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
+

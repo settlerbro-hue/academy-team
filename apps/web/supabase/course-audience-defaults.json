@@ -1,0 +1,336 @@
+[
+  {
+    "id": "welcome-90",
+    "title": "Welcome-курс для команды: Стань частью бара «90-е»",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Старший бармен",
+      "Барбэк",
+      "Бармен",
+      "Сотрудник кухни",
+      "Сотрудник арт",
+      "Сотрудник кальянного подразделения",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "waiter-standards",
+    "title": "Стандарты работы официанта",
+    "audiencePositions": [
+      "Официант",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "hostess-standards",
+    "title": "Стандарты работы хостес",
+    "audiencePositions": [
+      "Хостес",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {
+      "Хостес": "start",
+      "Администратор": "start"
+    }
+  },
+  {
+    "id": "waiter-internship",
+    "title": "Дневник стажировки официанта",
+    "audiencePositions": [
+      "Официант"
+    ],
+    "audienceLevels": [
+      "trainee"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-42875",
+    "title": "🔵Как пользоваться ServiceGuru",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Старший бармен",
+      "Барбэк",
+      "Бармен",
+      "Сотрудник кухни",
+      "Сотрудник арт",
+      "Сотрудник кальянного подразделения",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-43403",
+    "title": "Правила сотрудника Бара \"90-е\"",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Старший бармен",
+      "Барбэк",
+      "Бармен",
+      "Сотрудник кухни",
+      "Сотрудник арт",
+      "Сотрудник кальянного подразделения",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-42932",
+    "title": "🚀Введение в должность Менеджера «Бара 90-е»",
+    "audiencePositions": [
+      "Администратор",
+      "Старший бармен",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-50011",
+    "title": "🍷 Тестирование на знание меню бара",
+    "audiencePositions": [
+      "Бармен",
+      "Старший бармен",
+      "Барбэк",
+      "Официант",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-50012",
+    "title": "🥗 Тестирование на знание меню (Кухня)",
+    "audiencePositions": [
+      "Сотрудник кухни",
+      "Официант",
+      "Администратор",
+      "Хостес"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-51132",
+    "title": "Аттестация по алкоголю",
+    "audiencePositions": [
+      "Бармен",
+      "Старший бармен",
+      "Барбэк",
+      "Официант",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-52664",
+    "title": "Квиз 2 \"Добро пожаловать в 90-е\"",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Старший бармен",
+      "Барбэк",
+      "Бармен",
+      "Сотрудник кухни",
+      "Сотрудник арт",
+      "Сотрудник кальянного подразделения",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-53164",
+    "title": "Тренажер Про 90-е",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Старший бармен",
+      "Барбэк",
+      "Бармен",
+      "Сотрудник кухни",
+      "Сотрудник арт",
+      "Сотрудник кальянного подразделения",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-44663",
+    "title": "Легендарный сервис и секреты продаж в ресторане",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Бармен",
+      "Старший бармен"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-44033",
+    "title": "Кухни мира",
+    "audiencePositions": [
+      "Сотрудник кухни",
+      "Официант",
+      "Администратор",
+      "Хостес"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-44607",
+    "title": "Всё о винах🍷",
+    "audiencePositions": [
+      "Бармен",
+      "Старший бармен",
+      "Барбэк",
+      "Официант",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-36651",
+    "title": "Гид по миру крепкого алкоголя",
+    "audiencePositions": [
+      "Бармен",
+      "Старший бармен",
+      "Барбэк",
+      "Официант",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-43399",
+    "title": "Вдохновляющий менеджмент: эффективные стратегии мотивации сотрудников в ресторане",
+    "audiencePositions": [
+      "Администратор",
+      "Старший бармен",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-25811",
+    "title": "Управление персоналом для менеджеров",
+    "audiencePositions": [
+      "Администратор",
+      "Старший бармен",
+      "Руководитель",
+      "Управляющий"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-44662",
+    "title": "Основы продаж в ресторане: как увеличить доход через искусство сервиса",
+    "audiencePositions": [
+      "Официант",
+      "Администратор",
+      "Хостес",
+      "Бармен",
+      "Старший бармен"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  },
+  {
+    "id": "guru-25724",
+    "title": "Разговорный английский для официантов",
+    "audiencePositions": [
+      "Официант",
+      "Администратор"
+    ],
+    "audienceLevels": [
+      "trainee",
+      "certified"
+    ],
+    "audiencePriorities": {}
+  }
+]
