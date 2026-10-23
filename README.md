@@ -31,4 +31,4 @@
 
 ## Контекст для нового чата Codex
 
-Продолжаем Академию команды 90-е / Руки Вверх Бар. Рабочий интерфейс — apps/web/secure-dist, backend — Supabase ivlinbwuudxyjaikwaoo. Прочитай README.md, apps/web/DEVELOPMENT.md, docs/project-status-2026-10-23.md и docs/mobile-qa-2026-10-22.md. Сохраняй согласованный дизайн, серверные роли и RLS; публикуй только корневой out через существующий Sites project_id. Миграции очистки каталога 005 и 006 уже применены к рабочей базе; не возвращай старый контент повторным seed.
+Продолжаем Академию команды 90-е / Руки Вверх Бар. Рабочий интерфейс — apps/web/secure-dist, backend — Supabase ivlinbwuudxyjaikwaoo. Прочитай README.md, apps/web/DEVELOPMENT.md, docs/project-status-2026-10-23.md, docs/profile-menu-priority-2026-10-23.md и docs/mobile-qa-2026-10-22.md. Сохраняй согласованный дизайн, серверные роли и RLS; публикуй только корневой out через существующий Sites project_id. Миграции 005–007 уже применены к рабочей базе; не возвращай старый контент повторным seed. В рабочей версии есть фото и поля профиля, приоритеты обучения и компактные раскрывающиеся карточки меню.
