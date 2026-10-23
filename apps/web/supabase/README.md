@@ -31,3 +31,4 @@ SQL-проверки не равны проверке OAuth и опублико�
 9. `migrations/010_manager_position.sql` — должность «Управляющий» в подразделении «Руководитель», без назначения серверных ролей; проверка `tests/manager-position.sql`.
 
 `migrations/015_notifications.sql` применяется после 011–014. Закрытая лента уведомлений, публикации курсов/меню/файлов, события заявок и результатов, серверный планировщик напоминаний. Проверка `../scripts/test-notifications.sql` выполняется с полным откатом. Подробности: `../../../docs/notifications-2026-10-24.md`.
+`migrations/016_course_editor.sql` — серверные черновики и приватные вложения курсов; `017_manager_first_three_layout.sql` — оформление первых трёх занятий менеджера с сохранением ID. Проверки: `../scripts/test-course-editor.sql` (ROLLBACK), `../scripts/test-course-editor.cjs`. Инструкция: `../../../docs/course-editor-2026-10-24.md`.
