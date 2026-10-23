@@ -1,0 +1,62 @@
+[
+  {
+    "itemId": "rvb-minsk-002",
+    "name": "Zukov Spritz",
+    "file": "rvb-minsk-002.png",
+    "path": "rvb-bar-20261021/rvb-minsk-002.png",
+    "previousImage": "assets/rvb-menu/rvb-minsk-002.png",
+    "page": 6,
+    "bytes": 66430,
+    "sha256": "6729cadbfc4dac6217a9436a517fd50b62e023fa355c34f38f5d427ae6b3b623"
+  },
+  {
+    "itemId": "rvb-minsk-009",
+    "name": "Руки ВВерх",
+    "file": "rvb-minsk-009.png",
+    "path": "rvb-bar-20261021/rvb-minsk-009.png",
+    "previousImage": "assets/rvb-menu/rvb-minsk-009.png",
+    "page": 8,
+    "bytes": 73748,
+    "sha256": "86da1423f526a3d2ec62ff60eea0da67702c5053b598997534a6002f995da63d"
+  },
+  {
+    "itemId": "rvb-minsk-014",
+    "name": "Моя Бабушка Курит Трубку",
+    "file": "rvb-minsk-014.png",
+    "path": "rvb-bar-20261021/rvb-minsk-014.png",
+    "previousImage": "assets/rvb-menu/rvb-minsk-014.png",
+    "page": 8,
+    "bytes": 61929,
+    "sha256": "5f63d8bfd708fb478e774744ef2b2876c7e623f9e311e5f70df7a26214d0abd8"
+  },
+  {
+    "itemId": "rvb-minsk-016",
+    "name": "Minsk Never Sleep",
+    "file": "rvb-minsk-016.png",
+    "path": "rvb-bar-20261021/rvb-minsk-016.png",
+    "previousImage": "assets/rvb-menu/rvb-minsk-016.png",
+    "page": 9,
+    "bytes": 78216,
+    "sha256": "7106b9ccb750dd894d0e035472c1e4a9243204551d89b7d126d059a575cfe580"
+  },
+  {
+    "itemId": "rvb-minsk-032",
+    "name": "Свежее Дыхание",
+    "file": "rvb-minsk-032.png",
+    "path": "rvb-bar-20261021/rvb-minsk-032.png",
+    "previousImage": "assets/rvb-menu/rvb-minsk-032.png",
+    "page": 2,
+    "bytes": 996307,
+    "sha256": "015c6a7c06efacbec1fce57e5c67c38ed8cb1928f6ac94034985363850b5defa"
+  },
+  {
+    "itemId": "rvb-minsk-033",
+    "name": "ШотЛандия",
+    "file": "rvb-minsk-033.png",
+    "path": "rvb-bar-20261021/rvb-minsk-033.png",
+    "previousImage": "assets/rvb-menu/rvb-minsk-033.png",
+    "page": 11,
+    "bytes": 974195,
+    "sha256": "e1355d3ca08f1df58aa49511fe808cc227feb54b6557970aa6bce7a3053f55f4"
+  }
+]
