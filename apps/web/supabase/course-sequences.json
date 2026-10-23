@@ -1,0 +1,709 @@
+[
+  {
+    "id": "guru-42932",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "123885"
+      },
+      {
+        "type": "lesson",
+        "id": "125255"
+      },
+      {
+        "type": "lesson",
+        "id": "123841"
+      },
+      {
+        "type": "test",
+        "id": "105287"
+      },
+      {
+        "type": "lesson",
+        "id": "123876"
+      },
+      {
+        "type": "test",
+        "id": "105288"
+      },
+      {
+        "type": "lesson",
+        "id": "123881"
+      },
+      {
+        "type": "test",
+        "id": "105289"
+      },
+      {
+        "type": "lesson",
+        "id": "123895"
+      },
+      {
+        "type": "test",
+        "id": "105290"
+      },
+      {
+        "type": "lesson",
+        "id": "123880"
+      },
+      {
+        "type": "test",
+        "id": "105291"
+      },
+      {
+        "type": "lesson",
+        "id": "125256"
+      },
+      {
+        "type": "lesson",
+        "id": "125279"
+      }
+    ]
+  },
+  {
+    "id": "welcome-90",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "122072"
+      },
+      {
+        "type": "lesson",
+        "id": "122073"
+      },
+      {
+        "type": "lesson",
+        "id": "122074"
+      },
+      {
+        "type": "lesson",
+        "id": "121198"
+      },
+      {
+        "type": "lesson",
+        "id": "122076"
+      },
+      {
+        "type": "lesson",
+        "id": "122077"
+      },
+      {
+        "type": "test",
+        "id": "104460"
+      },
+      {
+        "type": "lesson",
+        "id": "122078"
+      },
+      {
+        "type": "lesson",
+        "id": "123016"
+      }
+    ]
+  },
+  {
+    "id": "guru-43403",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "101496"
+      },
+      {
+        "type": "lesson",
+        "id": "101495"
+      },
+      {
+        "type": "lesson",
+        "id": "101616"
+      },
+      {
+        "type": "test",
+        "id": "94440"
+      }
+    ]
+  },
+  {
+    "id": "waiter-internship",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "122794"
+      },
+      {
+        "type": "lesson",
+        "id": "114183"
+      },
+      {
+        "type": "test",
+        "id": "100075"
+      },
+      {
+        "type": "lesson",
+        "id": "114185"
+      },
+      {
+        "type": "test",
+        "id": "100153"
+      },
+      {
+        "type": "lesson",
+        "id": "114188"
+      },
+      {
+        "type": "test",
+        "id": "100159"
+      },
+      {
+        "type": "lesson",
+        "id": "114189"
+      },
+      {
+        "type": "test",
+        "id": "100172"
+      },
+      {
+        "type": "lesson",
+        "id": "114190"
+      },
+      {
+        "type": "test",
+        "id": "104138"
+      },
+      {
+        "type": "lesson",
+        "id": "114191"
+      },
+      {
+        "type": "test",
+        "id": "104142"
+      },
+      {
+        "type": "lesson",
+        "id": "114192"
+      },
+      {
+        "type": "test",
+        "id": "104144"
+      },
+      {
+        "type": "test",
+        "id": "104760"
+      },
+      {
+        "type": "test",
+        "id": "104939"
+      },
+      {
+        "type": "lesson",
+        "id": "114193"
+      },
+      {
+        "type": "test",
+        "id": "104160"
+      },
+      {
+        "type": "lesson",
+        "id": "114194"
+      },
+      {
+        "type": "test",
+        "id": "104161"
+      },
+      {
+        "type": "lesson",
+        "id": "114195"
+      },
+      {
+        "type": "test",
+        "id": "104181"
+      },
+      {
+        "type": "test",
+        "id": "105476"
+      },
+      {
+        "type": "lesson",
+        "id": "114197"
+      },
+      {
+        "type": "test",
+        "id": "104187"
+      },
+      {
+        "type": "lesson",
+        "id": "114198"
+      },
+      {
+        "type": "test",
+        "id": "104335"
+      },
+      {
+        "type": "test",
+        "id": "104336"
+      },
+      {
+        "type": "lesson",
+        "id": "114199"
+      },
+      {
+        "type": "test",
+        "id": "104337"
+      },
+      {
+        "type": "lesson",
+        "id": "114200"
+      },
+      {
+        "type": "test",
+        "id": "104338"
+      },
+      {
+        "type": "lesson",
+        "id": "114201"
+      },
+      {
+        "type": "lesson",
+        "id": "114202"
+      }
+    ]
+  },
+  {
+    "id": "hostess-standards",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "101468"
+      },
+      {
+        "type": "lesson",
+        "id": "101469"
+      },
+      {
+        "type": "lesson",
+        "id": "101470"
+      },
+      {
+        "type": "lesson",
+        "id": "101617"
+      },
+      {
+        "type": "lesson",
+        "id": "101473"
+      },
+      {
+        "type": "lesson",
+        "id": "101618"
+      },
+      {
+        "type": "test",
+        "id": "94441"
+      },
+      {
+        "type": "lesson",
+        "id": "101472"
+      },
+      {
+        "type": "lesson",
+        "id": "101471"
+      },
+      {
+        "type": "test",
+        "id": "104548"
+      },
+      {
+        "type": "lesson",
+        "id": "101474"
+      },
+      {
+        "type": "test",
+        "id": "104557"
+      }
+    ]
+  },
+  {
+    "id": "waiter-standards",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "42956"
+      },
+      {
+        "type": "test",
+        "id": "92988"
+      },
+      {
+        "type": "lesson",
+        "id": "42957"
+      },
+      {
+        "type": "test",
+        "id": "92998"
+      },
+      {
+        "type": "lesson",
+        "id": "42959"
+      },
+      {
+        "type": "test",
+        "id": "92995"
+      },
+      {
+        "type": "lesson",
+        "id": "42958"
+      },
+      {
+        "type": "test",
+        "id": "92993"
+      }
+    ]
+  },
+  {
+    "id": "guru-50011",
+    "sequence": [
+      {
+        "type": "test",
+        "id": "104648"
+      }
+    ]
+  },
+  {
+    "id": "guru-50012",
+    "sequence": [
+      {
+        "type": "test",
+        "id": "104593"
+      }
+    ]
+  },
+  {
+    "id": "guru-51132",
+    "sequence": [
+      {
+        "type": "test",
+        "id": "106189"
+      },
+      {
+        "type": "test",
+        "id": "106190"
+      },
+      {
+        "type": "test",
+        "id": "106191"
+      },
+      {
+        "type": "test",
+        "id": "106192"
+      }
+    ]
+  },
+  {
+    "id": "guru-52664",
+    "sequence": [
+      {
+        "type": "test",
+        "id": "108547"
+      }
+    ]
+  },
+  {
+    "id": "guru-53164",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "135378"
+      }
+    ]
+  },
+  {
+    "id": "guru-44663",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "105991"
+      },
+      {
+        "type": "test",
+        "id": "95472"
+      },
+      {
+        "type": "lesson",
+        "id": "105992"
+      },
+      {
+        "type": "test",
+        "id": "95473"
+      }
+    ]
+  },
+  {
+    "id": "guru-44033",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "103865"
+      },
+      {
+        "type": "lesson",
+        "id": "103866"
+      },
+      {
+        "type": "lesson",
+        "id": "103867"
+      },
+      {
+        "type": "lesson",
+        "id": "103870"
+      },
+      {
+        "type": "lesson",
+        "id": "105728"
+      },
+      {
+        "type": "test",
+        "id": "94526"
+      }
+    ]
+  },
+  {
+    "id": "guru-44607",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "105819"
+      },
+      {
+        "type": "lesson",
+        "id": "105820"
+      },
+      {
+        "type": "lesson",
+        "id": "123999"
+      },
+      {
+        "type": "lesson",
+        "id": "105821"
+      },
+      {
+        "type": "lesson",
+        "id": "105822"
+      },
+      {
+        "type": "test",
+        "id": "95485"
+      }
+    ]
+  },
+  {
+    "id": "guru-36651",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "77867"
+      },
+      {
+        "type": "test",
+        "id": "80505"
+      },
+      {
+        "type": "lesson",
+        "id": "123958"
+      },
+      {
+        "type": "test",
+        "id": "105355"
+      },
+      {
+        "type": "lesson",
+        "id": "123961"
+      },
+      {
+        "type": "test",
+        "id": "105354"
+      }
+    ]
+  },
+  {
+    "id": "guru-43399",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "101481"
+      },
+      {
+        "type": "lesson",
+        "id": "101482"
+      },
+      {
+        "type": "lesson",
+        "id": "101483"
+      },
+      {
+        "type": "test",
+        "id": "93157"
+      },
+      {
+        "type": "test",
+        "id": "93158"
+      },
+      {
+        "type": "lesson",
+        "id": "101484"
+      },
+      {
+        "type": "test",
+        "id": "93159"
+      },
+      {
+        "type": "lesson",
+        "id": "101485"
+      },
+      {
+        "type": "test",
+        "id": "93160"
+      },
+      {
+        "type": "lesson",
+        "id": "101486"
+      },
+      {
+        "type": "lesson",
+        "id": "101487"
+      }
+    ]
+  },
+  {
+    "id": "guru-25811",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "42948"
+      },
+      {
+        "type": "test",
+        "id": "56097"
+      },
+      {
+        "type": "lesson",
+        "id": "42949"
+      },
+      {
+        "type": "test",
+        "id": "56098"
+      },
+      {
+        "type": "lesson",
+        "id": "42950"
+      },
+      {
+        "type": "test",
+        "id": "56099"
+      },
+      {
+        "type": "lesson",
+        "id": "42951"
+      },
+      {
+        "type": "test",
+        "id": "56100"
+      },
+      {
+        "type": "lesson",
+        "id": "42952"
+      },
+      {
+        "type": "test",
+        "id": "56101"
+      },
+      {
+        "type": "lesson",
+        "id": "42953"
+      },
+      {
+        "type": "test",
+        "id": "56102"
+      },
+      {
+        "type": "lesson",
+        "id": "42954"
+      },
+      {
+        "type": "test",
+        "id": "56103"
+      },
+      {
+        "type": "lesson",
+        "id": "42955"
+      }
+    ]
+  },
+  {
+    "id": "guru-44662",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "106030"
+      },
+      {
+        "type": "lesson",
+        "id": "105990"
+      },
+      {
+        "type": "test",
+        "id": "95471"
+      }
+    ]
+  },
+  {
+    "id": "guru-25724",
+    "sequence": [
+      {
+        "type": "lesson",
+        "id": "42706"
+      },
+      {
+        "type": "test",
+        "id": "55942"
+      },
+      {
+        "type": "lesson",
+        "id": "42707"
+      },
+      {
+        "type": "test",
+        "id": "55943"
+      },
+      {
+        "type": "lesson",
+        "id": "42708"
+      },
+      {
+        "type": "test",
+        "id": "55944"
+      },
+      {
+        "type": "lesson",
+        "id": "42709"
+      },
+      {
+        "type": "test",
+        "id": "55945"
+      },
+      {
+        "type": "lesson",
+        "id": "42710"
+      },
+      {
+        "type": "test",
+        "id": "55946"
+      },
+      {
+        "type": "lesson",
+        "id": "42711"
+      },
+      {
+        "type": "test",
+        "id": "55947"
+      }
+    ]
+  }
+]
