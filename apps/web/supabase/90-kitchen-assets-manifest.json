@@ -1,0 +1,659 @@
+[
+  {
+    "path": "90-kitchen-20261024/0f773ba3a6b38b0a.webp",
+    "file": "0f773ba3a6b38b0a.webp",
+    "bytes": 128272,
+    "sha256": "e6d8edd2852793b2714e38e072c1bd43de4ad595f373b6ccf588382b6d1b2613",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/zhadina-govjadina.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/aff87f81bfc335b2.webp",
+    "file": "aff87f81bfc335b2.webp",
+    "bytes": 61130,
+    "sha256": "f49df0f3122e4d30b90a889512ade774adaebb91995c12cf2b66d4caef738382",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/trio-bruskett.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/d6834a32775bbd1f.webp",
+    "file": "d6834a32775bbd1f.webp",
+    "bytes": 56978,
+    "sha256": "e7906d1436d7e64319c3ab405d3d9a30864fff7fd3a0fd233dd641af5ae0dcce",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/igraem-v-butylochku.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/fcb436c391b576a7.webp",
+    "file": "fcb436c391b576a7.webp",
+    "bytes": 87164,
+    "sha256": "79f0fc7012fb3f1767b9be8c3862da9dcf6163e948f6511888a35fed5b6d8f81",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/nu-za-rybalku.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/aaf77cae01ed5988.webp",
+    "file": "aaf77cae01ed5988.webp",
+    "bytes": 69414,
+    "sha256": "5d3774cd4117f64abed7f229c7efa80086b731b530448b220445f254d64d3f39",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/a-chyo-chyo.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/b0dea4aa4be42f86.webp",
+    "file": "b0dea4aa4be42f86.webp",
+    "bytes": 85362,
+    "sha256": "2cecfaf84e136011f47aa9b656216b3ad3a3b49ca0b948fd96a9be37780174e0",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/solyonosti.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/b72f3d268604a183.webp",
+    "file": "b72f3d268604a183.webp",
+    "bytes": 64666,
+    "sha256": "269409f6483af7ac2356528572004f3dadf21140b13b753e76671f771b7f57f4",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/ave-cezar.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/36d6820cb774dd9c.webp",
+    "file": "36d6820cb774dd9c.webp",
+    "bytes": 79968,
+    "sha256": "20eb05cb39c3076f3057db86b5d1a6cfd5bfad54d28ee20b76ee3fc1711dfa7d",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/veselyj-doktor.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/493c2c0b41f017ef.webp",
+    "file": "493c2c0b41f017ef.webp",
+    "bytes": 67504,
+    "sha256": "f392594ab9d11fe3b040d0d92bfb165a7e7fee5b515cb0fa657386b4a3a21286",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/vam-by-lish-poshchupat.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/59bb42ec4e6f1065.webp",
+    "file": "59bb42ec4e6f1065.webp",
+    "bytes": 75708,
+    "sha256": "d51917a2cb98c5fc788900163bc9fcd9e5c010eac4544d695be6bfec1234b336",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/tropikana-zhenshchina.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/20b48f543751a053.webp",
+    "file": "20b48f543751a053.webp",
+    "bytes": 59740,
+    "sha256": "5f094a51d958e9f4b005ce5281bad301615ac06bd4cac4594a6691841ede06bd",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/teplyj-baklazhan.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/1cb2ddaf142d5b2e.webp",
+    "file": "1cb2ddaf142d5b2e.webp",
+    "bytes": 53198,
+    "sha256": "bad9a2856ee87c25334ad29637c32b408182c22bee6d397c80834114e7a0b123",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/i-s-toboju-i-so-mnoju-eto-jajca.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/488e60259e287f67.webp",
+    "file": "488e60259e287f67.webp",
+    "bytes": 79044,
+    "sha256": "6557dba145181573a2faa049ea3ff6824447ec3374bb0a972c5cf64285481723",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/malavata-budet.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/1f94a9a96f25ac5c.webp",
+    "file": "1f94a9a96f25ac5c.webp",
+    "bytes": 68166,
+    "sha256": "a444616cb20cfb0c074a87c6688b512b65ce0e486fc345b099139f53a3ce5a01",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/chubajs-v-oranzheree.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/23a3c66fd6db6e61.webp",
+    "file": "23a3c66fd6db6e61.webp",
+    "bytes": 72876,
+    "sha256": "98534aff31a42bf7104363ffac19ea17c225561e84ec739307e62daeda58ccf4",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/v-grecheskom-zale.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/321c2403d9168844.webp",
+    "file": "321c2403d9168844.webp",
+    "bytes": 63514,
+    "sha256": "d484c73de7b30575a1bec01e561bf5299e93b86566997acae5d84e2053c16548",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/odin-raz-ne-nisuaz.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/3981916828a6144b.webp",
+    "file": "3981916828a6144b.webp",
+    "bytes": 80334,
+    "sha256": "586080b7b60412721e9213db7a9af56d95abb1ed6885b23971360e13131da712",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/shef-razvyazal.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/f17c1d7f7454191d.webp",
+    "file": "f17c1d7f7454191d.webp",
+    "bytes": 121172,
+    "sha256": "760827b12adb8211deb8ebeff1184b6031e33735cc809f90b08c582965bff4c6",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/grinch.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/6d6076b7077a334f.webp",
+    "file": "6d6076b7077a334f.webp",
+    "bytes": 60866,
+    "sha256": "17d2f4e574eaf28c8c6d950d846461cfa45dd70108425f76c555221c466cc4b5",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/aj-lyu-lyu-potom.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/2583d3115fc0b1b5.webp",
+    "file": "2583d3115fc0b1b5.webp",
+    "bytes": 68670,
+    "sha256": "ea1c1cd390cfe174ef9987b97c95c1bccd47609f337bf6e2a619135550e72b9c",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/dva-kusocheka-kolbaski.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/bac66976746587a3.webp",
+    "file": "bac66976746587a3.webp",
+    "bytes": 73806,
+    "sha256": "cd26421e46573cc379bc8b1058dd431a2006ae68a3a7a7f084a75fff25599d48",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/vot-on-jaz-zdorovennyj.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/af7a720e6126b67c.webp",
+    "file": "af7a720e6126b67c.webp",
+    "bytes": 71034,
+    "sha256": "2b2ef230121e039ecf4030986ac79128358be6fa05542db3e5a514209a8da8a2",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/syyyyrrrr.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/e63c8c3667abae87.webp",
+    "file": "e63c8c3667abae87.webp",
+    "bytes": 85142,
+    "sha256": "6494a00f50d529c4207ee553d4324270792b6863fd1be4e7ef0da5e186cd48be",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/zakuska-a-lja-90-e.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/edffe70ecefc644d.webp",
+    "file": "edffe70ecefc644d.webp",
+    "bytes": 80552,
+    "sha256": "ede08a44de35654b5516c88a3b3bf677d4c3c475609bd0d22aaa939f534053c8",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/kogda-muzh-poshel-za-pivom.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/d25c686bcb702744.webp",
+    "file": "d25c686bcb702744.webp",
+    "bytes": 94836,
+    "sha256": "94745c50cc65ac8469b91fc27e7cad04bcdaa3657f536ee5511ab9f8c240a471",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/lihie-90-e.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/f55d2d41e24ce540.webp",
+    "file": "f55d2d41e24ce540.webp",
+    "bytes": 140310,
+    "sha256": "8bf520ef11a824880627608e3198f9a9704a6d98d23350c33f223bd17e41259c",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/krylya-yannem.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/74359898adf028b9.webp",
+    "file": "74359898adf028b9.webp",
+    "bytes": 156458,
+    "sha256": "ca7bad9a37d8126d81bb638ccd23eee74ad789d5ba1538acfdf3270848f6e460",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/hlopay-i-vzletay.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/c1f8f7966fd2f4ef.webp",
+    "file": "c1f8f7966fd2f4ef.webp",
+    "bytes": 101098,
+    "sha256": "91823551e092f2523b5c970eac17d13e0f39d569537d13913e7ee59237968a7d",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/chesnochnye-grenki.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/ccd8db0c337a5134.webp",
+    "file": "ccd8db0c337a5134.webp",
+    "bytes": 69436,
+    "sha256": "e04bb359b0f5a9c7892ff9cc7b2ea80158f44a2af8b308681c11a599fed7a80e",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/gde-funtik.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/b2dbd61dcd091e4f.webp",
+    "file": "b2dbd61dcd091e4f.webp",
+    "bytes": 70914,
+    "sha256": "d4bef09a1fe28d9764ed4171f0ced3ce36e5b27b6e7b7785e11111a1f17e2dba",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/ne-grusti-pohrusti.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/4d0bef150a278d50.webp",
+    "file": "4d0bef150a278d50.webp",
+    "bytes": 74326,
+    "sha256": "bf9f94e9f64cc6aa58600ecb2157533da5e38f29842b05ac8d3365bba88b019e",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/shary-jarosti.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/3ae3e80d4c52de60.webp",
+    "file": "3ae3e80d4c52de60.webp",
+    "bytes": 62566,
+    "sha256": "be67111a265db049b2a2fcb6bc2e6f38b4472c3c07a43fefabaabdfe43067fcd",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/paloka-vyruchalochka.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/44732e0cdd6f4b1f.webp",
+    "file": "44732e0cdd6f4b1f.webp",
+    "bytes": 56998,
+    "sha256": "74e171180b035547f2958dc5e1db8ccf798f5778eeb3a6fed0406337149a3bbf",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/midijnoe-mesto.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/cef4af8fe375efe7.webp",
+    "file": "cef4af8fe375efe7.webp",
+    "bytes": 75934,
+    "sha256": "38d9b5d5396a4672de9396d0ce65dbd69612925ec55108dea3f6bee5a1507471",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/svobodu-andzhele-devis.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/9915d811209ae2bf.webp",
+    "file": "9915d811209ae2bf.webp",
+    "bytes": 57002,
+    "sha256": "27ec2c2aaa174ae66ee2aa32aacd7bb3b7e501043d575172901fa278697007a3",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/batat-free.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/2186ab2728d2214f.webp",
+    "file": "2186ab2728d2214f.webp",
+    "bytes": 70676,
+    "sha256": "8fab94f0c5827d05c260fe0e03ba5d782d478a509772b21a802928b306fa3048",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/borshch-domashnij.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/55f0f99a580f5e90.webp",
+    "file": "55f0f99a580f5e90.webp",
+    "bytes": 60024,
+    "sha256": "29fcb6db08496fc8a29015258f3776e3049a4b216961368c276adbc63366ebc3",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/tom-jam-s-krevetkami.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/735a7f14e8a10259.webp",
+    "file": "735a7f14e8a10259.webp",
+    "bytes": 82776,
+    "sha256": "9a49d25ed174a5b4c2f9e4a0da00def6897ef27f4ba50cf2702071eb85b811fb",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/udon-s-utkoj.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/43a95a7bcd146634.webp",
+    "file": "43a95a7bcd146634.webp",
+    "bytes": 74110,
+    "sha256": "b90b21e4c94c81c2f4f87a05443f73a66386590b90d5960f4a6fe90126e462aa",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/spagetti-tom-jam.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/fec4d02c4408daf0.webp",
+    "file": "fec4d02c4408daf0.webp",
+    "bytes": 57134,
+    "sha256": "7300d4e1bc81d7751c998e75ee8f15d89dae8c31449ff0f0d093f4cf2be7ba1a",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/spagetti-chelentano.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/a21e32c8d66bc6f9.webp",
+    "file": "a21e32c8d66bc6f9.webp",
+    "bytes": 86384,
+    "sha256": "aa6d7adc62ed59a08da2aa4a35997464d91c0d5badfaee2d4f138f441d4f8b96",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/shchuchiy-syn.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/ce1fd3173a5f5486.webp",
+    "file": "ce1fd3173a5f5486.webp",
+    "bytes": 102762,
+    "sha256": "3e329c78ce5ceb5f0723396b1955ddeea5bb3fade9027cdda33a14314eb06395",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/malchik-hochet-tjurbo.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/110abb6937a1ccf4.webp",
+    "file": "110abb6937a1ccf4.webp",
+    "bytes": 99348,
+    "sha256": "c3e0633bca9c3789a240ed8c37a2153082e05736fa8b8ad7454a2af1440dc7e7",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/aga-est-hochu.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/94d220499d4d69dc.webp",
+    "file": "94d220499d4d69dc.webp",
+    "bytes": 67076,
+    "sha256": "3797a34b96fea9d169e1efb547adcfeb142d101687d13ddcd66aecf82a666118",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/importozameshchenie-nachalos.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/1b464f2f719f14bc.webp",
+    "file": "1b464f2f719f14bc.webp",
+    "bytes": 68052,
+    "sha256": "e62317d733f570574e57c0636273b17bb3863304c218992a3c945d2d6cebc83b",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/royal-s-syrom.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/d169296494741cf1.webp",
+    "file": "d169296494741cf1.webp",
+    "bytes": 162888,
+    "sha256": "25de2f83d1d51d150a56dd37a887a8f76ce8ffe2c189b2c819f5f1d9579a26d8",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/otbivnaya-90-e.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/42c76b22a674ff67.webp",
+    "file": "42c76b22a674ff67.webp",
+    "bytes": 80246,
+    "sha256": "96582c12ba35d0e432f526181b9020b96b54c2dcb5af5daa335530eff743b075",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/v-tae-den-blagodarenija.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/e21bde1c6fefcfae.webp",
+    "file": "e21bde1c6fefcfae.webp",
+    "bytes": 94828,
+    "sha256": "7f117a3f705cdbc02910c8e035d80a1ba33aa04bf111cc5d86751c43ccd0320f",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/ajl-bi-bek.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/7917c4e4a12fa40b.webp",
+    "file": "7917c4e4a12fa40b.webp",
+    "bytes": 106838,
+    "sha256": "6efc25ed82c7ad153bd7ee0ef873bda9adbd058de0fb1fd308f5a6be14c67b98",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/talyatta-iz-vyrezki.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/54471dcda3e02a18.webp",
+    "file": "54471dcda3e02a18.webp",
+    "bytes": 66404,
+    "sha256": "e2c32838fecd2f90b271869c565adae8e6f2ce572fc762ac314fed40b511e31d",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/gavrjusha-ko-mne.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/37b714d6a5cdd085.webp",
+    "file": "37b714d6a5cdd085.webp",
+    "bytes": 107602,
+    "sha256": "992239f9a814e85f1f8f751b949f7274549129b2b3e78db6f7918d994a704264",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/nas-i-tut-ne-ploho-kormjat.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/9ec01b307e67bb3f.webp",
+    "file": "9ec01b307e67bb3f.webp",
+    "bytes": 102820,
+    "sha256": "cd6cfb619913f7649327209ac2380a232d61a887ac1388f6a0db3f1186aea174",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/stejk-pikanja.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/a50523f7a4cdc6c6.webp",
+    "file": "a50523f7a4cdc6c6.webp",
+    "bytes": 105792,
+    "sha256": "5aa3ceac727d211fe52998a59c09815d702736a9d43c112eed008418a79d740d",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/pobeg-iz-kuryatnika.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/fbbd2ad4cfcbddf8.webp",
+    "file": "fbbd2ad4cfcbddf8.webp",
+    "bytes": 103058,
+    "sha256": "d2899d5279e09b9ce33f2e95f2459937445f5bc4631298aa2628fbbce6c37cac",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/nastojashchnmu-indejcu.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/74792c63e507c5a7.webp",
+    "file": "74792c63e507c5a7.webp",
+    "bytes": 129998,
+    "sha256": "a5e95ea5655ff27aca8f619cafe678a75d3779374d2f40a5e3e36786ccd90f09",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/ptichku-zhalko.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/d1a35828d9b6ca38.webp",
+    "file": "d1a35828d9b6ca38.webp",
+    "bytes": 64804,
+    "sha256": "043e892a2997bd267df59954481d7aad27b964b60e4b3f866253c910b8a2adc8",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/befstroganov.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/424f5703f893d4a5.webp",
+    "file": "424f5703f893d4a5.webp",
+    "bytes": 92566,
+    "sha256": "7c146e904a063f86cf2ddf6d715cff0ce1d3cf5fce6327585110fe536f6d88c8",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/stejk-lososja.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/56435ee71dbb0703.webp",
+    "file": "56435ee71dbb0703.webp",
+    "bytes": 140376,
+    "sha256": "3ccfd21e3273d86853d6c76ea012e999c2069fe21ad389a9496034273f5f306e",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/klubnaya-picca-90-e-s-syrnym-bortom.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/8ae1f6b8f21c3a8b.webp",
+    "file": "8ae1f6b8f21c3a8b.webp",
+    "bytes": 107408,
+    "sha256": "c9d6efc4528d984566783fdf379e44cdfaf8ed5bf0e17005fce72a07dd824771",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/pepperoni.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/e6800bd949550bf6.webp",
+    "file": "e6800bd949550bf6.webp",
+    "bytes": 130810,
+    "sha256": "771e3c90e6474f2963f95196d33cd46de4a4012309acc8b631fcfbc8be01ae91",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/picca-ohotnichja.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/2e5e16482c4a8d66.webp",
+    "file": "2e5e16482c4a8d66.webp",
+    "bytes": 105372,
+    "sha256": "4eabc276f74eb12e1edb3bda858127c10978d2430160b595f9551a453f178745",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/czyplenok-bbq.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/f84ef4c154b28089.webp",
+    "file": "f84ef4c154b28089.webp",
+    "bytes": 107660,
+    "sha256": "b23de17e5ad0501809db7cece9dba92c00281fd50606798e138eb8555b809274",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/s-vetchinoj-i-gribami.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/e4aa0b66c3c7e930.webp",
+    "file": "e4aa0b66c3c7e930.webp",
+    "bytes": 119086,
+    "sha256": "06d39618fd72ecad7770639dfa18ce588961f08bc6e3baf2794a4d3e1465c07a",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/s-bekonom-i-pepperoni.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/b5c311b4d7419b16.webp",
+    "file": "b5c311b4d7419b16.webp",
+    "bytes": 121506,
+    "sha256": "4274050bc122b3f16e78a9b996d8989315b015a8f833fff6b8f6e421469ca163",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/karbonara.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/b85c89c378367a2b.webp",
+    "file": "b85c89c378367a2b.webp",
+    "bytes": 111224,
+    "sha256": "0663ee0938e648c477e5015438e8812f18a465c6262857f0906ed8ba5006fd46",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/chetyre-syra.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/dda82a7462762315.webp",
+    "file": "dda82a7462762315.webp",
+    "bytes": 111280,
+    "sha256": "66c735996e41ed32d685b99a1a7be8aa79c29cf54b5df81eb0cd3befa0ed44c5",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/cezar-s-kuricej.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/4c455b7c599c2684.webp",
+    "file": "4c455b7c599c2684.webp",
+    "bytes": 123108,
+    "sha256": "509d54f652bca785e5cf869b465727c4fcbf2fb24e5dbef44108963ac7082ee8",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/hlebnaya-korzina.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/5db29b217165a900.webp",
+    "file": "5db29b217165a900.webp",
+    "bytes": 78986,
+    "sha256": "6da4a99727f8a347acec21746886b17a6aa6fb4bb41935f47382e66df3aef5e2",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/fokachcha-s-rozmarinom.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/6afb95abb3e15670.webp",
+    "file": "6afb95abb3e15670.webp",
+    "bytes": 77542,
+    "sha256": "295238b38ff1796bbe4e2f9d93cd0c1ff3357aaae0d5244fb2c2611585cc3652",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/mne-uhazhivat-nekogda.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/bec47281fe014f34.webp",
+    "file": "bec47281fe014f34.webp",
+    "bytes": 62532,
+    "sha256": "f44d11d5770f3852770ae7701336e0278d0fa2035a2b46209ccdd5576d19b4cc",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/k-tebe-ili-ko-mne.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/218d631ed24ff6c5.webp",
+    "file": "218d631ed24ff6c5.webp",
+    "bytes": 59230,
+    "sha256": "deacb7de692aeac7b0251581b11afb197e7a3565b782c50f17148d95482ad91e",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/teplyj-yablochnyj-pirog.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/8aa2e21926729d42.webp",
+    "file": "8aa2e21926729d42.webp",
+    "bytes": 43528,
+    "sha256": "5b59d8e7105ac726141aaf06fb54a87606738bdce7f2f4463c1a05dee80c9d39",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/tort-mango-marakujya.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "90-kitchen-20261024/18f4a22b6c541d26.webp",
+    "file": "18f4a22b6c541d26.webp",
+    "bytes": 71642,
+    "sha256": "df0077e76b9384912140ba7462c3c3b55c99947b6060d3e9ad59d1aa083e6190",
+    "sourceURL": "https://barkhimki.ru/Content/images/menu/shokoladnaya-kolbasa.png",
+    "width": 1024,
+    "height": 1024
+  }
+]
