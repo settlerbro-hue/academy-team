@@ -1,0 +1,774 @@
+[
+  {
+    "name": "Аливария безалкогольное",
+    "ids": [
+      "rvb-autumn26-122-1"
+    ],
+    "image": "verified-products-20261024/product-000.webp",
+    "sha256": "a583ae3cab936316cef75c84be44799fd8a8310cb83c87f2a322ed3a6d825697",
+    "sourcePage": "https://www.belprodykt.ru/collection/pivo-alivariya/product/pivo-alivariya-bezalkogolnoe-svetloe-05l-alivariya",
+    "sourceImage": "https://static.insales-cdn.com/images/products/1/5608/871003624/%D0%90%D0%BB%D0%B8%D0%B2%D0%B0%D1%80%D0%B8%D1%8F_%D0%B1%D0%B5%D0%B7%D0%B0%D0%BB%D0%BA%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5_0_5%D0%BB._%D0%B1%D1%83%D1%82.jpg"
+  },
+  {
+    "name": "Coca‑Cola",
+    "ids": [
+      "rvb-autumn26-254-1"
+    ],
+    "image": "verified-products-20261024/product-001.webp",
+    "sha256": "e2ac94414c0fd59bd2b8ce10b0199e7248365ae0ecfb92639a9d908862b0b650",
+    "sourcePage": "https://www.lunsj.no/cola/424-coca-cola-035-liter.html",
+    "sourceImage": "https://www.lunsj.no/25782-large_default/coca-cola-035-liter.jpg"
+  },
+  {
+    "name": "Sprite",
+    "ids": [
+      "rvb-autumn26-254-2"
+    ],
+    "image": "verified-products-20261024/product-002.webp",
+    "sha256": "bcfae81da5ff7ec7f848841c6e2f2fa17f538609e93133d87523a03e049ef074",
+    "sourcePage": "https://www.tuontitukku.fi/koti-ja-toimisto/sprite-0-5l-pullo-virkistava-limonadi/p/6415600555722/",
+    "sourceImage": "https://www.tuontitukku.fi/storage/product_images/2/SPRITE05LPULLO_6415600555722_6d59d4c6e62e0a5c0ae02af14c890b92_1.jpg"
+  },
+  {
+    "name": "Fanta",
+    "ids": [
+      "rvb-autumn26-254-3"
+    ],
+    "image": "verified-products-20261024/product-003.webp",
+    "sha256": "f076adce6be1a8767f29893396fde92ce31403611bb9d895ae8b1007341cb5bc",
+    "sourcePage": "https://bikassfood.com/index.php/product/small-fanta/",
+    "sourceImage": "https://bikassfood.com/storage/2023/11/fanta-solo-selar.co-61b86417095db-removebg-preview-1.png"
+  },
+  {
+    "name": "Schwepps Indian Tonic",
+    "ids": [
+      "rvb-autumn26-255-1"
+    ],
+    "image": "verified-products-20261024/product-004.webp",
+    "sha256": "637212f6718fb916471114e321aedaabd40dd4d633543e04c82b69950f497a52",
+    "sourcePage": "https://www.e-fresh.gr/el/indian-tonic-fialh-schweppes-250-ml",
+    "sourceImage": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/420/0/4200002140/greece-250-returnable-glass-bottle-schweppes-42357353-single.png?id=1596180601"
+  },
+  {
+    "name": "Вода Tassay",
+    "ids": [
+      "rvb-autumn26-256-1",
+      "rvb-autumn26-257-1",
+      "90-bar-r198-1"
+    ],
+    "image": "verified-products-20261024/product-005.webp",
+    "sha256": "71652f26c1fc38b9ba8c6230fa6db5599256dc55ffc8cda8b0d886fc71b7657b",
+    "sourcePage": "https://newxo.kz/product/tassay-bez-gaza-1-l",
+    "sourceImage": "https://static.insales-cdn.com/images/products/1/4489/2853835145/dcc7o7n8jj2es80n2wuiim3qgrwuczm8__1_-Photoroom.jpg"
+  },
+  {
+    "name": "Fiorino d'Oro Brut",
+    "ids": [
+      "90-bar-r005-1"
+    ],
+    "image": "verified-products-20261024/product-007.webp",
+    "sha256": "32ee94557fcee5497862da970fc0a68ceb759e2d5236158e4c74dee83946cd09",
+    "sourcePage": "https://sar.luding.ru/collection/item/fiorino-d-oro-cuvee-prestige-brut-abbazia-di-san-gaudenzio---362174/",
+    "sourceImage": "https://sar.luding.ru/upload/iblock/e33/95sb2m24oy3mrd2rohjwdby1v2hcwovr.png"
+  },
+  {
+    "name": "Inkerman Brut",
+    "ids": [
+      "90-bar-r006-1"
+    ],
+    "image": "verified-products-20261024/product-008.webp",
+    "sha256": "8a28f2529f69e01d2eebf4990171bb65e9e6bbd6d74a929993d4cdabb365cf9e",
+    "sourcePage": "https://drinktime.ua/vino-igristoe-inkerman-bryut-beloe-075-l-11-13-2/",
+    "sourceImage": "https://drinktime.ua/files/resized/products/7df67896-2065-7440-f26d-38af1696545f.600x800.jpg"
+  },
+  {
+    "name": "Sauvignon Blanc Tocornal",
+    "ids": [
+      "90-bar-r008-1"
+    ],
+    "image": "verified-products-20261024/product-009.webp",
+    "sha256": "16e13d943c2604c90708d53124f400f8d0d7d90ed62f923d2df7f86018596d98",
+    "sourcePage": "https://mybooze.co.ke/product/tocornal-sauvignon-blanc-white-wine-750ml",
+    "sourceImage": "https://mybooze.co.ke/storage/images/products/tenant-id-2/67db24904eecc-1742414992-xp7bl.jpg"
+  },
+  {
+    "name": "Riesling Intermarium",
+    "ids": [
+      "90-bar-r009-1"
+    ],
+    "image": "verified-products-20261024/product-010.webp",
+    "sha256": "6eddf5c710a064bb44e4fcac2767bb7b9c1aa64e2b818d221f3ef404ef3950c8",
+    "sourcePage": "https://kuper.ru/products/48447946-vino-mezhdumorie-risling-beloe-suhoe-750-ml-rossiya",
+    "sourceImage": "https://imgproxy.kuper.ru/imgproxy/size-500-500/czM6Ly9zYi1vYnMtcHJvZC1jb250ZW50LWltYWdlczAxL3Byb2R1Y3RzLzQ4NDQ3OTQ2L29yaWdpbmFsLzEvMjAyNS0xMC0wMyUyMDExJTNBNDclM0E0MS41MDMyMTAlMkIwMCUzQTAwLzQ4NDQ3OTQ2XzEuanBn.jpg"
+  },
+  {
+    "name": "Merlot Tocornal",
+    "ids": [
+      "90-bar-r011-1"
+    ],
+    "image": "verified-products-20261024/product-011.webp",
+    "sha256": "a66c07228701978a1108dd8b634834b7abf54929aa5ed5e5a3c0306cb427e8ba",
+    "sourcePage": "https://www.walmart.com.mx/ip/vinos-y-espumosos/pack-de-6-vino-tinto-tocornal-merlot-750-ml-tocornal-merlot/00080822769730",
+    "sourceImage": "https://i5-mx.walmartimages.com/mg/gm/3pp/asr/4161affa-53e3-4732-983d-ad5432c98f93.3ac4eb4f8e639ca048d37ac31961a980.jpeg?odnBg=ffffff&odnHeight=2000&odnWidth=2000"
+  },
+  {
+    "name": "Cinzano Asti Spumante",
+    "ids": [
+      "90-bar-r015-1"
+    ],
+    "image": "verified-products-20261024/product-013.webp",
+    "sha256": "06adb4294b718a8822b93488f1aef5397ee2e912c6e8fd63d2ea427b44239016",
+    "sourcePage": "https://www.aktionspreis.de/angebote/trink-und-spare/cinzano-asti-0-75l",
+    "sourceImage": "https://www.aktionspreis.de/produkt_bilder/og/cinzano-asti-0-75l.webp"
+  },
+  {
+    "name": "Cinzano Prosecco",
+    "ids": [
+      "90-bar-r015-2"
+    ],
+    "image": "verified-products-20261024/product-014.webp",
+    "sha256": "dbf3cd02bd4c68521ebc1599ef8553f282424f6ea6af7652263a57a8bd3190a9",
+    "sourcePage": "https://luekensliquors.com/products/cinzano-prosecco-7?srsltid=AfmBOoqeaAjWYRJe985j2NGBJ0w0jXWhfSB9KWGZscd3pCUNOA46P-X0",
+    "sourceImage": "https://luekensliquors.com/cdn/shop/files/a910914a0dc4151b819d2086f70820ac.jpg?v=1749038311"
+  },
+  {
+    "name": "Tete de Cheval Rose Brut",
+    "ids": [
+      "90-bar-r017-1"
+    ],
+    "image": "verified-products-20261024/product-016.webp",
+    "sha256": "18d12ee00150c0e56b2d2b32a88ec1d35e230afdfb2554e6c0e49340f3a45759",
+    "sourcePage": "https://swn.ru/articles/golubitskoe-estate",
+    "sourceImage": "https://swn.ru/upload/iblock/693/0giqcihlpdgusn6etiswpyjkx41zmtld.jpg"
+  },
+  {
+    "name": "Celebrities Cava Brut Bodegas San Valero",
+    "ids": [
+      "90-bar-r018-1"
+    ],
+    "image": "verified-products-20261024/product-017.webp",
+    "sha256": "359f9cc9572cf348d412f9ba95a3830c860581c0a2dc5e359a3b8a60783c1784",
+    "sourcePage": "https://www.vivino.com/en/san-valero-celebrities-cava-brut/w/12578111",
+    "sourceImage": "https://images.vivino.com/labels/K78OO2KXSBu-EobPqdUCUQ.jpg"
+  },
+  {
+    "name": "Bruni Prosecco Valdobbiadene",
+    "ids": [
+      "90-bar-r019-1"
+    ],
+    "image": "verified-products-20261024/product-018.webp",
+    "sha256": "c28cf682b2fe5ebe7909fcf15fee185b8aa30c9cbf9456daca60329c5b9c84a8",
+    "sourcePage": "https://simplewine.ru/catalog/product/bruni_prosecco_valdobbiedene_v_pu_s_dvumya_bokalami_075_gift_159515/",
+    "sourceImage": "https://static.simplewine.ru/upload/iblock/900/900103fd1e9634351b793f7514ac7047.png?fmt=webp"
+  },
+  {
+    "name": "Louis Bouillot Cremant de Bourgogne Grand Reserve Brut",
+    "ids": [
+      "90-bar-r020-1"
+    ],
+    "image": "verified-products-20261024/product-019.webp",
+    "sha256": "98f8b1852348432a58abb87032c168fb94a7310dd46aeea3d20e9d0e3a6278bb",
+    "sourcePage": "https://www.vinify.nl/63998-cremant-de-bourgogne-brut-perle-de-vigne-louis-bouillot",
+    "sourceImage": "https://www.vinify.nl/82534-detail_default/cremant-de-bourgogne-brut-perle-de-vigne-louis-bouillot.png"
+  },
+  {
+    "name": "Bruni Prosecco",
+    "ids": [
+      "90-bar-r021-1"
+    ],
+    "image": "verified-products-20261024/product-020.webp",
+    "sha256": "0df6b7281f77f1cee8cc26cd1d7024bdfd613c918ba6288b78c5f1c0016abb71",
+    "sourcePage": "https://www.m2-shop.ru/catalog/organicheskie-vina-206/igristie-vina-211/bruni-prosecco-vino-igristoe-suhoe-beloe-bryut-0-75-l-921542",
+    "sourceImage": "https://www.m2-shop.ru/img/products_photos/137878846.jpg"
+  },
+  {
+    "name": "Chardonnay KWV",
+    "ids": [
+      "90-bar-r025-1"
+    ],
+    "image": "verified-products-20261024/product-022.webp",
+    "sha256": "ccb6c54cc7ceea9c9932822d43b6bc9e2d130cffeb5474d2137a38df66c1ee1b",
+    "sourcePage": "https://cellier.co.uk/products/kwv-chardonnay-6-x-75cl",
+    "sourceImage": "https://cellier.co.uk/cdn/shop/products/KWVChardonnay_1024x1024.jpg?v=1637232537"
+  },
+  {
+    "name": "Chenin Blanc KWV",
+    "ids": [
+      "90-bar-r026-1"
+    ],
+    "image": "verified-products-20261024/product-023.webp",
+    "sha256": "521af350e3edd2ccc5ed5ac483bcd531914545bcbba4c865dfcd0ec5d84a1236",
+    "sourcePage": "https://ralphs.com.ph/products/kwv-classic-collection-chenin-blanc",
+    "sourceImage": "https://ralphs.com.ph/cdn/shop/products/kwv-classic-collection-chenin-blanc-2019.png?v=1618818771"
+  },
+  {
+    "name": "Riesling Peter Mertes",
+    "ids": [
+      "90-bar-r028-1"
+    ],
+    "image": "verified-products-20261024/product-025.webp",
+    "sha256": "d44005a56f9547281c8d322d376bb8fe022c11d1a7a13d59a8cf56a2f9a4ed8b",
+    "sourcePage": "https://decanter.ru/product/peter-mertes-riesling-2021-id245054",
+    "sourceImage": "https://decanter.ru/image/405460-vino-peter-mertes-riesling-2021-0-75-l-sq.jpg"
+  },
+  {
+    "name": "Pinot Grigio Alteno",
+    "ids": [
+      "90-bar-r029-1"
+    ],
+    "image": "verified-products-20261024/product-026.webp",
+    "sha256": "51058aee9f3a548f8679390b3a5038af163068f0c7aa875f3045f30d41237fb2",
+    "sourcePage": "https://www.majestic.co.uk/wines/alteno-organic-pinot-grigio-73494",
+    "sourceImage": "https://img-majestic-live.mncdn.com/mnpadding/400/400/ffffff/Content/Images/Originals/0053306_0.jpeg"
+  },
+  {
+    "name": "Como Una Moto Tempranillo Semisweet",
+    "ids": [
+      "90-bar-r032-1"
+    ],
+    "image": "verified-products-20261024/product-028.webp",
+    "sha256": "560032d83f8abe916961702a04cc984859eb7393bf88967202dee463c43470e3",
+    "sourcePage": "https://listex.info/product/vino-comounamoto-tempranchnsol12075l-ua-8429531014515",
+    "sourceImage": "https://icf.listex.info/med/20c47171-0482-3c68-3d86-33ee97383b06.jpg"
+  },
+  {
+    "name": "Усадьба Дивноморское Вечерница",
+    "ids": [
+      "90-bar-r034-1"
+    ],
+    "image": "verified-products-20261024/product-030.webp",
+    "sha256": "bd28731654d177a8206ca6d62a8ef85e275ac1a474d6a4fad5bfe4a921cf797a",
+    "sourcePage": "https://joiastore.ru/product/vino_usadba_divnomorskoe_vechernitsa_sukhoe_krasnoe_0_75l/",
+    "sourceImage": "https://joiastore.ru/upload/resize_cache/iblock/e57/hr43fr16h93458wjliw8121vt6zw5uzu/852_1278_1619711fa078991f0a23d032687646b21/vino-usadba-divnomorskoe-vechernitsa-sukhoe-krasnoe-0-75l.jpg"
+  },
+  {
+    "name": "Pinot Noir Bouchard Aine & Fils Grand Conseiller",
+    "ids": [
+      "90-bar-r036-1"
+    ],
+    "image": "verified-products-20261024/product-032.webp",
+    "sha256": "2bdeca8721ec9c526e6e4459ec03bcdb6f4bfe4b4710b5b69aed320e997935d6",
+    "sourcePage": "https://www.vivino.com/fr/bouchard-aine-et-fils-pinot-noir-grand-conseiller-bourgogne/w/4382329",
+    "sourceImage": "https://images.vivino.com/thumbs/1x5c4AgCSiSfHPnmL8g_IQ_pb_600x600.png"
+  },
+  {
+    "name": "Chateau Argadens Rouge, Bordeaux Superieur AOC",
+    "ids": [
+      "90-bar-r037-1"
+    ],
+    "image": "verified-products-20261024/product-033.webp",
+    "sha256": "d6d0a2009975e5bd281f86fbf3b878a3432b4d85e5edd3f07d64fc49ae8a5762",
+    "sourcePage": "https://catalog.lwc.co.uk/chateau-argadens-aoc-bordeaux-superieur-red-75cl/",
+    "sourceImage": "https://cdn11.bigcommerce.com/s-gabfv2iadd/images/stencil/original/products/14467/16866/49740082_1__55341.1764604452.jpg"
+  },
+  {
+    "name": "Tempranillo El Pillo Roble Felix Solis",
+    "ids": [
+      "90-bar-r038-1"
+    ],
+    "image": "verified-products-20261024/product-034.webp",
+    "sha256": "e3ffd52eff60470ed21e70444938fab16a06944a58f44fcb67849a885590cca4",
+    "sourcePage": "https://tienda.pagosdelrey.com/tienda-de-vinos/120-el-pillo-roble-8410702066877.html",
+    "sourceImage": "https://tienda.pagosdelrey.com/291-thickbox_default/el-pillo-roble.jpg"
+  },
+  {
+    "name": "Cinzano Bianco",
+    "ids": [
+      "90-bar-r042-1"
+    ],
+    "image": "verified-products-20261024/product-036.webp",
+    "sha256": "bcca44d4d3dc0312cdd9c457677925396b8e37605d8f6e4af47cb6bf9714f322",
+    "sourcePage": "https://www.bodegaaurrera.com.mx/ip/f/caja-de-12-aperitivo-cinzano-bianco-750-ml/00079999448235",
+    "sourceImage": "https://i5.walmartimages.com/asr/7348383c-0057-4fb6-91ee-ff1d84cb6409.cdd57d2e9be5c8aa5bdaac1e34458cf5.jpeg"
+  },
+  {
+    "name": "Cinzano Rosso",
+    "ids": [
+      "90-bar-r042-2"
+    ],
+    "image": "verified-products-20261024/product-037.webp",
+    "sha256": "f7b8dc1a2f97eb487405889c8019688570c61899cdce04f221ae896f403295f7",
+    "sourcePage": "https://www.diffordsguide.com/beer-wine-spirits/3160/cinzano-rosso-vermouth",
+    "sourceImage": "https://cdn.diffords.com/contrib/bws/2017/10/59db906303e12.jpg"
+  },
+  {
+    "name": "Cinzano Extra Dry",
+    "ids": [
+      "90-bar-r042-3"
+    ],
+    "image": "verified-products-20261024/product-038.webp",
+    "sha256": "1f18d5bb9842c872bc06ca1a2e5e63ee60ae59f2f6c4332a3a4d3548b006deec",
+    "sourcePage": "https://www.housebar.cl/cinzano-vermouth-extra-dry-750cc/p",
+    "sourceImage": "https://desaonline.vtexassets.com/arquivos/ids/157413/LI30332.jpg?v=637491727736700000"
+  },
+  {
+    "name": "Tete de Cheval Rouge",
+    "ids": [
+      "90-bar-r043-1"
+    ],
+    "image": "verified-products-20261024/product-039.webp",
+    "sha256": "e32a1dee39b362e01c1731a33fb969790e1f82dfeda3ea1928e08fa35073caf3",
+    "sourcePage": "https://b2b.winelab.ru/products/48608331-vino-igristoe-tete-de-cheval-brut-reserve-beloe-bryut-750-ml-rossiya",
+    "sourceImage": "https://imgproxy.kuper.ru/imgproxy/size-500-500/czM6Ly9zYi1vYnMtcHJvZC1jb250ZW50LWltYWdlczAxL3Byb2R1Y3RzLzQ4NjA4MzMxL29yaWdpbmFsLzEvMjAyNS0xMC0xNiUyMDE1JTNBNDIlM0E1Ni4wNTI5ODglMkIwMCUzQTAwLzQ4NjA4MzMxXzEuanBn.jpg"
+  },
+  {
+    "name": "Courvoisier VSOP",
+    "ids": [
+      "90-bar-r046-1"
+    ],
+    "image": "verified-products-20261024/product-040.webp",
+    "sha256": "8869aa246e5191e424e753e7c73f4ff1b348acc71727e1f69ae33ad8a0514b4c",
+    "sourcePage": "https://www.whiskybrother.com/products/courvoisier-vsop-cognac?srsltid=AfmBOorsoqECrM6SwSJ-rgYkijALNln5zUwQAPEYg_lu2CnCi9PPKaub",
+    "sourceImage": "https://www.whiskybrother.com/cdn/shop/products/courvoisier-vsop-new.jpg?v=1652215316"
+  },
+  {
+    "name": "Кенигсберг Гранд Резерв 7 лет",
+    "ids": [
+      "90-bar-r048-1"
+    ],
+    "image": "verified-products-20261024/product-041.webp",
+    "sha256": "d04abfe4387684af927964fb9bba56e01c1fe3b901ca2b71bf96e225b7dfe6af",
+    "sourcePage": "https://winezone.ru/konyak/starj-kenigsberg-grand-rezerv-7-let",
+    "sourceImage": "https://winezone.ru/assets/files/images/1762875737starj-kenigsberg-grand-rezerv-7-let.jpg"
+  },
+  {
+    "name": "Torres 5 Solera Reserva",
+    "ids": [
+      "90-bar-r049-1"
+    ],
+    "image": "verified-products-20261024/product-042.webp",
+    "sha256": "f0b4892f68f589a89ba450eba4df23d61585d8f7bd3c99d9452cb20dd359c80a",
+    "sourcePage": "https://articulo.mercadolibre.com.mx/MLM-1958144961-brandy-torres-5-solera-1500-ml-_JM",
+    "sourceImage": "https://http2.mlstatic.com/D_NQ_NP_963436-MLM71978387938_092023-O-brandy-torres-5-solera-1500-ml.webp"
+  },
+  {
+    "name": "Архангельская",
+    "ids": [
+      "90-bar-r051-1"
+    ],
+    "image": "verified-products-20261024/product-043.webp",
+    "sha256": "c3be0100c5aa6bb62ced8c05dadcf9999105c170bcf2da933b18224114dcf200",
+    "sourcePage": "https://b2b.winelab.ru/products/20583640-vodka-arhangel-skaya-severnaya-vyderzhka-1-5-l",
+    "sourceImage": "https://imgproxy.kuper.ru/imgproxy/size-500-500/czM6Ly9jb250ZW50LWltYWdlcy1wcm9kL3Byb2R1Y3RzLzIwNTgzNjQwL29yaWdpbmFsLzEvMjAyNi0wMS0yMSUyMDA5JTNBMzIlM0EwNS4xMTI1NjQlMkIwMCUzQTAwLzIwNTgzNjQwXzEuanBn.jpg"
+  },
+  {
+    "name": "Балчуг 21 век",
+    "ids": [
+      "90-bar-r052-1"
+    ],
+    "image": "verified-products-20261024/product-044.webp",
+    "sha256": "a2692945e42f90aa9d76b56fcb4a35d479f9ff4ccdc7b241158fbc0a1f95db37",
+    "sourcePage": "https://alkoteka.com/product/vodka-1/balchug-21-vek_64979",
+    "sourceImage": "https://web.alkoteka.com/storage/product/77/e8/64979_image.png"
+  },
+  {
+    "name": "Beluga Noble",
+    "ids": [
+      "90-bar-r055-1"
+    ],
+    "image": "verified-products-20261024/product-048.webp",
+    "sha256": "15191c157b49ae3dffe4e3c506cfbcb49697c15789d89d87045c60e6b920f221",
+    "sourcePage": "https://shopsk.com/products/beluga-noble-vodka?srsltid=AfmBOorI1cGSGcMNz4JqwRz0bWoQLDyJEvApkwOHknc7X1wOB7J-7hHS",
+    "sourceImage": "https://cdn.shopify.com/s/files/1/0099/0045/8042/files/Untitled_Export-ountB8GiO.jpg?v=1701807993"
+  },
+  {
+    "name": "Beluga Transatlantic",
+    "ids": [
+      "90-bar-r056-1"
+    ],
+    "image": "verified-products-20261024/product-049.webp",
+    "sha256": "6454aac5f32ac0e48bc9ae2b92cbb04118467d02d382a31a765b368600fab2d8",
+    "sourcePage": "https://www.garrafeirasoares.pt/en/russia/espirituosos/vodka-beluga-transatlantic-racing-70-cl/item_421.html",
+    "sourceImage": "https://www.garrafeirasoares.pt/temp/JPG_968b120d82e485c0af796d28702d0d71.png"
+  },
+  {
+    "name": "3 Fusiles Silver",
+    "ids": [
+      "90-bar-r058-1"
+    ],
+    "image": "verified-products-20261024/product-050.webp",
+    "sha256": "bef6222db1da98f16313607d4b4627b1784bb1ee88b35d2c5b4ef43a9c240c7b",
+    "sourcePage": "https://www.ast-inter.ru/new_product/detail.php?ID=11707",
+    "sourceImage": "https://www.ast-inter.ru/upload/resize_cache/iblock/e73/pg5mvcuu1zcmxi4saqhjxoni3o79ql0c/150_1000_1/49467.png"
+  },
+  {
+    "name": "Jose Cuervo Especial Silver",
+    "ids": [
+      "90-bar-r059-1"
+    ],
+    "image": "verified-products-20261024/product-051.webp",
+    "sha256": "d1d4f29878227c2b0855b03adc006b58a8ed83d13de15801989d096b5dd37229",
+    "sourcePage": "https://redbottle.com.au/jose-cuervo-especial-silver-tequila-700ml/",
+    "sourceImage": "https://cdn11.bigcommerce.com/s-x3kq5bcr0e/images/stencil/608x608/products/7660/8498/CUERVO-SILVER-ESPECIAL-700ML__04356.1740298707.png?c=1"
+  },
+  {
+    "name": "Jose Cuervo Especial Gold",
+    "ids": [
+      "90-bar-r059-2"
+    ],
+    "image": "verified-products-20261024/product-052.webp",
+    "sha256": "d7a1ce1b4b085beaf2b9a0d9a93d931096ed875d03b90698eb09829fc6d1c651",
+    "sourcePage": "https://www.taipeiliquor.com/product-page/jose-cuervo-especial-gold-tequila",
+    "sourceImage": "https://static.wixstatic.com/media/d3e3e5_6f86ef2053994d32b03c85941f88d00c~mv2.jpg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/d3e3e5_6f86ef2053994d32b03c85941f88d00c~mv2.jpg"
+  },
+  {
+    "name": "Agavita Blanco",
+    "ids": [
+      "90-bar-r060-1"
+    ],
+    "image": "verified-products-20261024/product-053.webp",
+    "sha256": "dfbf750477feb6e358315286932850b21b23c09fec089380a0c54962cc46a743",
+    "sourcePage": "https://www.euroliquor.co.nz/tequila-white-agavita-blanco-38-bottle-700ml",
+    "sourceImage": "https://www.euroliquor.co.nz/images/thumbs/0013149_tequila-white-agavita-blanco-38-bottle-700ml_510.png"
+  },
+  {
+    "name": "Espolon Reposado",
+    "ids": [
+      "90-bar-r062-1"
+    ],
+    "image": "verified-products-20261024/product-055.webp",
+    "sha256": "c27b340f50caaab6cfab7d1321f73baee803b3562c8521e34729ad56608b38b9",
+    "sourcePage": "https://business.walmart.com/ip/Espolon-Tequila-Reposado-750ml/50305591",
+    "sourceImage": "https://i5.walmartimages.com/seo/Espolon-Tequila-Reposado-750ml_723fd36b-2f30-453c-afb5-55b8883ddc71.3209522b4fa801d28f0d8790ffde7ea5.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640"
+  },
+  {
+    "name": "Green Baboon",
+    "ids": [
+      "90-bar-r064-1"
+    ],
+    "image": "verified-products-20261024/product-056.webp",
+    "sha256": "6ecbf25b91d40a22bf48077dbf18faca9f44339ba4955ff3090113f4e65f5971",
+    "sourcePage": "https://whiskystore.bg/product/djin-green-baboon-07l",
+    "sourceImage": "https://whiskystore.bg/cdn/img/products/8829/dzin-green-baboon-0-7l-6315c336300d2.jpeg?height=800&v=1777604588&width=800"
+  },
+  {
+    "name": "Джинстер Кола",
+    "ids": [
+      "90-bar-r065-2"
+    ],
+    "image": "verified-products-20261024/product-058.webp",
+    "sha256": "30eccb6cec06423b0d47c5046e93481c6323780676a92f70768f459f4b695a99",
+    "sourcePage": "https://bestwine24.ru/dzin-ginster-cola-05-l/",
+    "sourceImage": "https://bestwine24.ru/storage/optimized/product/dzin/0-0-1982x1200_69149f5a99006_600x800.webp"
+  },
+  {
+    "name": "Джинстер Мандарин",
+    "ids": [
+      "90-bar-r065-3"
+    ],
+    "image": "verified-products-20261024/product-059.webp",
+    "sha256": "e2c9cf2a896cdfb39340cd59413db9cecd6f7d74076858f748a5ed9613799840",
+    "sourcePage": "https://www.alcoplaza.ru/Gin/ginster-mandarin-05",
+    "sourceImage": "https://www.alcoplaza.ru/photo_it/photo130290.jpeg"
+  },
+  {
+    "name": "Джинстер Ягодный",
+    "ids": [
+      "90-bar-r065-4"
+    ],
+    "image": "verified-products-20261024/product-060.webp",
+    "sha256": "d2a12953834024dc37f77a523591aadfacf9803664e0f5da1f3192b985d8b8a4",
+    "sourcePage": "https://winemore.ru/catalog/krepkie_napitki/dzhin_ginster_foxberry_infused_05_l_act/",
+    "sourceImage": "https://winemore.ru/upload/iblock/f43/asrz6lqza7pp9bzufioy3l4dyrmgsr3g/0_0_orig.jpg"
+  },
+  {
+    "name": "Tanqueray London Dry",
+    "ids": [
+      "90-bar-r067-1"
+    ],
+    "image": "verified-products-20261024/product-061.webp",
+    "sha256": "a5815f4cb0c3ad082ecea7cac9a92c4169ef4992877b840e2af707d1b8f01f7a",
+    "sourcePage": "https://thewinebox.biz/product/tanqueray-dry-gin-0-75l/",
+    "sourceImage": "https://thewinebox.biz/wp-content/uploads/2022/02/tanqueray-london-dry-gin.png"
+  },
+  {
+    "name": "Bickens London Dry Gin",
+    "ids": [
+      "90-bar-r068-1"
+    ],
+    "image": "verified-products-20261024/product-062.webp",
+    "sha256": "03301831c29ceab9b132b8499251b67e337ec0e77dd04ca4ead1212668d0ec5c",
+    "sourcePage": "https://www.winemag.ro/bickens-london-dry-gin-0-7l",
+    "sourceImage": "https://c.cdnmp.net/877205478/p/l/3/bickens-london-dry-gin-0-7l~36693.jpg"
+  },
+  {
+    "name": "Black Pearl Gold",
+    "ids": [
+      "90-bar-r071-1"
+    ],
+    "image": "verified-products-20261024/product-064.webp",
+    "sha256": "a0ec948b92f72efa6450974facebec63f3a1ac38da1393b66e30570db1663f4c",
+    "sourcePage": "https://winemore.ru/catalog/krepkie_napitki/rom_black_pearl_original_gold_07_l/",
+    "sourceImage": "https://winemore.ru/upload/dev2fun.imagecompress/webp/iblock/04e/k9rhcxb0m57251urmk8vu231l49nbcpm/38e82c9c64d25c1bceb561c94c6aa12d.webp"
+  },
+  {
+    "name": "Black Pearl Dark",
+    "ids": [
+      "90-bar-r071-2"
+    ],
+    "image": "verified-products-20261024/product-065.webp",
+    "sha256": "c7ab9f0f29de9255a002ea2192d969166f3842e116f60ff900a8d6b4b9d279f0",
+    "sourcePage": "https://poisk.im/p/7138118263976934455",
+    "sourceImage": "https://www.auchan.ru/files/original/35658663"
+  },
+  {
+    "name": "Barcelo Anejo",
+    "ids": [
+      "90-bar-r072-1"
+    ],
+    "image": "verified-products-20261024/product-066.webp",
+    "sha256": "7104008dd8dcc75bdec34a3f2372583217ee2cf7e6d1187e2a0ed1fa6930a32c",
+    "sourcePage": "https://www.superxtra.com/ron-barcelo-anejo-175-l-7461323129800/p",
+    "sourceImage": "https://superxtrapanama.vtexassets.com/arquivos/ids/171368-800-450?aspect=true&height=450&v=638120767052900000&width=800"
+  },
+  {
+    "name": "Diplomatico Reserva Exclusiva",
+    "ids": [
+      "90-bar-r073-1"
+    ],
+    "image": "verified-products-20261024/product-067.webp",
+    "sha256": "eab350c78415ca64a5e7e2a4d7b3cff90edfdd1fa316e7b497c122c2e327fc52",
+    "sourcePage": "https://chevalier.asia/products/diplomatico-reserva-exclusiva",
+    "sourceImage": "https://chevalier.asia/cdn/shop/files/DiplomaticoReservaExclusiva.png?v=1715693913"
+  },
+  {
+    "name": "Zacapa 23",
+    "ids": [
+      "90-bar-r074-1"
+    ],
+    "image": "verified-products-20261024/product-068.webp",
+    "sha256": "1a425c7c69d93c20baffeeca88d63ee38ba5b8ede5f91fdaa4ba0de5ee265c4b",
+    "sourcePage": "https://www.thedistilleryapp.com/bottles/zacapa-no-23",
+    "sourceImage": "https://img.thedistilleryapp.com/bottles/29/9b1c21b8-5b39-4a38-b9e8-7e12da59c3cd.png"
+  },
+  {
+    "name": "Johnnie Walker Red Label",
+    "ids": [
+      "90-bar-r078-1"
+    ],
+    "image": "verified-products-20261024/product-070.webp",
+    "sha256": "1d28aa9308a6534f35646002ae6002c42631fda4a505538cbaece2540785204f",
+    "sourcePage": "https://luxalcomarket.kz/product/viski-johnie-walker-red-label-07l-5000267014203",
+    "sourceImage": "https://luxalcomarket.kz/assets/images/products/5000267014203.jpg"
+  },
+  {
+    "name": "Monkey Shoulder",
+    "ids": [
+      "90-bar-r081-1"
+    ],
+    "image": "verified-products-20261024/product-071.webp",
+    "sha256": "412f862fb48b4b775416ce1d2ca759f4a8029a02a27b9d1842488fff7ddaa9e2",
+    "sourcePage": "https://www.nobelwineandspirits.com/products/monkey-shoulder-blend-scotch-whisky",
+    "sourceImage": "https://www.nobelwineandspirits.com/cdn/shop/products/monkeyshoulder.png?v=1623077142"
+  },
+  {
+    "name": "Bushmills Original",
+    "ids": [
+      "90-bar-r086-1"
+    ],
+    "image": "verified-products-20261024/product-072.webp",
+    "sha256": "3c05eb61a27ca0c6c18b4fa9817955e9b99a3a573ce20bd0584bd10d7dc962d9",
+    "sourcePage": "https://maudau.com.ua/ru/product/visky-bushmills-original-irish-whisky-40-1-l-374293",
+    "sourceImage": "https://image.maudau.com.ua/webp/size/xl/products/55/10/df/5510dfb1-53b4-4db0-8e51-adf30ecee6fd"
+  },
+  {
+    "name": "Singleton 12 YO",
+    "ids": [
+      "90-bar-r090-1"
+    ],
+    "image": "verified-products-20261024/product-073.webp",
+    "sha256": "0ef29001d9d4f6804462d1736df92d1ea97cc036238f7e0d3b6a98a6fb7b4c58",
+    "sourcePage": "https://winesndrinks.com/products/the-singleton-12",
+    "sourceImage": "https://winesndrinks.com/cdn/shop/files/singleton12yo.png?v=1756980593"
+  },
+  {
+    "name": "Lagavulin 16 YO",
+    "ids": [
+      "90-bar-r092-1"
+    ],
+    "image": "verified-products-20261024/product-074.webp",
+    "sha256": "d52789d87265bba05d8557b3aae3b733ab993d62726b85921212f55182dbd660",
+    "sourcePage": "https://whiskylodge.com/fr/islay/418-lagavulin-16-ans--5000281005409.html",
+    "sourceImage": "https://whiskylodge.com/267-large_default/lagavulin-16-ans-.jpg"
+  },
+  {
+    "name": "Hunting Herbal Bitter",
+    "ids": [
+      "90-bar-r097-1"
+    ],
+    "image": "verified-products-20261024/product-075.webp",
+    "sha256": "f3338137d9d791244822975c1e318add0a3e1cf68936a6993eec26a83d1c089e",
+    "sourcePage": "https://norman-retail.ru/catalog/10962/catl10133/18914/",
+    "sourceImage": "https://norman-retail.ru/upload/iblock/dcd/2499f6bb1f7zt3cwzas5s752edb681zl.jpg"
+  },
+  {
+    "name": "Hoegaarden",
+    "ids": [
+      "90-bar-r111-1"
+    ],
+    "image": "verified-products-20261024/product-078.webp",
+    "sha256": "52c483246ec14800ad76af3e1fd5e9f5b55c5736e53999628b96aab81dd8cc0c",
+    "sourcePage": "https://shopping.yahoo.co.jp/products/p/b9ed3aece9",
+    "sourceImage": "https://item-shopping.c.yimg.jp/i/f/ricaoh_121932"
+  },
+  {
+    "name": "Hoegaarden Cherry",
+    "ids": [
+      "90-bar-r112-1"
+    ],
+    "image": "verified-products-20261024/product-079.webp",
+    "sha256": "f1643ecb4a2efa884706dfd34a7cd62196a4dfed07d67183c9dcd57c9fdb3209",
+    "sourcePage": "https://magnit.ru/product/1000476304-hoegaarden_pivnoy_napitok_vishnya_past_n_f_4_5_0_44l_st_but",
+    "sourceImage": "https://images-foodtech.magnit.ru/t6Gfb4kXBXp28jxbiQBZgdtdIAB3szzhhYwm5sbtRxM/rs%3Afit%3A1600%3A1600/plain/s3%3A/img-dostavka/catalog/uf/ad9/ad9c1fc6dbaa38f67b2bef8be4c1c702/d31ca97f9a0d39f59235033487c1fe4c.jpeg%40webp"
+  },
+  {
+    "name": "Spaten",
+    "ids": [
+      "90-bar-r113-1"
+    ],
+    "image": "verified-products-20261024/product-080.webp",
+    "sha256": "7bd8fbaa567117b47ec492e6a4f74e4686199e8a45787ed69441e3e8973be101",
+    "sourcePage": "https://halftimebeverage.com/spaten-premium-lager-5006",
+    "sourceImage": "https://halftimebeverage.com/media/catalog/product/cache/5a9ece781d558937ae51db0fc99c94f4/5/0/5006.png"
+  },
+  {
+    "name": "ABBE Brune",
+    "ids": [
+      "90-bar-r114-1"
+    ],
+    "image": "verified-products-20261024/product-081.webp",
+    "sha256": "f76a9bc96cac304150d96af3f8a736db6cdd25adcbd89f48e60838d10efd4001",
+    "sourcePage": "https://www.pintplease.com/en/beer/314459/abbe_brune",
+    "sourceImage": "https://pintplease.s3.eu-west-1.amazonaws.com/post/original/post_6005874-169459268.jpg"
+  },
+  {
+    "name": "Estrella 0,0%",
+    "ids": [
+      "90-bar-r115-1"
+    ],
+    "image": "verified-products-20261024/product-082.webp",
+    "sha256": "687d3f4e0344078d55dc2a262a181b741bd0390dbde654f36f39e78d67f8a355",
+    "sourcePage": "https://alkoutlet.lv/alus-estrella-damm-barcelona-b-a-0.html",
+    "sourceImage": "https://alkoutlet.lv/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/3/4/347133.jpg"
+  },
+  {
+    "name": "Corona Extra",
+    "ids": [
+      "90-bar-r116-1"
+    ],
+    "image": "verified-products-20261024/product-083.webp",
+    "sha256": "9157b0b03d69d94a450acf2a9ae1ecf57318862c90111e443fc8812ad0574af0",
+    "sourcePage": "https://pontupedido.com/product/corona-extra-botella/?srsltid=AfmBOorz2bbLRykOKHXG-atC3SUvvXANPO7d-1Mu1mBnP1hhk011Za_C",
+    "sourceImage": "https://pontupedido.com/media/catalog/products/images/2093_0_2xenIOl.jpg"
+  },
+  {
+    "name": "Evervess Cola",
+    "ids": [
+      "90-bar-r195-1"
+    ],
+    "image": "verified-products-20261024/product-084.webp",
+    "sha256": "499693dd4589c4e89d4e9dc6374009d786864d76e7f8460076b76a88b2e1e8d6",
+    "sourcePage": "https://delivery.pinskiy.co/products/7078",
+    "sourceImage": "https://delback.pinskiy.co/storage/upload/images/XoyUoBc4aF1XQmrydKTbvOjyvZmqQcJWftX78bMf.jpg"
+  },
+  {
+    "name": "Evervess Orange",
+    "ids": [
+      "90-bar-r195-2"
+    ],
+    "image": "verified-products-20261024/product-085.webp",
+    "sha256": "ba4d706eed06ae6479c770a1aade9ebaccb814a3a2febcd40bbbcece3b13ea10",
+    "sourcePage": "https://delivery.pinskiy.co/products/7035",
+    "sourceImage": "https://delback.pinskiy.co/storage/upload/images/M2VCPVhNbNjjrWEXfGM8ZYaZPT7EsY7J8dr33kcc.jpg"
+  },
+  {
+    "name": "Evervess Lemon & Lime",
+    "ids": [
+      "90-bar-r195-3"
+    ],
+    "image": "verified-products-20261024/product-086.webp",
+    "sha256": "8a81bf802ece0d85e23b86b1a5e49098521925ade50b7866cfd324eac119b1c1",
+    "sourcePage": "https://delivery.pinskiy.co/products/6067",
+    "sourceImage": "https://delback.pinskiy.co/storage/upload/images/GQamdpWroJxiMfYhy0eMNsvnisA5eWawb0mqYLcP.jpg"
+  },
+  {
+    "name": "Evervess Indian Tonic",
+    "ids": [
+      "90-bar-r196-1"
+    ],
+    "image": "verified-products-20261024/product-087.webp",
+    "sha256": "a68021b36944a29a3ac33b94ee7cccb534b5563bcaeac2c9469210520a24c6f8",
+    "sourcePage": "https://www.deloks.ru/katalog/produkt/napitok-evervess-tonic-steklo-0-25l/",
+    "sourceImage": "https://www.deloks.ru/upload/iblock/7b7/hjr5mr6l2bks48rfgmuaky98orr03tmp/napitok_evervess_tonic_steklo_0_25l_2_full.jpg"
+  },
+  {
+    "name": "Стар Бар Тоник Классик",
+    "ids": [
+      "90-bar-r197-1"
+    ],
+    "image": "verified-products-20261024/product-088.webp",
+    "sha256": "f3e35a450ff50400ec1eb0c9e90534bba318faa9d832221848042da66514a26e",
+    "sourcePage": "https://vinicom.ru/tonik-indian-bezalkogolnyy-silnogazirovannyy-napitok/",
+    "sourceImage": "https://vinicom.ru/wa-data/public/shop/products/98/31/3198/images/2310/2310.750x0.jpg"
+  },
+  {
+    "name": "Стар Бар Тоник Имбирный эль",
+    "ids": [
+      "90-bar-r197-2"
+    ],
+    "image": "verified-products-20261024/product-089.webp",
+    "sha256": "bb13b37c6bbe2c2cdea20bf14d250c9fae7d48be2ec36b90e7ee14cfc1baa535",
+    "sourcePage": "https://nesco.ru/product/limonad_starbar_imbirnyy_el_0_175l/",
+    "sourceImage": "https://nesco.ru/upload/resize_cache/iblock/744/852_1278_1619711fa078991f0a23d032687646b21/wf71cpavhe90nnxtvmu67ciy0rj1230i.png"
+  },
+  {
+    "name": "Red Bull классический",
+    "ids": [
+      "90-bar-r200-1"
+    ],
+    "image": "verified-products-20261024/product-092.webp",
+    "sha256": "6539748f9191f4c1b36cc9f8b067af7c8b5cf900b019cc9c8fc9745bd8a30c31",
+    "sourcePage": "https://dr-pepper.ru/1511-1-1-2/",
+    "sourceImage": "https://dr-pepper.ru/wa-data/public/shop/products/37/32/3237/images/3689/3689.970.jpg"
+  },
+  {
+    "name": "Red Bull Sugar Free без сахара",
+    "ids": [
+      "90-bar-r201-1"
+    ],
+    "image": "verified-products-20261024/product-093.webp",
+    "sha256": "c40cd3b3f1af1cada89f224eedc6f2c87831d198112ad4a80bd45755988ce2ec",
+    "sourcePage": "https://www.tesco.ie/groceries/en-IE/products/316443758",
+    "sourceImage": "https://digitalcontent.api.tesco.com/v2/media/ghs/df560fb1-e7f1-4d3f-b49d-36bbdef30587/2534385e-c2b1-43e8-b61c-b8eacab3dd08_1525031436.jpeg"
+  },
+  {
+    "name": "Red Bull Watermelon арбузный",
+    "ids": [
+      "90-bar-r202-1"
+    ],
+    "image": "verified-products-20261024/product-094.webp",
+    "sha256": "7057d0f5116cc3d6a0744c29393a4d55de241a9c579ade770413a23a43912988",
+    "sourcePage": "https://semeiniy.kz/napitok-energeticheskiy-red-bull-red-edition-0-25l-zh-b/",
+    "sourceImage": "https://semeiniy.kz/wa-data/public/shop/products/43/82/98243/images/34321/34321.970.jpg"
+  },
+  {
+    "name": "Adrenaline Rush",
+    "ids": [
+      "90-bar-r203-1"
+    ],
+    "image": "verified-products-20261024/product-095.webp",
+    "sha256": "482f7be219ccca6d7e9d1b5aa8c7977a390f04ef838163a09138378756c805b2",
+    "sourcePage": "https://novus.zakaz.ua/en/products/napii-adrenalin-rash-500ml-ukrayina--04823063108201/",
+    "sourceImage": "https://img3.zakaz.ua/zakaz-1001PXD.1384352157.ad72436478c_2013-11-20_oleg/zakaz-1001PXD.1384352157.SNFB30AD.obj.0.5.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg"
+  },
+  {
+    "name": "Джинстер Пломбир",
+    "ids": [
+      "90-bar-r065-1"
+    ],
+    "image": "verified-products-20261024/product-057.webp",
+    "sha256": "4508bdfa27c6a2bef622c1776c1c4d303e2a3bb95eb0f6854e4610528552aca7",
+    "sourcePage": "https://ginster.ru/",
+    "sourceImage": "https://static.tildacdn.com/tild6334-3530-4631-b132-393137343663/gn_6.png"
+  }
+]
