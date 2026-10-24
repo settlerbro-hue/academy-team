@@ -1,0 +1,5 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('path').join(__dirname,'../secure-dist/portal.js'),'utf8');let active=0,max=0,calls=0;
+const client={storage:{from:()=>({createSignedUrl:async path=>{calls++;active++;max=Math.max(max,active);await new Promise(r=>setTimeout(r,2));active--;return {data:{signedUrl:'signed:'+path}};}})}};
+const ctx={client,Map,Date,Promise};vm.createContext(ctx);vm.runInContext(source.slice(source.indexOf('const assetCache='),source.indexOf('async function hydrateAssets'))+'\nglobalThis.resolve=assetURL;',ctx);
+(async()=>{const result=await Promise.all(Array.from({length:60},(_,i)=>ctx.resolve('photo-'+(i%20))));assert.equal(result.length,60);assert.equal(calls,20,'Concurrent duplicate paths must share one request');assert(max<=6,'Limit simultaneous storage requests');assert.equal(await ctx.resolve('photo-0'),'signed:photo-0');assert.equal(calls,20,'Reuse valid signed URL');console.log('PASS: menu photos share pending requests, use cached URLs, and limit storage concurrency to six.');})().catch(e=>{console.error(e);process.exitCode=1;});

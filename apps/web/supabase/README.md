@@ -38,3 +38,6 @@ SQL-проверки не равны проверке OAuth и опублико�
 `migrations/022_shared_90_bar_menu.sql`, затем `seed-90-bar-menu.sql` — общее меню бара «90-е» для трёх заведений. Администраторы бара своего бренда редактируют общие карточки; личные данные и роли не меняются. Seed добавляет только отсутствующие ID. Фото — `90-bar-assets-manifest.json`, исходные значения — `sources/90-bar-sheet-20261024.json`. Проверки: `../scripts/test-90-bar-menu.cjs`, `../scripts/test-shared-90-menu.sql` (ROLLBACK).
 
 `migrations/023_shared_90_kitchen_menu.sql`, затем `seed-90-kitchen-menu.sql` — 81 карточка общей кухни «90-е» из 73 активных позиций barkhimki.ru/menu. Пиццы двух размеров разделены. Администраторы кухни своего бренда редактируют карточки и черновики; бар не получает доступ к редактированию кухни. Фото по `90-kitchen-assets-manifest.json` загружаются в private academy-assets. Исходные значения: `sources/90-kitchen-site-20261024.json`; восстановление импорта: `../scripts/import-90-kitchen.py <snapshot.html> <Academy-Team-root>` (Python/Pillow). Проверки: `../scripts/test-90-kitchen.cjs`, `../scripts/test-shared-90-kitchen.sql` (ROLLBACK).
+
+
+Migration 024 normalizes RVB menu records to restaurant minsk; apply after 023. Menu mobile audit and rollback-safe server checks: docs/menu-mobile-audit-2026-10-24.md, scripts/test-menu-live.sql.
