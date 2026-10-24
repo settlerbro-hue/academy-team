@@ -1,0 +1,10 @@
+const fs=require('fs'),assert=require('node:assert/strict');
+const d=require('../supabase/rvb-bar-handbook.json');
+assert.equal(d.restaurant_id,'minsk');assert.equal(d.department,'Бар');assert.equal(d.kind,'material');assert.equal(d.payload.format,'handbook');
+assert.equal((d.payload.body.match(/<details/g)||[]).length,15);
+assert.equal((d.payload.body.match(/<summary>/g)||[]).length,15);
+assert(!d.payload.body.includes('<table'),'Wide source tables must be readable as mobile sections');
+assert(d.payload.body.includes('assets/library/rvb-bar-handbook/bar-plan.png'));
+assert(!/docs-images-rt|googleusercontent|<script/i.test(d.payload.body));
+const s=fs.readFileSync(require('path').join(__dirname,'../secure-dist/portal.js'),'utf8');assert(s.includes('DETAILS SUMMARY'));assert(s.includes('bindHandbook();hydrateAssets()'));assert(s.includes('materialBodyHTML(p)'));
+console.log('PASS: protected editable library material, 15 collapsible sections, mobile tables converted, original bar plan, safe renderer and section navigation.');
