@@ -5,3 +5,5 @@
 .ce-block-outline>div{min-width:0;width:100%;max-width:100%}.ce-block-outline .ce-block-select{flex:1 1 0;min-width:0;overflow:hidden;overflow-wrap:anywhere}.ce-block-outline .ce-block-select small{max-width:100%;overflow:hidden;text-overflow:ellipsis}.ce-block-outline>div>button:not(.ce-block-select){flex:0 0 28px;padding:4px;min-width:28px}
 .course-step-label{display:block;font-size:9px;letter-spacing:.5px;text-transform:uppercase;opacity:.65;margin-bottom:5px}.course-test-step{border-left:3px solid #b8a8e5;padding-left:6px}.course-test-step>button{width:100%}.course-test-step select{max-width:100%}
 .lesson-nav [data-lesson],.lesson-nav .course-test-step>button{display:block;text-align:left}.lesson-nav .course-step-label{margin-bottom:7px}.lesson-nav .course-test-step{min-width:0}
+.lesson-hero>*{min-width:0;max-width:100%}.lesson-hero h2{overflow-wrap:anywhere}
+@media(max-width:600px){.lesson-table table:not(:has(th:nth-child(3))){min-width:0;table-layout:fixed}.lesson-table th,.lesson-table td{overflow-wrap:anywhere}}

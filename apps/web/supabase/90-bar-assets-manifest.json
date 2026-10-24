@@ -1,0 +1,222 @@
+[
+  {
+    "itemId": "90-bar-r109-1",
+    "name": "Свежее дыхание",
+    "path": "90-bar-20260915/90-bar-r109-1.png",
+    "file": "90-bar-r109-1.png",
+    "bytes": 1109695,
+    "sha256": "51fa1aa32cd6ffa3313923f48ae42081ff3b5f553b2e6819960e43b3e0d54551",
+    "page": 2,
+    "xref": 4
+  },
+  {
+    "itemId": "90-bar-r119-1",
+    "name": "Секс в Большом Городе",
+    "path": "90-bar-20260915/90-bar-r119-1.png",
+    "file": "90-bar-r119-1.png",
+    "bytes": 55167,
+    "sha256": "351f5b27b57c7afd6c1087f5f620f731a7ddae25a4e9b215a84f2295f3e88141",
+    "page": 5,
+    "xref": 65
+  },
+  {
+    "itemId": "90-bar-r120-1",
+    "name": "Укрощение Строптивой",
+    "path": "90-bar-20260915/90-bar-r120-1.png",
+    "file": "90-bar-r120-1.png",
+    "bytes": 54631,
+    "sha256": "640dbd6c277fc24623a1e72dd87701126c3eece55fb8d3f0a013ffe34b3110fe",
+    "page": 5,
+    "xref": 67
+  },
+  {
+    "itemId": "90-bar-r121-1",
+    "name": "Любит Не Любит",
+    "path": "90-bar-20260915/90-bar-r121-1.png",
+    "file": "90-bar-r121-1.png",
+    "bytes": 70198,
+    "sha256": "b8717ad9378daff5c6d95f121182c3ed27501b31cd32d9f3e013cac89f21a540",
+    "page": 5,
+    "xref": 73
+  },
+  {
+    "itemId": "90-bar-r122-1",
+    "name": "Розовый Фламинго",
+    "path": "90-bar-20260915/90-bar-r122-1.png",
+    "file": "90-bar-r122-1.png",
+    "bytes": 55427,
+    "sha256": "a5a4b453fd964794fc9422bef5d51b3ad596462875b124343d757fe006e8142a",
+    "page": 5,
+    "xref": 241
+  },
+  {
+    "itemId": "90-bar-r123-1",
+    "name": "Ничего Личного Только Бизнес",
+    "path": "90-bar-20260915/90-bar-r123-1.png",
+    "file": "90-bar-r123-1.png",
+    "bytes": 49422,
+    "sha256": "ef9281a5c92d05f19cec5a025576c055cce9fa2f2ff88c3ae0b52d972c1bb1a6",
+    "page": 5,
+    "xref": 75
+  },
+  {
+    "itemId": "90-bar-r125-1",
+    "name": "Ограбление по Итальянски",
+    "path": "90-bar-20260915/90-bar-r125-1.png",
+    "file": "90-bar-r125-1.png",
+    "bytes": 103786,
+    "sha256": "8043042b62117ff6ed90284036cf595f778c608a61821407a9075a319ea72086",
+    "page": 6,
+    "xref": 89
+  },
+  {
+    "itemId": "90-bar-r126-1",
+    "name": "Богатые Тоже Платят",
+    "path": "90-bar-20260915/90-bar-r126-1.png",
+    "file": "90-bar-r126-1.png",
+    "bytes": 96449,
+    "sha256": "76bd281b5ccd6132c419a7259799bbd58087f465a956e5a915ab0057757fbd44",
+    "page": 6,
+    "xref": 87
+  },
+  {
+    "itemId": "90-bar-r127-1",
+    "name": "Невозможное Возможно",
+    "path": "90-bar-20260915/90-bar-r127-1.png",
+    "file": "90-bar-r127-1.png",
+    "bytes": 95736,
+    "sha256": "0a838a2640ee5cd03907efd118ef01ac4b63b876c68b1189d66bdfa2eb42287d",
+    "page": 6,
+    "xref": 93
+  },
+  {
+    "itemId": "90-bar-r128-1",
+    "name": "Ни Фейхоя Себе",
+    "path": "90-bar-20260915/90-bar-r128-1.png",
+    "file": "90-bar-r128-1.png",
+    "bytes": 80603,
+    "sha256": "f80b6ff684c6a4d132ac2ce71e2a25c0a142457f28a7730c948f9332258d92cb",
+    "page": 6,
+    "xref": 250
+  },
+  {
+    "itemId": "90-bar-r129-1",
+    "name": "Мальчик Хочет в Тайланд",
+    "path": "90-bar-20260915/90-bar-r129-1.png",
+    "file": "90-bar-r129-1.png",
+    "bytes": 100257,
+    "sha256": "4ff181c747f4c524eb95568bdf4c6331298885019610921cdb6f95f8989f0c29",
+    "page": 6,
+    "xref": 91
+  },
+  {
+    "itemId": "90-bar-r131-1",
+    "name": "Младший Лейтенант",
+    "path": "90-bar-20260915/90-bar-r131-1.png",
+    "file": "90-bar-r131-1.png",
+    "bytes": 97651,
+    "sha256": "5fc62989338f5f6e3e8a982a516e55d2263a24850b62dc42e6141403ae8d555e",
+    "page": 7,
+    "xref": 111
+  },
+  {
+    "itemId": "90-bar-r132-1",
+    "name": "Маша и Медведи",
+    "path": "90-bar-20260915/90-bar-r132-1.png",
+    "file": "90-bar-r132-1.png",
+    "bytes": 64740,
+    "sha256": "b31e277cf68d328151f533cb34e8fc6bffefb361dde70e5cb1cfa1aff539a6a9",
+    "page": 7,
+    "xref": 117
+  },
+  {
+    "itemId": "90-bar-r133-1",
+    "name": "Я не Гейша Я Только Учусь",
+    "path": "90-bar-20260915/90-bar-r133-1.png",
+    "file": "90-bar-r133-1.png",
+    "bytes": 41233,
+    "sha256": "0f878e1d8e7ac5a680dbf147bff9201fe4746193eb0352cdc39b89601da5db5e",
+    "page": 7,
+    "xref": 121
+  },
+  {
+    "itemId": "90-bar-r134-1",
+    "name": "Love is …",
+    "path": "90-bar-20260915/90-bar-r134-1.png",
+    "file": "90-bar-r134-1.png",
+    "bytes": 99411,
+    "sha256": "8a47158466bcfdf160105205a7c2589a0a406c609a352575a16346edf8c2b7d4",
+    "page": 7,
+    "xref": 113
+  },
+  {
+    "itemId": "90-bar-r135-1",
+    "name": "Ксюша из Плюша",
+    "path": "90-bar-20260915/90-bar-r135-1.png",
+    "file": "90-bar-r135-1.png",
+    "bytes": 109072,
+    "sha256": "99566b7dada400af26d465c04af4fe5442bea689b56d3e65659e655f6505b9b7",
+    "page": 7,
+    "xref": 115
+  },
+  {
+    "itemId": "90-bar-r137-1",
+    "name": "Гангстерито",
+    "path": "90-bar-20260915/90-bar-r137-1.png",
+    "file": "90-bar-r137-1.png",
+    "bytes": 118675,
+    "sha256": "74d3127d45ef13d210322eef47bae3c34dbfa83183a2d1a114b56992211e250b",
+    "page": 8,
+    "xref": 140
+  },
+  {
+    "itemId": "90-bar-r138-1",
+    "name": "Moscow Never Sleep",
+    "path": "90-bar-20260915/90-bar-r138-1.png",
+    "file": "90-bar-r138-1.png",
+    "bytes": 96780,
+    "sha256": "850f144c666030e79d6ad532538912764fe0b8723803e360ef43ca44dadd452a",
+    "page": 8,
+    "xref": 134
+  },
+  {
+    "itemId": "90-bar-r139-1",
+    "name": "Настоящий Полковник",
+    "path": "90-bar-20260915/90-bar-r139-1.png",
+    "file": "90-bar-r139-1.png",
+    "bytes": 171052,
+    "sha256": "f3b804466f4b3c4787243065257ba835a6f403ec5867c1d62b67bf539e159b8e",
+    "page": 8,
+    "xref": 258
+  },
+  {
+    "itemId": "90-bar-r140-1",
+    "name": "Слово Пацана",
+    "path": "90-bar-20260915/90-bar-r140-1.png",
+    "file": "90-bar-r140-1.png",
+    "bytes": 118510,
+    "sha256": "90de5f7d2447e147112678222e1aabb03b9b7bd994f075de72972124c80c035b",
+    "page": 8,
+    "xref": 256
+  },
+  {
+    "itemId": "90-bar-r141-1",
+    "name": "Галлюцинации Фрекен Бок",
+    "path": "90-bar-20260915/90-bar-r141-1.png",
+    "file": "90-bar-r141-1.png",
+    "bytes": 70291,
+    "sha256": "0def93ab2954fb678e87acc709ec087974e16fe970973e7966c369e9d2e5c397",
+    "page": 8,
+    "xref": 136
+  },
+  {
+    "itemId": "90-bar-r178-1",
+    "name": "ШотЛандия",
+    "path": "90-bar-20260915/90-bar-r178-1.png",
+    "file": "90-bar-r178-1.png",
+    "bytes": 956234,
+    "sha256": "e702b0971f42e80badedf93343ee99f32d16ce06d153774264418426edfb0c9e",
+    "page": 11,
+    "xref": 182
+  }
+]

@@ -1,0 +1,7167 @@
+[
+  {
+    "id": "90-bar-r005-1",
+    "kind": "menu",
+    "title": "Fiorino d'Oro Brut",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r005-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Fiorino d'Oro Brut",
+      "category": "wine",
+      "subcategory": "По бокалам · Игристое вино",
+      "volume": "150 мл",
+      "price": "640 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 0
+    }
+  },
+  {
+    "id": "90-bar-r006-1",
+    "kind": "menu",
+    "title": "Inkerman Brut",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r006-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Inkerman Brut",
+      "category": "wine",
+      "subcategory": "По бокалам · Игристое вино",
+      "volume": "150 мл",
+      "price": "440 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 1
+    }
+  },
+  {
+    "id": "90-bar-r008-1",
+    "kind": "menu",
+    "title": "Sauvignon Blanc Tocornal",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r008-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Sauvignon Blanc Tocornal",
+      "category": "wine",
+      "subcategory": "По бокалам · Белое вино",
+      "volume": "150 мл",
+      "price": "540 ₽",
+      "description": "Чили",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 2
+    }
+  },
+  {
+    "id": "90-bar-r009-1",
+    "kind": "menu",
+    "title": "Riesling Intermarium",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r009-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Riesling Intermarium",
+      "category": "wine",
+      "subcategory": "По бокалам · Белое вино",
+      "volume": "150 мл",
+      "price": "440 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 3
+    }
+  },
+  {
+    "id": "90-bar-r011-1",
+    "kind": "menu",
+    "title": "Merlot Tocornal",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r011-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Merlot Tocornal",
+      "category": "wine",
+      "subcategory": "По бокалам · Красное вино",
+      "volume": "150 мл",
+      "price": "540 ₽",
+      "description": "Чили",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 4
+    }
+  },
+  {
+    "id": "90-bar-r012-1",
+    "kind": "menu",
+    "title": "Cabernet Sauvignon Intermarium",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r012-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cabernet Sauvignon Intermarium",
+      "category": "wine",
+      "subcategory": "По бокалам · Красное вино",
+      "volume": "150 мл",
+      "price": "440 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 5
+    }
+  },
+  {
+    "id": "90-bar-r015-1",
+    "kind": "menu",
+    "title": "Cinzano Asti Spumante",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r015-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cinzano Asti Spumante",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "5400 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 6
+    }
+  },
+  {
+    "id": "90-bar-r015-2",
+    "kind": "menu",
+    "title": "Cinzano Prosecco",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r015-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cinzano Prosecco",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "5400 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 7
+    }
+  },
+  {
+    "id": "90-bar-r016-1",
+    "kind": "menu",
+    "title": "Tete de Cheval Blanc de Blancs",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r016-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tete de Cheval Blanc de Blancs",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "3900 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 8
+    }
+  },
+  {
+    "id": "90-bar-r017-1",
+    "kind": "menu",
+    "title": "Tete de Cheval Rose Brut",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r017-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tete de Cheval Rose Brut",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "3900 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 9
+    }
+  },
+  {
+    "id": "90-bar-r018-1",
+    "kind": "menu",
+    "title": "Celebrities Cava Brut Bodegas San Valero",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r018-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Celebrities Cava Brut Bodegas San Valero",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "4400 ₽",
+      "description": "Испания",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 10
+    }
+  },
+  {
+    "id": "90-bar-r019-1",
+    "kind": "menu",
+    "title": "Bruni Prosecco Valdobbiadene",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r019-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Bruni Prosecco Valdobbiadene",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "5900 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 11
+    }
+  },
+  {
+    "id": "90-bar-r020-1",
+    "kind": "menu",
+    "title": "Louis Bouillot Cremant de Bourgogne Grand Reserve Brut",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r020-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Louis Bouillot Cremant de Bourgogne Grand Reserve Brut",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "6900 ₽",
+      "description": "Франция",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 12
+    }
+  },
+  {
+    "id": "90-bar-r021-1",
+    "kind": "menu",
+    "title": "Bruni Prosecco",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r021-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Bruni Prosecco",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл / 1500 мл",
+      "price": "4400 ₽ / 8500 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 13
+    }
+  },
+  {
+    "id": "90-bar-r022-1",
+    "kind": "menu",
+    "title": "Moet & Chandon Brut Imperial",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r022-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Moet & Chandon Brut Imperial",
+      "category": "wine",
+      "subcategory": "По бутылкам · Игристое вино",
+      "volume": "750 мл",
+      "price": "21900 ₽",
+      "description": "Франция",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/wine/22.png",
+      "imageKind": "bottle",
+      "sortOrder": 14
+    }
+  },
+  {
+    "id": "90-bar-r024-1",
+    "kind": "menu",
+    "title": "Como Una Moto Airen Semisweet",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r024-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Como Una Moto Airen Semisweet",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "2600 ₽",
+      "description": "Испания",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 15
+    }
+  },
+  {
+    "id": "90-bar-r025-1",
+    "kind": "menu",
+    "title": "Chardonnay KWV",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r025-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Chardonnay KWV",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "2800 ₽",
+      "description": "ЮАР",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 16
+    }
+  },
+  {
+    "id": "90-bar-r026-1",
+    "kind": "menu",
+    "title": "Chenin Blanc KWV",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r026-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Chenin Blanc KWV",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "2900 ₽",
+      "description": "ЮАР",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 17
+    }
+  },
+  {
+    "id": "90-bar-r027-1",
+    "kind": "menu",
+    "title": "Усадьба Дивноморское Солнечный Ветер",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r027-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Усадьба Дивноморское Солнечный Ветер",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "3100 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 18
+    }
+  },
+  {
+    "id": "90-bar-r028-1",
+    "kind": "menu",
+    "title": "Riesling Peter Mertes",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r028-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Riesling Peter Mertes",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "3200 ₽",
+      "description": "Германия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 19
+    }
+  },
+  {
+    "id": "90-bar-r029-1",
+    "kind": "menu",
+    "title": "Pinot Grigio Alteno",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r029-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Pinot Grigio Alteno",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "3300 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 20
+    }
+  },
+  {
+    "id": "90-bar-r030-1",
+    "kind": "menu",
+    "title": "Mao Mao Sauvignon Blanc",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r030-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Mao Mao Sauvignon Blanc",
+      "category": "wine",
+      "subcategory": "По бутылкам · Белое вино",
+      "volume": "750 мл",
+      "price": "5200 ₽",
+      "description": "Новая Зеландия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 21
+    }
+  },
+  {
+    "id": "90-bar-r032-1",
+    "kind": "menu",
+    "title": "Como Una Moto Tempranillo Semisweet",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r032-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Como Una Moto Tempranillo Semisweet",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "2600 ₽",
+      "description": "Испания",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 22
+    }
+  },
+  {
+    "id": "90-bar-r033-1",
+    "kind": "menu",
+    "title": "Tamari Мальбек Tarapaca",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r033-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tamari Мальбек Tarapaca",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "2900 ₽",
+      "description": "Аргентина",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 23
+    }
+  },
+  {
+    "id": "90-bar-r034-1",
+    "kind": "menu",
+    "title": "Усадьба Дивноморское Вечерница",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r034-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Усадьба Дивноморское Вечерница",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "3100 ₽",
+      "description": "Россия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 24
+    }
+  },
+  {
+    "id": "90-bar-r035-1",
+    "kind": "menu",
+    "title": "Chianti Alteno",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r035-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Chianti Alteno",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "3700 ₽",
+      "description": "Италия",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 25
+    }
+  },
+  {
+    "id": "90-bar-r036-1",
+    "kind": "menu",
+    "title": "Pinot Noir Bouchard Aine & Fils Grand Conseiller",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r036-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Pinot Noir Bouchard Aine & Fils Grand Conseiller",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "4100 ₽",
+      "description": "Франция",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 26
+    }
+  },
+  {
+    "id": "90-bar-r037-1",
+    "kind": "menu",
+    "title": "Chateau Argadens Rouge, Bordeaux Superieur AOC",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r037-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Chateau Argadens Rouge, Bordeaux Superieur AOC",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "5200 ₽",
+      "description": "Франция",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 27
+    }
+  },
+  {
+    "id": "90-bar-r038-1",
+    "kind": "menu",
+    "title": "Tempranillo El Pillo Roble Felix Solis",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r038-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tempranillo El Pillo Roble Felix Solis",
+      "category": "wine",
+      "subcategory": "По бутылкам · Красное вино",
+      "volume": "750 мл",
+      "price": "4300 ₽",
+      "description": "Испания",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 28
+    }
+  },
+  {
+    "id": "90-bar-r040-1",
+    "kind": "menu",
+    "title": "Vinho Verde Diario Rosado",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r040-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Vinho Verde Diario Rosado",
+      "category": "wine",
+      "subcategory": "По бутылкам · Розовое вино",
+      "volume": "750 мл",
+      "price": "3100 ₽",
+      "description": "Португалия · полусухое",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 29
+    }
+  },
+  {
+    "id": "90-bar-r042-1",
+    "kind": "menu",
+    "title": "Cinzano Bianco",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r042-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cinzano Bianco",
+      "category": "alcohol",
+      "subcategory": "Вермут",
+      "volume": "80 мл",
+      "price": "470 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 30
+    }
+  },
+  {
+    "id": "90-bar-r042-2",
+    "kind": "menu",
+    "title": "Cinzano Rosso",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r042-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cinzano Rosso",
+      "category": "alcohol",
+      "subcategory": "Вермут",
+      "volume": "80 мл",
+      "price": "470 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 31
+    }
+  },
+  {
+    "id": "90-bar-r042-3",
+    "kind": "menu",
+    "title": "Cinzano Extra Dry",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r042-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cinzano Extra Dry",
+      "category": "alcohol",
+      "subcategory": "Вермут",
+      "volume": "80 мл",
+      "price": "470 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 32
+    }
+  },
+  {
+    "id": "90-bar-r043-1",
+    "kind": "menu",
+    "title": "Tete de Cheval Rouge",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r043-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tete de Cheval Rouge",
+      "category": "alcohol",
+      "subcategory": "Вермут",
+      "volume": "80 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 33
+    }
+  },
+  {
+    "id": "90-bar-r045-1",
+    "kind": "menu",
+    "title": "Courvoisier VS",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r045-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Courvoisier VS",
+      "category": "alcohol",
+      "subcategory": "Коньяк",
+      "volume": "40 мл",
+      "price": "820 ₽",
+      "description": "Фруктовый коньяк с нотами яблока, груши и весенних цветов. В послевкусии — свежий дуб.",
+      "taste": "Фрукты · Цветы · Дуб",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/courvoisier-vs.webp",
+      "imageKind": "bottle",
+      "sortOrder": 34
+    }
+  },
+  {
+    "id": "90-bar-r046-1",
+    "kind": "menu",
+    "title": "Courvoisier VSOP",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r046-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Courvoisier VSOP",
+      "category": "alcohol",
+      "subcategory": "Коньяк",
+      "volume": "40 мл",
+      "price": "890 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 35
+    }
+  },
+  {
+    "id": "90-bar-r048-1",
+    "kind": "menu",
+    "title": "Кенигсберг Гранд Резерв 7 лет",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r048-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Кенигсберг Гранд Резерв 7 лет",
+      "category": "alcohol",
+      "subcategory": "Бренди",
+      "volume": "40 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 36
+    }
+  },
+  {
+    "id": "90-bar-r049-1",
+    "kind": "menu",
+    "title": "Torres 5 Solera Reserva",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r049-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Torres 5 Solera Reserva",
+      "category": "alcohol",
+      "subcategory": "Бренди",
+      "volume": "40 мл",
+      "price": "540 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 37
+    }
+  },
+  {
+    "id": "90-bar-r051-1",
+    "kind": "menu",
+    "title": "Архангельская",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r051-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Архангельская",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "250 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 38
+    }
+  },
+  {
+    "id": "90-bar-r052-1",
+    "kind": "menu",
+    "title": "Балчуг 21 век",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r052-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Балчуг 21 век",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 39
+    }
+  },
+  {
+    "id": "90-bar-r053-1",
+    "kind": "menu",
+    "title": "Балчуг Черная смородина",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r053-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Балчуг Черная смородина",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 40
+    }
+  },
+  {
+    "id": "90-bar-r053-2",
+    "kind": "menu",
+    "title": "Балчуг Грейпфрут",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r053-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Балчуг Грейпфрут",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 41
+    }
+  },
+  {
+    "id": "90-bar-r053-3",
+    "kind": "menu",
+    "title": "Балчуг Клюква",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r053-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Балчуг Клюква",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 42
+    }
+  },
+  {
+    "id": "90-bar-r054-1",
+    "kind": "menu",
+    "title": "Finlandia",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r054-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Finlandia",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "600 ₽",
+      "description": "Финская водка из местного ячменя и родниковой воды.",
+      "taste": "Мягкий · Лёгкий",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/15-rvb-autumn26-53-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 43
+    }
+  },
+  {
+    "id": "90-bar-r055-1",
+    "kind": "menu",
+    "title": "Beluga Noble",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r055-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Beluga Noble",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "550 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 44
+    }
+  },
+  {
+    "id": "90-bar-r056-1",
+    "kind": "menu",
+    "title": "Beluga Transatlantic",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r056-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Beluga Transatlantic",
+      "category": "alcohol",
+      "subcategory": "Водка",
+      "volume": "40 мл",
+      "price": "600 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 45
+    }
+  },
+  {
+    "id": "90-bar-r058-1",
+    "kind": "menu",
+    "title": "3 Fusiles Silver",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r058-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "3 Fusiles Silver",
+      "category": "alcohol",
+      "subcategory": "Текила",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 46
+    }
+  },
+  {
+    "id": "90-bar-r059-1",
+    "kind": "menu",
+    "title": "Jose Cuervo Especial Silver",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r059-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Jose Cuervo Especial Silver",
+      "category": "alcohol",
+      "subcategory": "Текила",
+      "volume": "40 мл",
+      "price": "500 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 47
+    }
+  },
+  {
+    "id": "90-bar-r059-2",
+    "kind": "menu",
+    "title": "Jose Cuervo Especial Gold",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r059-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Jose Cuervo Especial Gold",
+      "category": "alcohol",
+      "subcategory": "Текила",
+      "volume": "40 мл",
+      "price": "500 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 48
+    }
+  },
+  {
+    "id": "90-bar-r060-1",
+    "kind": "menu",
+    "title": "Agavita Blanco",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r060-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Agavita Blanco",
+      "category": "alcohol",
+      "subcategory": "Текила",
+      "volume": "40 мл",
+      "price": "600 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 49
+    }
+  },
+  {
+    "id": "90-bar-r061-1",
+    "kind": "menu",
+    "title": "Espolon Blanco",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r061-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Espolon Blanco",
+      "category": "alcohol",
+      "subcategory": "Текила",
+      "volume": "40 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "100% агава",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 50
+    }
+  },
+  {
+    "id": "90-bar-r062-1",
+    "kind": "menu",
+    "title": "Espolon Reposado",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r062-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Espolon Reposado",
+      "category": "alcohol",
+      "subcategory": "Текила",
+      "volume": "40 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "100% агава",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 51
+    }
+  },
+  {
+    "id": "90-bar-r064-1",
+    "kind": "menu",
+    "title": "Green Baboon",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r064-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Green Baboon",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "340 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 52
+    }
+  },
+  {
+    "id": "90-bar-r065-1",
+    "kind": "menu",
+    "title": "Джинстер Пломбир",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r065-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Джинстер Пломбир",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 53
+    }
+  },
+  {
+    "id": "90-bar-r065-2",
+    "kind": "menu",
+    "title": "Джинстер Кола",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r065-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Джинстер Кола",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 54
+    }
+  },
+  {
+    "id": "90-bar-r065-3",
+    "kind": "menu",
+    "title": "Джинстер Мандарин",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r065-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Джинстер Мандарин",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 55
+    }
+  },
+  {
+    "id": "90-bar-r065-4",
+    "kind": "menu",
+    "title": "Джинстер Ягодный",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r065-4",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Джинстер Ягодный",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 56
+    }
+  },
+  {
+    "id": "90-bar-r066-1",
+    "kind": "menu",
+    "title": "Gordon's",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r066-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Gordon's",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "490 ₽",
+      "description": "Джин с характерной можжевеловой основой. Классический ориентир для знакомства с категорией.",
+      "taste": "Можжевельник",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/26-rvb-autumn26-65-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 57
+    }
+  },
+  {
+    "id": "90-bar-r067-1",
+    "kind": "menu",
+    "title": "Tanqueray London Dry",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r067-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tanqueray London Dry",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "590 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 58
+    }
+  },
+  {
+    "id": "90-bar-r068-1",
+    "kind": "menu",
+    "title": "Bickens London Dry Gin",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r068-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Bickens London Dry Gin",
+      "category": "alcohol",
+      "subcategory": "Джин",
+      "volume": "40 мл",
+      "price": "640 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 59
+    }
+  },
+  {
+    "id": "90-bar-r070-1",
+    "kind": "menu",
+    "title": "Black Pearl White",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r070-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Black Pearl White",
+      "category": "alcohol",
+      "subcategory": "Ром",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 60
+    }
+  },
+  {
+    "id": "90-bar-r071-1",
+    "kind": "menu",
+    "title": "Black Pearl Gold",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r071-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Black Pearl Gold",
+      "category": "alcohol",
+      "subcategory": "Ром",
+      "volume": "40 мл",
+      "price": "410 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 61
+    }
+  },
+  {
+    "id": "90-bar-r071-2",
+    "kind": "menu",
+    "title": "Black Pearl Dark",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r071-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Black Pearl Dark",
+      "category": "alcohol",
+      "subcategory": "Ром",
+      "volume": "40 мл",
+      "price": "410 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 62
+    }
+  },
+  {
+    "id": "90-bar-r072-1",
+    "kind": "menu",
+    "title": "Barcelo Anejo",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r072-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Barcelo Anejo",
+      "category": "alcohol",
+      "subcategory": "Ром",
+      "volume": "40 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 63
+    }
+  },
+  {
+    "id": "90-bar-r073-1",
+    "kind": "menu",
+    "title": "Diplomatico Reserva Exclusiva",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r073-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Diplomatico Reserva Exclusiva",
+      "category": "alcohol",
+      "subcategory": "Ром",
+      "volume": "40 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 64
+    }
+  },
+  {
+    "id": "90-bar-r074-1",
+    "kind": "menu",
+    "title": "Zacapa 23",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r074-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Zacapa 23",
+      "category": "alcohol",
+      "subcategory": "Ром",
+      "volume": "40 мл",
+      "price": "1090 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 65
+    }
+  },
+  {
+    "id": "90-bar-r076-1",
+    "kind": "menu",
+    "title": "Aberfort Blended",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r076-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Aberfort Blended",
+      "category": "alcohol",
+      "subcategory": "Шотландский купажированный виски",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 66
+    }
+  },
+  {
+    "id": "90-bar-r077-1",
+    "kind": "menu",
+    "title": "Ballantine`s Finest",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r077-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Ballantine`s Finest",
+      "category": "alcohol",
+      "subcategory": "Шотландский купажированный виски",
+      "volume": "40 мл",
+      "price": "540 ₽",
+      "description": "Купажированный шотландский виски с медовым ароматом и лёгкими пряными оттенками.",
+      "taste": "Мёд · Пряности",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/34-rvb-autumn26-75-1.png",
+      "imageKind": "bottle",
+      "sortOrder": 67
+    }
+  },
+  {
+    "id": "90-bar-r078-1",
+    "kind": "menu",
+    "title": "Johnnie Walker Red Label",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r078-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Johnnie Walker Red Label",
+      "category": "alcohol",
+      "subcategory": "Шотландский купажированный виски",
+      "volume": "40 мл",
+      "price": "540 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 68
+    }
+  },
+  {
+    "id": "90-bar-r079-1",
+    "kind": "menu",
+    "title": "Johnnie Walker Black Label 12 YO",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r079-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Johnnie Walker Black Label 12 YO",
+      "category": "alcohol",
+      "subcategory": "Шотландский купажированный виски",
+      "volume": "40 мл",
+      "price": "740 ₽",
+      "description": "Купажированный шотландский виски: сладкие оттенки сочетаются с мягким дымным характером.",
+      "taste": "Сладость · Дым",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/35-rvb-autumn26-76-1.png",
+      "imageKind": "bottle",
+      "sortOrder": 69
+    }
+  },
+  {
+    "id": "90-bar-r080-1",
+    "kind": "menu",
+    "title": "Chivas Regal 12 YO",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r080-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Chivas Regal 12 YO",
+      "category": "alcohol",
+      "subcategory": "Шотландский купажированный виски",
+      "volume": "40 мл",
+      "price": "740 ₽",
+      "description": "Купажированный шотландский виски с садовыми фруктами, вереском и медовыми нотами.",
+      "taste": "Фрукты · Мёд · Вереск",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/36-rvb-autumn26-77-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 70
+    }
+  },
+  {
+    "id": "90-bar-r081-1",
+    "kind": "menu",
+    "title": "Monkey Shoulder",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r081-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Monkey Shoulder",
+      "category": "alcohol",
+      "subcategory": "Шотландский купажированный виски",
+      "volume": "40 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 71
+    }
+  },
+  {
+    "id": "90-bar-r083-1",
+    "kind": "menu",
+    "title": "Jim Beam",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r083-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Jim Beam",
+      "category": "alcohol",
+      "subcategory": "Бурбон",
+      "volume": "40 мл",
+      "price": "540 ₽",
+      "description": "Американский бурбон с выдержкой в новых обожжённых бочках из белого дуба.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/38-rvb-autumn26-80-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 72
+    }
+  },
+  {
+    "id": "90-bar-r084-1",
+    "kind": "menu",
+    "title": "Jack Daniel`s Old №7",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r084-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Jack Daniel`s Old №7",
+      "category": "alcohol",
+      "subcategory": "Бурбон",
+      "volume": "40 мл",
+      "price": "650 ₽",
+      "description": "Американский Tennessee whiskey с угольным смягчением перед выдержкой.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/39-rvb-autumn26-81-1.png",
+      "imageKind": "bottle",
+      "sortOrder": 73
+    }
+  },
+  {
+    "id": "90-bar-r086-1",
+    "kind": "menu",
+    "title": "Bushmills Original",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r086-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Bushmills Original",
+      "category": "alcohol",
+      "subcategory": "Ирландский виски",
+      "volume": "40 мл",
+      "price": "570 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 74
+    }
+  },
+  {
+    "id": "90-bar-r087-1",
+    "kind": "menu",
+    "title": "Jameson",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r087-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Jameson",
+      "category": "alcohol",
+      "subcategory": "Ирландский виски",
+      "volume": "40 мл",
+      "price": "590 ₽",
+      "description": "Ирландский купажированный виски тройной дистилляции.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/41-rvb-autumn26-84-1.png",
+      "imageKind": "bottle",
+      "sortOrder": 75
+    }
+  },
+  {
+    "id": "90-bar-r088-1",
+    "kind": "menu",
+    "title": "Tullamore Dew",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r088-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Tullamore Dew",
+      "category": "alcohol",
+      "subcategory": "Ирландский виски",
+      "volume": "40 мл",
+      "price": "790 ₽",
+      "description": "Ирландский купажированный виски с мягкими сладкими, фруктовыми и пряными оттенками.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/40-tullamore-confirmed.png",
+      "imageKind": "bottle",
+      "sortOrder": 76
+    }
+  },
+  {
+    "id": "90-bar-r090-1",
+    "kind": "menu",
+    "title": "Singleton 12 YO",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r090-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Singleton 12 YO",
+      "category": "alcohol",
+      "subcategory": "Односолодовый виски",
+      "volume": "40 мл",
+      "price": "990 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 77
+    }
+  },
+  {
+    "id": "90-bar-r091-1",
+    "kind": "menu",
+    "title": "Macallan Double Cask 12 YO",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r091-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Macallan Double Cask 12 YO",
+      "category": "alcohol",
+      "subcategory": "Односолодовый виски",
+      "volume": "40 мл",
+      "price": "1590 ₽",
+      "description": "Односолодовый виски, выдержанный в бочках из американского и европейского дуба, подготовленных хересом.",
+      "taste": "Дуб · Хересные бочки",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/45-rvb-autumn26-89-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 78
+    }
+  },
+  {
+    "id": "90-bar-r092-1",
+    "kind": "menu",
+    "title": "Lagavulin 16 YO",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r092-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Lagavulin 16 YO",
+      "category": "alcohol",
+      "subcategory": "Односолодовый виски",
+      "volume": "40 мл",
+      "price": "2290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 79
+    }
+  },
+  {
+    "id": "90-bar-r094-1",
+    "kind": "menu",
+    "title": "Aperol",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r094-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Aperol",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "440 ₽",
+      "description": "Итальянский аперитив с оранжевым цветом и горько-сладким вкусом.",
+      "taste": "Горько-сладкий",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/47-rvb-autumn26-92-1.png",
+      "imageKind": "bottle",
+      "sortOrder": 80
+    }
+  },
+  {
+    "id": "90-bar-r095-1",
+    "kind": "menu",
+    "title": "Campari",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r095-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Campari",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "440 ₽",
+      "description": "Итальянский красный биттер с интенсивным многослойным горьким вкусом.",
+      "taste": "Горечь",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/46-rvb-autumn26-91-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 81
+    }
+  },
+  {
+    "id": "90-bar-r096-1",
+    "kind": "menu",
+    "title": "Sarti Rosa",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r096-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Sarti Rosa",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "440 ₽",
+      "description": "Фруктовый аперитив с оттенками красного апельсина, манго и маракуйи.",
+      "taste": "Апельсин · Манго · Маракуйя",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/48-rvb-autumn26-93-1.png",
+      "imageKind": "bottle",
+      "sortOrder": 82
+    }
+  },
+  {
+    "id": "90-bar-r097-1",
+    "kind": "menu",
+    "title": "Hunting Herbal Bitter",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r097-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Hunting Herbal Bitter",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "340 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 83
+    }
+  },
+  {
+    "id": "90-bar-r098-1",
+    "kind": "menu",
+    "title": "Sambuca made in Italy",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r098-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Sambuca made in Italy",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 84
+    }
+  },
+  {
+    "id": "90-bar-r099-1",
+    "kind": "menu",
+    "title": "Absinthe",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r099-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Absinthe",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 85
+    }
+  },
+  {
+    "id": "90-bar-r100-1",
+    "kind": "menu",
+    "title": "Baileys",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r100-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Baileys",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "440 ₽",
+      "description": "Сливочный ликёр с ирландским виски, молочными сливками и шоколадно-ванильными оттенками.",
+      "taste": "Сливки · Шоколад · Ваниль",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/49-rvb-autumn26-94-1.jpg",
+      "imageKind": "bottle",
+      "sortOrder": 86
+    }
+  },
+  {
+    "id": "90-bar-r101-1",
+    "kind": "menu",
+    "title": "Jagermeister",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r101-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Jagermeister",
+      "category": "alcohol",
+      "subcategory": "Ликёры и биттеры",
+      "volume": "40 мл",
+      "price": "490 ₽",
+      "description": "Немецкий травяной ликёр со сложным пряным характером.",
+      "taste": "Травы · Пряности",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "assets/rvb-menu/alcohol/50-rvb-autumn26-95-1.webp",
+      "imageKind": "bottle",
+      "sortOrder": 87
+    }
+  },
+  {
+    "id": "90-bar-r103-1",
+    "kind": "menu",
+    "title": "Vodka Red Bull Bottle Service",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r103-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Vodka Red Bull Bottle Service",
+      "category": "sets",
+      "subcategory": "Сеты для вечеринки",
+      "volume": "",
+      "price": "5000 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "1*0",
+          "amount": ""
+        },
+        {
+          "name": "5 водка Балчуг 21 век",
+          "amount": ""
+        },
+        {
+          "name": "6*Red Bull",
+          "amount": ""
+        }
+      ],
+      "composition": "1*0, 5 водка Балчуг 21 век, 6*Red Bull",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 88
+    }
+  },
+  {
+    "id": "90-bar-r104-1",
+    "kind": "menu",
+    "title": "Whiskey Cola Bottle Service",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r104-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Whiskey Cola Bottle Service",
+      "category": "sets",
+      "subcategory": "Сеты для вечеринки",
+      "volume": "",
+      "price": "5900 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "1*0",
+          "amount": ""
+        },
+        {
+          "name": "5 виски Aberfort Blended",
+          "amount": ""
+        },
+        {
+          "name": "5*0",
+          "amount": ""
+        },
+        {
+          "name": "25 Evervess Cola",
+          "amount": ""
+        }
+      ],
+      "composition": "1*0, 5 виски Aberfort Blended, 5*0, 25 Evervess Cola",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 89
+    }
+  },
+  {
+    "id": "90-bar-r106-1",
+    "kind": "menu",
+    "title": "Хреновуха",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r106-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Хреновуха",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 90
+    }
+  },
+  {
+    "id": "90-bar-r106-2",
+    "kind": "menu",
+    "title": "Лимончелло",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r106-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Лимончелло",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 91
+    }
+  },
+  {
+    "id": "90-bar-r106-3",
+    "kind": "menu",
+    "title": "Малина & Чили",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r106-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Малина & Чили",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 92
+    }
+  },
+  {
+    "id": "90-bar-r106-4",
+    "kind": "menu",
+    "title": "Черноплодка & Яблоко",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r106-4",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Черноплодка & Яблоко",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 93
+    }
+  },
+  {
+    "id": "90-bar-r106-5",
+    "kind": "menu",
+    "title": "Брусника & Грейпберри",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r106-5",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Брусника & Грейпберри",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 94
+    }
+  },
+  {
+    "id": "90-bar-r107-1",
+    "kind": "menu",
+    "title": "Сливовая Пряная",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r107-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Сливовая Пряная",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "340 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 95
+    }
+  },
+  {
+    "id": "90-bar-r107-2",
+    "kind": "menu",
+    "title": "Ежевика & Можжевельник",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r107-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Ежевика & Можжевельник",
+      "category": "tinctures",
+      "subcategory": "Домашние настойки",
+      "volume": "40 мл",
+      "price": "340 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 96
+    }
+  },
+  {
+    "id": "90-bar-r108-1",
+    "kind": "menu",
+    "title": "Чисто символически",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r108-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чисто символически",
+      "category": "sets",
+      "subcategory": "Сеты настоек",
+      "volume": "6х40 мл",
+      "price": "1690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 97
+    }
+  },
+  {
+    "id": "90-bar-r109-1",
+    "kind": "menu",
+    "title": "Свежее дыхание",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r109-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Свежее дыхание",
+      "category": "sets",
+      "subcategory": "Сеты настоек",
+      "volume": "5х100 мл",
+      "price": "3600 ₽",
+      "description": "Пять вкусов настоек, специальная подача.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r109-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 98
+    }
+  },
+  {
+    "id": "90-bar-r111-1",
+    "kind": "menu",
+    "title": "Hoegaarden",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r111-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Hoegaarden",
+      "category": "alcohol",
+      "subcategory": "Пиво",
+      "volume": "440 мл",
+      "price": "520 ₽",
+      "description": "нефильтрованное",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 99
+    }
+  },
+  {
+    "id": "90-bar-r112-1",
+    "kind": "menu",
+    "title": "Hoegaarden Cherry",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r112-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Hoegaarden Cherry",
+      "category": "alcohol",
+      "subcategory": "Пиво",
+      "volume": "440 мл",
+      "price": "520 ₽",
+      "description": "вишневое нефильтрованное",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 100
+    }
+  },
+  {
+    "id": "90-bar-r113-1",
+    "kind": "menu",
+    "title": "Spaten",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r113-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Spaten",
+      "category": "alcohol",
+      "subcategory": "Пиво",
+      "volume": "450 мл",
+      "price": "550 ₽",
+      "description": "светлое",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 101
+    }
+  },
+  {
+    "id": "90-bar-r114-1",
+    "kind": "menu",
+    "title": "ABBE Brune",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r114-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "ABBE Brune",
+      "category": "alcohol",
+      "subcategory": "Пиво",
+      "volume": "330 мл",
+      "price": "430 ₽",
+      "description": "темное",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 102
+    }
+  },
+  {
+    "id": "90-bar-r115-1",
+    "kind": "menu",
+    "title": "Estrella 0,0%",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r115-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Estrella 0,0%",
+      "category": "alcohol",
+      "subcategory": "Пиво",
+      "volume": "330 мл",
+      "price": "590 ₽",
+      "description": "безалкогольное",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 103
+    }
+  },
+  {
+    "id": "90-bar-r116-1",
+    "kind": "menu",
+    "title": "Corona Extra",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r116-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Corona Extra",
+      "category": "alcohol",
+      "subcategory": "Пиво",
+      "volume": "355 мл",
+      "price": "690 ₽",
+      "description": "светлое",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 104
+    }
+  },
+  {
+    "id": "90-bar-r119-1",
+    "kind": "menu",
+    "title": "Секс в Большом Городе",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r119-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Секс в Большом Городе",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "380 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "игристое вино, водка Архангельская, пюре маракуйи, белок, ванильный сироп, сок лайма",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "пюре маракуйи",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "ванильный сироп",
+          "amount": ""
+        },
+        {
+          "name": "сок лайма",
+          "amount": ""
+        }
+      ],
+      "composition": "игристое вино, водка Архангельская, пюре маракуйи, белок, ванильный сироп, сок лайма",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r119-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 105
+    }
+  },
+  {
+    "id": "90-bar-r120-1",
+    "kind": "menu",
+    "title": "Укрощение Строптивой",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r120-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Укрощение Строптивой",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "350 мл",
+      "price": "540 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "клубничное пюре, игристое вино",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "клубничное пюре",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        }
+      ],
+      "composition": "клубничное пюре, игристое вино",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r120-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 106
+    }
+  },
+  {
+    "id": "90-bar-r121-1",
+    "kind": "menu",
+    "title": "Любит Не Любит",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r121-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Любит Не Любит",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "340 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Водка Архангельская, кордиал Помело Ромашка, игристое вино",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "кордиал Помело Ромашка",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        }
+      ],
+      "composition": "Водка Архангельская, кордиал Помело Ромашка, игристое вино",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r121-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 107
+    }
+  },
+  {
+    "id": "90-bar-r122-1",
+    "kind": "menu",
+    "title": "Розовый Фламинго",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r122-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Розовый Фламинго",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "340 мл",
+      "price": "620 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "биттер малиновый, джин Green Baboon, сок грейпфрута, сок лимона, сахарный сироп, белок, маршмелоу",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "биттер малиновый",
+          "amount": ""
+        },
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "сок грейпфрута",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "маршмелоу",
+          "amount": ""
+        }
+      ],
+      "composition": "биттер малиновый, джин Green Baboon, сок грейпфрута, сок лимона, сахарный сироп, белок, маршмелоу",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r122-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 108
+    }
+  },
+  {
+    "id": "90-bar-r123-1",
+    "kind": "menu",
+    "title": "Ничего Личного Только Бизнес",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r123-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Ничего Личного Только Бизнес",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "340 мл",
+      "price": "890 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "кальвадос, кордиал Груша Дуб, сок лимона и сахар",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "кальвадос",
+          "amount": ""
+        },
+        {
+          "name": "кордиал Груша Дуб",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона и сахар",
+          "amount": ""
+        }
+      ],
+      "composition": "кальвадос, кордиал Груша Дуб, сок лимона и сахар",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r123-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 109
+    }
+  },
+  {
+    "id": "90-bar-r125-1",
+    "kind": "menu",
+    "title": "Ограбление по Итальянски",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r125-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Ограбление по Итальянски",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "250 мл",
+      "price": "640 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Биттер, джин Green Baboon, вермут россо, кордиал голубика и дягиль",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Биттер",
+          "amount": ""
+        },
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "вермут россо",
+          "amount": ""
+        },
+        {
+          "name": "кордиал голубика и дягиль",
+          "amount": ""
+        }
+      ],
+      "composition": "Биттер, джин Green Baboon, вермут россо, кордиал голубика и дягиль",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r125-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 110
+    }
+  },
+  {
+    "id": "90-bar-r126-1",
+    "kind": "menu",
+    "title": "Богатые Тоже Платят",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r126-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Богатые Тоже Платят",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "400 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "текила 3 Fusiles Silver, грейпфрутовый кордиал, сок лимона, перец розовый, содовая",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "текила 3 Fusiles Silver",
+          "amount": ""
+        },
+        {
+          "name": "грейпфрутовый кордиал",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "перец розовый",
+          "amount": ""
+        },
+        {
+          "name": "содовая",
+          "amount": ""
+        }
+      ],
+      "composition": "текила 3 Fusiles Silver, грейпфрутовый кордиал, сок лимона, перец розовый, содовая",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r126-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 111
+    }
+  },
+  {
+    "id": "90-bar-r127-1",
+    "kind": "menu",
+    "title": "Невозможное Возможно",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r127-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Невозможное Возможно",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "400 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "настойка Ежевика & Можжевельник, ананасовый сок, сироп клубники и бабл гам, сок лимона",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "настойка Ежевика & Можжевельник",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "сироп клубники и бабл гам",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "настойка Ежевика & Можжевельник, ананасовый сок, сироп клубники и бабл гам, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r127-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 112
+    }
+  },
+  {
+    "id": "90-bar-r128-1",
+    "kind": "menu",
+    "title": "Ни Фейхоя Себе",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r128-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Ни Фейхоя Себе",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "340 мл",
+      "price": "670 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, вермут Cinzano Extra Dry, кордиал фейхоа, сироп киви, яблочный и лимонный сок",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "вермут Cinzano Extra Dry",
+          "amount": ""
+        },
+        {
+          "name": "кордиал фейхоа",
+          "amount": ""
+        },
+        {
+          "name": "сироп киви",
+          "amount": ""
+        },
+        {
+          "name": "яблочный и лимонный сок",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, вермут Cinzano Extra Dry, кордиал фейхоа, сироп киви, яблочный и лимонный сок",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r128-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 113
+    }
+  },
+  {
+    "id": "90-bar-r129-1",
+    "kind": "menu",
+    "title": "Мальчик Хочет в Тайланд",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r129-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Мальчик Хочет в Тайланд",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "400 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, ликер апельсиновый, биттер, апельсиновый и ананасовый сок",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "ликер апельсиновый",
+          "amount": ""
+        },
+        {
+          "name": "биттер",
+          "amount": ""
+        },
+        {
+          "name": "апельсиновый и ананасовый сок",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, ликер апельсиновый, биттер, апельсиновый и ананасовый сок",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r129-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 114
+    }
+  },
+  {
+    "id": "90-bar-r131-1",
+    "kind": "menu",
+    "title": "Младший Лейтенант",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r131-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Младший Лейтенант",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "400 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl Gold, абсент, ликер адвокат, клубничный сироп, ананасовый сок, ананас",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl Gold",
+          "amount": ""
+        },
+        {
+          "name": "абсент",
+          "amount": ""
+        },
+        {
+          "name": "ликер адвокат",
+          "amount": ""
+        },
+        {
+          "name": "клубничный сироп",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "ананас",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl Gold, абсент, ликер адвокат, клубничный сироп, ананасовый сок, ананас",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r131-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 115
+    }
+  },
+  {
+    "id": "90-bar-r132-1",
+    "kind": "menu",
+    "title": "Маша и Медведи",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r132-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Маша и Медведи",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "380 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "игристое вино, ром Black Pearl White, кордиал малина и шишки, еловая шишка",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "кордиал малина и шишки",
+          "amount": ""
+        },
+        {
+          "name": "еловая шишка",
+          "amount": ""
+        }
+      ],
+      "composition": "игристое вино, ром Black Pearl White, кордиал малина и шишки, еловая шишка",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r132-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 116
+    }
+  },
+  {
+    "id": "90-bar-r133-1",
+    "kind": "menu",
+    "title": "Я не Гейша Я Только Учусь",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r133-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Я не Гейша Я Только Учусь",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "140 мл",
+      "price": "640 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Джин Green Baboon, кордиал Сакура Фудзи, сок лимона",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "кордиал Сакура Фудзи",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "Джин Green Baboon, кордиал Сакура Фудзи, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r133-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 117
+    }
+  },
+  {
+    "id": "90-bar-r134-1",
+    "kind": "menu",
+    "title": "Love is …",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r134-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Love is …",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "270 мл",
+      "price": "540 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, ликер дынный, сироп маракуйя, ананасовый сок",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "ликер дынный",
+          "amount": ""
+        },
+        {
+          "name": "сироп маракуйя",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, ликер дынный, сироп маракуйя, ананасовый сок",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r134-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 118
+    }
+  },
+  {
+    "id": "90-bar-r135-1",
+    "kind": "menu",
+    "title": "Ксюша из Плюша",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r135-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Ксюша из Плюша",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "400 мл",
+      "price": "750 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl White, ликер Blue Curacao, дынный сироп, сок лимона, яблочный сок, мармелад",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "ликер Blue Curacao",
+          "amount": ""
+        },
+        {
+          "name": "дынный сироп",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "яблочный сок",
+          "amount": ""
+        },
+        {
+          "name": "мармелад",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl White, ликер Blue Curacao, дынный сироп, сок лимона, яблочный сок, мармелад",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r135-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 119
+    }
+  },
+  {
+    "id": "90-bar-r137-1",
+    "kind": "menu",
+    "title": "Гангстерито",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r137-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Гангстерито",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "250 мл",
+      "price": "890 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Ром Black Pearl Dark, кордиал Мате Виноград, биттер Ангостура, вино Мальбек, сахар",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Ром Black Pearl Dark",
+          "amount": ""
+        },
+        {
+          "name": "кордиал Мате Виноград",
+          "amount": ""
+        },
+        {
+          "name": "биттер Ангостура",
+          "amount": ""
+        },
+        {
+          "name": "вино Мальбек",
+          "amount": ""
+        },
+        {
+          "name": "сахар",
+          "amount": ""
+        }
+      ],
+      "composition": "Ром Black Pearl Dark, кордиал Мате Виноград, биттер Ангостура, вино Мальбек, сахар",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r137-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 120
+    }
+  },
+  {
+    "id": "90-bar-r138-1",
+    "kind": "menu",
+    "title": "Moscow Never Sleep",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r138-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Moscow Never Sleep",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "330 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, водка Архангельская, текила 3 Fusiles Silver, ром Black Pearl White, ликер Triple Sec, клюквенный кордиал, морс",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "текила 3 Fusiles Silver",
+          "amount": ""
+        },
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "клюквенный кордиал",
+          "amount": ""
+        },
+        {
+          "name": "морс",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, водка Архангельская, текила 3 Fusiles Silver, ром Black Pearl White, ликер Triple Sec, клюквенный кордиал, морс",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r138-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 121
+    }
+  },
+  {
+    "id": "90-bar-r139-1",
+    "kind": "menu",
+    "title": "Настоящий Полковник",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r139-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Настоящий Полковник",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "450 мл",
+      "price": "890 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl Gold, ром Black Pearl Dark, абсент, грейпфрутовый сок, пюре лайма, сироп корицы",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl Gold",
+          "amount": ""
+        },
+        {
+          "name": "ром Black Pearl Dark",
+          "amount": ""
+        },
+        {
+          "name": "абсент",
+          "amount": ""
+        },
+        {
+          "name": "грейпфрутовый сок",
+          "amount": ""
+        },
+        {
+          "name": "пюре лайма",
+          "amount": ""
+        },
+        {
+          "name": "сироп корицы",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl Gold, ром Black Pearl Dark, абсент, грейпфрутовый сок, пюре лайма, сироп корицы",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r139-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 122
+    }
+  },
+  {
+    "id": "90-bar-r140-1",
+    "kind": "menu",
+    "title": "Слово Пацана",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r140-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Слово Пацана",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "330 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "абсент, водка Архангельская, фреш лайма, сиропы жасмин и мята",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "абсент",
+          "amount": ""
+        },
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "фреш лайма",
+          "amount": ""
+        },
+        {
+          "name": "сиропы жасмин и мята",
+          "amount": ""
+        }
+      ],
+      "composition": "абсент, водка Архангельская, фреш лайма, сиропы жасмин и мята",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r140-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 123
+    }
+  },
+  {
+    "id": "90-bar-r141-1",
+    "kind": "menu",
+    "title": "Галлюцинации Фрекен Бок",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r141-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Галлюцинации Фрекен Бок",
+      "category": "cocktails",
+      "subcategory": "Авторские",
+      "volume": "400 мл",
+      "price": "890 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "абсент, ром Black Pearl White, самбука, сок лимона, сахарный сироп, энергетик, лайм",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "абсент",
+          "amount": ""
+        },
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "самбука",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "энергетик",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "composition": "абсент, ром Black Pearl White, самбука, сок лимона, сахарный сироп, энергетик, лайм",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r141-1.png",
+      "imageKind": "cocktail",
+      "sortOrder": 124
+    }
+  },
+  {
+    "id": "90-bar-r143-1",
+    "kind": "menu",
+    "title": "Aperol Spritz",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r143-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Aperol Spritz",
+      "category": "cocktails",
+      "subcategory": "Campari",
+      "volume": "350 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Aperol, игристое вино, Evervess Indian Tonic",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Aperol",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Indian Tonic",
+          "amount": ""
+        }
+      ],
+      "composition": "Aperol, игристое вино, Evervess Indian Tonic",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 125
+    }
+  },
+  {
+    "id": "90-bar-r144-1",
+    "kind": "menu",
+    "title": "Campari Spritz",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r144-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Campari Spritz",
+      "category": "cocktails",
+      "subcategory": "Campari",
+      "volume": "350 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Campari, игристое вино, Aqua Minerale",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Campari",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "Aqua Minerale",
+          "amount": ""
+        }
+      ],
+      "composition": "Campari, игристое вино, Aqua Minerale",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 126
+    }
+  },
+  {
+    "id": "90-bar-r145-1",
+    "kind": "menu",
+    "title": "Sarti Spritz",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r145-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Sarti Spritz",
+      "category": "cocktails",
+      "subcategory": "Campari",
+      "volume": "350 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Sarti Rosa, игристое вино, Aqua Minerale",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Sarti Rosa",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "Aqua Minerale",
+          "amount": ""
+        }
+      ],
+      "composition": "Sarti Rosa, игристое вино, Aqua Minerale",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 127
+    }
+  },
+  {
+    "id": "90-bar-r146-1",
+    "kind": "menu",
+    "title": "Negroni",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r146-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Negroni",
+      "category": "cocktails",
+      "subcategory": "Campari",
+      "volume": "300 мл",
+      "price": "740 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Cinzano Rosso, Campari, джин Green Baboon, апельсин",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Cinzano Rosso",
+          "amount": ""
+        },
+        {
+          "name": "Campari",
+          "amount": ""
+        },
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "composition": "Cinzano Rosso, Campari, джин Green Baboon, апельсин",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 128
+    }
+  },
+  {
+    "id": "90-bar-r148-1",
+    "kind": "menu",
+    "title": "Cosmopolitan",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r148-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cosmopolitan",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "130 мл",
+      "price": "500 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "водка Архангельская, ликер Triple Sec, клюквенный кордиал, сок лимона",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "клюквенный кордиал",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "водка Архангельская, ликер Triple Sec, клюквенный кордиал, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 129
+    }
+  },
+  {
+    "id": "90-bar-r149-1",
+    "kind": "menu",
+    "title": "Margarita",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r149-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Margarita",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "130 мл",
+      "price": "650 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "текила 3 Fusiles Silver, ликер Triple Sec, сок лимона, лайм",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "текила 3 Fusiles Silver",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "composition": "текила 3 Fusiles Silver, ликер Triple Sec, сок лимона, лайм",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 130
+    }
+  },
+  {
+    "id": "90-bar-r150-1",
+    "kind": "menu",
+    "title": "Daiquiri",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r150-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Daiquiri",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "130 мл",
+      "price": "620 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Barcelo Anejo, сахарный сироп, пюре лайма, лайм",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Barcelo Anejo",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "пюре лайма",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Barcelo Anejo, сахарный сироп, пюре лайма, лайм",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 131
+    }
+  },
+  {
+    "id": "90-bar-r151-1",
+    "kind": "menu",
+    "title": "French 75",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r151-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "French 75",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "350 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, игристое вино, сироп из сахарного тростника, сок лимона",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "сироп из сахарного тростника",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, игристое вино, сироп из сахарного тростника, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 132
+    }
+  },
+  {
+    "id": "90-bar-r152-1",
+    "kind": "menu",
+    "title": "Bloody Mary",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r152-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Bloody Mary",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "400 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "настойка хреновуха, томатный сок, сок лимона, лайма и сельдерея, лимон, сельдерей, специи",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "настойка хреновуха",
+          "amount": ""
+        },
+        {
+          "name": "томатный сок",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "лайма и сельдерея",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "сельдерей",
+          "amount": ""
+        },
+        {
+          "name": "специи",
+          "amount": ""
+        }
+      ],
+      "composition": "настойка хреновуха, томатный сок, сок лимона, лайма и сельдерея, лимон, сельдерей, специи",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 133
+    }
+  },
+  {
+    "id": "90-bar-r153-1",
+    "kind": "menu",
+    "title": "Mojito",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r153-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Mojito",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "400 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl White, Aqua Minerale, сахарный сироп, мята, лайм",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "Aqua Minerale",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "мята",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl White, Aqua Minerale, сахарный сироп, мята, лайм",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 134
+    }
+  },
+  {
+    "id": "90-bar-r154-1",
+    "kind": "menu",
+    "title": "Blue Lagoon",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r154-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Blue Lagoon",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "400 мл",
+      "price": "640 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "водка Архангельская, ликер Blue Curacao, Evervess Lemon&Lime, сок лимона, сахарный сироп, ананас",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "ликер Blue Curacao",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Lemon&Lime",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "ананас",
+          "amount": ""
+        }
+      ],
+      "composition": "водка Архангельская, ликер Blue Curacao, Evervess Lemon&Lime, сок лимона, сахарный сироп, ананас",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 135
+    }
+  },
+  {
+    "id": "90-bar-r155-1",
+    "kind": "menu",
+    "title": "Pina Colada",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r155-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Pina Colada",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "350 мл",
+      "price": "890 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl White, ананасовый сок, кокосовый сироп, сливки, коктейльная вишня",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "кокосовый сироп",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        },
+        {
+          "name": "коктейльная вишня",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl White, ананасовый сок, кокосовый сироп, сливки, коктейльная вишня",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 136
+    }
+  },
+  {
+    "id": "90-bar-r156-1",
+    "kind": "menu",
+    "title": "Sex on the Beach",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r156-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Sex on the Beach",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "270 мл",
+      "price": "590 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "водка Архангельская, ликер Peach, ананасовый сок, морс, апельсин",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "ликер Peach",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "морс",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "composition": "водка Архангельская, ликер Peach, ананасовый сок, морс, апельсин",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 137
+    }
+  },
+  {
+    "id": "90-bar-r157-1",
+    "kind": "menu",
+    "title": "Long Island",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r157-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Long Island",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "400 мл",
+      "price": "840 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, водка Архангельская, текила 3 Fusiles Silver, ром Black Pearl White, ликер Triple Sec, сок лимона, сахарный сироп, Evervess Cola",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "текила 3 Fusiles Silver",
+          "amount": ""
+        },
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Cola",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, водка Архангельская, текила 3 Fusiles Silver, ром Black Pearl White, ликер Triple Sec, сок лимона, сахарный сироп, Evervess Cola",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 138
+    }
+  },
+  {
+    "id": "90-bar-r158-1",
+    "kind": "menu",
+    "title": "Whiskey Sour",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r158-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Whiskey Sour",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "300 мл",
+      "price": "690 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "бурбон, сок лимона, сахарный сироп, белок, биттер Angostura",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "бурбон",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "биттер Angostura",
+          "amount": ""
+        }
+      ],
+      "composition": "бурбон, сок лимона, сахарный сироп, белок, биттер Angostura",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 139
+    }
+  },
+  {
+    "id": "90-bar-r159-1",
+    "kind": "menu",
+    "title": "Mai Tai",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r159-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Mai Tai",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "400 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl Gold и Dark, ликер Triple Sec, ананасовый сок, миндальный сироп",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl Gold и Dark",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "миндальный сироп",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl Gold и Dark, ликер Triple Sec, ананасовый сок, миндальный сироп",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 140
+    }
+  },
+  {
+    "id": "90-bar-r160-1",
+    "kind": "menu",
+    "title": "Moscow Mule",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r160-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Moscow Mule",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "600 мл",
+      "price": "790 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "водка Архангельская, лайм, имбирь, эль имбирный, медовый сироп, мята",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        },
+        {
+          "name": "имбирь",
+          "amount": ""
+        },
+        {
+          "name": "эль имбирный",
+          "amount": ""
+        },
+        {
+          "name": "медовый сироп",
+          "amount": ""
+        },
+        {
+          "name": "мята",
+          "amount": ""
+        }
+      ],
+      "composition": "водка Архангельская, лайм, имбирь, эль имбирный, медовый сироп, мята",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 141
+    }
+  },
+  {
+    "id": "90-bar-r161-1",
+    "kind": "menu",
+    "title": "Clover Club",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r161-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Clover Club",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "300 мл",
+      "price": "640 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, малиновое пюре, белок, сок лимона",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "малиновое пюре",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, малиновое пюре, белок, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 142
+    }
+  },
+  {
+    "id": "90-bar-r162-1",
+    "kind": "menu",
+    "title": "Old Fashioned",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r162-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Old Fashioned",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "250 мл",
+      "price": "870 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "бурбон, биттер Angostura, тростниковый сахар, Aqua Minerale, апельсин",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "бурбон",
+          "amount": ""
+        },
+        {
+          "name": "биттер Angostura",
+          "amount": ""
+        },
+        {
+          "name": "тростниковый сахар",
+          "amount": ""
+        },
+        {
+          "name": "Aqua Minerale",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "composition": "бурбон, биттер Angostura, тростниковый сахар, Aqua Minerale, апельсин",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 143
+    }
+  },
+  {
+    "id": "90-bar-r163-1",
+    "kind": "menu",
+    "title": "White Russian",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r163-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "White Russian",
+      "category": "cocktails",
+      "subcategory": "Классические",
+      "volume": "200 мл",
+      "price": "640 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "водка Архангельская, ликер Coffee, сливки, корица",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "ликер Coffee",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        },
+        {
+          "name": "корица",
+          "amount": ""
+        }
+      ],
+      "composition": "водка Архангельская, ликер Coffee, сливки, корица",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 144
+    }
+  },
+  {
+    "id": "90-bar-r165-1",
+    "kind": "menu",
+    "title": "Cuba Libre",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r165-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Cuba Libre",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "270 мл",
+      "price": "620 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl Dark, Evervess Cola, лайм",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl Dark",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Cola",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl Dark, Evervess Cola, лайм",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 145
+    }
+  },
+  {
+    "id": "90-bar-r166-1",
+    "kind": "menu",
+    "title": "Rum & Cola",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r166-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Rum & Cola",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "200 мл",
+      "price": "560 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ром Black Pearl White, Evervess Cola",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Cola",
+          "amount": ""
+        }
+      ],
+      "composition": "ром Black Pearl White, Evervess Cola",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 146
+    }
+  },
+  {
+    "id": "90-bar-r167-1",
+    "kind": "menu",
+    "title": "Whiskey & Cola",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r167-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Whiskey & Cola",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "200 мл",
+      "price": "520 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "виски Aberfort Blended, Evervess Cola",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "виски Aberfort Blended",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Cola",
+          "amount": ""
+        }
+      ],
+      "composition": "виски Aberfort Blended, Evervess Cola",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 147
+    }
+  },
+  {
+    "id": "90-bar-r168-1",
+    "kind": "menu",
+    "title": "Gin & Tonic",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r168-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Gin & Tonic",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "200 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "джин Green Baboon, Evervess IndianTonic, лайм",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "джин Green Baboon",
+          "amount": ""
+        },
+        {
+          "name": "Evervess IndianTonic",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "composition": "джин Green Baboon, Evervess IndianTonic, лайм",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 148
+    }
+  },
+  {
+    "id": "90-bar-r169-1",
+    "kind": "menu",
+    "title": "Vodka Red Bull",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r169-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Vodka Red Bull",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "270 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "водка Архангельская, Red Bull",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "Red Bull",
+          "amount": ""
+        }
+      ],
+      "composition": "водка Архангельская, Red Bull",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 149
+    }
+  },
+  {
+    "id": "90-bar-r170-1",
+    "kind": "menu",
+    "title": "Бренди Кола",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r170-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Бренди Кола",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "270 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Кенигсберг Гранд Резерв 7 лет, Evervess Cola",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Кенигсберг Гранд Резерв 7 лет",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Cola",
+          "amount": ""
+        }
+      ],
+      "composition": "Кенигсберг Гранд Резерв 7 лет, Evervess Cola",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 150
+    }
+  },
+  {
+    "id": "90-bar-r171-1",
+    "kind": "menu",
+    "title": "Тет Тоник",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r171-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Тет Тоник",
+      "category": "cocktails",
+      "subcategory": "Миксы",
+      "volume": "340 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Tete de Cheval Rouge, Evervess IndianTonic, грейпфрут",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Tete de Cheval Rouge",
+          "amount": ""
+        },
+        {
+          "name": "Evervess IndianTonic",
+          "amount": ""
+        },
+        {
+          "name": "грейпфрут",
+          "amount": ""
+        }
+      ],
+      "composition": "Tete de Cheval Rouge, Evervess IndianTonic, грейпфрут",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 151
+    }
+  },
+  {
+    "id": "90-bar-r174-1",
+    "kind": "menu",
+    "title": "Б-52",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r174-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Б-52",
+      "category": "cocktails",
+      "subcategory": "Шоты",
+      "volume": "40 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ликеры Brown Cream, Coffee, Triple Sec",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ликеры Brown Cream",
+          "amount": ""
+        },
+        {
+          "name": "Coffee",
+          "amount": ""
+        },
+        {
+          "name": "Triple Sec",
+          "amount": ""
+        }
+      ],
+      "composition": "ликеры Brown Cream, Coffee, Triple Sec",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 152
+    }
+  },
+  {
+    "id": "90-bar-r175-1",
+    "kind": "menu",
+    "title": "Б-53",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r175-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Б-53",
+      "category": "cocktails",
+      "subcategory": "Шоты",
+      "volume": "40 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "ликеры Brown Cream, Coffee, абсент",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ликеры Brown Cream",
+          "amount": ""
+        },
+        {
+          "name": "Coffee",
+          "amount": ""
+        },
+        {
+          "name": "абсент",
+          "amount": ""
+        }
+      ],
+      "composition": "ликеры Brown Cream, Coffee, абсент",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 153
+    }
+  },
+  {
+    "id": "90-bar-r176-1",
+    "kind": "menu",
+    "title": "Хиросима",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r176-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Хиросима",
+      "category": "cocktails",
+      "subcategory": "Шоты",
+      "volume": "40 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "самбука, ликер Baileys, абсент, гренадин",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "самбука",
+          "amount": ""
+        },
+        {
+          "name": "ликер Baileys",
+          "amount": ""
+        },
+        {
+          "name": "абсент",
+          "amount": ""
+        },
+        {
+          "name": "гренадин",
+          "amount": ""
+        }
+      ],
+      "composition": "самбука, ликер Baileys, абсент, гренадин",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 154
+    }
+  },
+  {
+    "id": "90-bar-r178-1",
+    "kind": "menu",
+    "title": "ШотЛандия",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r178-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "ШотЛандия",
+      "category": "sets",
+      "subcategory": "Шот-сеты",
+      "volume": "28 × 40 мл",
+      "price": "7500 ₽",
+      "description": "Огромная башня с шотами на основе бурбона, виски и текилы.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "90-bar-20260915/90-bar-r178-1.png",
+      "imageKind": "set",
+      "sortOrder": 155
+    }
+  },
+  {
+    "id": "90-bar-r179-1",
+    "kind": "menu",
+    "title": "Выпить с барменом",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r179-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Выпить с барменом",
+      "category": "sets",
+      "subcategory": "Шот-сеты",
+      "volume": "8x40 мл",
+      "price": "1690 ₽",
+      "description": "Основа на выбор: ром, джин, водка, текила или виски.",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 156
+    }
+  },
+  {
+    "id": "90-bar-r180-1",
+    "kind": "menu",
+    "title": "Хантинг Six",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r180-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Хантинг Six",
+      "category": "sets",
+      "subcategory": "Шот-сеты",
+      "volume": "6х40 мл",
+      "price": "1990 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Hunting Herbal Bitter",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        },
+        {
+          "name": "корица",
+          "amount": ""
+        }
+      ],
+      "composition": "Hunting Herbal Bitter, апельсин, корица",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 157
+    }
+  },
+  {
+    "id": "90-bar-r181-1",
+    "kind": "menu",
+    "title": "Margarita Shot Set",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r181-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Margarita Shot Set",
+      "category": "sets",
+      "subcategory": "Шот-сеты",
+      "volume": "4x40 мл",
+      "price": "1100 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "текила 3 Fusiles Silver",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "текила 3 Fusiles Silver, ликер Triple Sec, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 158
+    }
+  },
+  {
+    "id": "90-bar-r182-1",
+    "kind": "menu",
+    "title": "Балчуг х 8",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r182-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Балчуг х 8",
+      "category": "sets",
+      "subcategory": "Шот-сеты",
+      "volume": "8x40 мл",
+      "price": "2200 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 159
+    }
+  },
+  {
+    "id": "90-bar-r183-1",
+    "kind": "menu",
+    "title": "Вишнёвая Девятка",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r183-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Вишнёвая Девятка",
+      "category": "sets",
+      "subcategory": "Шот-сеты",
+      "volume": "6x40 мл",
+      "price": "990 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "Hunting Herbal Bitter",
+          "amount": ""
+        },
+        {
+          "name": "вишнёвый сироп",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "composition": "Hunting Herbal Bitter, вишнёвый сироп, сок лимона",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 160
+    }
+  },
+  {
+    "id": "90-bar-r186-1",
+    "kind": "menu",
+    "title": "Римские Каникулы",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r186-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Римские Каникулы",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "350 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "игристое безалкогольное",
+          "amount": ""
+        },
+        {
+          "name": "грейпфрутовый сок",
+          "amount": ""
+        },
+        {
+          "name": "сироп апероль",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "composition": "игристое безалкогольное, грейпфрутовый сок, сироп апероль, апельсин",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 161
+    }
+  },
+  {
+    "id": "90-bar-r187-1",
+    "kind": "menu",
+    "title": "Крыжесносный",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r187-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Крыжесносный",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "350 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "пюре крыжовника",
+          "amount": ""
+        },
+        {
+          "name": "сироп жасмина",
+          "amount": ""
+        },
+        {
+          "name": "алоэ мед",
+          "amount": ""
+        },
+        {
+          "name": "сок яблочный",
+          "amount": ""
+        },
+        {
+          "name": "игристое безалкогольное",
+          "amount": ""
+        }
+      ],
+      "composition": "пюре крыжовника, сироп жасмина, алоэ мед, сок яблочный, игристое безалкогольное",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 162
+    }
+  },
+  {
+    "id": "90-bar-r188-1",
+    "kind": "menu",
+    "title": "Чичолина Завязала",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r188-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чичолина Завязала",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "380 мл",
+      "price": "540 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "игристое безалкогольное",
+          "amount": ""
+        },
+        {
+          "name": "пюре маракуйи",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "ванильный сироп",
+          "amount": ""
+        },
+        {
+          "name": "сок лайма",
+          "amount": ""
+        }
+      ],
+      "composition": "игристое безалкогольное, пюре маракуйи, белок, ванильный сироп, сок лайма",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 163
+    }
+  },
+  {
+    "id": "90-bar-r189-1",
+    "kind": "menu",
+    "title": "Pina Colada Zero",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r189-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Pina Colada Zero",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "400 мл",
+      "price": "590 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "кокосовый сироп",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        },
+        {
+          "name": "коктейльная вишня",
+          "amount": ""
+        }
+      ],
+      "composition": "ананасовый сок, кокосовый сироп, сливки, коктейльная вишня",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 164
+    }
+  },
+  {
+    "id": "90-bar-r190-1",
+    "kind": "menu",
+    "title": "Virgin Mojito",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r190-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Virgin Mojito",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "400 мл",
+      "price": "490 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "мята",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        },
+        {
+          "name": "Aqua Minerale",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        }
+      ],
+      "composition": "мята, лайм, Aqua Minerale, сахарный сироп",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 165
+    }
+  },
+  {
+    "id": "90-bar-r191-1",
+    "kind": "menu",
+    "title": "Лимонад Ягодный",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r191-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Лимонад Ягодный",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "400 мл / 1 л",
+      "price": "390 ₽ / 840 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 166
+    }
+  },
+  {
+    "id": "90-bar-r191-2",
+    "kind": "menu",
+    "title": "Лимонад Цитрусовый",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r191-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Лимонад Цитрусовый",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "400 мл / 1 л",
+      "price": "390 ₽ / 840 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 167
+    }
+  },
+  {
+    "id": "90-bar-r191-3",
+    "kind": "menu",
+    "title": "Лимонад Маракуйя & Персик",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r191-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Лимонад Маракуйя & Персик",
+      "category": "nonalcoholic",
+      "subcategory": "Лимонады и коктейли",
+      "volume": "400 мл / 1 л",
+      "price": "390 ₽ / 840 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 168
+    }
+  },
+  {
+    "id": "90-bar-r193-1",
+    "kind": "menu",
+    "title": "Морс и сок в ассортименте",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r193-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Морс и сок в ассортименте",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "240 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 169
+    }
+  },
+  {
+    "id": "90-bar-r194-1",
+    "kind": "menu",
+    "title": "Свежачок — апельсин",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r194-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Свежачок — апельсин",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "400 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 170
+    }
+  },
+  {
+    "id": "90-bar-r194-2",
+    "kind": "menu",
+    "title": "Свежачок — грейпфрут",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r194-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Свежачок — грейпфрут",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "400 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 171
+    }
+  },
+  {
+    "id": "90-bar-r195-1",
+    "kind": "menu",
+    "title": "Evervess Cola",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r195-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Evervess Cola",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 172
+    }
+  },
+  {
+    "id": "90-bar-r195-2",
+    "kind": "menu",
+    "title": "Evervess Orange",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r195-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Evervess Orange",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 173
+    }
+  },
+  {
+    "id": "90-bar-r195-3",
+    "kind": "menu",
+    "title": "Evervess Lemon & Lime",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r195-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Evervess Lemon & Lime",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 174
+    }
+  },
+  {
+    "id": "90-bar-r196-1",
+    "kind": "menu",
+    "title": "Evervess Indian Tonic",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r196-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Evervess Indian Tonic",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 175
+    }
+  },
+  {
+    "id": "90-bar-r197-1",
+    "kind": "menu",
+    "title": "Стар Бар Тоник Классик",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r197-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Стар Бар Тоник Классик",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "175 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 176
+    }
+  },
+  {
+    "id": "90-bar-r197-2",
+    "kind": "menu",
+    "title": "Стар Бар Тоник Имбирный эль",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r197-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Стар Бар Тоник Имбирный эль",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "175 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 177
+    }
+  },
+  {
+    "id": "90-bar-r197-3",
+    "kind": "menu",
+    "title": "Стар Бар Тоник Грейпфрут",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r197-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Стар Бар Тоник Грейпфрут",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "175 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 178
+    }
+  },
+  {
+    "id": "90-bar-r197-4",
+    "kind": "menu",
+    "title": "Стар Бар Тоник Лимон",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r197-4",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Стар Бар Тоник Лимон",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "175 мл",
+      "price": "300 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 179
+    }
+  },
+  {
+    "id": "90-bar-r198-1",
+    "kind": "menu",
+    "title": "Вода Tassay",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r198-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Вода Tassay",
+      "category": "nonalcoholic",
+      "subcategory": "Холодные напитки",
+      "volume": "250 мл / 750 мл",
+      "price": "300 ₽ / 620 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 180
+    }
+  },
+  {
+    "id": "90-bar-r200-1",
+    "kind": "menu",
+    "title": "Red Bull классический",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r200-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Red Bull классический",
+      "category": "nonalcoholic",
+      "subcategory": "Энергетики",
+      "volume": "250 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 181
+    }
+  },
+  {
+    "id": "90-bar-r201-1",
+    "kind": "menu",
+    "title": "Red Bull Sugar Free без сахара",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r201-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Red Bull Sugar Free без сахара",
+      "category": "nonalcoholic",
+      "subcategory": "Энергетики",
+      "volume": "250 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 182
+    }
+  },
+  {
+    "id": "90-bar-r202-1",
+    "kind": "menu",
+    "title": "Red Bull Watermelon арбузный",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r202-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Red Bull Watermelon арбузный",
+      "category": "nonalcoholic",
+      "subcategory": "Энергетики",
+      "volume": "250 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 183
+    }
+  },
+  {
+    "id": "90-bar-r203-1",
+    "kind": "menu",
+    "title": "Adrenaline Rush",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r203-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Adrenaline Rush",
+      "category": "nonalcoholic",
+      "subcategory": "Энергетики",
+      "volume": "250 мл",
+      "price": "350 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 184
+    }
+  },
+  {
+    "id": "90-bar-r205-1",
+    "kind": "menu",
+    "title": "Эспрессо",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r205-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Эспрессо",
+      "category": "hot",
+      "subcategory": "Кофе",
+      "volume": "50 мл",
+      "price": "220 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 185
+    }
+  },
+  {
+    "id": "90-bar-r205-2",
+    "kind": "menu",
+    "title": "Американо",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r205-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Американо",
+      "category": "hot",
+      "subcategory": "Кофе",
+      "volume": "120 мл",
+      "price": "220 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 186
+    }
+  },
+  {
+    "id": "90-bar-r206-1",
+    "kind": "menu",
+    "title": "Капучино",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r206-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Капучино",
+      "category": "hot",
+      "subcategory": "Кофе",
+      "volume": "220 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 187
+    }
+  },
+  {
+    "id": "90-bar-r207-1",
+    "kind": "menu",
+    "title": "Латте",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r207-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Латте",
+      "category": "hot",
+      "subcategory": "Кофе",
+      "volume": "270 мл",
+      "price": "290 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 188
+    }
+  },
+  {
+    "id": "90-bar-r208-1",
+    "kind": "menu",
+    "title": "Флет Уайт",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r208-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Флет Уайт",
+      "category": "hot",
+      "subcategory": "Кофе",
+      "volume": "340 мл",
+      "price": "390 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 189
+    }
+  },
+  {
+    "id": "90-bar-r209-1",
+    "kind": "menu",
+    "title": "Чай Ассам",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r209-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чай Ассам",
+      "category": "hot",
+      "subcategory": "Чай",
+      "volume": "600 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 190
+    }
+  },
+  {
+    "id": "90-bar-r209-2",
+    "kind": "menu",
+    "title": "Чай Сенча",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r209-2",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чай Сенча",
+      "category": "hot",
+      "subcategory": "Чай",
+      "volume": "600 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 191
+    }
+  },
+  {
+    "id": "90-bar-r209-3",
+    "kind": "menu",
+    "title": "Чай Саган Дайля",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r209-3",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чай Саган Дайля",
+      "category": "hot",
+      "subcategory": "Чай",
+      "volume": "600 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 192
+    }
+  },
+  {
+    "id": "90-bar-r209-4",
+    "kind": "menu",
+    "title": "Чай Эрл Грей",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r209-4",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чай Эрл Грей",
+      "category": "hot",
+      "subcategory": "Чай",
+      "volume": "600 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 193
+    }
+  },
+  {
+    "id": "90-bar-r209-5",
+    "kind": "menu",
+    "title": "Чай Сливочный улун",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r209-5",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Чай Сливочный улун",
+      "category": "hot",
+      "subcategory": "Чай",
+      "volume": "600 мл",
+      "price": "440 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [],
+      "composition": "",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 194
+    }
+  },
+  {
+    "id": "90-bar-r211-1",
+    "kind": "menu",
+    "title": "Клубника & Малина",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r211-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Клубника & Малина",
+      "category": "hot",
+      "subcategory": "Авторский чай",
+      "volume": "600 мл",
+      "price": "590 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "клубника",
+          "amount": ""
+        },
+        {
+          "name": "малина",
+          "amount": ""
+        },
+        {
+          "name": "мед",
+          "amount": ""
+        },
+        {
+          "name": "мята",
+          "amount": ""
+        },
+        {
+          "name": "специи",
+          "amount": ""
+        }
+      ],
+      "composition": "клубника, малина, мед, мята, специи",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 195
+    }
+  },
+  {
+    "id": "90-bar-r212-1",
+    "kind": "menu",
+    "title": "Пряная Клюква",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r212-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Пряная Клюква",
+      "category": "hot",
+      "subcategory": "Авторский чай",
+      "volume": "600 мл",
+      "price": "590 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "клюква",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "имбирь",
+          "amount": ""
+        },
+        {
+          "name": "мед",
+          "amount": ""
+        },
+        {
+          "name": "мята",
+          "amount": ""
+        },
+        {
+          "name": "специи",
+          "amount": ""
+        }
+      ],
+      "composition": "клюква, лимон, имбирь, мед, мята, специи",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 196
+    }
+  },
+  {
+    "id": "90-bar-r213-1",
+    "kind": "menu",
+    "title": "Крыжовник & Яблоко",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r213-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Крыжовник & Яблоко",
+      "category": "hot",
+      "subcategory": "Авторский чай",
+      "volume": "600 мл",
+      "price": "590 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "",
+      "features": "",
+      "ingredients": [
+        {
+          "name": "пюре крыжовника и яблока",
+          "amount": ""
+        },
+        {
+          "name": "яблочный сок",
+          "amount": ""
+        },
+        {
+          "name": "сироп яблоко",
+          "amount": ""
+        },
+        {
+          "name": "мята и кардамон",
+          "amount": ""
+        }
+      ],
+      "composition": "пюре крыжовника и яблока, яблочный сок, сироп яблоко, мята и кардамон",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 197
+    }
+  },
+  {
+    "id": "90-bar-r220-1",
+    "kind": "menu",
+    "title": "Любит Не Любит — 1+1=3",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r220-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Любит Не Любит — 1+1=3",
+      "category": "cocktails",
+      "subcategory": "Спецпредложения",
+      "volume": "380 мл",
+      "price": "1380 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "Водка Архангельская, кордиал Помело Ромашка, игристое вино",
+      "features": "1+1=3",
+      "ingredients": [
+        {
+          "name": "Водка Архангельская",
+          "amount": ""
+        },
+        {
+          "name": "кордиал Помело Ромашка",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        }
+      ],
+      "composition": "Водка Архангельская, кордиал Помело Ромашка, игристое вино",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 198
+    }
+  },
+  {
+    "id": "90-bar-r221-1",
+    "kind": "menu",
+    "title": "Маша и Медведи — 1+1=3",
+    "course_id": null,
+    "restaurant_id": null,
+    "department": null,
+    "published": true,
+    "payload": {
+      "id": "90-bar-r221-1",
+      "brand": "90",
+      "menuSection": "bar",
+      "name": "Маша и Медведи — 1+1=3",
+      "category": "cocktails",
+      "subcategory": "Спецпредложения",
+      "volume": "380 мл",
+      "price": "1380 ₽",
+      "description": "",
+      "taste": "",
+      "fact": "игристое вино, ром Black Pearl White, кордиал малина и шишки, еловая шишка",
+      "features": "1+1=3",
+      "ingredients": [
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "ром Black Pearl White",
+          "amount": ""
+        },
+        {
+          "name": "кордиал малина и шишки",
+          "amount": ""
+        },
+        {
+          "name": "еловая шишка",
+          "amount": ""
+        }
+      ],
+      "composition": "игристое вино, ром Black Pearl White, кордиал малина и шишки, еловая шишка",
+      "method": "",
+      "garnish": "",
+      "image": "",
+      "imageKind": "",
+      "sortOrder": 199
+    }
+  }
+]
