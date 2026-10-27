@@ -45,10 +45,12 @@ npm run check
 npm run build
 ```
 
-Публикуется только `out`. Существующий Sites project_id сохранён в `.openai/hosting.json`; создание нового сайта не требуется. Для публикации из Codex используйте Sites skill и короткоживущий доступ к исходному репозиторию, затем сохранение версии и развёртывание. GitHub хранит код; отправка коммита в GitHub сама по себе сайт не обновляет.
+Рабочий сайт — https://askacademy.ru/. Из корня репозитория `npm run build` формирует корневой `out`. Workflow `.github/workflows/deploy.yml` запускает проверки и сборку после push в `main`, затем отправляет только `out` на VPS под пользователем `deploy`. Публикация через прежнюю платформу больше не является способом обновления рабочего домена.
+
+Для отправки используется секрет GitHub Actions `DEPLOY_KEY`; приватный ключ нельзя добавлять в исходники, публичную сборку или документацию. Публичный ключ должен быть установлен для пользователя `deploy` на VPS. Статус проверяйте в **Actions → Deploy**; ручной повторный запуск доступен через **Run workflow**. База и файлы в Supabase при отправке фронтенда не переносятся.
 
 Приватные файлы обучения уже находятся в Supabase Storage academy-assets и academy-materials. Приватный репозиторий не является резервной копией текущих записей базы: регулярные резервные копии базы и Storage настраиваются отдельно.
 
 ## Передача контекста новому чату
 
-«Продолжаем Академию команды 90-е / Руки Вверх Бар. Рабочий frontend — secure-dist, backend — Supabase ivlinbwuudxyjaikwaoo, публикация Sites appgprj_6ad633100b748191b54bcb6127264afa. Прочитай DEVELOPMENT.md и supabase/README.md. Сохраняй серверные роли и RLS; не публикуй dist, supabase и ключи ответов».
+«Продолжаем Академию команды 90-е / Руки Вверх Бар. Рабочий frontend — secure-dist, backend — Supabase ivlinbwuudxyjaikwaoo, рабочий домен — askacademy.ru. Прочитай корневой README.md, DEVELOPMENT.md и supabase/README.md. Обновление VPS выполняется GitHub Actions workflow Deploy после push в main. Сохраняй серверные роли и RLS; не публикуй dist, supabase, документы и ключи».

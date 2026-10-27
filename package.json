@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node apps/web/scripts/preview.cjs",
     "build": "node build.cjs",
-    "check": "node --check apps/web/secure-dist/portal.js && node --check apps/web/secure-dist/material-files.js && node --check apps/web/secure-dist/pdf-viewer.js && node apps/web/scripts/test-routing.cjs && node apps/web/scripts/test-menu-scope.cjs && node apps/web/scripts/test-kitchen-import.cjs"
+    "check": "npm --prefix apps/web run check"
   },
   "engines": {
     "node": ">=22"
