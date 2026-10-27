@@ -1,0 +1,565 @@
+{
+  "policies": [
+    {
+      "cmd": "SELECT",
+      "qual": "((bucket_id <> 'academy-assets'::text) OR (name !~~ 'assets/library/rvb-bar-handbook/%'::text) OR academy_private.can_read_content('rvb-bar-handbook'::text))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "RESTRICTIVE",
+      "policyname": "rvb_bar_handbook_assets_restricted",
+      "schemaname": "storage",
+      "with_check": null
+    },
+    {
+      "cmd": "INSERT",
+      "qual": null,
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "course_media_objects_insert",
+      "schemaname": "storage",
+      "with_check": "((bucket_id = 'academy-course-media'::text) AND (EXISTS ( SELECT 1\n FROM (academy_course_media m\n JOIN academy_content c ON ((c.id = m.course_id)))\n WHERE ((m.storage_path = objects.name) AND (m.status = 'pending'::text) AND (m.uploaded_by = auth.uid()) AND academy_private.can_edit(c.restaurant_id, c.department)))))"
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((bucket_id = 'academy-course-media'::text) AND (EXISTS ( SELECT 1\n FROM academy_course_media m\n WHERE ((m.storage_path = objects.name) AND academy_private.can_read_course_media(m.id)))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "course_media_objects_read",
+      "schemaname": "storage",
+      "with_check": null
+    },
+    {
+      "cmd": "INSERT",
+      "qual": null,
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "academy_materials_insert",
+      "schemaname": "storage",
+      "with_check": "((bucket_id = 'academy-materials'::text) AND (EXISTS ( SELECT 1\n FROM (academy_material_files f\n JOIN academy_content c ON ((c.id = f.material_id)))\n WHERE ((f.storage_path = objects.name) AND (f.status = 'pending'::text) AND (f.uploaded_by = auth.uid()) AND (c.kind = 'material'::text) AND academy_private.can_edit(c.restaurant_id, c.department)))))"
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((bucket_id = 'academy-materials'::text) AND (EXISTS ( SELECT 1\n FROM academy_material_files f\n WHERE ((f.storage_path = objects.name) AND academy_private.can_read_material_file(f.material_id, f.status)))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "academy_materials_read",
+      "schemaname": "storage",
+      "with_check": null
+    },
+    {
+      "cmd": "UPDATE",
+      "qual": "((bucket_id = 'academy-assets'::text) AND academy_private.can_edit(NULL::text, NULL::text))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "academy_assets_update",
+      "schemaname": "storage",
+      "with_check": "((bucket_id = 'academy-assets'::text) AND academy_private.can_edit(NULL::text, NULL::text))"
+    },
+    {
+      "cmd": "INSERT",
+      "qual": null,
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "academy_assets_insert",
+      "schemaname": "storage",
+      "with_check": "((bucket_id = 'academy-assets'::text) AND academy_private.can_edit(NULL::text, NULL::text))"
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((bucket_id = 'academy-assets'::text) AND academy_private.is_active())",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "objects",
+      "permissive": "PERMISSIVE",
+      "policyname": "academy_assets_read",
+      "schemaname": "storage",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "academy_private.can_read_content(id)",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_content",
+      "permissive": "PERMISSIVE",
+      "policyname": "content_read",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(((user_id = auth.uid()) AND academy_private.is_active()) OR academy_private.can_manage(user_id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_attempts",
+      "permissive": "PERMISSIVE",
+      "policyname": "attempts_read",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((id = auth.uid()) OR academy_private.can_manage(id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_profiles",
+      "permissive": "PERMISSIVE",
+      "policyname": "profiles_read",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(((user_id = auth.uid()) AND academy_private.is_active()) OR academy_private.can_manage(user_id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_menu_marks",
+      "permissive": "PERMISSIVE",
+      "policyname": "marks_read",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "UPDATE",
+      "qual": "((user_id = auth.uid()) AND academy_private.can_read_content(course_id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_progress",
+      "permissive": "PERMISSIVE",
+      "policyname": "progress_update",
+      "schemaname": "public",
+      "with_check": "((user_id = auth.uid()) AND academy_private.can_read_content(course_id))"
+    },
+    {
+      "cmd": "INSERT",
+      "qual": null,
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_progress",
+      "permissive": "PERMISSIVE",
+      "policyname": "progress_insert",
+      "schemaname": "public",
+      "with_check": "((user_id = auth.uid()) AND academy_private.can_read_content(course_id))"
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(((user_id = auth.uid()) AND academy_private.is_active()) OR academy_private.can_manage(user_id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_progress",
+      "permissive": "PERMISSIVE",
+      "policyname": "progress_read",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "academy_private.can_read_material_file(material_id, status)",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_material_files",
+      "permissive": "PERMISSIVE",
+      "policyname": "material_files_read",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "academy_private.can_read_course_media(id)",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "academy_course_media",
+      "permissive": "PERMISSIVE",
+      "policyname": "course_media_read",
+      "schemaname": "public",
+      "with_check": null
+    }
+  ],
+  "functions": [
+    {
+      "name": "is_active",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.is_active()\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_profiles where id=auth.uid() and status='active')\r\n$function$\n"
+    },
+    {
+      "name": "can_edit",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_edit(p_restaurant text, p_department text)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_profiles a where a.id=auth.uid() and a.status='active' and\r\n (a.role='admin' or a.operations_director or (a.role='manager' and p_restaurant=a.restaurant_id and p_department=a.department)))\r\n$function$\n"
+    },
+    {
+      "name": "notification_oral_event",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notification_oral_event()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n perform academy_private.emit_notice(new.employee_id,'oral:'||new.id,'attestation','Результат аттестации · '||case new.division when 'bar' then 'Бар' else 'Кухня' end,\r\n 'Средний балл: '||round(new.average,2)::text||' / 10. '||case when new.passed then 'Сдано.' else 'Не сдано.' end||case when nullif(new.comment,'') is not null then E'\\n'||new.comment else '' end,'#/profile');return null;\r\nend $function$\n"
+    },
+    {
+      "name": "notice_due",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notice_due(p text)\n RETURNS timestamp with time zone\n LANGUAGE plpgsql\n IMMUTABLE\n SET search_path TO ''\nAS $function$\r\nbegin return (p::date+1)::timestamp at time zone 'Europe/Minsk';exception when others then return null;end $function$\n"
+    },
+    {
+      "name": "notice_content_for",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notice_content_for(p academy_profiles, c academy_content)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select case when academy_private.is_operations_director(p.id) then c.published else coalesce(p.status='active' and c.published\r\n and (c.restaurant_id is null or c.restaurant_id=p.restaurant_id)\r\n and (c.department is null or c.department=p.department)\r\n and (c.kind<>'menu' or c.payload->>'brand'=case when p.restaurant_id='minsk' then 'rvb' when p.restaurant_id in ('pushkino','khimki','mytishchi') then '90' end)\r\n and (c.kind<>'material' or coalesce(c.payload->>'brand','common') in ('common',case when p.restaurant_id='minsk' then 'rvb' else '90' end))\r\n and (not c.payload ? 'audiencePositions' or c.payload->'audiencePositions' ? p.position)\r\n and (not c.payload ? 'audienceLevels' or p.department='Руководитель' or c.payload->'audienceLevels' ? p.training_level)\r\n and (c.course_id is null or exists(select 1 from public.academy_content parent where parent.id=c.course_id and parent.published\r\n and (parent.restaurant_id is null or parent.restaurant_id=p.restaurant_id) and (parent.department is null or parent.department=p.department)\r\n and (not parent.payload ? 'audiencePositions' or parent.payload->'audiencePositions' ? p.position))),false) end\r\n$function$\n"
+    },
+    {
+      "name": "can_manage",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_manage(p_user_id uuid)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_profiles a join public.academy_profiles b on b.id=p_user_id\r\n where a.id=auth.uid() and a.status='active' and (a.role='admin' or (a.operations_director and b.role<>'admin' and not b.operations_director and b.id<>a.id) or (a.role='manager' and a.restaurant_id=b.restaurant_id and a.department=b.department and b.role='employee')))\r\n$function$\n"
+    },
+    {
+      "name": "can_read_content",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_read_content(p_id text)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_content c join public.academy_profiles p on p.id=auth.uid()\r\n where c.id=p_id and p.status='active' and case when c.id='rvb-bar-handbook'\r\n then academy_private.can_read_bar_handbook(p,c)\r\n else ((c.published and (c.restaurant_id is null or c.restaurant_id=p.restaurant_id) and (c.department is null or c.department=p.department))\r\n or p.role='admin' or p.operations_director or (p.role='manager' and c.restaurant_id=p.restaurant_id and c.department=p.department)\r\n or (c.kind='menu' and academy_private.can_edit_menu_for(p,c))) end)\r\n$function$\n"
+    },
+    {
+      "name": "academy_set_mark",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_set_mark(p_item_id text, p_status text, p_user_id uuid DEFAULT NULL::uuid)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare target uuid:=coalesce(p_user_id,auth.uid());\r\nbegin\r\n if not academy_private.is_active() or not (target=auth.uid() or academy_private.can_manage(target)) then raise exception 'Forbidden'; end if;\r\n if target=auth.uid() and not academy_private.can_read_content(p_item_id) then raise exception 'Content unavailable'; end if;\r\n if not exists(select 1 from public.academy_content where id=p_item_id and kind='menu') then raise exception 'Invalid menu item'; end if;\r\n insert into public.academy_menu_marks(user_id,item_id,status) values(target,p_item_id,p_status)\r\n on conflict(user_id,item_id) do update set status=excluded.status,updated_at=now();\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'menu_mark',target::text,jsonb_build_object('item_id',p_item_id,'status',p_status));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_start_test",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_start_test(p_test_id text)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content; a uuid; k jsonb;\r\nbegin\r\n if not academy_private.can_read_content(p_test_id) then raise exception 'Forbidden'; end if;\r\n select * into c from public.academy_content where id=p_test_id and kind='test';\r\n select keys into k from academy_private.test_keys where test_id=p_test_id;\r\n if c.id is null or k is null then raise exception 'Test unavailable'; end if;\r\n -- A fresh immutable snapshot keeps editing from changing a running attempt.\r\n insert into public.academy_attempts(user_id,test_id,snapshot) values(auth.uid(),p_test_id,c.payload) returning id into a;\r\n insert into academy_private.attempt_keys(attempt_id,keys) values(a,k);\r\n return jsonb_build_object('attempt_id',a,'title',c.title,'questions',c.payload->'questions','time_limit_seconds',c.payload->'timeLimitSeconds','started_at',now());\r\nend $function$\n"
+    },
+    {
+      "name": "academy_save_content",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_content(p_document jsonb, p_keys jsonb DEFAULT NULL::jsonb)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare old public.academy_content; rid text:=p_document->>'restaurant_id'; dep text:=p_document->>'department';\r\nbegin\r\n if not academy_private.can_edit(rid,dep) then raise exception 'Forbidden'; end if;\r\n select * into old from public.academy_content where id=p_document->>'id';\r\n if old.id is not null and not academy_private.can_edit(old.restaurant_id,old.department) then raise exception 'Forbidden'; end if;\r\n -- Keys must never enter the exposed payload, including nested fields.\r\n if jsonb_path_exists(p_document->'payload','$.**.correct') or jsonb_path_exists(p_document->'payload','$.**.key_snapshot') then raise exception 'Keep answer keys private'; end if;\r\n insert into public.academy_content(id,kind,title,course_id,payload,published,restaurant_id,department)\r\n values(p_document->>'id',p_document->>'kind',p_document->>'title',p_document->>'course_id',p_document->'payload',coalesce((p_document->>'published')::boolean,true),rid,dep)\r\n on conflict(id) do update set title=excluded.title,payload=excluded.payload,published=excluded.published,restaurant_id=excluded.restaurant_id,department=excluded.department,updated_at=now();\r\n if p_keys is not null then\r\n if p_document->>'kind'<>'test' or jsonb_typeof(p_keys)<>'object' then raise exception 'Invalid test keys'; end if;\r\n insert into academy_private.test_keys(test_id,keys) values(p_document->>'id',p_keys) on conflict(test_id) do update set keys=excluded.keys;\r\n end if;\r\n insert into academy_private.audit_log(actor_id,action,target) values(auth.uid(),'content_save',p_document->>'id');\r\nend $function$\n"
+    },
+    {
+      "name": "academy_review_attempt",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_review_attempt(p_attempt_id uuid, p_manual_score integer, p_feedback text DEFAULT ''::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare a public.academy_attempts; manual_count integer; k jsonb;\r\nbegin\r\n select * into a from public.academy_attempts where id=p_attempt_id for update;\r\n if a.id is null or not academy_private.can_manage(a.user_id) then raise exception 'Forbidden'; end if;\r\n if a.submitted_at is null or not a.needs_review then raise exception 'Not awaiting review'; end if;\r\n select keys into k from academy_private.attempt_keys where attempt_id=a.id;\r\n select count(*) into manual_count from jsonb_array_elements(a.snapshot->'questions') q where q->>'type'='text' or k->(q->>'id') is null;\r\n if p_manual_score<0 or p_manual_score>manual_count or p_manual_score is null then raise exception 'Invalid manual score'; end if;\r\n update public.academy_attempts set score=score+p_manual_score,needs_review=false,\r\n passed=(score+p_manual_score>=coalesce((snapshot->>'passCount')::integer,total)) and\r\n (coalesce((snapshot->>'timeLimitSeconds')::integer,0)=0 or submitted_at<=started_at+make_interval(secs=>(snapshot->>'timeLimitSeconds')::integer+10)),\r\n reviewed_by=auth.uid(),reviewed_at=now(),feedback=left(p_feedback,5000) where id=p_attempt_id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'review_attempt',p_attempt_id::text,jsonb_build_object('manual_score',p_manual_score));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_complete_lesson",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_complete_lesson(p_course_id text, p_lesson_id text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if not academy_private.can_read_content(p_course_id) then raise exception 'Forbidden'; end if;\r\n if not exists(select 1 from public.academy_content c,\r\n lateral jsonb_array_elements(coalesce(c.payload->'lessons','[]'::jsonb)) with ordinality l(item,idx)\r\n where c.id=p_course_id and c.kind='course' and coalesce(l.item->>'id',(l.idx-1)::text)=p_lesson_id)\r\n then raise exception 'Lesson does not belong to course'; end if;\r\n insert into public.academy_progress(user_id,course_id,lesson_id) values(auth.uid(),p_course_id,p_lesson_id)\r\n on conflict(user_id,course_id,lesson_id) do nothing;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_submit_test",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_submit_test(p_attempt_id uuid, p_answers jsonb)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare a public.academy_attempts; k jsonb; q jsonb; expected jsonb; supplied jsonb; points integer:=0; n integer:=0; review boolean:=false; ok boolean; deadline integer; timed_out boolean;\r\nbegin\r\n if not academy_private.is_active() then raise exception 'Forbidden'; end if;\r\n select * into a from public.academy_attempts where id=p_attempt_id and user_id=auth.uid() for update;\r\n if a.id is null then raise exception 'Attempt unavailable'; end if;\r\n if a.submitted_at is not null then return jsonb_build_object('score',a.score,'total',a.total,'passed',a.passed,'needs_review',a.needs_review,'timed_out',coalesce((a.snapshot->>'timeLimitSeconds')::integer,0)>0 and a.submitted_at>a.started_at+make_interval(secs=>coalesce((a.snapshot->>'timeLimitSeconds')::integer,0)+10)); end if;\r\n if jsonb_typeof(p_answers)<>'object' or octet_length(p_answers::text)>100000 then raise exception 'Invalid answers'; end if;\r\n select keys into k from academy_private.attempt_keys where attempt_id=a.id;\r\n for q in select value from jsonb_array_elements(a.snapshot->'questions') loop\r\n n:=n+1; expected:=k->(q->>'id'); supplied:=p_answers->(q->>'id');\r\n if q->>'type'='text' or expected is null then review:=true;\r\n elsif jsonb_typeof(supplied)='array' then\r\n select coalesce(jsonb_agg(value order by value), '[]'::jsonb) into supplied from (select distinct value from jsonb_array_elements(supplied)) s;\r\n select coalesce(jsonb_agg(value order by value), '[]'::jsonb) into expected from (select distinct value from jsonb_array_elements(expected)) e;\r\n if supplied=expected then points:=points+1; end if;\r\n end if;\r\n end loop;\r\n deadline:=coalesce((a.snapshot->>'timeLimitSeconds')::integer,0);\r\n ok:=not review and points>=coalesce((a.snapshot->>'passCount')::integer,n);\r\n timed_out:=deadline>0 and now()>a.started_at+make_interval(secs=>deadline+10); if timed_out then ok:=false; end if;\r\n update public.academy_attempts set submitted_at=now(),score=points,total=n,passed=ok,needs_review=review,answers=p_answers where id=a.id;\r\n return jsonb_build_object('score',points,'total',n,'passed',ok,'needs_review',review,'timed_out',timed_out);\r\nend $function$\n"
+    },
+    {
+      "name": "can_read_material_file",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_read_material_file(p_material text, p_status text)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_content c where c.id=p_material and c.kind='material'\r\n and (academy_private.can_edit(c.restaurant_id,c.department)\r\n or (p_status='ready' and c.published and academy_private.can_read_content(c.id))))\r\n$function$\n"
+    },
+    {
+      "name": "academy_reserve_material_file",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_reserve_material_file(p_material_id text, p_filename text, p_mime_type text, p_byte_size bigint)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content; f public.academy_material_files; ext text; file_id uuid:=gen_random_uuid();\r\nbegin\r\n select * into c from public.academy_content where id=p_material_id and kind='material' for update;\r\n if c.id is null or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Forbidden'; end if;\r\n ext:=case p_mime_type when 'application/pdf' then 'pdf' when 'image/jpeg' then 'jpg' when 'image/png' then 'png'\r\n when 'image/webp' then 'webp' when 'image/gif' then 'gif' when 'video/mp4' then 'mp4' when 'video/webm' then 'webm' end;\r\n if ext is null or p_byte_size is null or p_byte_size<=0 or p_byte_size>52428800 then raise exception 'Unsupported file or size limit'; end if;\r\n if p_filename is null or length(trim(p_filename))=0 or length(p_filename)>240 then raise exception 'Invalid filename'; end if;\r\n if (select count(*) from public.academy_material_files where material_id=c.id and status<>'archived')>=10 then raise exception 'Maximum 10 files per material'; end if;\r\n insert into public.academy_material_files(id,material_id,storage_path,filename,mime_type,byte_size,uploaded_by)\r\n values(file_id,c.id,c.id||'/'||file_id::text||'.'||ext,left(regexp_replace(p_filename,'[[:cntrl:]]','','g'),200),p_mime_type,p_byte_size,auth.uid()) returning * into f;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'material_file_reserve',f.id::text,jsonb_build_object('material_id',c.id));\r\n return to_jsonb(f);\r\nend $function$\n"
+    },
+    {
+      "name": "academy_finish_material_file",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_finish_material_file(p_file_id uuid)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare f public.academy_material_files; c public.academy_content; object_meta jsonb;\r\nbegin\r\n select * into f from public.academy_material_files where id=p_file_id for update;\r\n select * into c from public.academy_content where id=f.material_id and kind='material';\r\n if f.id is null or c.id is null or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Forbidden'; end if;\r\n select metadata into object_meta from storage.objects where bucket_id='academy-materials' and name=f.storage_path;\r\n if object_meta is null or (object_meta->>'size')::bigint is distinct from f.byte_size\r\n or object_meta->>'mimetype' is distinct from f.mime_type then raise exception 'Upload not complete or file metadata mismatch'; end if;\r\n update public.academy_material_files set status='ready',updated_at=now() where id=f.id returning * into f;\r\n insert into academy_private.audit_log(actor_id,action,target) values(auth.uid(),'material_file_ready',f.id::text);\r\n return to_jsonb(f);\r\nend $function$\n"
+    },
+    {
+      "name": "academy_archive_material_file",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_archive_material_file(p_file_id uuid, p_archived boolean DEFAULT true)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare f public.academy_material_files; c public.academy_content;\r\nbegin\r\n select * into f from public.academy_material_files where id=p_file_id for update;\r\n select * into c from public.academy_content where id=f.material_id and kind='material';\r\n if f.id is null or c.id is null or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Forbidden'; end if;\r\n if p_archived is distinct from true then perform public.academy_finish_material_file(f.id);\r\n else update public.academy_material_files set status='archived',updated_at=now() where id=f.id; end if;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'material_file_archive',f.id::text,jsonb_build_object('archived',p_archived));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_update_profile",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_update_profile(p_user_id uuid, p_full_name text, p_birth_date date DEFAULT NULL::date, p_gender text DEFAULT NULL::text, p_team_joined_on date DEFAULT NULL::date, p_avatar_data text DEFAULT NULL::text)\n RETURNS academy_profiles\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare result public.academy_profiles;\r\nbegin\r\n if not academy_private.is_active() or not (p_user_id=auth.uid() or academy_private.can_manage(p_user_id)) then raise exception 'Forbidden'; end if;\r\n if length(trim(p_full_name)) not between 2 and 100 then raise exception 'Укажите имя и фамилию (2–100 символов).'; end if;\r\n if p_birth_date>current_date or p_birth_date<date '1900-01-01' then raise exception 'Проверьте дату рождения.'; end if;\r\n if p_gender is not null and p_gender not in ('female','male','unspecified') then raise exception 'Проверьте значение пола.'; end if;\r\n if p_team_joined_on>current_date or p_team_joined_on<date '1900-01-01' then raise exception 'Проверьте дату вступления.'; end if;\r\n if p_avatar_data is not null and (length(p_avatar_data)>180000 or p_avatar_data !~ '^data:image/jpeg;base64,[A-Za-z0-9+/=]+$') then raise exception 'Выберите фото JPG, PNG или WebP.'; end if;\r\n update public.academy_profiles set full_name=trim(p_full_name),birth_date=p_birth_date,gender=p_gender,\r\n team_joined_on=p_team_joined_on,avatar_data=p_avatar_data,updated_at=now() where id=p_user_id returning * into result;\r\n if result.id is null then raise exception 'Профиль не найден.'; end if;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'update_profile',p_user_id::text,'{\"fields\":[\"full_name\",\"birth_date\",\"gender\",\"team_joined_on\",\"avatar_data\"]}'::jsonb);\r\n return result;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_set_priority",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_set_priority(p_content_id text, p_priority text, p_lesson_id text DEFAULT NULL::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content; updated_payload jsonb;\r\nbegin\r\n select * into c from public.academy_content where id=p_content_id for update;\r\n if c.id is null or c.kind not in ('course','test') or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Forbidden'; end if;\r\n if p_priority not in ('start','attestation','additional') then raise exception 'Неверный приоритет.'; end if;\r\n if p_lesson_id is null then updated_payload=jsonb_set(c.payload,'{priority}',to_jsonb(p_priority));\r\n else\r\n if not exists(select 1 from jsonb_array_elements(c.payload->'lessons') l where l->>'id'=p_lesson_id) then raise exception 'Урок не найден.'; end if;\r\n updated_payload=jsonb_set(c.payload,'{lessons}',(select jsonb_agg(case when l->>'id'=p_lesson_id then jsonb_set(l,'{priority}',to_jsonb(p_priority)) else l end order by n) from jsonb_array_elements(c.payload->'lessons') with ordinality a(l,n)));\r\n end if;\r\n update public.academy_content set payload=updated_payload,updated_at=now() where id=c.id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'set_priority',c.id,jsonb_build_object('priority',p_priority,'lesson_id',p_lesson_id));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_course_editor",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_course_editor(p_course_id text)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content;d academy_private.course_drafts;\r\nbegin\r\n select * into c from public.academy_content where id=p_course_id and kind='course';\r\n if c.id is null or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Курс недоступен для редактирования.';end if;\r\n select * into d from academy_private.course_drafts where course_id=c.id;\r\n return jsonb_build_object('document',coalesce(d.document,to_jsonb(c)),'live_updated_at',c.updated_at,'draft_updated_at',d.updated_at,'has_draft',d.course_id is not null,'conflict',d.course_id is not null and d.base_updated_at is distinct from c.updated_at);\r\nend $function$\n"
+    },
+    {
+      "name": "academy_reserve_course_media",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_reserve_course_media(p_course_id text, p_filename text, p_mime_type text, p_byte_size bigint)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content;m public.academy_course_media;ext text;uid uuid:=gen_random_uuid();\r\nbegin\r\n select * into c from public.academy_content where id=p_course_id and kind='course' for update;\r\n if c.id is null or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Нет доступа к изображениям курса.';end if;\r\n ext:=case p_mime_type when 'image/jpeg' then 'jpg' when 'image/png' then 'png' when 'image/webp' then 'webp' when 'image/gif' then 'gif' when 'video/mp4' then 'mp4' when 'video/webm' then 'webm' when 'application/pdf' then 'pdf' end;\r\n if ext is null or p_byte_size is null or p_byte_size not between 1 and 52428800 or nullif(trim(p_filename),'') is null or length(p_filename)>240 then raise exception 'Поддерживаются изображения, PDF и видео до 50 МБ.';end if;\r\n if (select count(*) from public.academy_course_media where course_id=c.id)>=300 then raise exception 'В курсе уже 300 вложений.';end if;\r\n insert into public.academy_course_media(id,course_id,storage_path,filename,mime_type,byte_size,uploaded_by) values(uid,c.id,c.id||'/'||uid||'.'||ext,p_filename,p_mime_type,p_byte_size,auth.uid()) returning * into m;return to_jsonb(m);\r\nend $function$\n"
+    },
+    {
+      "name": "can_read_course_media",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_read_course_media(p_id uuid)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_course_media m join public.academy_content c on c.id=m.course_id where m.id=p_id and\r\n (academy_private.can_edit(c.restaurant_id,c.department) or m.status='ready' and c.published and academy_private.can_read_content(c.id) and\r\n jsonb_path_exists(c.payload,'$.lessons[*].blocks[*] ? (@.image == $ref || @.src == $ref)',jsonb_build_object('ref','course-media:'||m.id))))\r\n$function$\n"
+    },
+    {
+      "name": "academy_finish_course_media",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_finish_course_media(p_id uuid)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare m public.academy_course_media;c public.academy_content;meta jsonb;\r\nbegin\r\n select * into m from public.academy_course_media where id=p_id for update;select * into c from public.academy_content where id=m.course_id;\r\n if m.id is null or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Нет доступа к файлу.';end if;\r\n select metadata into meta from storage.objects where bucket_id='academy-course-media' and name=m.storage_path;\r\n if meta is null or (meta->>'size')::bigint is distinct from m.byte_size or meta->>'mimetype' is distinct from m.mime_type then raise exception 'Загрузка не завершена.';end if;\r\n update public.academy_course_media set status='ready' where id=m.id returning * into m;return to_jsonb(m);\r\nend $function$\n"
+    },
+    {
+      "name": "can_edit_menu_for",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_edit_menu_for(a academy_profiles, c academy_content)\n RETURNS boolean\n LANGUAGE sql\n STABLE\n SET search_path TO ''\nAS $function$\r\n select coalesce(a.status='active' and c.kind='menu' and (a.role='admin' or a.operations_director or\r\n (a.role='manager' and a.restaurant_id is not null\r\n and a.department=case c.payload->>'menuSection' when 'bar' then 'Бар' when 'kitchen' then 'Кухня' end\r\n and (c.department is null or c.department=a.department)\r\n and (c.restaurant_id=a.restaurant_id or\r\n (c.restaurant_id is null and c.department is null and c.payload->>'brand'='90' and c.payload->>'menuSection' in ('bar','kitchen')\r\n and a.restaurant_id in ('pushkino','khimki','mytishchi'))))),false)\r\n$function$\n"
+    },
+    {
+      "name": "academy_ranking",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_ranking()\n RETURNS jsonb\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n with actor as (\r\n select * from public.academy_profiles where id=auth.uid() and status='active'\r\n ), visible as (\r\n select p.* from public.academy_profiles p cross join actor a where p.status='active' and\r\n (a.role='admin' or a.operations_director or (a.role='manager' and p.restaurant_id=a.restaurant_id and p.department=a.department)\r\n or (a.role='employee' and p.restaurant_id=a.restaurant_id))\r\n ), best as (\r\n select a.user_id,a.test_id,max(a.score::numeric/nullif(a.total,0)) filter(where not a.needs_review) as fraction,\r\n bool_or(a.passed) as passed from public.academy_attempts a join visible p on p.id=a.user_id\r\n where a.submitted_at is not null and (coalesce((a.snapshot->>'timeLimitSeconds')::integer,0)=0\r\n or a.submitted_at<=a.started_at+make_interval(secs=>(a.snapshot->>'timeLimitSeconds')::integer+10))\r\n group by a.user_id,a.test_id\r\n ), scores as (\r\n select user_id,round(avg(fraction)*100,1) as average_score,count(*) as tests_attempted,count(*) filter(where passed) as tests_passed\r\n from best group by user_id\r\n ), lessons as (\r\n select p.user_id,count(*) as lessons_completed from public.academy_progress p join visible v on v.id=p.user_id group by p.user_id\r\n ), marks as (\r\n select m.user_id,count(*) filter(where m.status='learned') as menu_learned,count(*) filter(where m.status='repeat') as menu_repeat\r\n from public.academy_menu_marks m join visible v on v.id=m.user_id group by m.user_id\r\n )\r\n select coalesce(jsonb_agg(jsonb_build_object('user_id',p.id,'full_name',p.full_name,'restaurant_id',p.restaurant_id,\r\n 'department',p.department,'position',p.position,'average_score',s.average_score,\r\n 'tests_attempted',coalesce(s.tests_attempted,0),'tests_passed',coalesce(s.tests_passed,0),\r\n 'lessons_completed',coalesce(l.lessons_completed,0),'menu_learned',coalesce(m.menu_learned,0),'menu_repeat',coalesce(m.menu_repeat,0))\r\n order by s.average_score desc nulls last,coalesce(s.tests_passed,0) desc,p.full_name),'[]'::jsonb)\r\n from visible p left join scores s on s.user_id=p.id left join lessons l on l.user_id=p.id left join marks m on m.user_id=p.id\r\n$function$\n"
+    },
+    {
+      "name": "academy_manager_dashboard",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_manager_dashboard()\n RETURNS jsonb\n LANGUAGE sql\n STABLE\n SET search_path TO ''\nAS $function$\r\nselect jsonb_build_object(\r\n 'profiles',(select coalesce(jsonb_agg(p),'[]') from public.academy_profiles p),\r\n 'attempts',(select coalesce(jsonb_agg(a),'[]') from public.academy_attempts a),\r\n 'progress',(select coalesce(jsonb_agg(p),'[]') from public.academy_progress p),\r\n 'menu_marks',(select coalesce(jsonb_agg(m),'[]') from public.academy_menu_marks m),\r\n 'menu_stats',(select coalesce(jsonb_agg(x),'[]') from (\r\n select p.id as user_id,count(c.id) as total,count(m.item_id) filter(where m.status='learned') as learned,\r\n count(m.item_id) filter(where m.status='repeat') as repeat,\r\n count(c.id)-count(m.item_id) filter(where m.status in ('learned','repeat')) as not_started\r\n from public.academy_profiles p left join public.academy_content c on c.kind='menu' and c.published and (c.department is null or c.department=p.department) and c.payload->>'menuSection' in ('bar','kitchen') and\r\n (c.restaurant_id=p.restaurant_id or (c.restaurant_id is null and c.payload->>'brand'=case\r\n when p.restaurant_id='minsk' then 'rvb' when p.restaurant_id in ('pushkino','khimki','mytishchi') then '90' else '' end))\r\n left join public.academy_menu_marks m on m.user_id=p.id and m.item_id=c.id group by p.id\r\n ) x))\r\n$function$\n"
+    },
+    {
+      "name": "valid_work",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.valid_work(p_restaurant text, p_department text, p_position text)\n RETURNS boolean\n LANGUAGE sql\n IMMUTABLE\n SET search_path TO ''\nAS $function$\r\n select coalesce(p_restaurant in ('minsk','pushkino','khimki','mytishchi') and (\r\n (p_department='Зал' and p_position in ('Официант','Администратор зала','Хостес')) or\r\n (p_department='Бар' and p_position in ('Старший бармен','Барбэк','Бармен','Бар-менеджер')) or\r\n (p_department='Кухня' and p_position in ('Повар','Шеф-повар')) or\r\n (p_department='Арт' and p_position='Сотрудник арт') or\r\n (p_department='Кальян' and p_position in ('Кальянный мастер','Старший кальянный мастер')) or\r\n (p_department='Руководитель' and p_position in ('Руководитель','Управляющий'))),false)\r\n$function$\n"
+    },
+    {
+      "name": "academy_save_menu",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_menu(p_document jsonb)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; old public.academy_content; proposed public.academy_content;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null or actor.role not in ('admin','manager') or p_document->>'kind' is distinct from 'menu' then raise exception 'Forbidden'; end if;\r\n if nullif(trim(p_document->>'title'),'') is null or nullif(p_document->>'id','') is null then raise exception 'Complete menu title'; end if;\r\n if jsonb_typeof(p_document->'payload') is distinct from 'object' or octet_length((p_document->'payload')::text)>100000 then raise exception 'Invalid menu card'; end if;\r\n if coalesce(p_document->'payload'->>'menuSection','') not in ('bar','kitchen') then raise exception 'Invalid menu section'; end if;\r\n proposed:=jsonb_populate_record(null::public.academy_content,p_document);\r\n select * into old from public.academy_content where id=proposed.id;\r\n if old.id is not null and old.kind<>'menu' then raise exception 'Content type cannot change'; end if;\r\n if not academy_private.can_edit_menu_for(actor,proposed) or\r\n (old.id is not null and not academy_private.can_edit_menu_for(actor,old)) then raise exception 'Menu outside administrator scope'; end if;\r\n if actor.role='manager' and not actor.operations_director then\r\n if old.id is not null and (old.restaurant_id is distinct from proposed.restaurant_id or\r\n old.payload->>'brand' is distinct from proposed.payload->>'brand' or\r\n old.payload->>'menuSection' is distinct from proposed.payload->>'menuSection') then raise exception 'Menu scope cannot change'; end if;\r\n proposed.department:=null;\r\n end if;\r\n insert into public.academy_content(id,kind,title,course_id,payload,published,restaurant_id,department)\r\n values(proposed.id,'menu',trim(proposed.title),null,proposed.payload,coalesce(proposed.published,false),proposed.restaurant_id,proposed.department)\r\n on conflict(id) do update set title=excluded.title,payload=excluded.payload,published=excluded.published,\r\n restaurant_id=excluded.restaurant_id,department=excluded.department,updated_at=now();\r\n insert into academy_private.audit_log(actor_id,action,target) values(auth.uid(),'menu_save',proposed.id);\r\nend $function$\n"
+    },
+    {
+      "name": "academy_cancel_work_change",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_cancel_work_change(p_request_id uuid)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if not academy_private.is_active() then raise exception 'Доступ закрыт.'; end if;\r\n update public.academy_work_changes set status='cancelled',reviewed_at=now(),reviewed_by=auth.uid() where id=p_request_id and user_id=auth.uid() and status='pending';\r\n if not found then raise exception 'Заявка уже обработана или недоступна.'; end if;\r\n insert into academy_private.audit_log(actor_id,action,target) values(auth.uid(),'cancel_work_change',p_request_id::text);\r\nend $function$\n"
+    },
+    {
+      "name": "academy_request_work_change",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_request_work_change(p_restaurant_id text, p_department text, p_position text)\n RETURNS uuid\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; request_id uuid;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active' for update;\r\n if actor.id is null then raise exception 'Доступ закрыт.'; end if;\r\n if not academy_private.valid_work(p_restaurant_id,p_department,p_position) then raise exception 'Проверьте заведение, подразделение и должность.'; end if;\r\n if actor.restaurant_id is not distinct from p_restaurant_id and actor.department is not distinct from p_department and actor.position is not distinct from p_position then raise exception 'Выберите новые рабочие данные.'; end if;\r\n if exists(select 1 from public.academy_work_changes where user_id=actor.id and status='pending') then raise exception 'Сначала дождитесь решения или отмените текущую заявку.'; end if;\r\n insert into public.academy_work_changes(user_id,full_name,original_role,from_restaurant,from_department,from_position,restaurant_id,department,position)\r\n values(actor.id,actor.full_name,actor.role,actor.restaurant_id,actor.department,actor.position,p_restaurant_id,p_department,p_position) returning id into request_id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'request_work_change',request_id::text,jsonb_build_object('user_id',actor.id,'restaurant',p_restaurant_id,'department',p_department,'position',p_position));\r\n return request_id;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_review_work_change",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_review_work_change(p_request_id uuid, p_approve boolean)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; member public.academy_profiles; request public.academy_work_changes; target_user uuid;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null or actor.role not in ('manager','admin') or p_approve is null then raise exception 'Доступ закрыт.'; end if;\r\n select user_id into target_user from public.academy_work_changes where id=p_request_id;\r\n select * into member from public.academy_profiles where id=target_user for update;\r\n select * into request from public.academy_work_changes where id=p_request_id for update;\r\n if request.id is null or request.status<>'pending' then raise exception 'Заявка уже обработана или недоступна.'; end if;\r\n if member.id=actor.id or not(actor.role='admin' or actor.operations_director and academy_private.can_manage(member.id) or (actor.role='manager' and member.role='employee' and request.original_role='employee' and actor.restaurant_id=request.restaurant_id and actor.department=request.department)) then raise exception 'Подтверждение доступно администратору принимающей команды или владельцу.'; end if;\r\n if member.status<>'active' or member.role is distinct from request.original_role or member.restaurant_id is distinct from request.from_restaurant or member.department is distinct from request.from_department or member.position is distinct from request.from_position then raise exception 'Рабочие данные уже изменились. Попросите сотрудника отменить заявку и отправить новую.'; end if;\r\n if p_approve then\r\n update public.academy_profiles set restaurant_id=request.restaurant_id,department=request.department,position=request.position,updated_at=now() where id=member.id;\r\n end if;\r\n update public.academy_work_changes set status=case when p_approve then 'approved' else 'rejected' end,reviewed_at=now(),reviewed_by=actor.id where id=request.id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'review_work_change',request.id::text,jsonb_build_object('approved',p_approve,'user_id',member.id,'from',jsonb_build_object('restaurant',member.restaurant_id,'department',member.department,'position',member.position),'to',jsonb_build_object('restaurant',request.restaurant_id,'department',request.department,'position',request.position)));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_assign_work",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_assign_work(p_user_id uuid, p_restaurant_id text, p_department text, p_position text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; member public.academy_profiles;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n select * into member from public.academy_profiles where id=p_user_id for update;\r\n if actor.id is null or member.id is null or not academy_private.can_manage(p_user_id) or (actor.role<>'admin' and not actor.operations_director and (member.id=actor.id or member.role<>'employee')) then raise exception 'Можно менять только рабочие данные сотрудников своей команды.'; end if;\r\n if not academy_private.valid_work(p_restaurant_id,p_department,p_position) then raise exception 'Проверьте заведение, подразделение и должность.'; end if;\r\n update public.academy_profiles set restaurant_id=p_restaurant_id,department=p_department,position=p_position,updated_at=now() where id=member.id;\r\n update public.academy_work_changes set status='cancelled',reviewed_at=now(),reviewed_by=actor.id where user_id=member.id and status='pending';\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'assign_work',member.id::text,jsonb_build_object('from',jsonb_build_object('restaurant',member.restaurant_id,'department',member.department,'position',member.position),'to',jsonb_build_object('restaurant',p_restaurant_id,'department',p_department,'position',p_position)));\r\nend $function$\n"
+    },
+    {
+      "name": "normalize_training_level",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.normalize_training_level()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if new.department='Руководитель' or new.department is null then new.training_level:=null;\r\n elsif new.position='Официант' then new.training_level:=case when academy_private.waiter_is_certified(new.id,new.restaurant_id,new.department,new.position) then 'certified' else 'trainee' end;\r\n elsif new.training_level is null then new.training_level:='trainee';end if;\r\n return new;\r\nend $function$\n"
+    },
+    {
+      "name": "can_view_oral",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_view_oral()\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_profiles p where p.id=auth.uid() and p.status='active' and (p.role in ('admin','manager') or p.department='Руководитель'))\r\n$function$\n"
+    },
+    {
+      "name": "can_grade_oral",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_grade_oral(p_restaurant text, p_division text)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_profiles p where p.id=auth.uid() and p.status='active' and (p.role='admin' or (p.role='manager' and p.restaurant_id=p_restaurant and ((p_division='kitchen' and p.department='Кухня' and p.position='Шеф-повар') or (p_division='bar' and p.department='Бар' and p.position='Бар-менеджер')))))\r\n$function$\n"
+    },
+    {
+      "name": "academy_set_training_level",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_set_training_level(p_user_id uuid, p_level text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare member public.academy_profiles;\r\nbegin\r\n select * into member from public.academy_profiles where id=p_user_id for update;\r\n if member.id is null or not academy_private.can_manage(p_user_id) then raise exception 'Можно менять уровень только сотрудников своей команды.';end if;\r\n if member.position='Официант' then raise exception 'Уровень официанта определяется сдачей кухни и бара.';end if;\r\n if member.department='Руководитель' or member.department is null or p_level is null or p_level not in ('trainee','certified') then raise exception 'Выберите стажёра или аттестованного сотрудника.';end if;\r\n update public.academy_profiles set training_level=p_level,updated_at=now() where id=p_user_id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'training_level',p_user_id::text,jsonb_build_object('from',member.training_level,'to',p_level));\r\nend $function$\n"
+    },
+    {
+      "name": "waiter_is_certified",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.waiter_is_certified(p_user uuid, p_restaurant text)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select coalesce((select academy_private.waiter_is_certified(p.id,p_restaurant,p.department,p.position) from public.academy_profiles p where p.id=p_user),false)\r\n$function$\n"
+    },
+    {
+      "name": "academy_save_kitchen_oral",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_kitchen_oral(p_employee_id uuid, p_restaurant_id text, p_scores jsonb, p_comment text DEFAULT ''::text)\n RETURNS uuid\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare member public.academy_profiles; actor public.academy_profiles; total integer; assessment_id uuid;keys text[]:=array['hot','cold','allergens','sauces','pizza','general'];\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n select * into member from public.academy_profiles where id=p_employee_id for update;\r\n if actor.id is null or member.id is null or member.status<>'active' or member.restaurant_id is null or member.id=actor.id or not academy_private.can_grade_oral(member.restaurant_id,'kitchen') then raise exception 'Оценки кухни выставляет шеф-повар своего заведения или владелец. Самооценивание запрещено.';end if;\r\n if p_restaurant_id is distinct from member.restaurant_id then raise exception 'Заведение сотрудника изменилось. Обновите кабинет.';end if;\r\n if jsonb_typeof(p_scores) is distinct from 'object' then raise exception 'Заполните шесть оценок от 1 до 10.';end if;\r\n if (select count(*) from jsonb_object_keys(p_scores))<>6 or exists(select 1 from unnest(keys) k where not p_scores ? k) or exists(select 1 from jsonb_each(p_scores) s where jsonb_typeof(s.value)<>'number' or s.value::text !~ '^(10|[1-9])$') then raise exception 'По каждой из шести категорий нужна целая оценка от 1 до 10.';end if;\r\n if p_comment is null or length(p_comment)>3000 then raise exception 'Комментарий должен быть не длиннее 3000 символов.';end if;\r\n select sum(value::text::integer) into total from jsonb_each(p_scores);\r\n insert into public.academy_oral_assessments(employee_id,employee_name,employee_position,restaurant_id,division,scores,category_count,score_total,examiner_id,examiner_name,comment)\r\n values(member.id,member.full_name,member.position,member.restaurant_id,'kitchen',p_scores,6,total,actor.id,actor.full_name,trim(p_comment)) returning id into assessment_id;\r\n update public.academy_profiles set training_level=training_level,updated_at=now() where id=member.id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'kitchen_oral',assessment_id::text,jsonb_build_object('employee',member.id,'total',total,'passed',total>=48));\r\n return assessment_id;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_set_course_audience",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_set_course_audience(p_content_id text, p_positions jsonb, p_levels jsonb, p_priorities jsonb)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content; allowed text[]:=array['Официант','Администратор зала','Хостес','Старший бармен','Барбэк','Бармен','Повар','Сотрудник арт','Кальянный мастер','Старший кальянный мастер','Руководитель','Управляющий','Бар-менеджер','Шеф-повар'];\r\nbegin\r\n select * into c from public.academy_content where id=p_content_id for update;\r\n if c.id is null or c.kind<>'course' or not academy_private.can_edit(c.restaurant_id,c.department) then raise exception 'Недостаточно прав для настройки курса.';end if;\r\n if jsonb_typeof(p_positions) is distinct from 'array' or jsonb_typeof(p_levels) is distinct from 'array' or jsonb_typeof(p_priorities) is distinct from 'object' then raise exception 'Проверьте категории курса.';end if;\r\n if jsonb_array_length(p_positions) not between 1 and cardinality(allowed) or exists(select 1 from jsonb_array_elements_text(p_positions) x where x is null or not x=any(allowed)) or (select count(*) from jsonb_array_elements_text(p_positions))<>(select count(distinct x) from jsonb_array_elements_text(p_positions) x) then raise exception 'Выберите хотя бы одну должность без повторов.';end if;\r\n if jsonb_array_length(p_levels) not between 1 and 2 or exists(select 1 from jsonb_array_elements_text(p_levels) x where x is null or x not in ('trainee','certified')) then raise exception 'Выберите уровень подготовки.';end if;\r\n if exists(select 1 from jsonb_each_text(p_priorities) x where not p_positions ? x.key or x.value is null or x.value not in ('start','attestation','additional')) then raise exception 'Проверьте приоритеты должностей.';end if;\r\n update public.academy_content set payload=payload||jsonb_build_object('audiencePositions',p_positions,'audienceLevels',p_levels,'audiencePriorities',p_priorities),updated_at=now() where id=c.id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(auth.uid(),'course_audience',c.id,jsonb_build_object('positions',p_positions,'levels',p_levels,'priorities',p_priorities));\r\nend $function$\n"
+    },
+    {
+      "name": "waiter_is_certified",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.waiter_is_certified(p_user uuid, p_restaurant text, p_department text, p_position text)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select coalesce((select passed from public.academy_oral_assessments where employee_id=p_user and restaurant_id=p_restaurant and division='kitchen' order by created_at desc,id desc limit 1),false)\r\n and coalesce((select passed from public.academy_oral_assessments where employee_id=p_user and restaurant_id=p_restaurant and division='bar' order by created_at desc,id desc limit 1),false)\r\n and coalesce((academy_private.general_training_status(p_user,p_restaurant,p_department,p_position)->>'passed')::boolean,false)\r\n$function$\n"
+    },
+    {
+      "name": "sync_learning_attestation",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.sync_learning_attestation()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if tg_op<>'INSERT' then update public.academy_profiles set training_level=training_level where id=old.user_id and position='Официант';end if;\r\n if tg_op<>'DELETE' then update public.academy_profiles set training_level=training_level where id=new.user_id and position='Официант';end if;\r\n return null;\r\nend $function$\n"
+    },
+    {
+      "name": "sync_curriculum_attestation",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.sync_curriculum_attestation()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n update public.academy_profiles set training_level=training_level where position='Официант';return null;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_oral_data",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_oral_data(p_all boolean DEFAULT false)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; viewer boolean; result jsonb;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null then raise exception 'Доступ закрыт.';end if;\r\n viewer:=academy_private.can_view_oral();\r\n select jsonb_build_object(\r\n 'viewer',viewer,\r\n 'members',coalesce((select jsonb_agg(jsonb_build_object('id',p.id,'full_name',p.full_name,'restaurant_id',p.restaurant_id,'department',p.department,'position',p.position,'training_level',p.training_level,'general',academy_private.general_training_status(p.id,p.restaurant_id,p.department,p.position),'can_grade_kitchen',academy_private.can_grade_oral(p.restaurant_id,'kitchen') and p.id<>actor.id,'can_grade_bar',academy_private.can_grade_oral(p.restaurant_id,'bar') and p.id<>actor.id) order by p.full_name) from public.academy_profiles p where p.status='active' and (p.id=actor.id or viewer and p_all and (actor.role='admin' or actor.operations_director or p.restaurant_id=actor.restaurant_id))),'[]'::jsonb),\r\n 'assessments',coalesce((select jsonb_agg(to_jsonb(a) order by a.created_at desc,a.id desc) from public.academy_oral_assessments a where a.employee_id=actor.id or viewer and p_all and (actor.role='admin' or actor.operations_director or a.restaurant_id=actor.restaurant_id and exists(select 1 from public.academy_profiles p where p.id=a.employee_id and p.restaurant_id=actor.restaurant_id))),'[]'::jsonb)) into result;\r\n return result;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_owner_team_emails",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_owner_team_emails()\n RETURNS jsonb\n LANGUAGE plpgsql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if not exists(select 1 from public.academy_profiles where id=auth.uid() and status='active' and role='admin') then\r\n raise exception 'Доступ к почте сотрудников есть только у владельца академии.' using errcode='42501';\r\n end if;\r\n return coalesce((select jsonb_agg(jsonb_build_object('user_id',p.id,'email',u.email) order by p.full_name,p.id)\r\n from public.academy_profiles p join auth.users u on u.id=p.id),'[]'::jsonb);\r\nend $function$\n"
+    },
+    {
+      "name": "general_training_status",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.general_training_status(p_user uuid, p_restaurant text, p_department text, p_position text)\n RETURNS jsonb\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nwith required_courses as (\r\n select c.* from public.academy_content c where c.kind='course' and c.published\r\n and (c.restaurant_id is null or c.restaurant_id=p_restaurant) and (c.department is null or c.department=p_department)\r\n and (not c.payload ? 'audiencePositions' or c.payload->'audiencePositions' ? p_position)\r\n and (not c.payload ? 'requiredRestaurantIds' or c.payload->'requiredRestaurantIds' ? p_restaurant)\r\n and coalesce(c.payload->'venueAudiencePriorities'->p_restaurant->>p_position,c.payload->'audiencePriorities'->>p_position,c.payload->>'priority','additional') in ('start','attestation')\r\n), required_tests as (\r\n select t.* from public.academy_content t where t.kind='test' and t.published\r\n and (t.restaurant_id is null or t.restaurant_id=p_restaurant) and (t.department is null or t.department=p_department)\r\n and (not t.payload ? 'audiencePositions' or t.payload->'audiencePositions' ? p_position)\r\n and (not t.payload ? 'requiredRestaurantIds' or t.payload->'requiredRestaurantIds' ? p_restaurant)\r\n and (exists(select 1 from required_courses c where c.id=t.course_id) or\r\n (t.course_id is null and coalesce(t.payload->>'priority','attestation') in ('start','attestation')))\r\n), test_status as (\r\n select t.id,t.title,t.course_id,exists(select 1 from public.academy_attempts a where a.user_id=p_user and a.test_id=t.id and a.submitted_at is not null and a.passed and not a.needs_review and a.total>0 and\r\n (coalesce((a.snapshot->>'timeLimitSeconds')::integer,0)=0 or a.submitted_at<=a.started_at+make_interval(secs=>(a.snapshot->>'timeLimitSeconds')::integer+10))) as passed from required_tests t\r\n), course_status as (\r\n select c.id,c.title,coalesce(c.payload->'venueAudiencePriorities'->p_restaurant->>p_position,c.payload->'audiencePriorities'->>p_position,c.payload->>'priority','additional') as priority,\r\n (select count(*) from jsonb_array_elements(case when jsonb_typeof(c.payload->'lessons')='array' then c.payload->'lessons' else '[]'::jsonb end)) as total,\r\n (select count(*) from jsonb_array_elements(case when jsonb_typeof(c.payload->'lessons')='array' then c.payload->'lessons' else '[]'::jsonb end) with ordinality l(value,n) where exists(select 1 from public.academy_progress p where p.user_id=p_user and p.course_id=c.id and p.lesson_id=coalesce(l.value->>'id',(l.n-1)::text))) as done,\r\n (select count(*) from test_status t where t.course_id=c.id) as tests_total,\r\n (select count(*) from test_status t where t.course_id=c.id and t.passed) as tests_passed\r\n from required_courses c\r\n), completed_courses as (\r\n select c.*,((total>0 or tests_total>0) and done=total and tests_total=tests_passed) as complete from course_status c\r\n)\r\nselect jsonb_build_object('passed',((select count(*) from completed_courses)+(select count(*) from test_status)>0 and not exists(select 1 from completed_courses where not complete) and not exists(select 1 from test_status where not passed)),\r\n 'courses_total',(select count(*) from completed_courses),'courses_completed',(select count(*) from completed_courses where complete),\r\n 'tests_total',(select count(*) from test_status),'tests_passed',(select count(*) from test_status where passed),\r\n 'courses',coalesce((select jsonb_agg(to_jsonb(c) order by case c.priority when 'start' then 0 else 1 end,c.title) from completed_courses c),'[]'::jsonb),\r\n 'tests',coalesce((select jsonb_agg(to_jsonb(t) order by t.title) from test_status t),'[]'::jsonb))\r\n$function$\n"
+    },
+    {
+      "name": "academy_save_bar_oral",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_bar_oral(p_employee_id uuid, p_restaurant_id text, p_scores jsonb, p_comment text DEFAULT ''::text)\n RETURNS uuid\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare member public.academy_profiles; actor public.academy_profiles; total integer; assessment_id uuid;keys text[]:=array['wine','spirits','beer','cocktails','nonalcoholic','specials','alternatives','pairing'];\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n select * into member from public.academy_profiles where id=p_employee_id for update;\r\n if actor.id is null or member.id is null or member.status<>'active' or member.restaurant_id is null or member.id=actor.id or not academy_private.can_grade_oral(member.restaurant_id,'bar') then raise exception 'Оценки бара выставляет бар-менеджер своего заведения или владелец. Самооценивание запрещено.';end if;\r\n if p_restaurant_id is distinct from member.restaurant_id then raise exception 'Заведение сотрудника изменилось. Обновите кабинет.';end if;\r\n if jsonb_typeof(p_scores) is distinct from 'object' then raise exception 'Заполните восемь оценок от 1 до 10.';end if;\r\n if (select count(*) from jsonb_object_keys(p_scores))<>8 or exists(select 1 from unnest(keys) k where not p_scores ? k) or exists(select 1 from jsonb_each(p_scores) s where jsonb_typeof(s.value)<>'number' or s.value::text !~ '^(10|[1-9])$') then raise exception 'По каждой из восьми категорий нужна целая оценка от 1 до 10.';end if;\r\n if p_comment is null or length(p_comment)>3000 then raise exception 'Комментарий должен быть не длиннее 3000 символов.';end if;\r\n select sum(value::text::integer) into total from jsonb_each(p_scores);\r\n insert into public.academy_oral_assessments(employee_id,employee_name,employee_position,restaurant_id,division,scores,category_count,score_total,examiner_id,examiner_name,comment)\r\n values(member.id,member.full_name,member.position,member.restaurant_id,'bar',p_scores,8,total,actor.id,actor.full_name,trim(p_comment)) returning id into assessment_id;\r\n update public.academy_profiles set training_level=training_level,updated_at=now() where id=member.id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'bar_oral',assessment_id::text,jsonb_build_object('employee',member.id,'total',total,'passed',total>=64));\r\n return assessment_id;\r\nend $function$\n"
+    },
+    {
+      "name": "notify_team",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notify_team(p_subject uuid, p_key text, p_title text, p_body text, p_route text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare p public.academy_profiles; m public.academy_profiles;\r\nbegin\r\n select * into m from public.academy_profiles where id=p_subject;\r\n for p in select * from public.academy_profiles where status='active' and id<>p_subject and\r\n (role='admin' or (operations_director and m.role<>'admin' and not m.operations_director) or role='manager' and m.role='employee' and restaurant_id=m.restaurant_id and department=m.department) loop\r\n perform academy_private.emit_notice(p.id,p_key,'team',p_title,p_body,p_route,'team',p_subject);end loop;\r\nend $function$\n"
+    },
+    {
+      "name": "emit_notice",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.emit_notice(p_user uuid, p_key text, p_category text, p_title text, p_body text, p_route text, p_scope text DEFAULT 'own'::text, p_subject uuid DEFAULT NULL::uuid, p_ids text[] DEFAULT '{}'::text[])\n RETURNS void\n LANGUAGE sql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n insert into academy_private.notifications(user_id,event_key,category,title,body,route,scope,subject_id,content_ids)\r\n values(p_user,p_key,p_category,left(p_title,200),left(p_body,4000),p_route,p_scope,p_subject,p_ids) on conflict(user_id,event_key) do nothing\r\n$function$\n"
+    },
+    {
+      "name": "notification_profile_event",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notification_profile_event()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if tg_op='INSERT' then\r\n if new.status='pending' then\r\n perform academy_private.emit_notice(new.id,'enrolled:'||new.id,'account','Заявка принята','Администратор проверит данные и откроет доступ к обучению.','#/profile');\r\n perform academy_private.notify_team(new.id,'enrollment:'||new.id,'Новая заявка сотрудника',new.full_name,'#/manager/members/'||new.id||'/profile');end if;\r\n else\r\n if new.status is distinct from old.status then\r\n perform academy_private.emit_notice(new.id,'access:'||new.status||':'||new.updated_at::text,'account',case new.status when 'active' then 'Доступ к обучению открыт' when 'suspended' then 'Доступ приостановлен' else 'Заявка ожидает подтверждения' end,'Подробности можно уточнить у администратора своего заведения.','#/profile');end if;\r\n if row(new.restaurant_id,new.department,new.position) is distinct from row(old.restaurant_id,old.department,old.position) then\r\n perform academy_private.emit_notice(new.id,'work:'||new.updated_at::text,'account','Рабочие данные изменены',coalesce(new.department,'')||' · '||coalesce(new.position,'')||E'\\nЗаведение и актуальный учебный план доступны в профиле.','#/profile');end if;\r\n if new.position='Официант' and new.training_level='certified' and old.training_level is distinct from 'certified' then\r\n perform academy_private.emit_notice(new.id,'certified:'||new.restaurant_id||':'||new.updated_at::text,'attestation','Вы — аттестованный сотрудник','Сданы общая аттестация, кухня и бар.','#/profile');\r\n perform academy_private.notify_team(new.id,'certified:'||new.id||':'||new.updated_at::text,'Сотрудник прошёл три аттестации',new.full_name,'#/attestation/members/'||new.id);end if;\r\n end if;\r\n if new.status='active' and new.position='Официант' then perform academy_private.notify_readiness(new);end if;\r\n return null;\r\nend $function$\n"
+    },
+    {
+      "name": "notification_work_event",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notification_work_event()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare p public.academy_profiles;\r\nbegin\r\n if tg_op='INSERT' then\r\n perform academy_private.emit_notice(new.user_id,'work-request:'||new.id,'account','Заявка на перевод отправлена',new.department||' · '||new.position,'#/profile');\r\n for p in select * from public.academy_profiles where status='active' and id<>new.user_id and (role='admin' or role='manager' and new.original_role='employee' and restaurant_id=new.restaurant_id and department=new.department) loop\r\n -- Receiving administrator can already read this request via academy_work_change_list.\r\n perform academy_private.emit_notice(p.id,'work-review:'||new.id,'work_review','Заявка на смену рабочих данных',new.full_name||' · '||new.position,'#/manager','work',new.user_id);end loop;\r\n elsif new.status is distinct from old.status then\r\n perform academy_private.emit_notice(new.user_id,'work-result:'||new.id||':'||new.status,'account',case new.status when 'approved' then 'Перевод подтверждён' when 'rejected' then 'Заявка на перевод отклонена' else 'Заявка на перевод отменена' end,new.department||' · '||new.position,'#/profile');end if;return null;\r\nend $function$\n"
+    },
+    {
+      "name": "notification_attempt_event",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notification_attempt_event()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare t text; m text;\r\nbegin\r\n select title into t from public.academy_content where id=new.test_id;\r\n if new.submitted_at is not null and old.submitted_at is null and new.needs_review then\r\n select full_name into m from public.academy_profiles where id=new.user_id;\r\n perform academy_private.notify_team(new.user_id,'review:'||new.id,'Письменный тест ждёт проверки',m||' · '||t,'#/manager');end if;\r\n if new.reviewed_at is not null and new.reviewed_at is distinct from old.reviewed_at then\r\n perform academy_private.emit_notice(new.user_id,'reviewed:'||new.id||':'||new.reviewed_at::text,'learning','Письменный ответ проверен',t||E'\\n'||case when new.passed then 'Тест пройден.' else 'Повторите материал и попробуйте снова.' end||case when nullif(new.feedback,'') is not null then E'\\n'||new.feedback else '' end,'#/tests/'||new.test_id||'/results/'||new.id);end if;return null;\r\nend $function$\n"
+    },
+    {
+      "name": "refresh_notices",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.refresh_notices(p academy_profiles)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare m public.academy_profiles; g jsonb; c jsonb;due timestamptz;names text:='';overdue integer:=0;v_division text;recipient public.academy_profiles;attempt record;request public.academy_work_changes;\r\nbegin\r\n if p.status<>'active' then return;end if;\r\n -- Each inbox refresh does this at most once per hour. No client-supplied recipients.\r\n insert into academy_private.notification_checks(user_id,checked_at) values(p.id,clock_timestamp()) on conflict(user_id) do update set checked_at=excluded.checked_at where academy_private.notification_checks.checked_at<now()-interval '1 hour';\r\n if not found then return;end if;\r\n g:=academy_private.general_training_status(p.id,p.restaurant_id,p.department,p.position);\r\n for c in select value from jsonb_array_elements(g->'courses') where not (value->>'complete')::boolean union all select value from jsonb_array_elements(g->'tests') where not (value->>'passed')::boolean loop\r\n select academy_private.notice_due(payload->>'dueAt') into due from public.academy_content where id=c->>'id';\r\n if due<=now()+interval '3 days' then names:=names||case when names='' then '' else E'\\n' end||(c->>'title');end if;end loop;\r\n if names<>'' and not exists(select 1 from academy_private.notifications where user_id=p.id and category='reminder' and created_at>now()-interval '3 days') then\r\n perform academy_private.emit_notice(p.id,'reminder:'||floor(extract(epoch from now()))::text,'reminder','Обязательное обучение ждёт завершения',names,'#/courses');end if;\r\n if p.role in ('admin','manager') then\r\n for m in select * from public.academy_profiles where id<>p.id and (p.role='admin' or role='employee' and restaurant_id=p.restaurant_id and department=p.department) loop\r\n if m.status='pending' then perform academy_private.emit_notice(p.id,'enrollment:'||m.id,'team','Новая заявка сотрудника',m.full_name,'#/manager/members/'||m.id||'/profile','team',m.id);end if;\r\n if m.status='active' then\r\n for attempt in select a.id,t.title from public.academy_attempts a join public.academy_content t on t.id=a.test_id where a.user_id=m.id and a.needs_review and a.submitted_at is not null loop\r\n perform academy_private.emit_notice(p.id,'review:'||attempt.id,'team','Письменный тест ждёт проверки',m.full_name||' · '||attempt.title,'#/manager','team',m.id);end loop;\r\n g:=academy_private.general_training_status(m.id,m.restaurant_id,m.department,m.position);\r\n for c in select value from jsonb_array_elements(g->'courses') where not (value->>'complete')::boolean union all select value from jsonb_array_elements(g->'tests') where not (value->>'passed')::boolean loop\r\n select academy_private.notice_due(payload->>'dueAt') into due from public.academy_content where id=c->>'id';if due<now() then overdue:=overdue+1;end if;end loop;\r\n end if;end loop;\r\n if overdue>0 then perform academy_private.emit_notice(p.id,'overdue:'||(now() at time zone 'Europe/Minsk')::date::text,'digest','Сводка просроченного обучения','Незавершённых обязательных курсов и тестов со сроком: '||overdue||'. Откройте прогресс команды.','#/manager');end if;\r\n for request in select * from public.academy_work_changes where status='pending' and user_id<>p.id and (p.role='admin' or p.role='manager' and original_role='employee' and restaurant_id=p.restaurant_id and department=p.department) loop\r\n perform academy_private.emit_notice(p.id,'work-review:'||request.id,'work_review','Заявка на смену рабочих данных',request.full_name||' · '||request.position,'#/manager','work',request.user_id);end loop;\r\n end if;\r\n -- Readiness is based on the current mandatory curriculum, never on menu marks.\r\n for m in select * from public.academy_profiles where status='active' and position='Официант' and restaurant_id is not null and\r\n (p.id=id or p.role='admin' or p.role='manager' and restaurant_id=p.restaurant_id) loop\r\n g:=academy_private.general_training_status(m.id,m.restaurant_id,m.department,m.position);\r\n if (g->>'passed')::boolean then\r\n foreach v_division in array array['kitchen','bar'] loop\r\n if not coalesce((select a.passed from public.academy_oral_assessments a where a.employee_id=m.id and a.restaurant_id=m.restaurant_id and a.division=v_division order by a.created_at desc,a.id desc limit 1),false) then\r\n for recipient in select * from public.academy_profiles where status='active' and id<>m.id and\r\n (role='admin' or role='manager' and restaurant_id=m.restaurant_id and ((v_division='kitchen' and department='Кухня' and position='Шеф-повар') or (v_division='bar' and department='Бар' and position='Бар-менеджер'))) loop\r\n perform academy_private.emit_notice(recipient.id,'oral-ready:'||m.id||':'||m.restaurant_id||':'||v_division,'attestation','Сотрудник готов к аттестации · '||case v_division when 'bar' then 'Бар' else 'Кухня' end,m.full_name||' завершил обязательное обучение.','#/attestation/members/'||m.id||'?division='||v_division,'oral',m.id);end loop;end if;end loop;end if;end loop;\r\nend $function$\n"
+    },
+    {
+      "name": "run_notification_digest",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.run_notification_digest()\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare p public.academy_profiles;\r\nbegin for p in select * from public.academy_profiles where status='active' loop perform academy_private.refresh_notices(p);end loop;end $function$\n"
+    },
+    {
+      "name": "notify_readiness",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notify_readiness(m academy_profiles)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare g jsonb;v_division text;recipient public.academy_profiles;\r\nbegin\r\n if m.status<>'active' or m.position<>'Официант' or m.restaurant_id is null then return;end if;\r\n g:=academy_private.general_training_status(m.id,m.restaurant_id,m.department,m.position);\r\n if not (g->>'passed')::boolean then return;end if;\r\n foreach v_division in array array['kitchen','bar'] loop\r\n if not coalesce((select a.passed from public.academy_oral_assessments a where a.employee_id=m.id and a.restaurant_id=m.restaurant_id and a.division=v_division order by a.created_at desc,a.id desc limit 1),false) then\r\n for recipient in select * from public.academy_profiles where status='active' and id<>m.id and\r\n (role='admin' or role='manager' and restaurant_id=m.restaurant_id and ((v_division='kitchen' and department='Кухня' and position='Шеф-повар') or (v_division='bar' and department='Бар' and position='Бар-менеджер'))) loop\r\n perform academy_private.emit_notice(recipient.id,'oral-ready:'||m.id||':'||m.restaurant_id||':'||v_division,'attestation','Сотрудник готов к аттестации · '||case v_division when 'bar' then 'Бар' else 'Кухня' end,m.full_name||' завершил обязательное обучение.','#/attestation/members/'||m.id||'?division='||v_division,'oral',m.id);end loop;end if;end loop;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_announce_content",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_announce_content(p_content_ids text[], p_comment text DEFAULT ''::text)\n RETURNS integer\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles;c public.academy_content;first_c public.academy_content;p public.academy_profiles;\r\n ids text[];snapshot jsonb;key text;notice_title text;notice_body text;recipient_body text;notice_route text;sent integer:=0;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null or actor.role not in ('admin','manager') then raise exception 'Публиковать уведомления может только администратор.';end if;\r\n select array_agg(distinct x order by x) into ids from unnest(p_content_ids) x;\r\n if coalesce(array_length(ids,1),0) not between 1 and 30 or length(coalesce(p_comment,''))>1000 then raise exception 'Выберите от 1 до 30 позиций и комментарий до 1000 символов.';end if;\r\n select * into first_c from public.academy_content where id=ids[1];\r\n if (select count(*) from public.academy_content where id=any(ids))<>array_length(ids,1) then raise exception 'Материал недоступен.';end if;\r\n for c in select * from public.academy_content where id=any(ids) loop\r\n if not c.published or c.kind not in ('course','test','material','menu') or c.kind is distinct from first_c.kind\r\n or c.restaurant_id is distinct from first_c.restaurant_id or c.department is distinct from first_c.department\r\n or (c.kind<>'menu' and array_length(ids,1)>1)\r\n or (c.kind='menu' and (c.payload->>'brand' is distinct from first_c.payload->>'brand' or c.payload->>'menuSection' is distinct from first_c.payload->>'menuSection'))\r\n or not (actor.role='admin' or case when c.kind='menu' then academy_private.can_edit_menu_for(actor,c)\r\n else academy_private.can_edit(c.restaurant_id,c.department) end) then raise exception 'Уведомлять можно только об опубликованных материалах своей области.';end if;\r\n end loop;\r\n select jsonb_agg(jsonb_build_object('id',d.id,'title',d.title,'payload',d.payload,'files',(select jsonb_agg(f.id order by f.id) from public.academy_material_files f where f.material_id=d.id and f.status='ready')) order by d.id) into snapshot from public.academy_content d where d.id=any(ids);\r\n key:='publication:'||md5(snapshot::text);\r\n notice_title:=case first_c.kind when 'course' then 'Курс опубликован: '||first_c.title when 'test' then 'Тест опубликован: '||first_c.title when 'material' then 'Новое в библиотеке: '||first_c.title else 'Обновление меню · '||case first_c.payload->>'brand' when 'rvb' then 'Руки Вверх Бар' else '90-е' end end;\r\n notice_body:=case when first_c.kind='menu' then (select string_agg(title,E'\\n' order by title) from public.academy_content where id=any(ids)) else coalesce(first_c.payload->>'description','') end;\r\n if nullif(trim(p_comment),'') is not null then notice_body:=notice_body||E'\\n'||trim(p_comment);end if;\r\n notice_route:=case first_c.kind when 'course' then '#/courses/'||first_c.id when 'test' then '#/tests/'||first_c.id when 'material' then '#/library/'||first_c.id else case when array_length(ids,1)=1 then '#/menu/'||first_c.id else '#/menu?brand='||(first_c.payload->>'brand')||'&section='||(first_c.payload->>'menuSection') end end;\r\n for p in select * from public.academy_profiles where status='active' and id<>actor.id loop\r\n if exists(select 1 from public.academy_content d where d.id=any(ids) and academy_private.notice_content_for(p,d)) then\r\n recipient_body:=notice_body;\r\n if first_c.kind in ('course','test') then recipient_body:=case coalesce(first_c.payload->'audiencePriorities'->>p.position,first_c.payload->>'priority',case first_c.kind when 'test' then 'attestation' else 'additional' end) when 'start' then 'Важно для начала работы' when 'attestation' then 'Аттестация' else 'Дополнительные знания' end||case when nullif(first_c.payload->>'dueAt','') is not null then E'\\nСрок: '||left(first_c.payload->>'dueAt',10) else '' end||case when nullif(trim(p_comment),'') is not null then E'\\n'||trim(p_comment) else '' end;end if;\r\n perform academy_private.emit_notice(p.id,key,'publication',notice_title,recipient_body,notice_route,'content',null,ids);sent:=sent+1;end if;end loop;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'notification_publish',first_c.id,jsonb_build_object('ids',ids,'eligible',sent));return sent;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_notifications",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_notifications(p_limit integer DEFAULT 30, p_unread boolean DEFAULT false)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare p public.academy_profiles;r jsonb;\r\nbegin\r\n select * into p from public.academy_profiles where id=auth.uid();if p.id is null then raise exception 'Войдите в аккаунт.';end if;\r\n perform academy_private.refresh_notices(p);\r\n select jsonb_build_object('as_of',clock_timestamp(),'unread',(select count(*) from academy_private.notifications n where n.read_at is null and academy_private.notice_visible(n,p)),\r\n 'total',(select count(*) from academy_private.notifications n where academy_private.notice_visible(n,p) and (not p_unread or n.read_at is null)),\r\n 'items',coalesce((select jsonb_agg(to_jsonb(x) order by x.created_at desc,x.id desc) from\r\n (select n.id,n.category,n.title,n.body,n.route,n.created_at,n.read_at,\r\n coalesce((select jsonb_agg(jsonb_build_object('id',c.id,'title',c.title,'kind',c.kind) order by c.title) from public.academy_content c where c.id=any(n.content_ids) and academy_private.notice_content_for(p,c)),'[]'::jsonb) as targets\r\n from academy_private.notifications n where academy_private.notice_visible(n,p) and (not p_unread or n.read_at is null) order by n.created_at desc,n.id desc limit greatest(1,least(coalesce(p_limit,30),200))) x),'[]'::jsonb)) into r;return r;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_read_notifications",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_read_notifications(p_id uuid DEFAULT NULL::uuid, p_through timestamp with time zone DEFAULT NULL::timestamp with time zone)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare p public.academy_profiles;\r\nbegin\r\n select * into p from public.academy_profiles where id=auth.uid();if p.id is null then raise exception 'Войдите в аккаунт.';end if;\r\n if p_id is null and p_through is null then raise exception 'Выберите уведомление.';end if;\r\n update academy_private.notifications n set read_at=clock_timestamp() where n.read_at is null and academy_private.notice_visible(n,p) and\r\n ((p_id is not null and n.id=p_id) or (p_id is null and n.created_at<=least(p_through,clock_timestamp())));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_save_content_with_notice",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_content_with_notice(p_document jsonb, p_keys jsonb DEFAULT NULL::jsonb, p_notify boolean DEFAULT false, p_comment text DEFAULT ''::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n perform public.academy_save_content(p_document,p_keys);\r\n if p_notify and coalesce((p_document->>'published')::boolean,false) then perform public.academy_announce_content(array[p_document->>'id'],p_comment);end if;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_save_menu_with_notice",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_menu_with_notice(p_document jsonb, p_notify boolean DEFAULT false, p_comment text DEFAULT ''::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n perform public.academy_save_menu(p_document);\r\n if p_notify and coalesce((p_document->>'published')::boolean,false) then perform public.academy_announce_content(array[p_document->>'id'],p_comment);end if;\r\nend $function$\n"
+    },
+    {
+      "name": "canonical_position_payload",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.canonical_position_payload(p jsonb)\n RETURNS jsonb\n LANGUAGE plpgsql\n IMMUTABLE\n SET search_path TO ''\nAS $function$\r\ndeclare result jsonb:=p; positions jsonb; old_priority text; current_priority text; merged text;\r\nbegin\r\n if jsonb_typeof(p->'audiencePositions')='array' then\r\n select jsonb_agg(position order by first_n) into positions from(select case when value='Руководитель' then 'Управляющий' else value end position,min(n) first_n from jsonb_array_elements_text(p->'audiencePositions') with ordinality a(value,n) group by 1) v;\r\n result:=jsonb_set(result,'{audiencePositions}',coalesce(positions,'[]'::jsonb));\r\n end if;\r\n if p->'audiencePriorities' ? 'Руководитель' then\r\n old_priority:=p#>>'{audiencePriorities,Руководитель}';current_priority:=p#>>'{audiencePriorities,Управляющий}';\r\n merged:=case when current_priority is null or coalesce(array_position(array['start','attestation','additional'],old_priority),99)<coalesce(array_position(array['start','attestation','additional'],current_priority),99) then old_priority else current_priority end;\r\n result:=jsonb_set(result,'{audiencePriorities}',((p->'audiencePriorities')-'Руководитель')||jsonb_build_object('Управляющий',merged));\r\n end if;\r\n return result;\r\nend $function$\n"
+    },
+    {
+      "name": "normalize_position_record",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.normalize_position_record()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n if new.position='Руководитель' then new.position:='Управляющий';end if;\r\n return new;\r\nend $function$\n"
+    },
+    {
+      "name": "normalize_position_content",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.normalize_position_content()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n new.payload:=academy_private.canonical_position_payload(new.payload);return new;\r\nend $function$\n"
+    },
+    {
+      "name": "normalize_position_draft",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.normalize_position_draft()\n RETURNS trigger\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\nbegin\r\n new.document:=jsonb_set(new.document,'{payload}',academy_private.canonical_position_payload(new.document->'payload'));return new;\r\nend $function$\n"
+    },
+    {
+      "name": "can_read_bar_handbook",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.can_read_bar_handbook(p academy_profiles, c academy_content)\n RETURNS boolean\n LANGUAGE sql\n STABLE\n SET search_path TO ''\nAS $function$\r\n select coalesce(p.status='active' and (p.role='admin' or p.operations_director or\r\n ((c.published or p.role='manager' and p.restaurant_id='minsk' and p.department='Бар') and\r\n (p.department='Руководитель' or p.restaurant_id='minsk' and p.department='Бар'))),false)\r\n$function$\n"
+    },
+    {
+      "name": "academy_save_course_editor",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_save_course_editor(p_document jsonb, p_expected timestamp with time zone DEFAULT NULL::timestamp with time zone, p_draft_expected timestamp with time zone DEFAULT NULL::timestamp with time zone, p_publish boolean DEFAULT false, p_notify boolean DEFAULT false, p_comment text DEFAULT ''::text)\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare c public.academy_content;d academy_private.course_drafts;l jsonb;b jsonb;doc jsonb:=p_document;ids text[];positions text[]:=array['Официант','Администратор зала','Хостес','Старший бармен','Барбэк','Бармен','Бар-менеджер','Повар','Шеф-повар','Сотрудник арт','Кальянный мастер','Старший кальянный мастер','Руководитель','Управляющий'];\r\nbegin\r\n if p_publish is null or doc->>'kind' is distinct from 'course' or nullif(trim(doc->>'title'),'') is null or length(doc->>'title')>240 or octet_length(doc::text)>1048576 or nullif(doc->>'id','') is null then raise exception 'Проверьте название и размер курса.';end if;\r\n if not academy_private.can_edit(doc->>'restaurant_id',doc->>'department') then raise exception 'Курс вне вашей области доступа.';end if;\r\n select * into c from public.academy_content where id=doc->>'id' for update;\r\n if c.id is not null and (c.kind<>'course' or not academy_private.can_edit(c.restaurant_id,c.department) or row(c.restaurant_id,c.department) is distinct from row(doc->>'restaurant_id',doc->>'department')) then raise exception 'Область существующего курса менять здесь нельзя.';end if;\r\n if c.id is not null and c.updated_at is distinct from p_expected then raise exception 'Курс изменён в другом окне. Обновите редактор; локальный черновик сохранён.';end if;\r\n select * into d from academy_private.course_drafts where course_id=doc->>'id' for update;\r\n if d.updated_at is distinct from p_draft_expected then raise exception 'Черновик изменён в другом окне. Обновите редактор.';end if;\r\n if jsonb_typeof(doc->'payload') is distinct from 'object' or jsonb_typeof(doc->'payload'->'lessons') is distinct from 'array' or jsonb_array_length(doc->'payload'->'lessons') not between 1 and 100 then raise exception 'В курсе должно быть от 1 до 100 занятий.';end if;\r\n select array_agg(x->>'id') into ids from jsonb_array_elements(doc->'payload'->'lessons') x;\r\n if exists(select 1 from unnest(ids) x where nullif(x,'') is null) or cardinality(ids)<>(select count(distinct x) from unnest(ids) x) then raise exception 'Занятия должны иметь уникальные идентификаторы.';end if;\r\n if c.id is not null and exists(select 1 from jsonb_array_elements(coalesce(c.payload->'lessons','[]')) with ordinality x(value,n) where not coalesce(x.value->>'id',(n-1)::text)=any(ids)) then raise exception 'Существующие занятия нельзя удалить: их история обучения должна сохраниться.';end if;\r\n if jsonb_path_exists(doc->'payload','$.**.correct') or jsonb_path_exists(doc->'payload','$.**.key_snapshot') then raise exception 'Ключи тестов не должны храниться в курсе.';end if;\r\n if coalesce(doc->'payload'->>'priority','additional') not in ('start','attestation','additional') then raise exception 'Проверьте приоритет курса.';end if;\r\n if jsonb_typeof(doc->'payload'->'audiencePositions') is distinct from 'array' or jsonb_array_length(doc->'payload'->'audiencePositions')<1 or exists(select 1 from jsonb_array_elements_text(doc->'payload'->'audiencePositions') x where not x=any(positions)) then raise exception 'Выберите должности курса.';end if;\r\n if jsonb_typeof(doc->'payload'->'audienceLevels') is distinct from 'array' or jsonb_array_length(doc->'payload'->'audienceLevels')<1 or exists(select 1 from jsonb_array_elements_text(doc->'payload'->'audienceLevels') x where x not in ('trainee','certified')) then raise exception 'Выберите уровни подготовки.';end if;\r\n for l in select value from jsonb_array_elements(doc->'payload'->'lessons') loop\r\n if nullif(trim(l->>'title'),'') is null then raise exception 'Назовите каждое занятие.';end if;\r\n if l ? 'blocks' then\r\n if jsonb_typeof(l->'blocks') is distinct from 'array' or jsonb_array_length(l->'blocks')>100 then raise exception 'В занятии может быть до 100 блоков.';end if;\r\n if (select count(distinct x->>'id') from jsonb_array_elements(l->'blocks') x)<>jsonb_array_length(l->'blocks') then raise exception 'Блоки должны иметь уникальные идентификаторы.';end if;\r\n for b in select value from jsonb_array_elements(l->'blocks') loop\r\n if b->>'type' is null or b->>'type' not in ('hero','heading','text','list','callout','table','image','link','video','pdf','divider') then raise exception 'Неизвестный тип блока.';end if;\r\n end loop;end if;end loop;\r\n if c.id is null then\r\n insert into public.academy_content(id,kind,title,payload,published,restaurant_id,department) values(doc->>'id','course',trim(doc->>'title'),'{}',false,doc->>'restaurant_id',doc->>'department') returning * into c;\r\n end if;\r\n if p_publish then\r\n doc:=doc||jsonb_build_object('published',true);perform public.academy_save_content(doc,null);\r\n delete from academy_private.course_drafts where course_id=c.id;\r\n if p_notify then perform public.academy_announce_content(array[c.id],p_comment);end if;\r\n else\r\n insert into academy_private.course_drafts(course_id,document,base_updated_at,updated_by) values(c.id,doc,c.updated_at,auth.uid())\r\n on conflict(course_id) do update set document=excluded.document,base_updated_at=excluded.base_updated_at,updated_at=clock_timestamp(),updated_by=excluded.updated_by;\r\n end if;\r\n insert into academy_private.audit_log(actor_id,action,target) values(auth.uid(),case when p_publish then 'course_editor_publish' else 'course_editor_draft' end,c.id);\r\n return public.academy_course_editor(c.id);\r\nend $function$\n"
+    },
+    {
+      "name": "is_operations_director",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.is_operations_director(p_user uuid DEFAULT auth.uid())\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select exists(select 1 from public.academy_profiles where id=p_user and status='active' and role='manager' and operations_director)\r\n$function$\n"
+    },
+    {
+      "name": "academy_work_change_list",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_work_change_list()\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; result jsonb;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null then raise exception 'Доступ закрыт.'; end if;\r\n select coalesce(jsonb_agg(to_jsonb(r)||jsonb_build_object('can_review',r.user_id<>actor.id and ((actor.role='admin' or actor.operations_director and academy_private.can_manage(r.user_id)) or (actor.role='manager' and r.original_role='employee' and r.restaurant_id=actor.restaurant_id and r.department=actor.department))) order by r.created_at desc),'[]'::jsonb) into result\r\n from public.academy_work_changes r where r.user_id=actor.id or (actor.role='admin' or actor.operations_director and academy_private.can_manage(r.user_id)) or\r\n (actor.role='manager' and r.original_role='employee' and r.restaurant_id=actor.restaurant_id and r.department=actor.department);\r\n return result;\r\nend $function$\n"
+    },
+    {
+      "name": "notice_visible",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.notice_visible(n academy_private.notifications, p academy_profiles)\n RETURNS boolean\n LANGUAGE sql\n STABLE SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\n select n.user_id=p.id and case n.scope when 'own' then true when 'content' then\r\n exists(select 1 from public.academy_content c where c.id=any(n.content_ids) and academy_private.notice_content_for(p,c))\r\n when 'team' then p.status='active' and exists(select 1 from public.academy_profiles m where m.id=n.subject_id and\r\n (p.role='admin' or p.operations_director or p.role='manager' and m.role='employee' and p.restaurant_id=m.restaurant_id and p.department=m.department))\r\n when 'work' then p.status='active' and exists(select 1 from public.academy_work_changes r where r.id::text=split_part(n.event_key,':',2) and r.user_id<>p.id and\r\n (p.role='admin' or p.operations_director or p.role='manager' and r.original_role='employee' and p.restaurant_id=r.restaurant_id and p.department=r.department))\r\n when 'oral' then p.status='active' and exists(select 1 from public.academy_profiles m where m.id=n.subject_id and\r\n (p.role='admin' or p.operations_director or p.role='manager' and p.restaurant_id=m.restaurant_id and ((p.department='Кухня' and p.position='Шеф-повар') or (p.department='Бар' and p.position='Бар-менеджер'))))\r\n else false end\r\n$function$\n"
+    },
+    {
+      "name": "academy_manage_member",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_manage_member(p_user_id uuid, p_status text, p_role text DEFAULT 'employee'::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; member public.academy_profiles;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n select * into member from public.academy_profiles where id=p_user_id for update;\r\n if actor.id is null or member.id is null or not academy_private.can_manage(p_user_id) or p_user_id=auth.uid() then raise exception 'Forbidden';end if;\r\n if p_status is null or p_status not in ('pending','active','suspended') or p_role is null or p_role not in ('employee','manager','admin') then raise exception 'Invalid status or role';end if;\r\n if actor.role<>'admin' and (p_role='admin' or not actor.operations_director and p_role<>'employee') then raise exception 'Назначать владельцев может только владелец академии.';end if;\r\n update public.academy_profiles set status=p_status,role=p_role,operations_director=case when p_role='manager' then operations_director else false end,updated_at=now() where id=p_user_id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'member',p_user_id::text,jsonb_build_object('status',p_status,'role',p_role));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_set_operations_director",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_set_operations_director(p_user_id uuid, p_enabled boolean)\n RETURNS academy_profiles\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; member public.academy_profiles; result public.academy_profiles;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active' and role='admin';\r\n if actor.id is null then raise exception 'Этот доступ изменяет только владелец академии.' using errcode='42501';end if;\r\n if p_user_id is distinct from 'd4c13a7d-27c6-434d-812b-6bd477166573'::uuid then\r\n raise exception 'Должность операционного директора закреплена только за Александром Кучером.' using errcode='42501';\r\n end if;\r\n select * into member from public.academy_profiles where id=p_user_id for update;\r\n if member.id is null or member.id=actor.id or member.role='admin' or member.status<>'active' or p_enabled is null then raise exception 'Выберите активного сотрудника. Права владельца через эту форму не меняются.';end if;\r\n update public.academy_profiles set operations_director=p_enabled,\r\n role=case when p_enabled then 'manager' else role end,\r\n department=case when p_enabled then 'Руководитель' else department end,\r\n position=case when p_enabled then 'Операционный директор' else 'Управляющий' end,\r\n restaurant_id=case when p_enabled then null else restaurant_id end,updated_at=now()\r\n where id=p_user_id returning * into result;\r\n update public.academy_work_changes set status='cancelled',reviewed_at=now(),reviewed_by=actor.id where user_id=p_user_id and status='pending';\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'set_operations_director',p_user_id::text,jsonb_build_object('enabled',p_enabled,'previous_role',member.role,'previous_restaurant',member.restaurant_id,'previous_department',member.department,'previous_position',member.position));\r\n return result;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_enroll",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_enroll(p_full_name text, p_restaurant_id text, p_department text, p_position text)\n RETURNS academy_profiles\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare r public.academy_profiles;\r\nbegin\r\n if auth.uid() is null then raise exception 'Authentication required'; end if;\r\n if p_full_name is null or length(trim(p_full_name))<2 or length(p_full_name)>150 then raise exception 'Invalid name'; end if;\r\n if p_restaurant_id is null or p_restaurant_id not in ('minsk','pushkino','khimki','mytishchi') or p_department is null or p_position is null then raise exception 'Complete your team profile'; end if;\r\n if not ((p_department='Зал' and p_position in ('Официант','Администратор зала','Хостес')) or\r\n (p_department='Бар' and p_position in ('Старший бармен','Барбэк','Бармен','Бар-менеджер')) or\r\n (p_department='Кухня' and p_position in ('Повар','Шеф-повар')) or (p_department='Арт' and p_position='Сотрудник арт') or\r\n (p_department='Кальян' and p_position in ('Кальянный мастер','Старший кальянный мастер')) or (p_department='Руководитель' and p_position in ('Руководитель','Управляющий'))) then raise exception 'Invalid position'; end if;\r\n insert into public.academy_profiles(id,full_name,restaurant_id,department,position) values(auth.uid(),trim(p_full_name),p_restaurant_id,p_department,p_position)\r\n on conflict(id) do update set full_name=excluded.full_name,restaurant_id=excluded.restaurant_id,department=excluded.department,position=excluded.position,updated_at=now()\r\n where academy_profiles.status='pending' and academy_profiles.role='employee' returning * into r;\r\n if r.id is null then select * into r from public.academy_profiles where id=auth.uid(); end if;\r\n return r;\r\nend $function$\n"
+    }
+  ]
+}
