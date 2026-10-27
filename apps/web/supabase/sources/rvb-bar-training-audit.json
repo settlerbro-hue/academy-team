@@ -1,0 +1,2988 @@
+{
+  "sourceTab": "Коктейли Осень",
+  "recipes": [
+    {
+      "name": "Ночное Рандеву",
+      "row": 3,
+      "ingredients": [
+        {
+          "name": "Настойка Вечеровка п/ф",
+          "amount": "50",
+          "unit": "мл",
+          "row": 3,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "15",
+          "unit": "мл",
+          "row": 4,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Груша",
+          "amount": "20",
+          "unit": "мл",
+          "row": 5,
+          "ambiguous": false
+        },
+        {
+          "name": "Игристое БТ",
+          "amount": "80",
+          "unit": "мл",
+          "row": 6,
+          "ambiguous": false
+        },
+        {
+          "name": "Вода Бон Аква ПЭТ",
+          "amount": "80",
+          "unit": "мл",
+          "row": 7,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Груша"
+      }
+    },
+    {
+      "name": "Фиолетовая Пудра",
+      "row": 17,
+      "ingredients": [
+        {
+          "name": "Настойка Смородина&Лайм п/ф",
+          "amount": "50",
+          "unit": "мл",
+          "row": 17,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 18,
+          "ambiguous": false
+        },
+        {
+          "name": "Вода Бон Аква ПЭТ",
+          "amount": "30",
+          "unit": "мл",
+          "row": 19,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 20,
+          "ambiguous": true
+        },
+        {
+          "name": "Джин БТ",
+          "amount": "10",
+          "unit": "мл",
+          "row": 21,
+          "ambiguous": false
+        },
+        {
+          "name": "Игристое БТ",
+          "amount": "80",
+          "unit": "мл",
+          "row": 22,
+          "ambiguous": true
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Смородиновая пудра"
+      }
+    },
+    {
+      "name": "Zukov Spritz",
+      "row": 33,
+      "ingredients": [
+        {
+          "name": "Биттер Ligare Spritz",
+          "amount": "40",
+          "unit": "мл",
+          "row": 33,
+          "ambiguous": false
+        },
+        {
+          "name": "Игристое БТ",
+          "amount": "100",
+          "unit": "мл",
+          "row": 34,
+          "ambiguous": false
+        },
+        {
+          "name": "Schwepps Тоник ПЭТ",
+          "amount": "100",
+          "unit": "мл",
+          "row": 35,
+          "ambiguous": false
+        },
+        {
+          "name": "Апельсин",
+          "amount": "15",
+          "unit": "мл",
+          "row": 36,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Апельсин - 15г"
+      }
+    },
+    {
+      "name": "Налево от Лифта",
+      "row": 41,
+      "ingredients": [
+        {
+          "name": "Джин Lockwood Original Dry",
+          "amount": "30",
+          "unit": "мл",
+          "row": 41,
+          "ambiguous": false
+        },
+        {
+          "name": "Игристое БТ",
+          "amount": "90",
+          "unit": "мл",
+          "row": 42,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Тростника п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 43,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 44,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Лимон - 15г (Цедра)"
+      }
+    },
+    {
+      "name": "Укращение Строптивой",
+      "row": 49,
+      "ingredients": [
+        {
+          "name": "Игристое БТ",
+          "amount": "130",
+          "unit": "мл",
+          "row": 49,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Персик & Бергамот п/ф",
+          "amount": "70",
+          "unit": "мл",
+          "row": 50,
+          "ambiguous": false
+        },
+        {
+          "name": "Мята",
+          "amount": "3",
+          "unit": "г",
+          "row": 51,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Мята - 3г"
+      }
+    },
+    {
+      "name": "Не Фейхоя Себе",
+      "row": 56,
+      "ingredients": [
+        {
+          "name": "Настойка Вечеровка п/ф",
+          "amount": "40",
+          "unit": "мл",
+          "row": 56,
+          "ambiguous": false
+        },
+        {
+          "name": "Концентрат Киви-Фейхоа",
+          "amount": "30",
+          "unit": "мл",
+          "row": 57,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 58,
+          "ambiguous": false
+        },
+        {
+          "name": "Лимонный раствор п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 59,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Яблоко",
+          "amount": "120",
+          "unit": "мл",
+          "row": 60,
+          "ambiguous": false
+        },
+        {
+          "name": "Киви",
+          "amount": "10",
+          "unit": "г",
+          "row": 61,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Тики",
+        "Лед": "Кубик+краш",
+        "Украшение": "Киви"
+      }
+    },
+    {
+      "name": "Я Знаю Кто Убил Сару",
+      "row": 72,
+      "ingredients": [
+        {
+          "name": "Текила БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 72,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "25",
+          "unit": "мл",
+          "row": 73,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "25",
+          "unit": "мл",
+          "row": 74,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Sarti Rosa",
+          "amount": "25",
+          "unit": "мл",
+          "row": 75,
+          "ambiguous": false
+        },
+        {
+          "name": "Белок п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 76,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Олдфешн",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Пудра, верхушка мяты"
+      }
+    },
+    {
+      "name": "Джентельмены Предпочитают Блондинок",
+      "row": 87,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 87,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп ODK Бобы Тонка",
+          "amount": "20",
+          "unit": "мл",
+          "row": 88,
+          "ambiguous": false
+        },
+        {
+          "name": "Сливки 20%",
+          "amount": "45",
+          "unit": "мл",
+          "row": 89,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Коктельная рюмка",
+        "Лед": "-",
+        "Украшение": "Тертый шоколад - 2 г"
+      }
+    },
+    {
+      "name": "Руки ВВерх",
+      "row": 94,
+      "ingredients": [
+        {
+          "name": "Настойка Ежевика-Можжевельник п/ф",
+          "amount": "70",
+          "unit": "мл",
+          "row": 94,
+          "ambiguous": false
+        },
+        {
+          "name": "Джин БТ",
+          "amount": "15",
+          "unit": "мл",
+          "row": 95,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Ананас",
+          "amount": "120",
+          "unit": "мл",
+          "row": 96,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп БаблГам",
+          "amount": "20",
+          "unit": "мл",
+          "row": 97,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "10",
+          "unit": "мл",
+          "row": 98,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Биг Хайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Сублемированная Малина - 2г"
+      }
+    },
+    {
+      "name": "Моя Бабушка Курит Трубку",
+      "row": 109,
+      "ingredients": [
+        {
+          "name": "Виски Label 5",
+          "amount": "60",
+          "unit": "мл",
+          "row": 109,
+          "ambiguous": false
+        },
+        {
+          "name": "Виски Laphroaig",
+          "amount": "3",
+          "unit": "мл",
+          "row": 110,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Медово-Имбирный п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 111,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "15",
+          "unit": "мл",
+          "row": 112,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "10",
+          "unit": "мл",
+          "row": 113,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Олд Фэшн",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Имбирь - 10г"
+      }
+    },
+    {
+      "name": "Босс Любит Послаще",
+      "row": 124,
+      "ingredients": [
+        {
+          "name": "Jim Beam",
+          "amount": "40",
+          "unit": "мл",
+          "row": 124,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Вишня",
+          "amount": "20",
+          "unit": "мл",
+          "row": 125,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 126,
+          "ambiguous": false
+        },
+        {
+          "name": "Биттер в асс.",
+          "amount": "1",
+          "unit": "мл",
+          "row": 127,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Вишня",
+          "amount": "70",
+          "unit": "мл",
+          "row": 128,
+          "ambiguous": false
+        },
+        {
+          "name": "Белок п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 129,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Хайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Вишня и гипсофила"
+      }
+    },
+    {
+      "name": "Константин Всегда на Стиле",
+      "row": 140,
+      "ingredients": [
+        {
+          "name": "Джин БТ",
+          "amount": "50",
+          "unit": "мл",
+          "row": 140,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Бузина",
+          "amount": "25",
+          "unit": "мл",
+          "row": 141,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "35",
+          "unit": "мл",
+          "row": 142,
+          "ambiguous": false
+        },
+        {
+          "name": "Фиолетовая Пудра п/ф",
+          "amount": "10",
+          "unit": "мл",
+          "row": 143,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Яблоко",
+          "amount": "120",
+          "unit": "мл",
+          "row": 144,
+          "ambiguous": false
+        },
+        {
+          "name": "Белок п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 145,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "ДаблХайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Гипсофила"
+      }
+    },
+    {
+      "name": "Just Dance",
+      "row": 155,
+      "ingredients": [
+        {
+          "name": "Текила на Грейпфруте п/ф",
+          "amount": "40",
+          "unit": "мл",
+          "row": 155,
+          "ambiguous": false
+        },
+        {
+          "name": "Martini Fiero",
+          "amount": "20",
+          "unit": "мл",
+          "row": 156,
+          "ambiguous": false
+        },
+        {
+          "name": "Cироп Маракуйя п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 157,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "15",
+          "unit": "мл",
+          "row": 158,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "5",
+          "unit": "мл",
+          "row": 159,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Апельсин",
+          "amount": "100",
+          "unit": "мл",
+          "row": 160,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "ДаблХайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Чипс Грейпфрут, лист бамбука"
+      }
+    },
+    {
+      "name": "Абонент Вне Зоны Доступа",
+      "row": 173,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "20",
+          "unit": "мл",
+          "row": 173,
+          "ambiguous": false
+        },
+        {
+          "name": "Ром БТ",
+          "amount": "15",
+          "unit": "мл",
+          "row": 174,
+          "ambiguous": false
+        },
+        {
+          "name": "Текила БТ",
+          "amount": "15",
+          "unit": "мл",
+          "row": 175,
+          "ambiguous": false
+        },
+        {
+          "name": "Абсент БТ",
+          "amount": "15",
+          "unit": "мл",
+          "row": 176,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Блю Курасао",
+          "amount": "5",
+          "unit": "мл",
+          "row": 177,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Персик",
+          "amount": "15",
+          "unit": "мл",
+          "row": 178,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 179,
+          "ambiguous": false
+        },
+        {
+          "name": "Энергетик",
+          "amount": "125",
+          "unit": "мл",
+          "row": 180,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "ДаблХайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Лайм"
+      }
+    },
+    {
+      "name": "Beautiful Life",
+      "row": 194,
+      "ingredients": [
+        {
+          "name": "Настойка Дыня & Мята п/ф",
+          "amount": "60",
+          "unit": "мл",
+          "row": 194,
+          "ambiguous": false
+        },
+        {
+          "name": "Джин БТ",
+          "amount": "20",
+          "unit": "мл",
+          "row": 195,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Апельсиновый п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 196,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "15",
+          "unit": "мл",
+          "row": 197,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "15",
+          "unit": "мл",
+          "row": 198,
+          "ambiguous": false
+        },
+        {
+          "name": "Ароматизатор Виноград",
+          "amount": "0,5",
+          "unit": "мл",
+          "row": 199,
+          "ambiguous": false
+        },
+        {
+          "name": "Игристое БТ",
+          "amount": "80",
+          "unit": "мл",
+          "row": 200,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Виноград на шпаге"
+      }
+    },
+    {
+      "name": "Счастливый Билет",
+      "row": 211,
+      "ingredients": [
+        {
+          "name": "Кальвадос Верже",
+          "amount": "25",
+          "unit": "мл",
+          "row": 211,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Персик",
+          "amount": "20",
+          "unit": "мл",
+          "row": 212,
+          "ambiguous": false
+        },
+        {
+          "name": "Суперджус лимон п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 213,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Персик - Бергамот п/ф",
+          "amount": "40",
+          "unit": "мл",
+          "row": 214,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Апельсиновый п/ф",
+          "amount": "55",
+          "unit": "мл",
+          "row": 215,
+          "ambiguous": false
+        },
+        {
+          "name": "Вода Бон Аква ПЭТ",
+          "amount": "80",
+          "unit": "мл",
+          "row": 216,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "ДаблХайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Билетик"
+      }
+    },
+    {
+      "name": "Moscow Never Sleep",
+      "row": 227,
+      "ingredients": [
+        {
+          "name": "Long Island п/ф",
+          "amount": "90",
+          "unit": "мл",
+          "row": 227,
+          "ambiguous": false
+        },
+        {
+          "name": "Кордиал Клюквы п/ф",
+          "amount": "40",
+          "unit": "мл",
+          "row": 228,
+          "ambiguous": false
+        },
+        {
+          "name": "Клюква в Сахаре",
+          "amount": "3",
+          "unit": "г",
+          "row": 229,
+          "ambiguous": false
+        },
+        {
+          "name": "Мята",
+          "amount": "3",
+          "unit": "г",
+          "row": 230,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Олд Фэшн",
+        "Лед": "Кусковой Лёд, шапка фраппе",
+        "Украшение": "Клюква в Сахаре - 3г, Мята - 3 г"
+      }
+    },
+    {
+      "name": "Cosmopolitan",
+      "row": 235,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 235,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Апельсиновый п/ф",
+          "amount": "25",
+          "unit": "мл",
+          "row": 236,
+          "ambiguous": false
+        },
+        {
+          "name": "Кордиал Клюква п/ф",
+          "amount": "50",
+          "unit": "мл",
+          "row": 237,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "5",
+          "unit": "мл",
+          "row": 238,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Шале",
+        "Лед": "-",
+        "Украшение": "(Цедра) Апельсин - 10г"
+      }
+    },
+    {
+      "name": "Margarita",
+      "row": 243,
+      "ingredients": [
+        {
+          "name": "Текила Pancho Alegre Silver",
+          "amount": "50",
+          "unit": "мл",
+          "row": 243,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Апельсиновый п/ф",
+          "amount": "25",
+          "unit": "мл",
+          "row": 244,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 245,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "10",
+          "unit": "мл",
+          "row": 246,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Кокт. Рюмка",
+        "Лед": "-",
+        "Украшение": "Соль - 1г и Лайм - 10г"
+      }
+    },
+    {
+      "name": "Daiquiri",
+      "row": 251,
+      "ingredients": [
+        {
+          "name": "Ром Soccaron White",
+          "amount": "40",
+          "unit": "мл",
+          "row": 251,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 252,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 253,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Кокт. Рюмка",
+        "Лед": "-",
+        "Украшение": "Лайм - 10г"
+      }
+    },
+    {
+      "name": "Bloody Mary",
+      "row": 258,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "60",
+          "unit": "мл",
+          "row": 258,
+          "ambiguous": false
+        },
+        {
+          "name": "Сангрита п/ф",
+          "amount": "130",
+          "unit": "мл",
+          "row": 259,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Фроулинг",
+        "Посуда": "ДаблХайбол",
+        "Лед": "Кусковой Лед",
+        "Украшение": "Сельдерей - 50г"
+      }
+    },
+    {
+      "name": "Mojito",
+      "row": 265,
+      "ingredients": [
+        {
+          "name": "Ром Soccaron White",
+          "amount": "75",
+          "unit": "мл",
+          "row": 265,
+          "ambiguous": false
+        },
+        {
+          "name": "Вода Бон Аква ПЭТ",
+          "amount": "100",
+          "unit": "мл",
+          "row": 266,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 267,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "40",
+          "unit": "мл",
+          "row": 268,
+          "ambiguous": false
+        },
+        {
+          "name": "Лайм",
+          "amount": "5",
+          "unit": "г",
+          "row": 269,
+          "ambiguous": false
+        },
+        {
+          "name": "Мята",
+          "amount": "7",
+          "unit": "г",
+          "row": 270,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Мадл Мята + Лайм",
+        "Посуда": "Билд",
+        "Лед": "Фраппе",
+        "Украшение": "Лайм - 15г, Мята - 5г"
+      }
+    },
+    {
+      "name": "Blue Lagoon",
+      "row": 275,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "50",
+          "unit": "мл",
+          "row": 275,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Блю Кюрасао",
+          "amount": "20",
+          "unit": "мл",
+          "row": 276,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 277,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 278,
+          "ambiguous": false
+        },
+        {
+          "name": "Спрайт ПЭТ",
+          "amount": "150",
+          "unit": "мл",
+          "row": 279,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "ДаблХайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Чипс Ананаса п/ф - 5г"
+      }
+    },
+    {
+      "name": "Pina Colada",
+      "row": 284,
+      "ingredients": [
+        {
+          "name": "Ром Soccaron White",
+          "amount": "50",
+          "unit": "мл",
+          "row": 284,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Ананас",
+          "amount": "100",
+          "unit": "мл",
+          "row": 285,
+          "ambiguous": false
+        },
+        {
+          "name": "Сливки 10%",
+          "amount": "40",
+          "unit": "мл",
+          "row": 286,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Кокос",
+          "amount": "20",
+          "unit": "мл",
+          "row": 287,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Тикки",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Взбите Сливки - 25г, Коктейльная Вишня - 5г, Лист бамбука - 5г"
+      }
+    },
+    {
+      "name": "Sex on the Beach",
+      "row": 292,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 292,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Персик",
+          "amount": "20",
+          "unit": "мл",
+          "row": 293,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Ананас",
+          "amount": "40",
+          "unit": "мл",
+          "row": 294,
+          "ambiguous": false
+        },
+        {
+          "name": "Морс",
+          "amount": "40",
+          "unit": "мл",
+          "row": 295,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Гренадин",
+          "amount": "10",
+          "unit": "мл",
+          "row": 296,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Хайбол",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Коктейльная Вишня - 5г, Апельсин - 15г"
+      }
+    },
+    {
+      "name": "Mai Tai",
+      "row": 308,
+      "ingredients": [
+        {
+          "name": "Ром Bacardi Negra",
+          "amount": "30",
+          "unit": "мл",
+          "row": 308,
+          "ambiguous": false
+        },
+        {
+          "name": "Ром Soccaron White",
+          "amount": "30",
+          "unit": "мл",
+          "row": 309,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Апельсиновый п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 310,
+          "ambiguous": false
+        },
+        {
+          "name": "Сок Ананас",
+          "amount": "100",
+          "unit": "мл",
+          "row": 311,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Миндаль",
+          "amount": "15",
+          "unit": "мл",
+          "row": 312,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "25",
+          "unit": "мл",
+          "row": 313,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Тикки",
+        "Лед": "Кусковой Лёд, шапке фраппе",
+        "Украшение": "Бамубук - 3г, Чипс Ананас п/ф - 5г, пудра"
+      }
+    },
+    {
+      "name": "Old Fashioned",
+      "row": 325,
+      "ingredients": [
+        {
+          "name": "Виски Jim Beam",
+          "amount": "60",
+          "unit": "мл",
+          "row": 325,
+          "ambiguous": false
+        },
+        {
+          "name": "Сахар Рафинад",
+          "amount": "5",
+          "unit": "гр",
+          "row": 326,
+          "ambiguous": false
+        },
+        {
+          "name": "Вода Бон Аква ПЭТ",
+          "amount": "20",
+          "unit": "мл",
+          "row": 327,
+          "ambiguous": false
+        },
+        {
+          "name": "Биттер Ангостура",
+          "amount": "2",
+          "unit": "мл",
+          "row": 328,
+          "ambiguous": false
+        },
+        {
+          "name": "Глыба",
+          "amount": "150",
+          "unit": "гр",
+          "row": 329,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Стир",
+        "Посуда": "Олд Фэшн",
+        "Лед": "Глыба",
+        "Украшение": "(цедра) Апельсин - 15г"
+      }
+    },
+    {
+      "name": "Whiskey Sour",
+      "row": 334,
+      "ingredients": [
+        {
+          "name": "Виски Jim Beam",
+          "amount": "50",
+          "unit": "мл",
+          "row": 334,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 335,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 336,
+          "ambiguous": false
+        },
+        {
+          "name": "Белок п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 337,
+          "ambiguous": false
+        },
+        {
+          "name": "Биттер Ангостура",
+          "amount": "2",
+          "unit": "мл",
+          "row": 338,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Сухой Шейк",
+        "Посуда": "Олд Фэшн",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "(цедра) Лимон - 10г"
+      }
+    },
+    {
+      "name": "Clover Club",
+      "row": 343,
+      "ingredients": [
+        {
+          "name": "Джин Lockwood Original Dry",
+          "amount": "60",
+          "unit": "мл",
+          "row": 343,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Малина п/ф",
+          "amount": "40",
+          "unit": "мл",
+          "row": 344,
+          "ambiguous": false
+        },
+        {
+          "name": "Белок п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 345,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лайм п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 346,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Сухой Шейк",
+        "Посуда": "Шалле",
+        "Лед": "-",
+        "Украшение": "Мята - 5г, суб. малиина - 2г"
+      }
+    },
+    {
+      "name": "Negroni",
+      "row": 351,
+      "ingredients": [
+        {
+          "name": "Джин Barrister",
+          "amount": "30",
+          "unit": "мл",
+          "row": 351,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Campari",
+          "amount": "30",
+          "unit": "мл",
+          "row": 352,
+          "ambiguous": false
+        },
+        {
+          "name": "Вермут Gancia Rosso",
+          "amount": "30",
+          "unit": "мл",
+          "row": 353,
+          "ambiguous": false
+        },
+        {
+          "name": "Глыба",
+          "amount": "150",
+          "unit": "гр",
+          "row": 354,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Стир",
+        "Посуда": "Олд Фэшн",
+        "Лед": "Глыба",
+        "Украшение": "(цедра) Апельсин - 15г"
+      }
+    },
+    {
+      "name": "Moscow Mule",
+      "row": 364,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "60",
+          "unit": "мл",
+          "row": 364,
+          "ambiguous": false
+        },
+        {
+          "name": "Schweppes Тоник ПЭТ",
+          "amount": "150",
+          "unit": "мл",
+          "row": 365,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Медово-Имбирный п/ф",
+          "amount": "60",
+          "unit": "мл",
+          "row": 366,
+          "ambiguous": false
+        },
+        {
+          "name": "Лайм",
+          "amount": "10",
+          "unit": "г",
+          "row": 367,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Кружка",
+        "Лед": "-",
+        "Украшение": "Мята - 5г, Лайм - 10г"
+      }
+    },
+    {
+      "name": "White Russian",
+      "row": 372,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 372,
+          "ambiguous": false
+        },
+        {
+          "name": "Ликер Кофейный",
+          "amount": "30",
+          "unit": "мл",
+          "row": 373,
+          "ambiguous": false
+        },
+        {
+          "name": "Сливки 10%",
+          "amount": "30",
+          "unit": "мл",
+          "row": 374,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Олд Фэшн",
+        "Лед": "Кусковой лед",
+        "Украшение": "-"
+      }
+    },
+    {
+      "name": "PornStar Martini",
+      "row": 379,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 379,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Маракуйя п/ф",
+          "amount": "35",
+          "unit": "мл",
+          "row": 380,
+          "ambiguous": false
+        },
+        {
+          "name": "СуперДжус Лимон п/ф",
+          "amount": "15",
+          "unit": "мл",
+          "row": 381,
+          "ambiguous": false
+        },
+        {
+          "name": "Сироп Сахарный 1:1 п/ф",
+          "amount": "20",
+          "unit": "мл",
+          "row": 382,
+          "ambiguous": false
+        },
+        {
+          "name": "Prosecco БТ",
+          "amount": "50",
+          "unit": "мл",
+          "row": 383,
+          "ambiguous": false
+        },
+        {
+          "name": "Белок п/ф",
+          "amount": "30",
+          "unit": "мл",
+          "row": 384,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Шейк",
+        "Посуда": "Шале",
+        "Лед": "-",
+        "Украшение": "Маракуйя - 40г"
+      }
+    },
+    {
+      "name": "Martini Fiero - Tonic",
+      "row": 405,
+      "ingredients": [
+        {
+          "name": "Вермут Martini Fiero",
+          "amount": "80",
+          "unit": "мл",
+          "row": 405,
+          "ambiguous": false
+        },
+        {
+          "name": "Schweppes Тоник ПЭТ",
+          "amount": "120",
+          "unit": "мл",
+          "row": 406,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой лед",
+        "Украшение": "Апельсин - 10г"
+      }
+    },
+    {
+      "name": "Виски кола",
+      "row": 412,
+      "ingredients": [
+        {
+          "name": "Виски Label 5",
+          "amount": "40",
+          "unit": "мл",
+          "row": 412,
+          "ambiguous": false
+        },
+        {
+          "name": "Coca-Cola ПЭТ",
+          "amount": "120",
+          "unit": "мл",
+          "row": 413,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Рокс",
+        "Лед": "Кусковой лед",
+        "Украшение": "Лимон - 10г"
+      }
+    },
+    {
+      "name": "Джин - Тоник",
+      "row": 419,
+      "ingredients": [
+        {
+          "name": "Джин Lockwood Original Dry",
+          "amount": "40",
+          "unit": "мл",
+          "row": 419,
+          "ambiguous": false
+        },
+        {
+          "name": "Schweppes ПЭТ",
+          "amount": "120",
+          "unit": "мл",
+          "row": 420,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Рокс",
+        "Лед": "Кусковой лед",
+        "Украшение": "Лайм - 10г"
+      }
+    },
+    {
+      "name": "Ром Кола",
+      "row": 426,
+      "ingredients": [
+        {
+          "name": "Ром Soccaron White",
+          "amount": "40",
+          "unit": "мл",
+          "row": 426,
+          "ambiguous": false
+        },
+        {
+          "name": "Coca-Cola ПЭТ",
+          "amount": "120",
+          "unit": "мл",
+          "row": 427,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Рокс",
+        "Лед": "Кусковой лед",
+        "Украшение": "Лайм - 10г"
+      }
+    },
+    {
+      "name": "Водка - Редбулл",
+      "row": 433,
+      "ingredients": [
+        {
+          "name": "Водка БТ",
+          "amount": "40",
+          "unit": "мл",
+          "row": 433,
+          "ambiguous": false
+        },
+        {
+          "name": "Red Bull в асс.",
+          "amount": "1",
+          "unit": "шт",
+          "row": 434,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Рокс",
+        "Лед": "Кусковой лед",
+        "Украшение": "Лимон - 10г"
+      }
+    },
+    {
+      "name": "Aperol Spritz",
+      "row": 440,
+      "ingredients": [
+        {
+          "name": "Биттер Aperol",
+          "amount": "40",
+          "unit": "мл",
+          "row": 440,
+          "ambiguous": false
+        },
+        {
+          "name": "Prosecco БТ",
+          "amount": "100",
+          "unit": "мл",
+          "row": 441,
+          "ambiguous": false
+        },
+        {
+          "name": "Вода Бон Аква ПЭТ",
+          "amount": "100",
+          "unit": "мл",
+          "row": 442,
+          "ambiguous": false
+        }
+      ],
+      "details": {
+        "Метод": "Билд",
+        "Посуда": "Винный Бокал",
+        "Лед": "Кусковой Лёд",
+        "Украшение": "Апельсин - 15г"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "rvb-menu-alcohol-1",
+      "source": {
+        "menu": "rvb-autumn26-35-1",
+        "field": "description"
+      },
+      "answer": "Martini Fiero"
+    },
+    {
+      "id": "rvb-menu-alcohol-2",
+      "source": {
+        "menu": "rvb-autumn26-36-1",
+        "field": "description"
+      },
+      "answer": "Martini Bianco"
+    },
+    {
+      "id": "rvb-menu-alcohol-3",
+      "source": {
+        "menu": "rvb-autumn26-37-1",
+        "field": "description"
+      },
+      "answer": "Martini Rosso"
+    },
+    {
+      "id": "rvb-menu-alcohol-4",
+      "source": {
+        "menu": "rvb-autumn26-38-1",
+        "field": "description"
+      },
+      "answer": "Martini Extra Dry"
+    },
+    {
+      "id": "rvb-menu-alcohol-5",
+      "source": {
+        "menu": "rvb-autumn26-40-1",
+        "field": "description"
+      },
+      "answer": "Courvoisier VS"
+    },
+    {
+      "id": "rvb-menu-alcohol-6",
+      "source": {
+        "menu": "rvb-autumn26-41-1",
+        "field": "description"
+      },
+      "answer": "Martell VSOP"
+    },
+    {
+      "id": "rvb-menu-alcohol-7",
+      "source": {
+        "menu": "rvb-autumn26-42-1",
+        "field": "description"
+      },
+      "answer": "Martell ХO"
+    },
+    {
+      "id": "rvb-menu-alcohol-8",
+      "source": {
+        "menu": "rvb-autumn26-44-1",
+        "field": "subcategory"
+      },
+      "answer": "Бренди"
+    },
+    {
+      "id": "rvb-menu-alcohol-9",
+      "source": {
+        "menu": "rvb-autumn26-45-1",
+        "field": "description"
+      },
+      "answer": "АрАрАт 5 YO"
+    },
+    {
+      "id": "rvb-menu-alcohol-10",
+      "source": {
+        "menu": "rvb-autumn26-46-1",
+        "field": "subcategory"
+      },
+      "answer": "Бренди"
+    },
+    {
+      "id": "rvb-menu-beer-1",
+      "source": {
+        "menu": "rvb-autumn26-113-1",
+        "field": "description"
+      },
+      "answer": "Аливария 1894 Премиум"
+    },
+    {
+      "id": "rvb-menu-beer-2",
+      "source": {
+        "menu": "rvb-autumn26-114-1",
+        "field": "description"
+      },
+      "answer": "Аливария Белое Золото"
+    },
+    {
+      "id": "rvb-menu-beer-3",
+      "source": {
+        "menu": "rvb-autumn26-115-1",
+        "field": "description"
+      },
+      "answer": "Аливария Темное Нефильтрованное"
+    },
+    {
+      "id": "rvb-menu-beer-4",
+      "source": {
+        "menu": "rvb-autumn26-116-1",
+        "field": "subcategory"
+      },
+      "answer": "Пиво · разливное"
+    },
+    {
+      "id": "rvb-menu-beer-5",
+      "source": {
+        "menu": "rvb-autumn26-118-1",
+        "field": "description"
+      },
+      "answer": "Tuborg Green"
+    },
+    {
+      "id": "rvb-menu-beer-6",
+      "source": {
+        "menu": "rvb-autumn26-119-1",
+        "field": "description"
+      },
+      "answer": "Горьковская пивоварня IPA"
+    },
+    {
+      "id": "rvb-menu-beer-7",
+      "source": {
+        "menu": "rvb-autumn26-120-1",
+        "field": "subcategory"
+      },
+      "answer": "Пиво · бутылочное"
+    },
+    {
+      "id": "rvb-menu-beer-8",
+      "source": {
+        "menu": "rvb-autumn26-121-1",
+        "field": "description"
+      },
+      "answer": "1664 Blanc"
+    },
+    {
+      "id": "rvb-menu-wine-1",
+      "source": {
+        "menu": "rvb-wine-11",
+        "field": "description"
+      },
+      "answer": "I Castelli Merlot"
+    },
+    {
+      "id": "rvb-menu-wine-2",
+      "source": {
+        "menu": "rvb-wine-12",
+        "field": "description"
+      },
+      "answer": "Cono Sur Tocornal Cabernet Sauvignon"
+    },
+    {
+      "id": "rvb-menu-wine-3",
+      "source": {
+        "menu": "rvb-wine-13",
+        "field": "description"
+      },
+      "answer": "Casillero del Diablo Carmenere Reserva"
+    },
+    {
+      "id": "rvb-menu-wine-4",
+      "source": {
+        "menu": "rvb-wine-16",
+        "field": "description"
+      },
+      "answer": "Louis Vallon Crémant de Bordeaux AOC Brut"
+    },
+    {
+      "id": "rvb-menu-wine-5",
+      "source": {
+        "menu": "rvb-wine-17",
+        "field": "description"
+      },
+      "answer": "Martini Prosecco DOC"
+    },
+    {
+      "id": "rvb-menu-wine-6",
+      "source": {
+        "menu": "rvb-wine-18",
+        "field": "description"
+      },
+      "answer": "Martini Asti DOCG"
+    },
+    {
+      "id": "rvb-menu-wine-7",
+      "source": {
+        "menu": "rvb-wine-19",
+        "field": "description"
+      },
+      "answer": "Bellisco Cava Brut"
+    },
+    {
+      "id": "rvb-menu-wine-8",
+      "source": {
+        "menu": "rvb-wine-20",
+        "field": "subcategory"
+      },
+      "answer": "Безалкогольное"
+    },
+    {
+      "id": "rvb-menu-wine-9",
+      "source": {
+        "menu": "rvb-wine-22",
+        "field": "description"
+      },
+      "answer": "Moët & Chandon Brut Impérial"
+    },
+    {
+      "id": "rvb-menu-wine-10",
+      "source": {
+        "menu": "rvb-wine-24",
+        "field": "description"
+      },
+      "answer": "Cono Sur Bicicleta Gewürztraminer"
+    },
+    {
+      "id": "rvb-menu-cocktails-1",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 3
+      },
+      "answer": "Настойка Вечеровка п/ф, СуперДжус Лимон п/ф, Сироп Груша, Игристое БТ, Вода Бон Аква ПЭТ"
+    },
+    {
+      "id": "rvb-menu-cocktails-2",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 17
+      },
+      "answer": "Настойка Смородина&Лайм п/ф, СуперДжус Лимон п/ф, Вода Бон Аква ПЭТ, Сироп Сахарный 1:1 п/ф, Джин БТ, Игристое БТ"
+    },
+    {
+      "id": "rvb-menu-cocktails-3",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 33
+      },
+      "answer": "Биттер Ligare Spritz, Игристое БТ, Schwepps Тоник ПЭТ, Апельсин"
+    },
+    {
+      "id": "rvb-menu-cocktails-4",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 41
+      },
+      "answer": "Джин Lockwood Original Dry, Игристое БТ, Сироп Тростника п/ф, СуперДжус Лайм п/ф"
+    },
+    {
+      "id": "rvb-menu-cocktails-5",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 49
+      },
+      "answer": "Игристое БТ, Сироп Персик & Бергамот п/ф, Мята"
+    },
+    {
+      "id": "rvb-menu-cocktails-6",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 56
+      },
+      "answer": "Настойка Вечеровка п/ф, Концентрат Киви-Фейхоа, СуперДжус Лимон п/ф, Лимонный раствор п/ф, Сок Яблоко, Киви"
+    },
+    {
+      "id": "rvb-menu-cocktails-7",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 72
+      },
+      "answer": "Текила БТ, СуперДжус Лайм п/ф, Сироп Сахарный 1:1 п/ф, Ликер Sarti Rosa, Белок п/ф"
+    },
+    {
+      "id": "rvb-menu-cocktails-8",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 87
+      },
+      "answer": "Водка БТ, Сироп ODK Бобы Тонка, Сливки 20%"
+    },
+    {
+      "id": "rvb-menu-cocktails-9",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 94
+      },
+      "answer": "Настойка Ежевика-Можжевельник п/ф, Джин БТ, Сок Ананас, Сироп БаблГам, СуперДжус Лимон п/ф"
+    },
+    {
+      "id": "rvb-menu-cocktails-10",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 109
+      },
+      "answer": "Виски Label 5, Виски Laphroaig, Сироп Медово-Имбирный п/ф, СуперДжус Лимон п/ф, Сироп Сахарный 1:1 п/ф"
+    },
+    {
+      "id": "rvb-menu-tinctures-1",
+      "source": {
+        "menu": "rvb-minsk-035",
+        "field": "description"
+      },
+      "answer": "Дыня & Мята"
+    },
+    {
+      "id": "rvb-menu-tinctures-2",
+      "source": {
+        "menu": "rvb-minsk-036",
+        "field": "description"
+      },
+      "answer": "Черничный Маффин"
+    },
+    {
+      "id": "rvb-menu-tinctures-3",
+      "source": {
+        "menu": "rvb-minsk-037",
+        "field": "description"
+      },
+      "answer": "Малина & Юдзу"
+    },
+    {
+      "id": "rvb-menu-tinctures-4",
+      "source": {
+        "menu": "rvb-minsk-038",
+        "field": "description"
+      },
+      "answer": "Смородина&Лайм"
+    },
+    {
+      "id": "rvb-menu-tinctures-5",
+      "source": {
+        "menu": "rvb-minsk-039",
+        "field": "description"
+      },
+      "answer": "Перцовка на самогоне"
+    },
+    {
+      "id": "rvb-menu-tinctures-6",
+      "source": {
+        "menu": "rvb-minsk-040",
+        "field": "description"
+      },
+      "answer": "Вишня на Бренди"
+    },
+    {
+      "id": "rvb-menu-tinctures-7",
+      "source": {
+        "menu": "rvb-minsk-041",
+        "field": "description"
+      },
+      "answer": "Вечеровка"
+    },
+    {
+      "id": "rvb-menu-tinctures-8",
+      "source": {
+        "menu": "rvb-minsk-042",
+        "field": "description"
+      },
+      "answer": "Ежевика & Можевельник"
+    },
+    {
+      "id": "rvb-menu-sets-1",
+      "source": {
+        "menu": "rvb-autumn26-101-1",
+        "field": "subcategory"
+      },
+      "answer": "Для вечеринки"
+    },
+    {
+      "id": "rvb-menu-sets-2",
+      "source": {
+        "menu": "rvb-autumn26-103-1",
+        "field": "subcategory"
+      },
+      "answer": "Для вечеринки"
+    },
+    {
+      "id": "rvb-menu-sets-3",
+      "source": {
+        "menu": "rvb-autumn26-228-1",
+        "field": "subcategory"
+      },
+      "answer": "Шот-сеты"
+    },
+    {
+      "id": "rvb-menu-sets-4",
+      "source": {
+        "menu": "rvb-autumn26-99-1",
+        "field": "subcategory"
+      },
+      "answer": "Для вечеринки"
+    },
+    {
+      "id": "rvb-menu-sets-5",
+      "source": {
+        "menu": "rvb-minsk-032",
+        "field": "subcategory"
+      },
+      "answer": "Сеты настоек"
+    },
+    {
+      "id": "rvb-menu-sets-6",
+      "source": {
+        "menu": "rvb-minsk-033",
+        "field": "subcategory"
+      },
+      "answer": "Шот-сеты"
+    },
+    {
+      "id": "rvb-menu-sets-7",
+      "source": {
+        "menu": "rvb-minsk-034",
+        "field": "subcategory"
+      },
+      "answer": "Для вечеринки"
+    },
+    {
+      "id": "rvb-menu-sets-8",
+      "source": {
+        "menu": "rvb-minsk-043",
+        "field": "subcategory"
+      },
+      "answer": "Шот-сеты"
+    },
+    {
+      "id": "rvb-menu-sets-9",
+      "source": {
+        "menu": "rvb-minsk-044",
+        "field": "subcategory"
+      },
+      "answer": "Шот-сеты"
+    },
+    {
+      "id": "rvb-menu-sets-10",
+      "source": {
+        "menu": "rvb-minsk-045",
+        "field": "subcategory"
+      },
+      "answer": "Шот-сеты"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-1",
+      "source": {
+        "menu": "rvb-autumn26-122-1",
+        "field": "description"
+      },
+      "answer": "Аливария безалкогольное"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-2",
+      "source": {
+        "menu": "rvb-autumn26-244-1",
+        "field": "subcategory"
+      },
+      "answer": "Лимонады и коктейли"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-3",
+      "source": {
+        "menu": "rvb-autumn26-246-1",
+        "field": "subcategory"
+      },
+      "answer": "Лимонады и коктейли"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-4",
+      "source": {
+        "menu": "rvb-autumn26-248-1",
+        "field": "description"
+      },
+      "answer": "Лимонад в ассортименте"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-5",
+      "source": {
+        "menu": "rvb-autumn26-249-1",
+        "field": "description"
+      },
+      "answer": "Лимонад в ассортименте · 1 л"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-6",
+      "source": {
+        "menu": "rvb-autumn26-251-1",
+        "field": "subcategory"
+      },
+      "answer": "Холодные напитки"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-7",
+      "source": {
+        "menu": "rvb-autumn26-252-1",
+        "field": "subcategory"
+      },
+      "answer": "Холодные напитки"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-8",
+      "source": {
+        "menu": "rvb-autumn26-253-1",
+        "field": "subcategory"
+      },
+      "answer": "Холодные напитки"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-9",
+      "source": {
+        "menu": "rvb-autumn26-254-1",
+        "field": "subcategory"
+      },
+      "answer": "Холодные напитки"
+    },
+    {
+      "id": "rvb-menu-nonalcoholic-10",
+      "source": {
+        "menu": "rvb-autumn26-254-2",
+        "field": "subcategory"
+      },
+      "answer": "Холодные напитки"
+    },
+    {
+      "id": "rvb-menu-hot-1",
+      "source": {
+        "menu": "rvb-autumn26-262-1",
+        "field": "subcategory"
+      },
+      "answer": "Кофе"
+    },
+    {
+      "id": "rvb-menu-hot-2",
+      "source": {
+        "menu": "rvb-autumn26-263-1",
+        "field": "subcategory"
+      },
+      "answer": "Кофе"
+    },
+    {
+      "id": "rvb-menu-hot-3",
+      "source": {
+        "menu": "rvb-autumn26-264-1",
+        "field": "subcategory"
+      },
+      "answer": "Кофе"
+    },
+    {
+      "id": "rvb-menu-hot-4",
+      "source": {
+        "menu": "rvb-autumn26-265-1",
+        "field": "subcategory"
+      },
+      "answer": "Кофе"
+    },
+    {
+      "id": "rvb-menu-hot-5",
+      "source": {
+        "menu": "rvb-autumn26-266-1",
+        "field": "subcategory"
+      },
+      "answer": "Кофе"
+    },
+    {
+      "id": "rvb-menu-hot-6",
+      "source": {
+        "menu": "rvb-autumn26-268-1",
+        "field": "description"
+      },
+      "answer": "Чай в ассортименте"
+    },
+    {
+      "id": "rvb-menu-hot-7",
+      "source": {
+        "menu": "rvb-autumn26-271-1",
+        "field": "subcategory"
+      },
+      "answer": "Авторский чай"
+    },
+    {
+      "id": "rvb-menu-hot-8",
+      "source": {
+        "menu": "rvb-autumn26-273-1",
+        "field": "subcategory"
+      },
+      "answer": "Авторский чай"
+    },
+    {
+      "id": "rvb-menu-hot-9",
+      "source": {
+        "menu": "rvb-minsk-062",
+        "field": "subcategory"
+      },
+      "answer": "Авторский чай"
+    },
+    {
+      "id": "rvb-ttk-0-1",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 3,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-0-2",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 3,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-0-3",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 17,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-0-4",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 17,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-0-5",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 33,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-0-6",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 33,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-0-7",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 41,
+        "columns": "F/H/I"
+      },
+      "answer": "30 мл"
+    },
+    {
+      "id": "rvb-ttk-0-8",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 41,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-0-9",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 49,
+        "columns": "F/H/I"
+      },
+      "answer": "130 мл"
+    },
+    {
+      "id": "rvb-ttk-0-10",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 49,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-0-11",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 56,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-0-12",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 56,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-0-13",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 72,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-0-14",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 72,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-0-15",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 87,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-0-16",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 87,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-0-17",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 94,
+        "columns": "F/H/I"
+      },
+      "answer": "70 мл"
+    },
+    {
+      "id": "rvb-ttk-0-18",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 94,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-1",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 109,
+        "columns": "F/H/I"
+      },
+      "answer": "60 мл"
+    },
+    {
+      "id": "rvb-ttk-1-2",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 109,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-3",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 124,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-1-4",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 124,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-5",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 140,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-1-6",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 140,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-7",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 155,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-1-8",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 155,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-9",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 173,
+        "columns": "F/H/I"
+      },
+      "answer": "20 мл"
+    },
+    {
+      "id": "rvb-ttk-1-10",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 173,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-11",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 194,
+        "columns": "F/H/I"
+      },
+      "answer": "60 мл"
+    },
+    {
+      "id": "rvb-ttk-1-12",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 194,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-1-13",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 211,
+        "columns": "F/H/I"
+      },
+      "answer": "25 мл"
+    },
+    {
+      "id": "rvb-ttk-1-14",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 211,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-15",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 227,
+        "columns": "F/H/I"
+      },
+      "answer": "90 мл"
+    },
+    {
+      "id": "rvb-ttk-1-16",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 227,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-17",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 235,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-1-18",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 235,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-1-19",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 243,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-1-20",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 243,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-2-1",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 251,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-2-2",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 251,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-2-3",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 258,
+        "columns": "F/H/I"
+      },
+      "answer": "60 мл"
+    },
+    {
+      "id": "rvb-ttk-2-4",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 258,
+        "field": "Метод"
+      },
+      "answer": "Фроулинг"
+    },
+    {
+      "id": "rvb-ttk-2-5",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 265,
+        "columns": "F/H/I"
+      },
+      "answer": "75 мл"
+    },
+    {
+      "id": "rvb-ttk-2-6",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 265,
+        "field": "Метод"
+      },
+      "answer": "Мадл Мята + Лайм"
+    },
+    {
+      "id": "rvb-ttk-2-7",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 275,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-2-8",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 275,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-2-9",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 284,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-2-10",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 284,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-2-11",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 292,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-2-12",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 292,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-2-13",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 308,
+        "columns": "F/H/I"
+      },
+      "answer": "30 мл"
+    },
+    {
+      "id": "rvb-ttk-2-14",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 308,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-2-15",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 325,
+        "columns": "F/H/I"
+      },
+      "answer": "60 мл"
+    },
+    {
+      "id": "rvb-ttk-2-16",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 325,
+        "field": "Метод"
+      },
+      "answer": "Стир"
+    },
+    {
+      "id": "rvb-ttk-2-17",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 334,
+        "columns": "F/H/I"
+      },
+      "answer": "50 мл"
+    },
+    {
+      "id": "rvb-ttk-2-18",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 334,
+        "field": "Метод"
+      },
+      "answer": "Сухой Шейк"
+    },
+    {
+      "id": "rvb-ttk-2-19",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 343,
+        "columns": "F/H/I"
+      },
+      "answer": "60 мл"
+    },
+    {
+      "id": "rvb-ttk-2-20",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 343,
+        "field": "Метод"
+      },
+      "answer": "Сухой Шейк"
+    },
+    {
+      "id": "rvb-ttk-3-1",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 351,
+        "columns": "F/H/I"
+      },
+      "answer": "30 мл"
+    },
+    {
+      "id": "rvb-ttk-3-2",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 351,
+        "field": "Метод"
+      },
+      "answer": "Стир"
+    },
+    {
+      "id": "rvb-ttk-3-3",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 364,
+        "columns": "F/H/I"
+      },
+      "answer": "60 мл"
+    },
+    {
+      "id": "rvb-ttk-3-4",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 364,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-5",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 372,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-6",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 372,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-7",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 379,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-8",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 379,
+        "field": "Метод"
+      },
+      "answer": "Шейк"
+    },
+    {
+      "id": "rvb-ttk-3-9",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 405,
+        "columns": "F/H/I"
+      },
+      "answer": "80 мл"
+    },
+    {
+      "id": "rvb-ttk-3-10",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 405,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-11",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 412,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-12",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 412,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-13",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 419,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-14",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 419,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-15",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 426,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-16",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 426,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-17",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 433,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-18",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 433,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    },
+    {
+      "id": "rvb-ttk-3-19",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 440,
+        "columns": "F/H/I"
+      },
+      "answer": "40 мл"
+    },
+    {
+      "id": "rvb-ttk-3-20",
+      "source": {
+        "tab": "Коктейли Осень",
+        "row": 440,
+        "field": "Метод"
+      },
+      "answer": "Билд"
+    }
+  ],
+  "excludedRecipes": [
+    {
+      "name": "Long Island",
+      "row": 301,
+      "reason": "Неполная основная рецептура"
+    }
+  ]
+}

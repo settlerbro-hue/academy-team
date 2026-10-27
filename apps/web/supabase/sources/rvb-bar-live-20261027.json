@@ -1,0 +1,5453 @@
+[
+  {
+    "id": "rvb-autumn26-101-1",
+    "title": "Wiskey Bottle Service",
+    "payload": {
+      "id": "rvb-autumn26-101-1",
+      "fact": "",
+      "name": "Wiskey Bottle Service",
+      "brand": "rvb",
+      "image": "",
+      "price": "175 р.",
+      "taste": "",
+      "method": "",
+      "volume": "",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "1*0,5 виски Label 5, 5*0,33 Coca‑Colа",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "1*0,5 виски Label 5, 5*0,33 Coca‑Colа",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Для вечеринки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-103-1",
+    "title": "Rum Cola Bottle Service",
+    "payload": {
+      "id": "rvb-autumn26-103-1",
+      "fact": "",
+      "name": "Rum Cola Bottle Service",
+      "brand": "rvb",
+      "image": "",
+      "price": "175 р.",
+      "taste": "",
+      "method": "",
+      "volume": "",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "ром Negrita White, 5*0,33 Coca‑Colа",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "ром Negrita White",
+          "amount": ""
+        },
+        {
+          "name": "5*0,33 Coca‑Colа",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Для вечеринки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-113-1",
+    "title": "Аливария 1894 Премиум",
+    "payload": {
+      "id": "rvb-autumn26-113-1",
+      "fact": "В разливной части карты четыре сорта, и все подаются по 500 мл.",
+      "name": "Аливария 1894 Премиум",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/53-rvb-autumn26-113-1.png",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "500 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Разливное пиво «Аливария 1894 Премиум».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · разливное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-114-1",
+    "title": "Аливария Белое Золото",
+    "payload": {
+      "id": "rvb-autumn26-114-1",
+      "fact": "«Белое Золото» — название сорта.",
+      "name": "Аливария Белое Золото",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/54-rvb-autumn26-114-1.png",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "500 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Разливное пиво «Аливария Белое Золото».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · разливное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-115-1",
+    "title": "Аливария Темное Нефильтрованное",
+    "payload": {
+      "id": "rvb-autumn26-115-1",
+      "fact": "",
+      "name": "Аливария Темное Нефильтрованное",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/55-rvb-autumn26-115-1.png",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "500 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Тёмное нефильтрованное пиво в разливной линейке «Аливария».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · разливное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-116-1",
+    "title": "Аливария Old Bobby Ale",
+    "payload": {
+      "id": "rvb-autumn26-116-1",
+      "fact": "Не заменяй это обозначение словом «лагер» при описании гостю.",
+      "name": "Аливария Old Bobby Ale",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/56-rvb-autumn26-116-1-verified.webp",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "500 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · разливное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-118-1",
+    "title": "Tuborg Green",
+    "payload": {
+      "id": "rvb-autumn26-118-1",
+      "fact": "Tuborg Green — пиво низового брожения; для него используют светлый лагерный солод.",
+      "name": "Tuborg Green",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/57-rvb-autumn26-118-1.jpg",
+      "price": "15 р.",
+      "taste": "Зерно · Цветы",
+      "method": "",
+      "volume": "500 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Светлый лагер с зерновыми и цветочными оттенками и умеренной горечью.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · бутылочное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-119-1",
+    "title": "Горьковская пивоварня IPA",
+    "payload": {
+      "id": "rvb-autumn26-119-1",
+      "fact": "Не округляй её до 500 мл при заказе.",
+      "name": "Горьковская пивоварня IPA",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/58-gorkovskaya-ipa.png",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "440 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "India Pale Ale от «Горьковской пивоварни». Хмелевая категория пива с выраженной горечью.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · бутылочное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-120-1",
+    "title": "Аливария КРАФТ Вишневый Эль",
+    "payload": {
+      "id": "rvb-autumn26-120-1",
+      "fact": "",
+      "name": "Аливария КРАФТ Вишневый Эль",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/59-rvb-autumn26-120-1.png",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "450 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · бутылочное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-121-1",
+    "title": "1664 Blanc",
+    "payload": {
+      "id": "rvb-autumn26-121-1",
+      "fact": "В составе 1664 Blanc производитель указывает апельсиновую цедру и кориандр.",
+      "name": "1664 Blanc",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/60-rvb-autumn26-121-1.png",
+      "price": "18 р.",
+      "taste": "Цитрусы · Кориандр",
+      "method": "",
+      "volume": "460 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Пшеничное пиво с цитрусовым и пряным профилем.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво · бутылочное"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-122-1",
+    "title": "Аливария безалкогольное",
+    "payload": {
+      "id": "rvb-autumn26-122-1",
+      "fact": "",
+      "name": "Аливария безалкогольное",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-000.webp",
+      "price": "13 р.",
+      "taste": "",
+      "method": "",
+      "volume": "450 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Пиво б/а.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Пиво б/а"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-159-1",
+    "title": "PornStar Martini",
+    "payload": {
+      "id": "rvb-autumn26-159-1",
+      "fact": "",
+      "name": "PornStar Martini",
+      "brand": "rvb",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Тропический, кисло-сладкий, ванильный",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "игристое, водка, пюре маракуйи, белок, ваниль, маракуйя",
+      "description": "Яркий тропический коктейль с насыщенной маракуйей, мягкой ванилью и нежной пеной. Игристое добавляет свежести и лёгкой сухости.",
+      "ingredients": [
+        {
+          "name": "игристое",
+          "amount": ""
+        },
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "пюре маракуйи",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "ваниль",
+          "amount": ""
+        },
+        {
+          "name": "маракуйя",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-161-1",
+    "title": "Aperol Srtitz",
+    "payload": {
+      "id": "rvb-autumn26-161-1",
+      "fact": "",
+      "name": "Aperol Srtitz",
+      "brand": "rvb",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Цитрусовый, с горчинкой, игристый",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Aperol, просекко, содовая",
+      "description": "Свежий игристый аперитив с цитрусовой горчинкой Aperol. Просекко и содовая делают вкус лёгким, суховатым и освежающим.",
+      "ingredients": [
+        {
+          "name": "Aperol",
+          "amount": ""
+        },
+        {
+          "name": "просекко",
+          "amount": ""
+        },
+        {
+          "name": "содовая",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-193-1",
+    "title": "White Russian",
+    "payload": {
+      "id": "rvb-autumn26-193-1",
+      "fact": "",
+      "name": "White Russian",
+      "brand": "rvb",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Сливочный, кофейный, сладкий",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, кофейнывй ликер, сливки",
+      "description": "Мягкий десертный коктейль с насыщенным кофейным вкусом и сливочной текстурой. Водка добавляет крепости, сохраняя в центре внимания кофе и сливки.",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "кофейнывй ликер",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-203-1",
+    "title": "Martini Fiero & Tonic",
+    "payload": {
+      "id": "rvb-autumn26-203-1",
+      "fact": "",
+      "name": "Martini Fiero & Tonic",
+      "brand": "rvb",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Апельсиновый, сладко-горький, освежающий",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Martini Fiero, тоник, апельсин",
+      "description": "Освежающий аперитив с ярким апельсиновым вкусом Martini Fiero и характерной горчинкой тоника. Сочный цитрус и пузырьки создают лёгкое, бодрящее сочетание.",
+      "ingredients": [
+        {
+          "name": "Martini Fiero",
+          "amount": ""
+        },
+        {
+          "name": "тоник",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Миксы",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-205-1",
+    "title": "Rum & Cola",
+    "payload": {
+      "id": "rvb-autumn26-205-1",
+      "fact": "",
+      "name": "Rum & Cola",
+      "brand": "rvb",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Сладкий, пряный, газированный",
+      "method": "",
+      "volume": "200мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "ром, Coca‑Cola",
+      "description": "Простой и понятный лонг-дринк со сладостью колы и тёплым характером рома. Газированная основа делает вкус живым, а ром добавляет глубины.",
+      "ingredients": [
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "Coca‑Cola",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Миксы",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-207-1",
+    "title": "Whiskey & Cola",
+    "payload": {
+      "id": "rvb-autumn26-207-1",
+      "fact": "",
+      "name": "Whiskey & Cola",
+      "brand": "rvb",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Сладкий, насыщенный, с характером виски",
+      "method": "",
+      "volume": "200мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "виски, Coca‑Cola",
+      "description": "Насыщенный лонг-дринк, в котором сладость колы смягчает характер виски. Зерновые и древесные оттенки зависят от выбранного виски и остаются заметны в послевкусии.",
+      "ingredients": [
+        {
+          "name": "виски",
+          "amount": ""
+        },
+        {
+          "name": "Coca‑Cola",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Миксы",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-209-1",
+    "title": "Gin & Tonic",
+    "payload": {
+      "id": "rvb-autumn26-209-1",
+      "fact": "",
+      "name": "Gin & Tonic",
+      "brand": "rvb",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Травяной, с горчинкой, освежающий",
+      "method": "",
+      "volume": "200мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "джин, тоник, лайм или огурец",
+      "description": "Свежий и суховатый лонг-дринк с можжевеловыми оттенками джина и горчинкой тоника. Лайм подчёркивает цитрусовую свежесть, а огурец делает аромат мягче и зеленее.",
+      "ingredients": [
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "тоник",
+          "amount": ""
+        },
+        {
+          "name": "лайм или огурец",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Миксы",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-211-1",
+    "title": "Vodka Red Bull",
+    "payload": {
+      "id": "rvb-autumn26-211-1",
+      "fact": "",
+      "name": "Vodka Red Bull",
+      "brand": "rvb",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Сладко-кислый, яркий, газированный",
+      "method": "",
+      "volume": "270 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, Red Bull",
+      "description": "Газированный лонг-дринк с ярким сладко-кислым вкусом Red Bull. Нейтральная водочная основа оставляет на первом плане характерный аромат энергетика.",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "Red Bull",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Миксы",
+      "characterSourceLabel": "Характеристика по составу актуального меню"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-228-1",
+    "title": "Мятный Носорог",
+    "payload": {
+      "id": "rvb-autumn26-228-1",
+      "fact": "",
+      "name": "Мятный Носорог",
+      "brand": "rvb",
+      "image": "rvb-bar-20261021/rvb-autumn26-228-1.png",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "6x40 мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "Кофейный ликер, мятный ликер",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "Кофейный ликер",
+          "amount": ""
+        },
+        {
+          "name": "мятный ликер",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-244-1",
+    "title": "Pina Colada Zero",
+    "payload": {
+      "id": "rvb-autumn26-244-1",
+      "fact": "",
+      "name": "Pina Colada Zero",
+      "brand": "rvb",
+      "image": "",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "Ананас, сливки, кокос",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "Ананас",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        },
+        {
+          "name": "кокос",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-246-1",
+    "title": "Porn Star Zero",
+    "payload": {
+      "id": "rvb-autumn26-246-1",
+      "fact": "",
+      "name": "Porn Star Zero",
+      "brand": "rvb",
+      "image": "",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "340 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "Маракуйя, лимон, ваниль, б/а игристое",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "Маракуйя",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "ваниль",
+          "amount": ""
+        },
+        {
+          "name": "б/а игристое",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-248-1",
+    "title": "Лимонад в ассортименте",
+    "payload": {
+      "id": "rvb-autumn26-248-1",
+      "fact": "",
+      "name": "Лимонад в ассортименте",
+      "brand": "rvb",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Лимонады и коктейли.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-249-1",
+    "title": "Лимонад в ассортименте · 1 л",
+    "payload": {
+      "id": "rvb-autumn26-249-1",
+      "fact": "",
+      "name": "Лимонад в ассортименте · 1 л",
+      "brand": "rvb",
+      "image": "",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "1л",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Вкусы: малина и гибискус, маракуйя и персик, цитрусовый.",
+      "ingredients": [
+        {
+          "name": "малина & гибискус / маракуйя & персик / цитрусовый",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-251-1",
+    "title": "Сок в ассортименте",
+    "payload": {
+      "id": "rvb-autumn26-251-1",
+      "fact": "",
+      "name": "Сок в ассортименте",
+      "brand": "rvb",
+      "image": "",
+      "price": "6 р.",
+      "taste": "",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-252-1",
+    "title": "Морс ягодный",
+    "payload": {
+      "id": "rvb-autumn26-252-1",
+      "fact": "",
+      "name": "Морс ягодный",
+      "brand": "rvb",
+      "image": "",
+      "price": "6 р.",
+      "taste": "",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-253-1",
+    "title": "Свежачок / Fresh апельсин, грейпфрут",
+    "payload": {
+      "id": "rvb-autumn26-253-1",
+      "fact": "",
+      "name": "Свежачок / Fresh апельсин, грейпфрут",
+      "brand": "rvb",
+      "image": "",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-254-1",
+    "title": "Coca‑Cola",
+    "payload": {
+      "id": "rvb-autumn26-254-1",
+      "fact": "",
+      "name": "Coca‑Cola",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-001.webp",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "330 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-254-2",
+    "title": "Sprite",
+    "payload": {
+      "id": "rvb-autumn26-254-2",
+      "fact": "",
+      "name": "Sprite",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-002.webp",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "330 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-254-3",
+    "title": "Fanta",
+    "payload": {
+      "id": "rvb-autumn26-254-3",
+      "fact": "",
+      "name": "Fanta",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-003.webp",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "330 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-255-1",
+    "title": "Schwepps Indian Tonic",
+    "payload": {
+      "id": "rvb-autumn26-255-1",
+      "fact": "",
+      "name": "Schwepps Indian Tonic",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-004.webp",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "330 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-256-1",
+    "title": "Вода Tassay",
+    "payload": {
+      "id": "rvb-autumn26-256-1",
+      "fact": "",
+      "name": "Вода Tassay",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-005.webp",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "250мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-257-1",
+    "title": "Вода Tassay",
+    "payload": {
+      "id": "rvb-autumn26-257-1",
+      "fact": "",
+      "name": "Вода Tassay",
+      "brand": "rvb",
+      "image": "verified-products-20261024/product-005.webp",
+      "price": "16 р.",
+      "taste": "",
+      "method": "",
+      "volume": "750мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Холодные напитки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Холодные напитки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-259-1",
+    "title": "Red Bull в ассортименте",
+    "payload": {
+      "id": "rvb-autumn26-259-1",
+      "fact": "",
+      "name": "Red Bull в ассортименте",
+      "brand": "rvb",
+      "image": "",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "Классический, арбузный, черничный, без сахара",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "Классический",
+          "amount": ""
+        },
+        {
+          "name": "арбузный",
+          "amount": ""
+        },
+        {
+          "name": "черничный",
+          "amount": ""
+        },
+        {
+          "name": "без сахара",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Энергетики"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-262-1",
+    "title": "Эспрессо",
+    "payload": {
+      "id": "rvb-autumn26-262-1",
+      "fact": "",
+      "name": "Эспрессо",
+      "brand": "rvb",
+      "image": "",
+      "price": "7 р.",
+      "taste": "",
+      "method": "",
+      "volume": "50 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "",
+      "description": "Кофе.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Кофе"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-263-1",
+    "title": "Американо",
+    "payload": {
+      "id": "rvb-autumn26-263-1",
+      "fact": "",
+      "name": "Американо",
+      "brand": "rvb",
+      "image": "",
+      "price": "7 р.",
+      "taste": "",
+      "method": "",
+      "volume": "120 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "",
+      "description": "Кофе.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Кофе"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-264-1",
+    "title": "Капучино",
+    "payload": {
+      "id": "rvb-autumn26-264-1",
+      "fact": "",
+      "name": "Капучино",
+      "brand": "rvb",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "220 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "",
+      "description": "Кофе.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Кофе"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-265-1",
+    "title": "Флет Уайт",
+    "payload": {
+      "id": "rvb-autumn26-265-1",
+      "fact": "",
+      "name": "Флет Уайт",
+      "brand": "rvb",
+      "image": "",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "",
+      "description": "Кофе.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Кофе"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-266-1",
+    "title": "Латте",
+    "payload": {
+      "id": "rvb-autumn26-266-1",
+      "fact": "",
+      "name": "Латте",
+      "brand": "rvb",
+      "image": "",
+      "price": "12 р.",
+      "taste": "",
+      "method": "",
+      "volume": "280 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "",
+      "description": "Кофе.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Кофе"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-268-1",
+    "title": "Чай в ассортименте",
+    "payload": {
+      "id": "rvb-autumn26-268-1",
+      "fact": "",
+      "name": "Чай в ассортименте",
+      "brand": "rvb",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "600 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "грейпберри, клубничное суфле, ройбос",
+      "description": "ассам, сенча, саган-дайля, эрл грей, сливочный улун, грейпберри, клубничное суфле, ройбос",
+      "ingredients": [
+        {
+          "name": "грейпберри",
+          "amount": ""
+        },
+        {
+          "name": "клубничное суфле",
+          "amount": ""
+        },
+        {
+          "name": "ройбос",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Чай"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-271-1",
+    "title": "Каркаде & Малина",
+    "payload": {
+      "id": "rvb-autumn26-271-1",
+      "fact": "",
+      "name": "Каркаде & Малина",
+      "brand": "rvb",
+      "image": "",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "600 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "каркаде, малина, лимон, корица",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "каркаде",
+          "amount": ""
+        },
+        {
+          "name": "малина",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "корица",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторский чай"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-273-1",
+    "title": "Имбирь & Лимон",
+    "payload": {
+      "id": "rvb-autumn26-273-1",
+      "fact": "",
+      "name": "Имбирь & Лимон",
+      "brand": "rvb",
+      "image": "",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "600 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "лимон, имбирь, мед, корица, гвоздика",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "имбирь",
+          "amount": ""
+        },
+        {
+          "name": "мед",
+          "amount": ""
+        },
+        {
+          "name": "корица",
+          "amount": ""
+        },
+        {
+          "name": "гвоздика",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторский чай"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-35-1",
+    "title": "Martini Fiero",
+    "payload": {
+      "id": "rvb-autumn26-35-1",
+      "fact": "Для Fiero используют сладкие испанские апельсины из Мурсии: кожуру снимают вручную и сушат на солнце.",
+      "name": "Martini Fiero",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/00-rvb-autumn26-35-1.jpg",
+      "price": "16 р.",
+      "taste": "Апельсин · Ботаникалы",
+      "method": "",
+      "volume": "80 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Аперитив на винной основе с ярким апельсиновым профилем.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Вермут"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-36-1",
+    "title": "Martini Bianco",
+    "payload": {
+      "id": "rvb-autumn26-36-1",
+      "fact": "В основу Bianco входят белые вина, в том числе Trebbiano, и растительные экстракты.",
+      "name": "Martini Bianco",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/01-rvb-autumn26-36-1.jpg",
+      "price": "16 р.",
+      "taste": "Ваниль · Травы",
+      "method": "",
+      "volume": "80 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Белый вермут с лёгкой сладостью, ванильными и травяными нотами.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Вермут"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-37-1",
+    "title": "Martini Rosso",
+    "payload": {
+      "id": "rvb-autumn26-37-1",
+      "fact": "Красно-коричневый оттенок вермута Rosso связан с добавлением карамели.",
+      "name": "Martini Rosso",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/02-rvb-autumn26-37-1.png",
+      "price": "16 р.",
+      "taste": "Травы · Горько-сладкий",
+      "method": "",
+      "volume": "80 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Сладкий вермут с горько-сладким травяным профилем.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Вермут"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-38-1",
+    "title": "Martini Extra Dry",
+    "payload": {
+      "id": "rvb-autumn26-38-1",
+      "fact": "Открытый сухой вермут тоже хранят в холодильнике: производитель рекомендует охлаждение для всех типов вермута.",
+      "name": "Martini Extra Dry",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/03-rvb-autumn26-38-1.png",
+      "price": "16 р.",
+      "taste": "Сухой",
+      "method": "",
+      "volume": "80 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Сухой вермут в линейке MARTINI. Отличается по стилю от сладких Bianco и Rosso.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Вермут"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-40-1",
+    "title": "Courvoisier VS",
+    "payload": {
+      "id": "rvb-autumn26-40-1",
+      "fact": "В купаже VS соединяют спирты из Bon Bois, Fins Bois и Petite Champagne — каждый добавляет свой характер.",
+      "name": "Courvoisier VS",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/courvoisier-vs.webp",
+      "price": "35 р.",
+      "taste": "Фрукты · Цветы · Дуб",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Фруктовый коньяк с нотами яблока, груши и весенних цветов. В послевкусии — свежий дуб.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Коньяк"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-41-1",
+    "title": "Martell VSOP",
+    "payload": {
+      "id": "rvb-autumn26-41-1",
+      "fact": "Дом Martell основан Жаном Мартелем в 1715 году.",
+      "name": "Martell VSOP",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/05-rvb-autumn26-41-1.png",
+      "price": "40 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Французский коньяк категории VSOP. Отдельная ступень в линейке Martell между VS и XO.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Коньяк"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-42-1",
+    "title": "Martell ХO",
+    "payload": {
+      "id": "rvb-autumn26-42-1",
+      "fact": "Grande Champagne в названии региона коньяка не означает игристое вино. У Martell XO это один из источников коньячных спиртов.",
+      "name": "Martell ХO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/06-rvb-autumn26-42-1.png",
+      "price": "90 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Коньяк, объединяющий насыщенный характер Grande Champagne и элегантность Borderies.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Коньяк"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-44-1",
+    "title": "АрАрАт 3 YO",
+    "payload": {
+      "id": "rvb-autumn26-44-1",
+      "fact": "В линейке ARARAT три звезды обозначают трёхлетний бренди.",
+      "name": "АрАрАт 3 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/07-rvb-autumn26-44-1.jpg",
+      "price": "14 р.",
+      "taste": "Пряности",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Бренди"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-45-1",
+    "title": "АрАрАт 5 YO",
+    "payload": {
+      "id": "rvb-autumn26-45-1",
+      "fact": "ARARAT 5 Stars производят из сортов винограда, выращенных в Армении.",
+      "name": "АрАрАт 5 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/08-rvb-autumn26-45-1.jpg",
+      "price": "16 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Армянский бренди пятилетней выдержки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Бренди"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-46-1",
+    "title": "Torres 6 Solera Reserva",
+    "payload": {
+      "id": "rvb-autumn26-46-1",
+      "fact": "В системе solera более молодые бренди постепенно смешивают с более старыми на нескольких уровнях бочек.",
+      "name": "Torres 6 Solera Reserva",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/rvb-autumn26-46-1-illustration.svg",
+      "price": "16 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "illustration",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Бренди"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-48-1",
+    "title": "Сябры Платинум",
+    "payload": {
+      "id": "rvb-autumn26-48-1",
+      "fact": "",
+      "name": "Сябры Платинум",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/10-rvb-autumn26-48-1.jpg",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-49-1",
+    "title": "Сябры клюквенная",
+    "payload": {
+      "id": "rvb-autumn26-49-1",
+      "fact": "Клюквенная и медовая версии в исходной карте объединены одной строкой. В учебнике они разделены, чтобы отмечать знание каждого вкуса.",
+      "name": "Сябры клюквенная",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/11-rvb-autumn26-49-1-verified.png",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Вкусовая версия «Сябры» с клюквенным направлением.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-49-2",
+    "title": "Сябры медовая",
+    "payload": {
+      "id": "rvb-autumn26-49-2",
+      "fact": "Медовая версия указана отдельно и в составе «Сябры Сет» вместе с вишнёвой, грушевой и клюквенной.",
+      "name": "Сябры медовая",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/12-rvb-autumn26-49-2.png",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Медовая версия линейки «Сябры».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-50-1",
+    "title": "Сябры Гонар",
+    "payload": {
+      "id": "rvb-autumn26-50-1",
+      "fact": "Слово «Сябры» переводится как «друзья». Орнамент упаковки Гонар обыгрывает в том числе компанию друзей за столом.",
+      "name": "Сябры Гонар",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/13-honar-studio.jpg",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Отдельная линейка белорусского бренда «Сябры».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-51-1",
+    "title": "Schmidt Supreme",
+    "payload": {
+      "id": "rvb-autumn26-51-1",
+      "fact": "",
+      "name": "Schmidt Supreme",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/14-rvb-autumn26-51-1.png",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-53-1",
+    "title": "Finlandia",
+    "payload": {
+      "id": "rvb-autumn26-53-1",
+      "fact": "Вода для Finlandia проходит естественную фильтрацию через ледниковую морену.",
+      "name": "Finlandia",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/15-rvb-autumn26-53-1.jpg",
+      "price": "15 р.",
+      "taste": "Мягкий · Лёгкий",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Финская водка из местного ячменя и родниковой воды.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-54-1",
+    "title": "Finlandia Lime",
+    "payload": {
+      "id": "rvb-autumn26-54-1",
+      "fact": "Базу Finlandia производят из финского ячменя и воды источника Rajamäki. Вкус версии указан в её названии.",
+      "name": "Finlandia Lime",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/16-rvb-autumn26-54-1.jpg",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Ароматизированная Finlandia со вкусом лайма.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-54-2",
+    "title": "Finlandia Grapefruit",
+    "payload": {
+      "id": "rvb-autumn26-54-2",
+      "fact": "Базу Finlandia производят из финского ячменя и воды источника Rajamäki. Вкус версии указан в её названии.",
+      "name": "Finlandia Grapefruit",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/17-rvb-autumn26-54-2.jpg",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Ароматизированная Finlandia со вкусом грейпфрута.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-54-3",
+    "title": "Finlandia Cranberry",
+    "payload": {
+      "id": "rvb-autumn26-54-3",
+      "fact": "Базу Finlandia производят из финского ячменя и воды источника Rajamäki. Вкус версии указан в её названии.",
+      "name": "Finlandia Cranberry",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/18-rvb-autumn26-54-3.png",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Ароматизированная Finlandia со вкусом клюквы.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-55-1",
+    "title": "Grey Goose",
+    "payload": {
+      "id": "rvb-autumn26-55-1",
+      "fact": "Пшеница для Grey Goose происходит из Пикардии; производство от зерна до бутылки проходит во Франции.",
+      "name": "Grey Goose",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/19-rvb-autumn26-55-1.jpg",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Французская водка из мягкой озимой пшеницы.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Водка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-57-1",
+    "title": "Sierra Blanco",
+    "payload": {
+      "id": "rvb-autumn26-57-1",
+      "fact": "Blanco и Reposado — разные версии Sierra: у Reposado дубовая выдержка меняет ароматический профиль.",
+      "name": "Sierra Blanco",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/20-rvb-autumn26-57-1.jpg",
+      "price": "20 р.",
+      "taste": "Агава",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Текила со свежими нотами агавы.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Текила"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-58-1",
+    "title": "Sierra Reposado",
+    "payload": {
+      "id": "rvb-autumn26-58-1",
+      "fact": "Дубовые бочки дают Sierra Reposado более округлый профиль по сравнению с Blanco.",
+      "name": "Sierra Reposado",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/21-rvb-autumn26-58-1.jpg",
+      "price": "22 р.",
+      "taste": "Ваниль · Карамель",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Текила с мягкими ванильными и карамельными оттенками от дубовой выдержки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Текила"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-59-1",
+    "title": "Rooster Rojo Blanco",
+    "payload": {
+      "id": "rvb-autumn26-59-1",
+      "fact": "Все текилы Rooster Rojo производят из 100% голубой агавы Weber.",
+      "name": "Rooster Rojo Blanco",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/22-rvb-autumn26-59-1.jpg",
+      "price": "24 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Текила линейки Rooster Rojo на основе голубой агавы.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Текила"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-60-1",
+    "title": "Rooster Rojo Reposado",
+    "payload": {
+      "id": "rvb-autumn26-60-1",
+      "fact": "Rooster Rojo производят на Amber Production Tequila — предприятии, специализирующемся на текиле из 100% агавы.",
+      "name": "Rooster Rojo Reposado",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/23-rvb-autumn26-60-1.jpg",
+      "price": "26 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Текила категории Reposado в линейке Rooster Rojo.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Текила"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-61-1",
+    "title": "Rooster Rojo Smoked Pineapple",
+    "payload": {
+      "id": "rvb-autumn26-61-1",
+      "fact": "Smoked Pineapple появилась в линейке в 2021 году, раньше отдельной дымной версии Ahumado.",
+      "name": "Rooster Rojo Smoked Pineapple",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/24-rvb-autumn26-61-1.png",
+      "price": "26 р.",
+      "taste": "Ананас · Дым",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Версия Rooster Rojo с копчёным ананасовым характером.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Текила"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-62-1",
+    "title": "Patron Anejo",
+    "payload": {
+      "id": "rvb-autumn26-62-1",
+      "fact": "PATRÓN Añejo выдерживают не менее 12 месяцев в небольших бочках из белого дуба.",
+      "name": "Patron Anejo",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/25-rvb-autumn26-62-1.png",
+      "price": "45 р.",
+      "taste": "Агава · Дуб",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Выдержанная текила с древесными и сладковатыми оттенками печёной агавы.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Текила"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-63-1",
+    "title": "Сангрита",
+    "payload": {
+      "id": "rvb-autumn26-63-1",
+      "fact": "",
+      "name": "Сангрита",
+      "brand": "rvb",
+      "image": "",
+      "price": "2 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "",
+      "description": "Авторское сопровождение к текиле.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Сопровождение"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-65-1",
+    "title": "Gordon's",
+    "payload": {
+      "id": "rvb-autumn26-65-1",
+      "fact": "История Gordon’s ведётся с 1769 года.",
+      "name": "Gordon's",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/26-rvb-autumn26-65-1.jpg",
+      "price": "18 р.",
+      "taste": "Можжевельник",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Джин с характерной можжевеловой основой. Классический ориентир для знакомства с категорией.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Джин"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-66-1",
+    "title": "Bombay Sapphire",
+    "payload": {
+      "id": "rvb-autumn26-66-1",
+      "fact": "Для Bombay Sapphire используют десять ботаникалов и паровую инфузию для извлечения ароматов.",
+      "name": "Bombay Sapphire",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/27-rvb-autumn26-66-1.jpg",
+      "price": "25 р.",
+      "taste": "Ботаникалы · Пряности",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Джин с растительным и пряным ароматическим профилем.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Джин"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-68-1",
+    "title": "Havana Club Añejo 3 YO",
+    "payload": {
+      "id": "rvb-autumn26-68-1",
+      "fact": "Белый цвет не означает отсутствие выдержки: Havana Club 3 производят и выдерживают на Кубе.",
+      "name": "Havana Club Añejo 3 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/28-rvb-autumn26-68-1.jpg",
+      "price": "18 р.",
+      "taste": "Тростник · Фрукты",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Кубинский белый ром с нотами сахарного тростника и фруктов.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ром"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-69-1",
+    "title": "Havana Club Añejo 7 YO",
+    "payload": {
+      "id": "rvb-autumn26-69-1",
+      "fact": "Havana Club 7 выдерживают в бочках из-под бурбона.",
+      "name": "Havana Club Añejo 7 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/29-rvb-autumn26-69-1.png",
+      "price": "22 р.",
+      "taste": "Табак · Мёд · Какао",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Тёмный кубинский ром: тропические фрукты, табак, мёд, пряности и сухое какао.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ром"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-70-1",
+    "title": "Oakheart Original",
+    "payload": {
+      "id": "rvb-autumn26-70-1",
+      "fact": "",
+      "name": "Oakheart Original",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/30-rvb-autumn26-70-1.png",
+      "price": "15 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Пряный напиток из ромовой линейки BACARDÍ.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ром"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-71-1",
+    "title": "Bacardi Carta Negra",
+    "payload": {
+      "id": "rvb-autumn26-71-1",
+      "fact": "",
+      "name": "Bacardi Carta Negra",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/31-rvb-autumn26-71-1.jpg",
+      "price": "22 р.",
+      "taste": "Фрукты · Карамель · Ваниль",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Тёмный ром с тропическими фруктами, карамелью, ванилью и оттенками лакрицы.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ром"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-72-1",
+    "title": "Plantation O.F.T.D. Overproof",
+    "payload": {
+      "id": "rvb-autumn26-72-1",
+      "fact": "В O.F.T.D. соединены ромы Гайаны, Ямайки и Барбадоса. У версии на сайте производителя крепость 69%.",
+      "name": "Plantation O.F.T.D. Overproof",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/32-rvb-autumn26-72-1.png",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Крепкий тёмный ром стиля overproof из нескольких карибских источников.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ром"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-74-1",
+    "title": "William Lawson's",
+    "payload": {
+      "id": "rvb-autumn26-74-1",
+      "fact": "",
+      "name": "William Lawson's",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/33-rvb-autumn26-74-1.jpg",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Шотландский купажированный виски из актуальной карты бара.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · купажированный"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-75-1",
+    "title": "Ballantine's Finest",
+    "payload": {
+      "id": "rvb-autumn26-75-1",
+      "fact": "В аромате Finest производитель отдельно выделяет мёд с оттенком пряностей.",
+      "name": "Ballantine's Finest",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/34-rvb-autumn26-75-1.png",
+      "price": "20 р.",
+      "taste": "Мёд · Пряности",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Купажированный шотландский виски с медовым ароматом и лёгкими пряными оттенками.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · купажированный"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-76-1",
+    "title": "Johnnie Walker Black Label",
+    "payload": {
+      "id": "rvb-autumn26-76-1",
+      "fact": "Black Label — виски с указанием выдержки 12 лет.",
+      "name": "Johnnie Walker Black Label",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/35-rvb-autumn26-76-1.png",
+      "price": "30 р.",
+      "taste": "Сладость · Дым",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Купажированный шотландский виски: сладкие оттенки сочетаются с мягким дымным характером.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · купажированный"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-77-1",
+    "title": "Chivas Regal 12 YO",
+    "payload": {
+      "id": "rvb-autumn26-77-1",
+      "fact": "В Chivas 12 фруктовые, цветочные и медовые оттенки формируют основу фирменного профиля.",
+      "name": "Chivas Regal 12 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/36-rvb-autumn26-77-1.jpg",
+      "price": "25 р.",
+      "taste": "Фрукты · Мёд · Вереск",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Купажированный шотландский виски с садовыми фруктами, вереском и медовыми нотами.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · купажированный"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-78-1",
+    "title": "Chivas Regal 18 YO",
+    "payload": {
+      "id": "rvb-autumn26-78-1",
+      "fact": "Производитель выделяет в Chivas 18 более 85 вкусовых оттенков.",
+      "name": "Chivas Regal 18 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/37-rvb-autumn26-78-1.jpg",
+      "price": "45 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Купажированный шотландский виски с многослойным ароматическим профилем.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · купажированный"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-80-1",
+    "title": "Jim Beam",
+    "payload": {
+      "id": "rvb-autumn26-80-1",
+      "fact": "Для стандартного Jim Beam White используют четырёхлетнюю выдержку в новых дубовых бочках.",
+      "name": "Jim Beam",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/38-rvb-autumn26-80-1.jpg",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Американский бурбон с выдержкой в новых обожжённых бочках из белого дуба.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · американский"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-81-1",
+    "title": "Jack Daniel`s Old №7",
+    "payload": {
+      "id": "rvb-autumn26-81-1",
+      "fact": "7 как Tennessee whiskey.",
+      "name": "Jack Daniel`s Old №7",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/39-rvb-autumn26-81-1.png",
+      "price": "22 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Американский Tennessee whiskey с угольным смягчением перед выдержкой.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · американский"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-83-1",
+    "title": "Tullamore D.E.W.",
+    "payload": {
+      "id": "rvb-autumn26-83-1",
+      "fact": "В купаже Original соединяются три типа ирландского виски: зерновой, солодовый и pot still.",
+      "name": "Tullamore D.E.W.",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/40-tullamore-confirmed.png",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Ирландский купажированный виски с мягкими сладкими, фруктовыми и пряными оттенками.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · ирландский"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-84-1",
+    "title": "Jameson",
+    "payload": {
+      "id": "rvb-autumn26-84-1",
+      "fact": "Тройная перегонка — один из ключевых элементов производственного стиля Jameson Original.",
+      "name": "Jameson",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/41-rvb-autumn26-84-1.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Ирландский купажированный виски тройной дистилляции.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · ирландский"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-86-1",
+    "title": "Glenlivet 12 YO",
+    "payload": {
+      "id": "rvb-autumn26-86-1",
+      "fact": "The Glenlivet 12 — single malt с одной винокурни в регионе Спейсайд.",
+      "name": "Glenlivet 12 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/42-rvb-autumn26-86-1.jpg",
+      "price": "25 р.",
+      "taste": "Ананас · Фрукты · Ваниль",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Односолодовый виски с нотами ананаса, банана, сладких фруктов и ванили.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · односолодовый"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-87-1",
+    "title": "Glenlivet 15 YO",
+    "payload": {
+      "id": "rvb-autumn26-87-1",
+      "fact": "Для The Glenlivet 15 French Oak часть виски довыдерживают в бочках из французского лимузенского дуба.",
+      "name": "Glenlivet 15 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/43-rvb-autumn26-87-1.png",
+      "price": "33 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Односолодовый шотландский виски пятнадцатилетней выдержки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · односолодовый"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-88-1",
+    "title": "Laphroaig 10 YO",
+    "payload": {
+      "id": "rvb-autumn26-88-1",
+      "fact": "При производстве Laphroaig ячменный солод сушат над торфяным огнём.",
+      "name": "Laphroaig 10 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/44-rvb-autumn26-88-1.png",
+      "price": "35 р.",
+      "taste": "Торф · Дым",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Односолодовый виски с острова Айла с выраженным торфяным характером.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · односолодовый"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-89-1",
+    "title": "Macallan Double Cask 12 YO",
+    "payload": {
+      "id": "rvb-autumn26-89-1",
+      "fact": "Double Cask означает сочетание двух типов дуба, а не обязательную последовательную выдержку в двух бочках.",
+      "name": "Macallan Double Cask 12 YO",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/45-rvb-autumn26-89-1.jpg",
+      "price": "50 р.",
+      "taste": "Дуб · Хересные бочки",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Односолодовый виски, выдержанный в бочках из американского и европейского дуба, подготовленных хересом.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Виски · односолодовый"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-91-1",
+    "title": "Campari",
+    "payload": {
+      "id": "rvb-autumn26-91-1",
+      "fact": "История Campari начинается в 1860 году; красный цвет — узнаваемая часть его стиля.",
+      "name": "Campari",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/46-rvb-autumn26-91-1.jpg",
+      "price": "20 р.",
+      "taste": "Горечь",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Итальянский красный биттер с интенсивным многослойным горьким вкусом.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-92-1",
+    "title": "Aperol",
+    "payload": {
+      "id": "rvb-autumn26-92-1",
+      "fact": "Aperol создали братья Барбьери; он появился в Падуе в 1919 году.",
+      "name": "Aperol",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/47-rvb-autumn26-92-1.png",
+      "price": "20 р.",
+      "taste": "Горько-сладкий",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Итальянский аперитив с оранжевым цветом и горько-сладким вкусом.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-93-1",
+    "title": "Sarti Rosa",
+    "payload": {
+      "id": "rvb-autumn26-93-1",
+      "fact": "В Sarti Rosa цитрусовый профиль сицилийского красного апельсина дополнен тропическими фруктами.",
+      "name": "Sarti Rosa",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/48-rvb-autumn26-93-1.png",
+      "price": "20 р.",
+      "taste": "Апельсин · Манго · Маракуйя",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Фруктовый аперитив с оттенками красного апельсина, манго и маракуйи.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-94-1",
+    "title": "Baileys",
+    "payload": {
+      "id": "rvb-autumn26-94-1",
+      "fact": "В основе Baileys Original соединены виски и настоящие молочные сливки.",
+      "name": "Baileys",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/49-rvb-autumn26-94-1.jpg",
+      "price": "20 р.",
+      "taste": "Сливки · Шоколад · Ваниль",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Сливочный ликёр с ирландским виски, молочными сливками и шоколадно-ванильными оттенками.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-95-1",
+    "title": "Jagermeister",
+    "payload": {
+      "id": "rvb-autumn26-95-1",
+      "fact": "Рецептура Jägermeister включает 56 натуральных ингредиентов: травы, корни, пряности и другие растительные компоненты.",
+      "name": "Jagermeister",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/50-rvb-autumn26-95-1.webp",
+      "price": "20 р.",
+      "taste": "Травы · Пряности",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Немецкий травяной ликёр со сложным пряным характером.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-96-1",
+    "title": "Sambuca Gamondi",
+    "payload": {
+      "id": "rvb-autumn26-96-1",
+      "fact": "Gamondi использует звёздчатый анис. Производитель также отмечает в аромате оттенки бузины, дикого фенхеля и мяты.",
+      "name": "Sambuca Gamondi",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/51-gamondi-sambuca.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "Прозрачный сладкий итальянский ликёр с ярким ароматом аниса.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-97-1",
+    "title": "Absentе",
+    "payload": {
+      "id": "rvb-autumn26-97-1",
+      "fact": "",
+      "name": "Absentе",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/alcohol/52-rvb-autumn26-97-1.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "alcohol",
+      "features": "",
+      "imageKind": "photo",
+      "composition": "",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Ликёры и биттеры"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-autumn26-99-1",
+    "title": "Vodka Red Bull Bottle Service",
+    "payload": {
+      "id": "rvb-autumn26-99-1",
+      "fact": "",
+      "name": "Vodka Red Bull Bottle Service",
+      "brand": "rvb",
+      "image": "",
+      "price": "175 р.",
+      "taste": "",
+      "method": "",
+      "volume": "",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "1*0,5 Сябры Платинум, 6*Red Bull",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "1*0,5 Сябры Платинум",
+          "amount": ""
+        },
+        {
+          "name": "6*Red Bull",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Для вечеринки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-001",
+    "title": "Ночное Рандеву",
+    "payload": {
+      "id": "rvb-minsk-001",
+      "fact": "",
+      "name": "Ночное Рандеву",
+      "brand": "rvb",
+      "glass": "Винный бокал",
+      "image": "rvb-bar-20261021/rvb-minsk-001.png",
+      "price": "20 р.",
+      "taste": "Легкий, кисло-сладкий",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "Украшается чипсом или слайсом груши",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Настойка Вечеровка, груша, лимон, игристое вино",
+      "description": "Осенний, с легкой пряностью и яркой грушей",
+      "ingredients": [
+        {
+          "name": "Настойка Вечеровка",
+          "amount": ""
+        },
+        {
+          "name": "груша",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Аперитивы",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-002",
+    "title": "Zukov Spritz",
+    "payload": {
+      "id": "rvb-minsk-002",
+      "fact": "Домашний аперитив, игристое вино, Tonic, апельсин",
+      "name": "Zukov Spritz",
+      "brand": "rvb",
+      "glass": "Винный бокал",
+      "image": "rvb-bar-20261021/rvb-minsk-002.png",
+      "price": "20 р.",
+      "taste": "Легкий, с горчинкой, цитрусовый",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "Украшается слайсом апельсина",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Домашний аперитив, игристое вино, Tonic, апельсин",
+      "description": "Наша альтернатива классическому Aperol Spritz",
+      "ingredients": [
+        {
+          "name": "Домашний аперитив",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        },
+        {
+          "name": "Tonic",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Аперитивы",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-003",
+    "title": "Укрощение Строптивой",
+    "payload": {
+      "id": "rvb-minsk-003",
+      "fact": "",
+      "name": "Укрощение Строптивой",
+      "brand": "rvb",
+      "glass": "в винный бокал",
+      "image": "rvb-bar-20261021/rvb-minsk-003.png",
+      "price": "25 р.",
+      "taste": "Фруктовый, кисло-сладкий, освежающий",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "Украшается вершком мяты",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Пюре Персик&Бергамот, игристое вино",
+      "description": "Наша альтернатива классическому Bellini",
+      "ingredients": [
+        {
+          "name": "Пюре Персик&Бергамот",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Аперитивы",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-004",
+    "title": "Фиолетовая Пудра",
+    "payload": {
+      "id": "rvb-minsk-004",
+      "fact": "",
+      "name": "Фиолетовая Пудра",
+      "brand": "rvb",
+      "glass": "в винный бокал",
+      "image": "rvb-bar-20261021/rvb-minsk-004.png",
+      "price": "25 р.",
+      "taste": "Ягодный, кисло-сладкий, освежающий",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "Украшается пудрой",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Настойка Смородина&Лайм, джин, игристое, сок лайма",
+      "description": "Наша альтернатива классическому French 75",
+      "ingredients": [
+        {
+          "name": "Настойка Смородина&Лайм",
+          "amount": ""
+        },
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "игристое",
+          "amount": ""
+        },
+        {
+          "name": "сок лайма",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Аперитивы",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-005",
+    "title": "Just Dance",
+    "payload": {
+      "id": "rvb-minsk-005",
+      "fact": "",
+      "name": "Just Dance",
+      "brand": "rvb",
+      "glass": "в ДаблХайбол",
+      "image": "rvb-bar-20261021/rvb-minsk-005.png",
+      "price": "30 р.",
+      "taste": "Кисло-сладкий, освежающий",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Украшается листом бабмука и чипсом Грея",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Текила на грейпфруте, Martini Fiero, маракуйя, лимон и сахар",
+      "description": "Наша альтернатива классическому Hurricane",
+      "ingredients": [
+        {
+          "name": "Текила на грейпфруте",
+          "amount": ""
+        },
+        {
+          "name": "Martini Fiero",
+          "amount": ""
+        },
+        {
+          "name": "маракуйя",
+          "amount": ""
+        },
+        {
+          "name": "лимон и сахар",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-006",
+    "title": "Я Знаю Кто Убил Сару",
+    "payload": {
+      "id": "rvb-minsk-006",
+      "fact": "",
+      "name": "Я Знаю Кто Убил Сару",
+      "brand": "rvb",
+      "glass": "Олдфешн",
+      "image": "rvb-bar-20261021/rvb-minsk-006.png",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "Смородиновая пудра и мята",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Текила, ликер Sarti Rosa, белок, лимон",
+      "description": "Свежий, кислый, фруктовый",
+      "ingredients": [
+        {
+          "name": "Текила",
+          "amount": ""
+        },
+        {
+          "name": "ликер Sarti Rosa",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Крепкие",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-007",
+    "title": "Не Фейхоя Себе",
+    "payload": {
+      "id": "rvb-minsk-007",
+      "fact": "",
+      "name": "Не Фейхоя Себе",
+      "brand": "rvb",
+      "glass": "Тики",
+      "image": "rvb-bar-20261021/rvb-minsk-007.png",
+      "price": "25 р.",
+      "taste": "Кисло-сладкий, тропический, свежий",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Украшается слайсом киви",
+      "category": "cocktails",
+      "features": "",
+      "composition": "джин, кордиал фейхоа, сироп киви, яблочный и лимонный сок",
+      "description": "Авторский экзотический коктейль",
+      "ingredients": [
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "кордиал фейхоа",
+          "amount": ""
+        },
+        {
+          "name": "сироп киви",
+          "amount": ""
+        },
+        {
+          "name": "яблочный и лимонный сок",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 5
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-008",
+    "title": "Джентельмены Предпочитают Блондинок",
+    "payload": {
+      "id": "rvb-minsk-008",
+      "fact": "",
+      "name": "Джентельмены Предпочитают Блондинок",
+      "brand": "rvb",
+      "glass": "Ник Нора",
+      "image": "rvb-bar-20261021/rvb-minsk-008.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "Тертый шоколад",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Ванильная водка, сливки, сироп бобы тонка",
+      "description": "Сливочный, сладкий",
+      "ingredients": [
+        {
+          "name": "Ванильная водка",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        },
+        {
+          "name": "сироп бобы тонка",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 6
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-009",
+    "title": "Руки ВВерх",
+    "payload": {
+      "id": "rvb-minsk-009",
+      "fact": "",
+      "name": "Руки ВВерх",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "rvb-bar-20261021/rvb-minsk-009.png",
+      "price": "25 р.",
+      "taste": "Легкий, ягодный, кисло-сладкий",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Украшается сублемированной малиной",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Настойка Ежевика&Можжевельник, ананасовый сок, пюре клубники, сироп Бабл Гам",
+      "description": "Авторский фирменный коктейль",
+      "ingredients": [
+        {
+          "name": "Настойка Ежевика&Можжевельник",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "пюре клубники",
+          "amount": ""
+        },
+        {
+          "name": "сироп Бабл Гам",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 6
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-010",
+    "title": "Босс Любит Послаще",
+    "payload": {
+      "id": "rvb-minsk-010",
+      "fact": "",
+      "name": "Босс Любит Послаще",
+      "brand": "rvb",
+      "glass": "Хайбол",
+      "image": "rvb-bar-20261021/rvb-minsk-010.png",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "270мл",
+      "garnish": "Вишня и гипсофила",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Вишня на бренди, лайм, пюре вишня",
+      "description": "Ягодный, с легкой горчинкой, воздушный",
+      "ingredients": [
+        {
+          "name": "Вишня на бренди",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        },
+        {
+          "name": "пюре вишня",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 6
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-011",
+    "title": "Константин Всегда на Стиле",
+    "payload": {
+      "id": "rvb-minsk-011",
+      "fact": "",
+      "name": "Константин Всегда на Стиле",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "rvb-bar-20261021/rvb-minsk-011.png",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Гипсофила",
+      "category": "cocktails",
+      "features": "",
+      "composition": "джин, бузина, смородина, сок яблоко, лимон. белок",
+      "description": "Цветочный, легкий",
+      "ingredients": [
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "бузина",
+          "amount": ""
+        },
+        {
+          "name": "смородина",
+          "amount": ""
+        },
+        {
+          "name": "сок яблоко",
+          "amount": ""
+        },
+        {
+          "name": "лимон. белок",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 6
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-012",
+    "title": "Абонент Вне Зоны Доступа",
+    "payload": {
+      "id": "rvb-minsk-012",
+      "fact": "",
+      "name": "Абонент Вне Зоны Доступа",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "rvb-bar-20261021/rvb-minsk-012.png",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Лайм",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, текила, ром, абсент, ликер персик, энергетик",
+      "description": "Крепкий, тропический",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "текила",
+          "amount": ""
+        },
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "абсент",
+          "amount": ""
+        },
+        {
+          "name": "ликер персик",
+          "amount": ""
+        },
+        {
+          "name": "энергетик",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Крепкие",
+      "characterSourcePage": 6
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-013",
+    "title": "Beautiful Life",
+    "payload": {
+      "id": "rvb-minsk-013",
+      "fact": "",
+      "name": "Beautiful Life",
+      "brand": "rvb",
+      "glass": "Винный бокал",
+      "image": "rvb-bar-20261021/rvb-minsk-013.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "Виноград",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Настойка Дыня & Мята, джин, виноград, игристое вино",
+      "description": "Фруктовый, яркий, легкий",
+      "ingredients": [
+        {
+          "name": "Настойка Дыня & Мята",
+          "amount": ""
+        },
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "виноград",
+          "amount": ""
+        },
+        {
+          "name": "игристое вино",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 6
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-014",
+    "title": "Моя Бабушка Курит Трубку",
+    "payload": {
+      "id": "rvb-minsk-014",
+      "fact": "",
+      "name": "Моя Бабушка Курит Трубку",
+      "brand": "rvb",
+      "glass": "ОлдФешн",
+      "image": "rvb-bar-20261021/rvb-minsk-014.png",
+      "price": "30 р.",
+      "taste": "Дымный, пикантный, сладкий",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "Украшется слайсом имбиря с опаленым сахаром и опрыскивается Лафройгом",
+      "category": "cocktails",
+      "features": "",
+      "composition": "дымный и купажированный виски, лимонный сок, медовый сироп, сок имбиря",
+      "description": "Наша альтернатива классическому Penicillin",
+      "ingredients": [
+        {
+          "name": "дымный и купажированный виски",
+          "amount": ""
+        },
+        {
+          "name": "лимонный сок",
+          "amount": ""
+        },
+        {
+          "name": "медовый сироп",
+          "amount": ""
+        },
+        {
+          "name": "сок имбиря",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторские",
+      "characterSourcePage": 7
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-015",
+    "title": "Счастливый Билет",
+    "payload": {
+      "id": "rvb-minsk-015",
+      "fact": "",
+      "name": "Счастливый Билет",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "rvb-bar-20261021/rvb-minsk-015.png",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Украшается счастливым билетиком",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Кальвадос, персик, бергамот, ликер апельсиновый, счастливый билет",
+      "description": "Крепкий, фруктовый",
+      "ingredients": [
+        {
+          "name": "Кальвадос",
+          "amount": ""
+        },
+        {
+          "name": "персик",
+          "amount": ""
+        },
+        {
+          "name": "бергамот",
+          "amount": ""
+        },
+        {
+          "name": "ликер апельсиновый",
+          "amount": ""
+        },
+        {
+          "name": "счастливый билет",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Крепкие",
+      "characterSourcePage": 7
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-016",
+    "title": "Minsk Never Sleep",
+    "payload": {
+      "id": "rvb-minsk-016",
+      "fact": "",
+      "name": "Minsk Never Sleep",
+      "brand": "rvb",
+      "glass": "ОлдФешн",
+      "image": "rvb-bar-20261021/rvb-minsk-016.png",
+      "price": "25 р.",
+      "taste": "Крепкий, ягодный, кислый",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "На шапку фраппе выкладывается лист мяты и клюква в сахарной пудре",
+      "category": "cocktails",
+      "features": "",
+      "composition": "джин, водка, текила, ром, ликер Triple Sec, клюквенный кордиал, морс",
+      "description": "Альтернатива Long Island",
+      "ingredients": [
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "текила",
+          "amount": ""
+        },
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "клюквенный кордиал",
+          "amount": ""
+        },
+        {
+          "name": "морс",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Крепкие",
+      "characterSourcePage": 7
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-017",
+    "title": "Cosmopolitan",
+    "payload": {
+      "id": "rvb-minsk-017",
+      "fact": "",
+      "name": "Cosmopolitan",
+      "brand": "rvb",
+      "glass": "Шале",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Освежающий, цитрусово-ягодный, с мягкой кислинкой и лёгкой терпкостью",
+      "method": "",
+      "volume": "170 мл",
+      "garnish": "Цедра апельсина",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, ликер Triple Sec, клюквенный кордиал, сок лимона",
+      "description": "Элегантный, светский, для ценителей сбалансированной классики.",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "клюквенный кордиал",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 7
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-018",
+    "title": "Margarita",
+    "payload": {
+      "id": "rvb-minsk-018",
+      "fact": "",
+      "name": "Margarita",
+      "brand": "rvb",
+      "glass": "Кокт. рюмка",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Освежающий, ярко-кислый, с выраженными цитрусовыми нотами и солёным или острым краем",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "Рим из соли, долька лайма",
+      "category": "cocktails",
+      "features": "",
+      "composition": "текила, ликер Triple Sec, сок лимона, лайм",
+      "description": "Классика, покорившая мир. Символ мексиканского духа и праздника.",
+      "ingredients": [
+        {
+          "name": "текила",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 7
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-019",
+    "title": "Daiquiri",
+    "payload": {
+      "id": "rvb-minsk-019",
+      "fact": "",
+      "name": "Daiquiri",
+      "brand": "rvb",
+      "glass": "Кокт. рюмка",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Освежающий, с яркой кислотой лайма",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "Долька лайма",
+      "category": "cocktails",
+      "features": "",
+      "composition": "ром, сахарный сироп, пюре лайма, лайм",
+      "description": "Идеальная гармония простоты и элегантности. Кубинская легенда, которая начиналась как напиток рудокопов, а стала эталоном сбалансированного коктейля. Любимый напиток Эрнеста Хемингуэя.",
+      "ingredients": [
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "пюре лайма",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 7
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-020",
+    "title": "Bloody Mary",
+    "payload": {
+      "id": "rvb-minsk-020",
+      "fact": "",
+      "name": "Bloody Mary",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Плотный, насыщенный, острый, пикантный",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Стебель сельдерея",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, фирменнная сангрита, сельдерей, специи",
+      "description": "Напиток с характером, чей рецепт — это личное пространство для творчества каждого бармена.",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "фирменнная сангрита",
+          "amount": ""
+        },
+        {
+          "name": "сельдерей",
+          "amount": ""
+        },
+        {
+          "name": "специи",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 8
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-021",
+    "title": "Mojito",
+    "payload": {
+      "id": "rvb-minsk-021",
+      "fact": "",
+      "name": "Mojito",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Освежающий, мятный, ярко-цитрусовый, с лёгкой сладостью и чистой прохладой",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Верхушка мяты и долька лайма",
+      "category": "cocktails",
+      "features": "",
+      "composition": "ром, содовая, сахарный сироп, мята, лайм",
+      "description": "Символ Гаваны и дух свободы в бокале. Идеально освежающий, бодрящий коктейль, который спасает от летнего зноя и поднимает настроение",
+      "ingredients": [
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "содовая",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "мята",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 8
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-022",
+    "title": "Blue Lagoon",
+    "payload": {
+      "id": "rvb-minsk-022",
+      "fact": "",
+      "name": "Blue Lagoon",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Освежающий, цитрусовый, слегка сладковатый и игривый",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Долька или чипс ананаса",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка ликер блю курасао, Evervess Lemon&Lime, сок лимона, сахарный сироп, ананас",
+      "description": "Идеальный летний освежитель с эффектным внешним видом",
+      "ingredients": [
+        {
+          "name": "водка ликер блю курасао",
+          "amount": ""
+        },
+        {
+          "name": "Evervess Lemon&Lime",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "ананас",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 8
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-023",
+    "title": "Pina Colada",
+    "payload": {
+      "id": "rvb-minsk-023",
+      "fact": "",
+      "name": "Pina Colada",
+      "brand": "rvb",
+      "glass": "Тикки",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Сливочный, бархатистый, сладкий с яркими нотами ананаса и кокоса",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Взбитыее сливки, кокт. вишня, лист бамбука",
+      "category": "cocktails",
+      "features": "",
+      "composition": "ром, ананасовый сок, кокосовый сироп, сливки, коктейльная вишня",
+      "description": "Коктейль-символ Пуэрто-Рико, сочетающий кремовую нежность и фруктовую свежесть.",
+      "ingredients": [
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "кокосовый сироп",
+          "amount": ""
+        },
+        {
+          "name": "сливки",
+          "amount": ""
+        },
+        {
+          "name": "коктейльная вишня",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 8
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-024",
+    "title": "Sex on the Beach",
+    "payload": {
+      "id": "rvb-minsk-024",
+      "fact": "",
+      "name": "Sex on the Beach",
+      "brand": "rvb",
+      "glass": "Хайбол",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Сладкий, фруктово-ягодный, с кислинкой от клюквы и сочностью персика",
+      "method": "",
+      "volume": "270 мл",
+      "garnish": "Коктейльная вишня в апельсине на шпажке",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, ликер персик, ананасовый сок, морс, апельсин",
+      "description": "Игривый, сладкий и фруктовый коктейль 80-х, созданный для вечеринок у бассейна. Его название — маркетинговый ход",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "ликер персик",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "морс",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 8
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-025",
+    "title": "Long Island",
+    "payload": {
+      "id": "rvb-minsk-025",
+      "fact": "",
+      "name": "Long Island",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Крепкий, цитрусовый, с лёгкой травяной сложностью и сладковатым послевкусием",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Долька лимона",
+      "category": "cocktails",
+      "features": "",
+      "composition": "джин, водка, текила, ром, ликер Triple Sec, сок лимона, сахарный сироп, Coca‑Cola",
+      "description": "Печально известный своей крепостью, но обманчиво гладкий микс из пяти разных спиртов. Настоящий «тяжеловес» в мире коктейлей, притворяющийся безобидным чаем.",
+      "ingredients": [
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "текила",
+          "amount": ""
+        },
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "Coca‑Cola",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 9
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-026",
+    "title": "Mai Tai",
+    "payload": {
+      "id": "rvb-minsk-026",
+      "fact": "",
+      "name": "Mai Tai",
+      "brand": "rvb",
+      "glass": "ОлдФешн",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Сложный, тропический",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Лист бамбука, чипс ананаса посыпанный молотым каркаде",
+      "category": "cocktails",
+      "features": "",
+      "composition": "ром, тёмный ром, ликер Triple Sec, ананасовый сок, минадальный сироп",
+      "description": "Легендарный тики-коктейль, созданный в середине XX века. Олицетворение полинезийской эстетики и сложной игры выдержанного рома и миндального ликёра.",
+      "ingredients": [
+        {
+          "name": "ром",
+          "amount": ""
+        },
+        {
+          "name": "тёмный ром",
+          "amount": ""
+        },
+        {
+          "name": "ликер Triple Sec",
+          "amount": ""
+        },
+        {
+          "name": "ананасовый сок",
+          "amount": ""
+        },
+        {
+          "name": "минадальный сироп",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 9
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-027",
+    "title": "Old Fashioned",
+    "payload": {
+      "id": "rvb-minsk-027",
+      "fact": "",
+      "name": "Old Fashioned",
+      "brand": "rvb",
+      "glass": "ОлдФешн",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Богатый, крепкий, согревающий. Вкус напрямую зависит от выбранного виски: от ванильно-карамельных нот бурбона до дымных и фруктовых оттенков скотча",
+      "method": "",
+      "volume": "250 мл",
+      "garnish": "Цедра апельсина",
+      "category": "cocktails",
+      "features": "",
+      "composition": "бурбон, биттер ангостура, тросниковый сахар, BonAqua, апельсин",
+      "description": "Праотец всех коктейлей в современном понимании. Напиток для вдумчивого наслаждения, где главная звезда — виски, а остальные компоненты лишь подчёркивают его характер.",
+      "ingredients": [
+        {
+          "name": "бурбон",
+          "amount": ""
+        },
+        {
+          "name": "биттер ангостура",
+          "amount": ""
+        },
+        {
+          "name": "тросниковый сахар",
+          "amount": ""
+        },
+        {
+          "name": "BonAqua",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 9
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-028",
+    "title": "Whiskey Sour",
+    "payload": {
+      "id": "rvb-minsk-028",
+      "fact": "",
+      "name": "Whiskey Sour",
+      "brand": "rvb",
+      "glass": "ОлдФешн",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Бодрящий, кисло-сладкий, с бархатистой текстурой",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "Цедра лимона",
+      "category": "cocktails",
+      "features": "",
+      "composition": "бурбон, сок лимона, сахарный сироп, белок, биттер Angostura",
+      "description": "Идеальный баланс силы, кислоты и сладости. Классика, которая демонстрирует гармонию виски и свежего цитруса.",
+      "ingredients": [
+        {
+          "name": "бурбон",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "биттер Angostura",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 9
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-029",
+    "title": "Clover Club",
+    "payload": {
+      "id": "rvb-minsk-029",
+      "fact": "",
+      "name": "Clover Club",
+      "brand": "rvb",
+      "glass": "Шале",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Нежный, сбалансированный, ягодно-цитрусовый",
+      "method": "",
+      "volume": "300 мл",
+      "garnish": "Мята, суб. малина",
+      "category": "cocktails",
+      "features": "",
+      "composition": "джин, малиновое пюре, белок, сок лимона",
+      "description": "Элегантный и романтичный коктейль, названный в честь мужского клуба журналистов. Его визитная карточка — нежная малиновая пенка.",
+      "ingredients": [
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "малиновое пюре",
+          "amount": ""
+        },
+        {
+          "name": "белок",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 10
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-030",
+    "title": "Moscow Mule",
+    "payload": {
+      "id": "rvb-minsk-030",
+      "fact": "",
+      "name": "Moscow Mule",
+      "brand": "rvb",
+      "glass": "Кружка",
+      "image": "",
+      "price": "25 р.",
+      "taste": "Острый, пряный, освежающий. Резкий имбирь, кислота лайма и нейтральная водка создают идеальный тандем.",
+      "method": "",
+      "volume": "450 мл",
+      "garnish": "Свежая мята и лайм",
+      "category": "cocktails",
+      "features": "",
+      "composition": "водка, лайм, имбирь, имбирный эль, медовый сироп, мята",
+      "description": "Блестящий пример маркетинга, породивший культ медной кружки. Освежающий, имбирно-пряный коктейль, который подчёркивает чистоту водки.",
+      "ingredients": [
+        {
+          "name": "водка",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        },
+        {
+          "name": "имбирь",
+          "amount": ""
+        },
+        {
+          "name": "имбирный эль",
+          "amount": ""
+        },
+        {
+          "name": "медовый сироп",
+          "amount": ""
+        },
+        {
+          "name": "мята",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 10
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-031",
+    "title": "Negroni",
+    "payload": {
+      "id": "rvb-minsk-031",
+      "fact": "",
+      "name": "Negroni",
+      "brand": "rvb",
+      "glass": "ОлдФешн",
+      "image": "",
+      "price": "30 р.",
+      "taste": "Горький, травяной, сложный, согревающий",
+      "method": "",
+      "volume": "300мл",
+      "garnish": "Цедра апельсина",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Вермут Rosso, Campari, джин, апельсин",
+      "description": "Абсолютная икона итальянского аперитива. Идеальный баланс силы, горечи и сладости, где три равных компонента ведут бесконечный диалог. Напиток характера, приобретающий глубину с каждым глотком.",
+      "ingredients": [
+        {
+          "name": "Вермут Rosso",
+          "amount": ""
+        },
+        {
+          "name": "Campari",
+          "amount": ""
+        },
+        {
+          "name": "джин",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Классические",
+      "characterSourcePage": 10
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-032",
+    "title": "Свежее Дыхание",
+    "payload": {
+      "id": "rvb-minsk-032",
+      "fact": "Сет включает пять порций по 100 мл: общий выход 500 мл.",
+      "name": "Свежее Дыхание",
+      "brand": "rvb",
+      "glass": "",
+      "image": "rvb-bar-20261021/rvb-minsk-032.png",
+      "price": "100 р.",
+      "taste": "",
+      "method": "",
+      "volume": "5х100мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "сет настоек, специальная подача с закусками",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "сет настоек",
+          "amount": ""
+        },
+        {
+          "name": "специальная подача с закусками",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Сеты настоек"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-033",
+    "title": "ШотЛандия",
+    "payload": {
+      "id": "rvb-minsk-033",
+      "fact": "",
+      "name": "ШотЛандия",
+      "brand": "rvb",
+      "glass": "",
+      "image": "rvb-bar-20261021/rvb-minsk-033.png",
+      "price": "200 р.",
+      "taste": "",
+      "method": "",
+      "volume": "24х40мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "огромная башня с шотами",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "огромная башня с шотами",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-034",
+    "title": "Башня PornStar Martini",
+    "payload": {
+      "id": "rvb-minsk-034",
+      "fact": "",
+      "name": "Башня PornStar Martini",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "110 р.",
+      "taste": "",
+      "method": "",
+      "volume": "4x300мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "4 коктейля Pornstar Martini",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "4 коктейля Pornstar Martini",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Для вечеринки"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-035",
+    "title": "Дыня & Мята",
+    "payload": {
+      "id": "rvb-minsk-035",
+      "fact": "",
+      "name": "Дыня & Мята",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Дыня & Мята».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-036",
+    "title": "Черничный Маффин",
+    "payload": {
+      "id": "rvb-minsk-036",
+      "fact": "",
+      "name": "Черничный Маффин",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Черничный Маффин».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-037",
+    "title": "Малина & Юдзу",
+    "payload": {
+      "id": "rvb-minsk-037",
+      "fact": "",
+      "name": "Малина & Юдзу",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Малина & Юдзу».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-038",
+    "title": "Смородина&Лайм",
+    "payload": {
+      "id": "rvb-minsk-038",
+      "fact": "",
+      "name": "Смородина&Лайм",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "8 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Смородина&Лайм».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-039",
+    "title": "Перцовка на самогоне",
+    "payload": {
+      "id": "rvb-minsk-039",
+      "fact": "",
+      "name": "Перцовка на самогоне",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Перцовка на самогоне».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-040",
+    "title": "Вишня на Бренди",
+    "payload": {
+      "id": "rvb-minsk-040",
+      "fact": "",
+      "name": "Вишня на Бренди",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Вишня на Бренди».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-041",
+    "title": "Вечеровка",
+    "payload": {
+      "id": "rvb-minsk-041",
+      "fact": "",
+      "name": "Вечеровка",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Вечеровка».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-042",
+    "title": "Ежевика & Можевельник",
+    "payload": {
+      "id": "rvb-minsk-042",
+      "fact": "",
+      "name": "Ежевика & Можевельник",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "10 р.",
+      "taste": "",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "tinctures",
+      "features": "",
+      "composition": "",
+      "description": "Домашняя настойка «Ежевика & Можевельник».",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Домашние"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-043",
+    "title": "Чисто Символически",
+    "payload": {
+      "id": "rvb-minsk-043",
+      "fact": "",
+      "name": "Чисто Символически",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "60 р.",
+      "taste": "",
+      "method": "",
+      "volume": "8x40 мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "все вкусы на одной доске",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "все вкусы на одной доске",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-044",
+    "title": "Вишнёвая Девятка",
+    "payload": {
+      "id": "rvb-minsk-044",
+      "fact": "",
+      "name": "Вишнёвая Девятка",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "6x40 мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "биттер травяной, вишнёвый сироп, сок лимона",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "биттер травяной",
+          "amount": ""
+        },
+        {
+          "name": "вишнёвый сироп",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-045",
+    "title": "Нас Не Догонят",
+    "payload": {
+      "id": "rvb-minsk-045",
+      "fact": "",
+      "name": "Нас Не Догонят",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "6x40 мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "пряный виски с корицей, персиковый ликер, сок лимона, сироп фалернум",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "пряный виски с корицей",
+          "amount": ""
+        },
+        {
+          "name": "персиковый ликер",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "сироп фалернум",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-046",
+    "title": "Сябры Сет",
+    "payload": {
+      "id": "rvb-minsk-046",
+      "fact": "",
+      "name": "Сябры Сет",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "60 р.",
+      "taste": "",
+      "method": "",
+      "volume": "8x40 мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "вишневая, грушевая, медовая, клюквенная",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "вишневая",
+          "amount": ""
+        },
+        {
+          "name": "грушевая",
+          "amount": ""
+        },
+        {
+          "name": "медовая",
+          "amount": ""
+        },
+        {
+          "name": "клюквенная",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-047",
+    "title": "Выпить с Барменом",
+    "payload": {
+      "id": "rvb-minsk-047",
+      "fact": "",
+      "name": "Выпить с Барменом",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "60 р.",
+      "taste": "",
+      "method": "",
+      "volume": "8x40 мл",
+      "garnish": "",
+      "category": "sets",
+      "features": "",
+      "composition": "основа ром/джин/водка/текила/виски",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "основа ром/джин/водка/текила/виски",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шот-сеты"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-048",
+    "title": "Б-52",
+    "payload": {
+      "id": "rvb-minsk-048",
+      "fact": "",
+      "name": "Б-52",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Сладкий, кофейный",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "По меню: поджигают и подают строго за барной стойкой. Техника подачи — только по утверждённому стандарту бара.",
+      "composition": "ликеры Cream, Coffee, Triple Sec",
+      "description": "Крепкий слоеный шот со спец. подачей. Шот поджигается и пьется через трубочку",
+      "ingredients": [
+        {
+          "name": "ликеры Cream",
+          "amount": ""
+        },
+        {
+          "name": "Coffee",
+          "amount": ""
+        },
+        {
+          "name": "Triple Sec",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шоты",
+      "characterSourcePage": 13
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-049",
+    "title": "Б-53",
+    "payload": {
+      "id": "rvb-minsk-049",
+      "fact": "",
+      "name": "Б-53",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "20 р.",
+      "taste": "Сладкий, кофейный, пряный",
+      "method": "",
+      "volume": "40 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "По меню: поджигают и подают строго за барной стойкой. Техника подачи — только по утверждённому стандарту бара.",
+      "composition": "ликеры Cream, Coffee, абсент\n* поджигаем и подаём строго за барной стойкой",
+      "description": "Крепкий слоеный шот со спец. подачей. Шот поджигается и пьется через трубочку",
+      "ingredients": [
+        {
+          "name": "ликеры Cream",
+          "amount": ""
+        },
+        {
+          "name": "Coffee",
+          "amount": ""
+        },
+        {
+          "name": "абсент\n* поджигаем и подаём строго за барной стойкой",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Шоты",
+      "characterSourcePage": 13
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-050",
+    "title": "Ягер Бомба",
+    "payload": {
+      "id": "rvb-minsk-050",
+      "fact": "",
+      "name": "Ягер Бомба",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "30 р.",
+      "taste": "",
+      "method": "",
+      "volume": "240 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "травяной биттер, энергетик, водка",
+      "description": "Пати-Коктейль.",
+      "ingredients": [
+        {
+          "name": "травяной биттер",
+          "amount": ""
+        },
+        {
+          "name": "энергетик",
+          "amount": ""
+        },
+        {
+          "name": "водка",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Бомбические",
+      "characterSourcePage": 13
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-051",
+    "title": "ТекилаБум",
+    "payload": {
+      "id": "rvb-minsk-051",
+      "fact": "",
+      "name": "ТекилаБум",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "25 р.",
+      "taste": "",
+      "method": "",
+      "volume": "240 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Дынный ликер, текила, газировка",
+      "description": "Пати-Коктейль.",
+      "ingredients": [
+        {
+          "name": "Дынный ликер",
+          "amount": ""
+        },
+        {
+          "name": "текила",
+          "amount": ""
+        },
+        {
+          "name": "газировка",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Бомбические",
+      "characterSourcePage": 13
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-052",
+    "title": "Ирландская Бомба",
+    "payload": {
+      "id": "rvb-minsk-052",
+      "fact": "",
+      "name": "Ирландская Бомба",
+      "brand": "rvb",
+      "glass": "",
+      "image": "",
+      "price": "35 р.",
+      "taste": "",
+      "method": "",
+      "volume": "240 мл",
+      "garnish": "",
+      "category": "cocktails",
+      "features": "",
+      "composition": "Темное пиво, виски, сливочный ликер",
+      "description": "Пати-Коктейль.",
+      "ingredients": [
+        {
+          "name": "Темное пиво",
+          "amount": ""
+        },
+        {
+          "name": "виски",
+          "amount": ""
+        },
+        {
+          "name": "сливочный ликер",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Бомбические",
+      "characterSourcePage": 13
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-053",
+    "title": "Virgin Mary",
+    "payload": {
+      "id": "rvb-minsk-053",
+      "fact": "",
+      "name": "Virgin Mary",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Стебель сельдерея",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "томатный сок, сок лимона, лайма и сельдерея, сельдерей, лимон, специи",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "томатный сок",
+          "amount": ""
+        },
+        {
+          "name": "сок лимона",
+          "amount": ""
+        },
+        {
+          "name": "лайма и сельдерея",
+          "amount": ""
+        },
+        {
+          "name": "сельдерей",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "специи",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-054",
+    "title": "Virgin Mojito",
+    "payload": {
+      "id": "rvb-minsk-054",
+      "fact": "",
+      "name": "Virgin Mojito",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400мл",
+      "garnish": "Верхушка мяты и долька лайма",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "мята, лайм, BonAqua, сахарный сироп",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "мята",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        },
+        {
+          "name": "BonAqua",
+          "amount": ""
+        },
+        {
+          "name": "сахарный сироп",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-055",
+    "title": "Римские Каникулы",
+    "payload": {
+      "id": "rvb-minsk-055",
+      "fact": "",
+      "name": "Римские Каникулы",
+      "brand": "rvb",
+      "glass": "Винный бокал",
+      "image": "assets/rvb-menu/rvb-minsk-055.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "380 мл",
+      "garnish": "Долька Грейпфрута",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "игристое безалкогольное, грейпфрутовый сок, сироп апероль, апельсин",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "игристое безалкогольное",
+          "amount": ""
+        },
+        {
+          "name": "грейпфрутовый сок",
+          "amount": ""
+        },
+        {
+          "name": "сироп апероль",
+          "amount": ""
+        },
+        {
+          "name": "апельсин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-056",
+    "title": "Джуманджи",
+    "payload": {
+      "id": "rvb-minsk-056",
+      "fact": "",
+      "name": "Джуманджи",
+      "brand": "rvb",
+      "glass": "ДаблХайбол",
+      "image": "assets/rvb-menu/rvb-minsk-056.png",
+      "price": "20 р.",
+      "taste": "",
+      "method": "",
+      "volume": "400 мл",
+      "garnish": "Лист бамбука, чипс ананас",
+      "category": "nonalcoholic",
+      "features": "",
+      "composition": "Маракуйя, лимон, сок ананасовый и апельсиновый, гренадин",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "Маракуйя",
+          "amount": ""
+        },
+        {
+          "name": "лимон",
+          "amount": ""
+        },
+        {
+          "name": "сок ананасовый и апельсиновый",
+          "amount": ""
+        },
+        {
+          "name": "гренадин",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Лимонады и коктейли"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-minsk-062",
+    "title": "Персик & Бергамот",
+    "payload": {
+      "id": "rvb-minsk-062",
+      "fact": "",
+      "name": "Персик & Бергамот",
+      "brand": "rvb",
+      "glass": "Френч-пресс",
+      "image": "",
+      "price": "18 р.",
+      "taste": "",
+      "method": "",
+      "volume": "600 мл",
+      "garnish": "",
+      "category": "hot",
+      "features": "",
+      "composition": "эрл грей, персик, бергамот, лайм, специи",
+      "description": "",
+      "ingredients": [
+        {
+          "name": "эрл грей",
+          "amount": ""
+        },
+        {
+          "name": "персик",
+          "amount": ""
+        },
+        {
+          "name": "бергамот",
+          "amount": ""
+        },
+        {
+          "name": "лайм",
+          "amount": ""
+        },
+        {
+          "name": "специи",
+          "amount": ""
+        }
+      ],
+      "menuSection": "bar",
+      "subcategory": "Авторский чай"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-11",
+    "title": "I Castelli Merlot",
+    "payload": {
+      "id": "rvb-wine-11",
+      "fact": "",
+      "name": "I Castelli Merlot",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/11.jpg",
+      "price": "25 р.",
+      "taste": "Мерло · Италия",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Итальянское красное из Мерло. мягкий фруктовый характер с ягодными и сливовыми оттенками.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Красное",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-12",
+    "title": "Cono Sur Tocornal Cabernet Sauvignon",
+    "payload": {
+      "id": "rvb-wine-12",
+      "fact": "",
+      "name": "Cono Sur Tocornal Cabernet Sauvignon",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/12.jpg",
+      "price": "22 р.",
+      "taste": "Каберне Совиньон · Чили",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Чилийское красное из Каберне Совиньон. насыщенные тёмные ягоды и заметная танинная структура.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Красное",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-13",
+    "title": "Casillero del Diablo Carmenere Reserva",
+    "payload": {
+      "id": "rvb-wine-13",
+      "fact": "Производитель рекомендует подавать при 16–18 °C; среди сочетаний — запечённые овощи, дичь и сыры.",
+      "name": "Casillero del Diablo Carmenere Reserva",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/13.png",
+      "price": "22 р.",
+      "taste": "Ягоды · Слива · Пряности",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Красное с ароматами лесных ягод и сливы, оттенками кофе и пряностей. Среднее тело, заметные танины и продолжительное послевкусие.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Красное",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-16",
+    "title": "Louis Vallon Crémant de Bordeaux AOC Brut",
+    "payload": {
+      "id": "rvb-wine-16",
+      "fact": "",
+      "name": "Louis Vallon Crémant de Bordeaux AOC Brut",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/16.png",
+      "price": "170 р.",
+      "taste": "Креман · Брют · Франция",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Французский креман брют из Бордо. Сухой игристый стиль.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Игристое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-17",
+    "title": "Martini Prosecco DOC",
+    "payload": {
+      "id": "rvb-wine-17",
+      "fact": "",
+      "name": "Martini Prosecco DOC",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/17.jpg",
+      "price": "150 р.",
+      "taste": "Просекко · Италия",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Итальянское игристое Prosecco DOC. Свежий фруктовый стиль для аперитива.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Игристое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-18",
+    "title": "Martini Asti DOCG",
+    "payload": {
+      "id": "rvb-wine-18",
+      "fact": "Asti Martini делают из сорта Москато Бьянко. Производитель рекомендует сочетать его с фруктами и десертами.",
+      "name": "Martini Asti DOCG",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/18.png",
+      "price": "150 р.",
+      "taste": "Сладкое · Фруктовое · Ароматное",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Ароматное сладкое игристое из Москато Бьянко. Во вкусе и аромате — персик, шалфей, груша и ананас.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Игристое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-19",
+    "title": "Bellisco Cava Brut",
+    "payload": {
+      "id": "rvb-wine-19",
+      "fact": "",
+      "name": "Bellisco Cava Brut",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/19.png",
+      "price": "120 р.",
+      "taste": "Кава · Брют · Испания",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Испанское игристое кава брют. Сухой стиль и свежесть.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Игристое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-20",
+    "title": "Light House Alcohol Free",
+    "payload": {
+      "id": "rvb-wine-20",
+      "fact": "",
+      "name": "Light House Alcohol Free",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/20.jpg",
+      "price": "120 р.",
+      "taste": "Безалкогольное · Германия",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Безалкогольное",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-22",
+    "title": "Moët & Chandon Brut Impérial",
+    "payload": {
+      "id": "rvb-wine-22",
+      "fact": "В купаже Brut Impérial соединяются Пино Нуар, Менье и Шардоне.",
+      "name": "Moët & Chandon Brut Impérial",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/22.png",
+      "price": "600 р.",
+      "taste": "Яблоко · Цитрус · Бриошь",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Шампанское с оттенками зелёного яблока, цитрусов, белых цветов и бриоши. Во вкусе — сочные белые фрукты и тонкие пузырьки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Шампанское",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-24",
+    "title": "Cono Sur Bicicleta Gewürztraminer",
+    "payload": {
+      "id": "rvb-wine-24",
+      "fact": "Производитель рекомендует сочетания с пряными и кисло-сладкими блюдами, курицей и овощами.",
+      "name": "Cono Sur Bicicleta Gewürztraminer",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/24.webp",
+      "price": "150 р.",
+      "taste": "Роза · Личи · Пряности",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Ароматное белое с оттенками лепестков розы, личи, свежих фруктов и пряностей. Свежий, выразительный вкус с нотами косточковых фруктов.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Белое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-25",
+    "title": "Sauvignon Blanc · Новая Зеландия",
+    "payload": {
+      "id": "rvb-wine-25",
+      "fact": "",
+      "name": "Sauvignon Blanc · Новая Зеландия",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/25-illustration.svg",
+      "price": "120 р.",
+      "taste": "Совиньон Блан · Новая Зеландия",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "illustration",
+      "description": "Белое из Совиньон Блана. свежая кислотность, цитрусовые и зелёные оттенки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Белое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-26",
+    "title": "Freschello Bianco Semi Sweet",
+    "payload": {
+      "id": "rvb-wine-26",
+      "fact": "",
+      "name": "Freschello Bianco Semi Sweet",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/26.png",
+      "price": "110 р.",
+      "taste": "Белое · Полусладкое · Италия",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Итальянское белое полусладкое. Мягкий фруктовый стиль с заметной сладостью.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Белое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-28",
+    "title": "The Wanderer Malbec",
+    "payload": {
+      "id": "rvb-wine-28",
+      "fact": "",
+      "name": "The Wanderer Malbec",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/28.jpg",
+      "price": "160 р.",
+      "taste": "Мальбек · Аргентина",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Аргентинское красное из Мальбека. насыщенные тёмные фрукты, плотный вкус и округлые танины.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Красное",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-29",
+    "title": "Stonehaven Stepping Stone Pinot Noir",
+    "payload": {
+      "id": "rvb-wine-29",
+      "fact": "",
+      "name": "Stonehaven Stepping Stone Pinot Noir",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/29.webp",
+      "price": "130 р.",
+      "taste": "Пино Нуар · Австралия",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Австралийское красное из Пино Нуара. красные ягоды, более лёгкое тело и деликатная танинность.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Красное",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-30",
+    "title": "Freschello Rosso Semi Sweet",
+    "payload": {
+      "id": "rvb-wine-30",
+      "fact": "",
+      "name": "Freschello Rosso Semi Sweet",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/30.jpg",
+      "price": "110 р.",
+      "taste": "Красное · Полусладкое · Италия",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Итальянское красное полусладкое. Мягкий фруктовый стиль с заметной сладостью.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Красное",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-32",
+    "title": "Costa Azul Grenache Rosé",
+    "payload": {
+      "id": "rvb-wine-32",
+      "fact": "",
+      "name": "Costa Azul Grenache Rosé",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/32.png",
+      "price": "110 р.",
+      "taste": "Розовое · Гренаш · Испания",
+      "method": "",
+      "volume": "750 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Испанское розовое из Гренаша. свежий ягодный характер и лёгкость.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Розовое",
+      "wineService": "Бутылка"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-4",
+    "title": "Bea Vita Prosecco DOC",
+    "payload": {
+      "id": "rvb-wine-4",
+      "fact": "",
+      "name": "Bea Vita Prosecco DOC",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/4.jpg",
+      "price": "22 р.",
+      "taste": "Игристое · Фруктовое",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Свежий игристый стиль с фруктовым характером.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Игристое",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-5",
+    "title": "Glera Brut РБ",
+    "payload": {
+      "id": "rvb-wine-5",
+      "fact": "",
+      "name": "Glera Brut РБ",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/5-illustration.svg",
+      "price": "15 р.",
+      "taste": "Брют · Игристое",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "illustration",
+      "description": "Белое игристое брют: сухой стиль, свежесть и пузырьки.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Игристое",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-7",
+    "title": "Col Mesian Pinot Grigio Provincia di Pavia",
+    "payload": {
+      "id": "rvb-wine-7",
+      "fact": "",
+      "name": "Col Mesian Pinot Grigio Provincia di Pavia",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/7-illustration.svg",
+      "price": "22 р.",
+      "taste": "Пино Гриджо · Италия",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "illustration",
+      "description": "Белое вино из Пино Гриджо. лёгкий фруктовый характер и свежий, суховатый вкус.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Белое",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-8",
+    "title": "Luis Felipe Edwards Chardonnay",
+    "payload": {
+      "id": "rvb-wine-8",
+      "fact": "",
+      "name": "Luis Felipe Edwards Chardonnay",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/8.png",
+      "price": "22 р.",
+      "taste": "Шардоне · Чили",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Чилийское белое из Шардоне. округлый фруктовый вкус.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Белое",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  },
+  {
+    "id": "rvb-wine-9",
+    "title": "Das Ist Riesling",
+    "payload": {
+      "id": "rvb-wine-9",
+      "fact": "",
+      "name": "Das Ist Riesling",
+      "brand": "rvb",
+      "image": "assets/rvb-menu/wine/9.jpg",
+      "price": "25 р.",
+      "taste": "Рислинг · Германия",
+      "method": "",
+      "volume": "150 мл",
+      "garnish": "",
+      "category": "wine",
+      "features": "",
+      "imageKind": "photo",
+      "description": "Немецкое белое из Рислинга. яркая кислотность и цитрусово-фруктовый характер.",
+      "ingredients": [],
+      "menuSection": "bar",
+      "subcategory": "Белое",
+      "wineService": "Бокал"
+    },
+    "updated_at": "2026-10-24T19:34:13.33661+00:00"
+  }
+]
