@@ -12,7 +12,7 @@
       "title": "РВБ · Стажировка · Знакомство с заведением",
       "priority": "start",
       "audiencePositions": [
-        "Администратор"
+        "Администратор зала"
       ],
       "timeLimitSeconds": 0,
       "passCount": 4,
@@ -78,7 +78,7 @@
       "title": "РВБ · Стажировка · Команда и обязанности",
       "priority": "start",
       "audiencePositions": [
-        "Администратор"
+        "Администратор зала"
       ],
       "timeLimitSeconds": 0,
       "passCount": 9,
@@ -221,7 +221,7 @@
       "title": "РВБ · Стажировка · Бронь и локальные условия",
       "priority": "start",
       "audiencePositions": [
-        "Администратор"
+        "Администратор зала"
       ],
       "timeLimitSeconds": 0,
       "passCount": 4,
@@ -287,7 +287,7 @@
       "title": "РВБ · Стажировка · Касса и планирование",
       "priority": "start",
       "audiencePositions": [
-        "Администратор"
+        "Администратор зала"
       ],
       "timeLimitSeconds": 0,
       "passCount": 8,
@@ -419,7 +419,7 @@
       "title": "РВБ · Стажировка · Управление сменой",
       "priority": "start",
       "audiencePositions": [
-        "Администратор"
+        "Администратор зала"
       ],
       "timeLimitSeconds": 0,
       "passCount": 6,
