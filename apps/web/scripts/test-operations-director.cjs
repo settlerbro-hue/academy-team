@@ -6,6 +6,7 @@ assert(ctx.globalManager());assert.equal(ctx.roleName(ctx.s.profile),'Опера
 for(const rid of ['minsk','pushkino','khimki','mytishchi'])for(const dep of ['Бар','Кухня','Зал'])assert(ctx.canEdit({kind:'material',restaurant_id:rid,department:dep,payload:{}}));
 ctx.s.profile={role:'employee',position:'Операционный директор',operations_director:false};assert(!ctx.globalManager());assert(!ctx.canEdit({kind:'material',restaurant_id:'minsk',department:'Бар'}));
 ctx.s.profile={role:'manager',restaurant_id:'mytishchi',department:'Бар'};assert(!ctx.canEdit({kind:'material',restaurant_id:'minsk',department:'Кухня'}));
-assert(source.includes("s.profile.role==='admin'&&p.role!=='admin'&&p.status==='active'?`<button class=\"ghost\" data-operations-user"));
+assert(!source.includes('data-operations-user'));
+assert(!source.includes("rpc('academy_set_operations_director'"));
 assert(source.includes('!p.operations_director&&p.id!==s.profile.id'));
-console.log('PASS: operations UI covers all venues, job title alone grants no access, legacy manager restrictions remain, appointment controls owner-only.');
+console.log('PASS: Kucher operations access still covers all venues, job title alone grants no access, ordinary manager restrictions remain, no operations appointment controls.');
