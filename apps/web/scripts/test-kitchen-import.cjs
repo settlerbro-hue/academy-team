@@ -10,6 +10,6 @@ assert.equal(cards.find(d=>d.id==='rvb-kitchen-p31-3-2').payload.volume,'33 см
 console.log('Kitchen import checks passed: 92 unique cards, 83 image links, 19 pizza portions, original values and empty missing fields.');
 const vm=require('node:vm'),portal=fs.readFileSync(path.join(__dirname,'../secure-dist/portal.js'),'utf8');
 const actor={role:'manager',restaurant_id:'minsk',department:'Кухня'},ctx={s:{profile:actor},menuSectionOf:d=>d.payload.menuSection};vm.createContext(ctx);
-const editSource=portal.slice(portal.indexOf('function canEdit(')).split('\n')[0];vm.runInContext(editSource+'\nglobalThis.canEditCard=canEdit;',ctx);
+const editSource=portal.slice(portal.indexOf('function canEdit(')).split('\n')[0];vm.runInContext(portal.split('\n').find(x=>x.startsWith('function globalManager('))+'\n',ctx);vm.runInContext(editSource+'\nglobalThis.canEditCard=canEdit;',ctx);
 assert(ctx.canEditCard(cards[0]));actor.department='Бар';assert(!ctx.canEditCard(cards[0]));actor.department='Кухня';actor.restaurant_id='pushkino';assert(!ctx.canEditCard(cards[0]));actor.restaurant_id='minsk';actor.role='employee';assert(!ctx.canEditCard(cards[0]));actor.role='admin';assert(ctx.canEditCard(cards[0]));
 console.log('Kitchen editor visibility checks passed: owner / own kitchen manager only.');

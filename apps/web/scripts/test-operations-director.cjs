@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict'),path=require('path');
+const source=fs.readFileSync(path.join(__dirname,'../secure-dist/portal.js'),'utf8');
+const ctx={s:{profile:{role:'manager',operations_director:true,department:'Руководитель',position:'Операционный директор'},tab:'courses',courseAudience:'mine'},menuSectionOf:d=>d.payload.menuSection};vm.createContext(ctx);
+for(const name of ['globalManager','roleName','coursePosition','canEdit'])vm.runInContext(source.split('\n').find(x=>x.startsWith('function '+name+'(')),ctx);
+assert(ctx.globalManager());assert.equal(ctx.roleName(ctx.s.profile),'Операционный директор');assert.equal(ctx.coursePosition(),'');
+for(const rid of ['minsk','pushkino','khimki','mytishchi'])for(const dep of ['Бар','Кухня','Зал'])assert(ctx.canEdit({kind:'material',restaurant_id:rid,department:dep,payload:{}}));
+ctx.s.profile={role:'employee',position:'Операционный директор',operations_director:false};assert(!ctx.globalManager());assert(!ctx.canEdit({kind:'material',restaurant_id:'minsk',department:'Бар'}));
+ctx.s.profile={role:'manager',restaurant_id:'mytishchi',department:'Бар'};assert(!ctx.canEdit({kind:'material',restaurant_id:'minsk',department:'Кухня'}));
+assert(source.includes("s.profile.role==='admin'&&p.role!=='admin'&&p.status==='active'?`<button class=\"ghost\" data-operations-user"));
+assert(source.includes('!p.operations_director&&p.id!==s.profile.id'));
+console.log('PASS: operations UI covers all venues, job title alone grants no access, legacy manager restrictions remain, appointment controls owner-only.');
