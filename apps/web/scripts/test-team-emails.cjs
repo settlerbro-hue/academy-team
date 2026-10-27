@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const s=fs.readFileSync(require('path').join(__dirname,'../secure-dist/portal.js'),'utf8');
+const start=s.indexOf('function teamSearchText('),end=s.indexOf('function management(){',start);
+const ctx={s:{profile:{role:'admin'}},esc:x=>String(x).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')};vm.createContext(ctx);vm.runInContext(s.slice(start,end),ctx);
+assert.equal(ctx.teamSearchText({full_name:'Анна',email:'Anna+bar@example.test'}),'анна anna+bar@example.test');
+assert(ctx.teamEmailHTML({email:'test@example.test'}).includes('test@example.test'));
+assert(!ctx.teamEmailHTML({email:'<img src=x>'}).includes('<img'));
+ctx.s.profile.role='manager';assert.equal(ctx.teamEmailHTML({email:'test@example.test'}),'');
+ctx.s.profile.role='employee';assert.equal(ctx.teamEmailHTML({email:'test@example.test'}),'');
+assert(s.includes("if(s.profile.role==='admin'){const contacts=await rpc('academy_owner_team_emails')"));
+console.log('PASS: owner-only contact display, name/email search, escaped output, no administrator or employee email display.');
