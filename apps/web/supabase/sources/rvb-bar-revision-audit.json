@@ -1,0 +1,184 @@
+{
+  "photos": [
+    {
+      "lesson": "rvb-ttk-recipe-3",
+      "menu": "rvb-minsk-001",
+      "image": "rvb-bar-20261021/rvb-minsk-001.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-17",
+      "menu": "rvb-minsk-004",
+      "image": "rvb-bar-20261021/rvb-minsk-004.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-33",
+      "menu": "rvb-minsk-002",
+      "image": "rvb-bar-20261021/rvb-minsk-002.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-49",
+      "menu": "rvb-minsk-003",
+      "image": "rvb-bar-20261021/rvb-minsk-003.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-56",
+      "menu": "rvb-minsk-007",
+      "image": "rvb-bar-20261021/rvb-minsk-007.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-72",
+      "menu": "rvb-minsk-006",
+      "image": "rvb-bar-20261021/rvb-minsk-006.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-87",
+      "menu": "rvb-minsk-008",
+      "image": "rvb-bar-20261021/rvb-minsk-008.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-94",
+      "menu": "rvb-minsk-009",
+      "image": "rvb-bar-20261021/rvb-minsk-009.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-109",
+      "menu": "rvb-minsk-014",
+      "image": "rvb-bar-20261021/rvb-minsk-014.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-124",
+      "menu": "rvb-minsk-010",
+      "image": "rvb-bar-20261021/rvb-minsk-010.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-140",
+      "menu": "rvb-minsk-011",
+      "image": "rvb-bar-20261021/rvb-minsk-011.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-155",
+      "menu": "rvb-minsk-005",
+      "image": "rvb-bar-20261021/rvb-minsk-005.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-173",
+      "menu": "rvb-minsk-012",
+      "image": "rvb-bar-20261021/rvb-minsk-012.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-194",
+      "menu": "rvb-minsk-013",
+      "image": "rvb-bar-20261021/rvb-minsk-013.png"
+    },
+    {
+      "lesson": "rvb-ttk-recipe-211",
+      "menu": "rvb-minsk-015",
+      "image": "rvb-bar-20261021/rvb-minsk-015.png"
+    }
+  ],
+  "missingPhotos": [
+    {
+      "id": "rvb-ttk-recipe-227",
+      "title": "Moscow Never Sleep"
+    },
+    {
+      "id": "rvb-ttk-recipe-235",
+      "title": "Cosmopolitan"
+    },
+    {
+      "id": "rvb-ttk-recipe-243",
+      "title": "Margarita"
+    },
+    {
+      "id": "rvb-ttk-recipe-251",
+      "title": "Daiquiri"
+    },
+    {
+      "id": "rvb-ttk-recipe-258",
+      "title": "Bloody Mary"
+    },
+    {
+      "id": "rvb-ttk-recipe-265",
+      "title": "Mojito"
+    },
+    {
+      "id": "rvb-ttk-recipe-275",
+      "title": "Blue Lagoon"
+    },
+    {
+      "id": "rvb-ttk-recipe-284",
+      "title": "Pina Colada"
+    },
+    {
+      "id": "rvb-ttk-recipe-292",
+      "title": "Sex on the Beach"
+    },
+    {
+      "id": "rvb-ttk-recipe-308",
+      "title": "Mai Tai"
+    },
+    {
+      "id": "rvb-ttk-recipe-325",
+      "title": "Old Fashioned"
+    },
+    {
+      "id": "rvb-ttk-recipe-334",
+      "title": "Whiskey Sour"
+    },
+    {
+      "id": "rvb-ttk-recipe-343",
+      "title": "Clover Club"
+    },
+    {
+      "id": "rvb-ttk-recipe-351",
+      "title": "Negroni"
+    },
+    {
+      "id": "rvb-ttk-recipe-364",
+      "title": "Moscow Mule"
+    },
+    {
+      "id": "rvb-ttk-recipe-372",
+      "title": "White Russian"
+    },
+    {
+      "id": "rvb-ttk-recipe-379",
+      "title": "PornStar Martini"
+    },
+    {
+      "id": "rvb-ttk-recipe-405",
+      "title": "Martini Fiero - Tonic"
+    },
+    {
+      "id": "rvb-ttk-recipe-412",
+      "title": "Виски кола"
+    },
+    {
+      "id": "rvb-ttk-recipe-419",
+      "title": "Джин - Тоник"
+    },
+    {
+      "id": "rvb-ttk-recipe-426",
+      "title": "Ром Кола"
+    },
+    {
+      "id": "rvb-ttk-recipe-433",
+      "title": "Водка - Редбулл"
+    },
+    {
+      "id": "rvb-ttk-recipe-440",
+      "title": "Aperol Spritz"
+    }
+  ],
+  "missingCarpetDiagram": true,
+  "removedLesson": "rvb-ttk-recipe-41",
+  "removedQuestions": {
+    "rvb-assortment-test-cocktails": [
+      "rvb-menu-cocktails-4"
+    ],
+    "rvb-ttk-test-1": [
+      "rvb-ttk-0-7",
+      "rvb-ttk-0-8"
+    ]
+  }
+}

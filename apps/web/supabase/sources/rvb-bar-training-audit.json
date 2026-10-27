@@ -143,46 +143,6 @@
       }
     },
     {
-      "name": "Налево от Лифта",
-      "row": 41,
-      "ingredients": [
-        {
-          "name": "Джин Lockwood Original Dry",
-          "amount": "30",
-          "unit": "мл",
-          "row": 41,
-          "ambiguous": false
-        },
-        {
-          "name": "Игристое БТ",
-          "amount": "90",
-          "unit": "мл",
-          "row": 42,
-          "ambiguous": false
-        },
-        {
-          "name": "Сироп Тростника п/ф",
-          "amount": "20",
-          "unit": "мл",
-          "row": 43,
-          "ambiguous": false
-        },
-        {
-          "name": "СуперДжус Лайм п/ф",
-          "amount": "20",
-          "unit": "мл",
-          "row": 44,
-          "ambiguous": false
-        }
-      ],
-      "details": {
-        "Метод": "Шейк",
-        "Посуда": "Винный Бокал",
-        "Лед": "Кусковой Лёд",
-        "Украшение": "Лимон - 15г (Цедра)"
-      }
-    },
-    {
       "name": "Укращение Строптивой",
       "row": 49,
       "ingredients": [
@@ -1924,14 +1884,6 @@
       "answer": "Биттер Ligare Spritz, Игристое БТ, Schwepps Тоник ПЭТ, Апельсин"
     },
     {
-      "id": "rvb-menu-cocktails-4",
-      "source": {
-        "tab": "Коктейли Осень",
-        "row": 41
-      },
-      "answer": "Джин Lockwood Original Dry, Игристое БТ, Сироп Тростника п/ф, СуперДжус Лайм п/ф"
-    },
-    {
       "id": "rvb-menu-cocktails-5",
       "source": {
         "tab": "Коктейли Осень",
@@ -2328,24 +2280,6 @@
         "field": "Метод"
       },
       "answer": "Билд"
-    },
-    {
-      "id": "rvb-ttk-0-7",
-      "source": {
-        "tab": "Коктейли Осень",
-        "row": 41,
-        "columns": "F/H/I"
-      },
-      "answer": "30 мл"
-    },
-    {
-      "id": "rvb-ttk-0-8",
-      "source": {
-        "tab": "Коктейли Осень",
-        "row": 41,
-        "field": "Метод"
-      },
-      "answer": "Шейк"
     },
     {
       "id": "rvb-ttk-0-9",
@@ -2983,6 +2917,11 @@
       "name": "Long Island",
       "row": 301,
       "reason": "Неполная основная рецептура"
+    },
+    {
+      "name": "Налево от Лифта",
+      "row": 41,
+      "reason": "Убрано из обучения по решению руководителя"
     }
   ]
 }

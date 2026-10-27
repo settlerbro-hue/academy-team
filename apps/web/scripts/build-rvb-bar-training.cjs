@@ -55,6 +55,20 @@ for(let group=0;group<4;group++){const start=Math.floor(complete.length*group/4)
  test(ttk,ttkLessons[end-1],'rvb-ttk-test-'+(group+1),'РВБ · ТТК коктейлей · Часть '+(group+1),questions,answers);
 }
 documents.push({id:'rvb-bar-techcards',kind:'material',title:'Технологические карты бара РВБ',course_id:null,published:true,restaurant_id:'minsk',department:'Бар',payload:{id:'rvb-bar-techcards',title:'Технологические карты бара РВБ',brand:'rvb',type:'link',url:'https://docs.google.com/spreadsheets/d/1zX2OGQBAKu92D2fHKtZ4KGL3MIbXw7uvUwsOO46K1oo/edit?gid=844076848#gid=844076848',description:'Актуальные ТТК РВБ. Для коктейлей — вкладка «Коктейли Осень».'}});
+// Preserve the reviewed content revision when rebuilding sources. Do not resurrect
+// the retired recipe or its questions, and keep the surviving question IDs stable.
+const revisionPath=path.join(root,'supabase/rvb-bar-content-revision.json');
+if(fs.existsSync(revisionPath)){
+ const reviewed=JSON.parse(fs.readFileSync(revisionPath,'utf8'));
+ for(const id of ['rvb-bar-foundations','rvb-bar-assortment','rvb-bar-techcards-course']){
+  const fresh=documents.find(d=>d.id===id),revision=reviewed.find(d=>d.id===id);
+  if(fresh&&revision){fresh.payload.lessons=structuredClone(revision.payload.lessons);fresh.payload.sequence=structuredClone(revision.payload.sequence);}
+ }
+ for(const d of documents.filter(d=>d.kind==='test')){const retired=d.payload.questions.filter(q=>/Налево от Лифт/i.test(q.text));for(const q of retired)delete keys[d.id][q.id];d.payload.questions=d.payload.questions.filter(q=>!retired.includes(q));d.payload.passCount=Math.ceil(d.payload.questions.length*.8);}
+ const currentQuestions=new Set(documents.filter(d=>d.kind==='test').flatMap(d=>d.payload.questions.map(q=>q.id)));
+ audit.questions=audit.questions.filter(q=>currentQuestions.has(q.id));audit.recipes=audit.recipes.filter(r=>r.row!==41);
+ audit.excludedRecipes.push({name:'Налево от Лифта',row:41,reason:'Убрано из обучения по решению руководителя'});
+}
 // Fail closed on answer-key mistakes; keys are never written into public course payloads.
 for(const d of documents.filter(d=>d.kind==='test')){assert(d.payload.questions.length);assert(d.payload.passCount>=1);for(const q of d.payload.questions){assert.equal(new Set(q.options).size,q.options.length);assert.equal(keys[d.id][q.id].length,1);assert(q.options[keys[d.id][q.id][0]]);}}
 fs.writeFileSync(path.join(root,'supabase/rvb-bar-training.json'),JSON.stringify(documents,null,2)+'\n');

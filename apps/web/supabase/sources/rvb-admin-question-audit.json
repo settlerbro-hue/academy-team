@@ -1,0 +1,297 @@
+{
+  "tests": [
+    {
+      "id": "rvb-admin-internship-test-1",
+      "source": "105287",
+      "anchor": "123841",
+      "retainedQuestionIds": [
+        "105287-4",
+        "105287-5",
+        "105287-9",
+        "105287-10"
+      ],
+      "excludedQuestionIds": [
+        "105287-1",
+        "105287-2",
+        "105287-3",
+        "105287-6",
+        "105287-7",
+        "105287-8",
+        "105287-11",
+        "105287-12"
+      ],
+      "reason": "Brand-specific concept, routes, schedules, preparation times, promotions, loyalty terms, payments, bonuses and deadlines are not confirmed for RVB."
+    },
+    {
+      "id": "rvb-admin-internship-test-2",
+      "source": "105288",
+      "anchor": "123876",
+      "retainedQuestionIds": [
+        "105288-3",
+        "105288-5",
+        "105288-6",
+        "105288-7",
+        "105288-12",
+        "105288-14",
+        "105288-15",
+        "105288-17",
+        "105288-18",
+        "105288-19",
+        "105288-20"
+      ],
+      "excludedQuestionIds": [
+        "105288-1",
+        "105288-2",
+        "105288-4",
+        "105288-8",
+        "105288-9",
+        "105288-10",
+        "105288-11",
+        "105288-13",
+        "105288-16"
+      ],
+      "reason": "Brand-specific concept, routes, schedules, preparation times, promotions, loyalty terms, payments, bonuses and deadlines are not confirmed for RVB."
+    },
+    {
+      "id": "rvb-admin-internship-test-3",
+      "source": "105289",
+      "anchor": "123881",
+      "retainedQuestionIds": [],
+      "excludedQuestionIds": [
+        "105289-1",
+        "105289-2",
+        "105289-3",
+        "105289-4",
+        "105289-5",
+        "105289-6",
+        "105289-7",
+        "105289-8",
+        "105289-9",
+        "105289-10",
+        "105289-11",
+        "105289-12",
+        "105289-13",
+        "105289-14",
+        "105289-15",
+        "105289-16",
+        "105289-17",
+        "105289-18"
+      ],
+      "reason": "Brand-specific concept, routes, schedules, preparation times, promotions, loyalty terms, payments, bonuses and deadlines are not confirmed for RVB."
+    },
+    {
+      "id": "rvb-admin-internship-test-4",
+      "source": "105290",
+      "anchor": "123895",
+      "retainedQuestionIds": [
+        "105290-1",
+        "105290-3",
+        "105290-4",
+        "105290-5",
+        "105290-6",
+        "105290-8",
+        "105290-9",
+        "105290-10",
+        "105290-11",
+        "105290-16"
+      ],
+      "excludedQuestionIds": [
+        "105290-2",
+        "105290-7",
+        "105290-12",
+        "105290-13",
+        "105290-14",
+        "105290-15",
+        "105290-17",
+        "105290-18",
+        "105290-19",
+        "105290-20"
+      ],
+      "reason": "Brand-specific concept, routes, schedules, preparation times, promotions, loyalty terms, payments, bonuses and deadlines are not confirmed for RVB."
+    },
+    {
+      "id": "rvb-admin-internship-test-5",
+      "source": "105291",
+      "anchor": "123880",
+      "retainedQuestionIds": [
+        "105291-2",
+        "105291-4",
+        "105291-8",
+        "105291-10",
+        "105291-13",
+        "105291-14",
+        "105291-16"
+      ],
+      "excludedQuestionIds": [
+        "105291-1",
+        "105291-3",
+        "105291-5",
+        "105291-6",
+        "105291-7",
+        "105291-9",
+        "105291-11",
+        "105291-12",
+        "105291-15",
+        "105291-17",
+        "105291-18",
+        "105291-19"
+      ],
+      "reason": "Brand-specific concept, routes, schedules, preparation times, promotions, loyalty terms, payments, bonuses and deadlines are not confirmed for RVB."
+    }
+  ],
+  "localCasesSource": "User confirmed that RVB local terms must be clarified with the managing director.",
+  "sourceKeyMappings": [
+    {
+      "source": "105287",
+      "id": "rvb-admin-internship-test-1",
+      "mapping": [
+        {
+          "old": "105287-4",
+          "new": "rvb-admin-internship-test-1-q1"
+        },
+        {
+          "old": "105287-5",
+          "new": "rvb-admin-internship-test-1-q2"
+        },
+        {
+          "old": "105287-9",
+          "new": "rvb-admin-internship-test-1-q3"
+        },
+        {
+          "old": "105287-10",
+          "new": "rvb-admin-internship-test-1-q4"
+        }
+      ]
+    },
+    {
+      "source": "105288",
+      "id": "rvb-admin-internship-test-2",
+      "mapping": [
+        {
+          "old": "105288-3",
+          "new": "rvb-admin-internship-test-2-q1"
+        },
+        {
+          "old": "105288-5",
+          "new": "rvb-admin-internship-test-2-q2"
+        },
+        {
+          "old": "105288-6",
+          "new": "rvb-admin-internship-test-2-q3"
+        },
+        {
+          "old": "105288-7",
+          "new": "rvb-admin-internship-test-2-q4"
+        },
+        {
+          "old": "105288-12",
+          "new": "rvb-admin-internship-test-2-q5"
+        },
+        {
+          "old": "105288-14",
+          "new": "rvb-admin-internship-test-2-q6"
+        },
+        {
+          "old": "105288-15",
+          "new": "rvb-admin-internship-test-2-q7"
+        },
+        {
+          "old": "105288-17",
+          "new": "rvb-admin-internship-test-2-q8"
+        },
+        {
+          "old": "105288-18",
+          "new": "rvb-admin-internship-test-2-q9"
+        },
+        {
+          "old": "105288-19",
+          "new": "rvb-admin-internship-test-2-q10"
+        },
+        {
+          "old": "105288-20",
+          "new": "rvb-admin-internship-test-2-q11"
+        }
+      ]
+    },
+    {
+      "source": "105290",
+      "id": "rvb-admin-internship-test-4",
+      "mapping": [
+        {
+          "old": "105290-1",
+          "new": "rvb-admin-internship-test-4-q1"
+        },
+        {
+          "old": "105290-3",
+          "new": "rvb-admin-internship-test-4-q2"
+        },
+        {
+          "old": "105290-4",
+          "new": "rvb-admin-internship-test-4-q3"
+        },
+        {
+          "old": "105290-5",
+          "new": "rvb-admin-internship-test-4-q4"
+        },
+        {
+          "old": "105290-6",
+          "new": "rvb-admin-internship-test-4-q5"
+        },
+        {
+          "old": "105290-8",
+          "new": "rvb-admin-internship-test-4-q6"
+        },
+        {
+          "old": "105290-9",
+          "new": "rvb-admin-internship-test-4-q7"
+        },
+        {
+          "old": "105290-10",
+          "new": "rvb-admin-internship-test-4-q8"
+        },
+        {
+          "old": "105290-11",
+          "new": "rvb-admin-internship-test-4-q9"
+        },
+        {
+          "old": "105290-16",
+          "new": "rvb-admin-internship-test-4-q10"
+        }
+      ]
+    },
+    {
+      "source": "105291",
+      "id": "rvb-admin-internship-test-5",
+      "mapping": [
+        {
+          "old": "105291-2",
+          "new": "rvb-admin-internship-test-5-q1"
+        },
+        {
+          "old": "105291-4",
+          "new": "rvb-admin-internship-test-5-q2"
+        },
+        {
+          "old": "105291-8",
+          "new": "rvb-admin-internship-test-5-q3"
+        },
+        {
+          "old": "105291-10",
+          "new": "rvb-admin-internship-test-5-q4"
+        },
+        {
+          "old": "105291-13",
+          "new": "rvb-admin-internship-test-5-q5"
+        },
+        {
+          "old": "105291-14",
+          "new": "rvb-admin-internship-test-5-q6"
+        },
+        {
+          "old": "105291-16",
+          "new": "rvb-admin-internship-test-5-q7"
+        }
+      ]
+    }
+  ]
+}

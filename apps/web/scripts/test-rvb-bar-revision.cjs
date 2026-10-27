@@ -1,0 +1,12 @@
+const fs=require('fs'),assert=require('node:assert/strict'),path=require('path'),base=path.resolve(__dirname,'..');
+const read=p=>JSON.parse(fs.readFileSync(path.join(base,p),'utf8')),before=read('supabase/sources/rvb-bar-edit-live-20261027.json'),after=read('supabase/rvb-bar-content-revision.json'),get=id=>after.find(d=>d.id===id);
+const h=get('rvb-bar-handbook'),sections=[...h.payload.body.matchAll(/<details(?: open)?><summary>([\s\S]*?)<\/summary><div>([\s\S]*?)<\/div><\/details>/g)];assert.equal(sections.length,15);
+const arrival=[...sections[0][2].matchAll(/<li>(.*?)<\/li>/g)];assert(arrival[2][1].includes('Приход ФИО'));assert(arrival[2][1].includes('Уход/Приход'));
+assert.equal((sections[4][2].match(/<h3>/g)||[]).length,7);assert(!/Лето|Осень|\d{1,2}:\d{2}|Обновление графика/.test(sections[4][2]));
+assert(sections[5][1].includes('САН-ДЕНЬ'));for(const word of ['паллеты','холодильники','панели','мойку ковров','кегами'])assert(sections[5][2].includes(word));assert(sections[9][2].includes('ещё в разработке'));
+const foundations=get('rvb-bar-foundations');for(let i=0;i<15;i++){const lesson=foundations.payload.lessons[i];assert.equal(lesson.id,'rvb-bar-handbook-'+(i+1));assert(lesson.blocks.some(b=>b.html===sections[i][2]));}
+const ttk=get('rvb-bar-techcards-course');assert.equal(ttk.payload.lessons.length,38);assert(!ttk.payload.lessons.some(l=>l.id==='rvb-ttk-recipe-41'));assert(!ttk.payload.sequence.some(l=>l.id==='rvb-ttk-recipe-41'));
+for(const d of after.filter(d=>d.kind==='test')){const old=before.find(x=>x.id===d.id);for(const q of d.payload.questions)assert.deepEqual(q,old.payload.questions.find(x=>x.id===q.id));assert(!/Налево от Лифт/.test(JSON.stringify(d.payload.questions)));}
+const audit=read('supabase/sources/rvb-bar-revision-audit.json');assert.equal(audit.photos.length+audit.missingPhotos.length,38);for(const p of audit.photos){const menu=before.find(d=>d.id===p.menu);assert.equal(menu.payload.image,p.image);assert(ttk.payload.lessons.find(l=>l.id===p.lesson).blocks.some(b=>b.type==='image'&&b.src===p.image));}
+for(const id of ['rvb-bar-assortment','rvb-waiter-bar-menu'])for(const l of get(id).payload.lessons)assert(l.blocks.some(b=>b.type==='heading'),'Each category has a named subgroup');
+console.log('PASS: third arrival step, seven task days, sanitation tasks, synchronized 15 handbook lessons, 38 recipes, exact real menu photos, stable remaining question IDs and source answers.');

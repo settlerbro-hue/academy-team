@@ -4,7 +4,7 @@ window.createAcademyCourseEditor=function({rpc,client,esc,cleanHTML,assetURL,get
  const colors={sky:'Голубой',yellow:'Жёлтый',lilac:'Сиреневый',green:'Зелёный',rose:'Розовый'};
  const state={id:null,doc:null,ready:false,loading:false,busy:false,selected:0,block:0,base:null,draft:null,dirty:false,message:'',error:'',undo:[],redo:[],view:'edit',width:'phone',persisted:[],owner:null,conflict:false};
  const clone=x=>JSON.parse(JSON.stringify(x)),uid=()=>crypto.randomUUID();
- const safe=x=>typeof x==='string'&&(x.startsWith('assets/')||/^rvb-kitchen-2026\/[a-z0-9_-]+\.(?:jpe?g|png|webp)$/i.test(x)||/^course-media:[0-9a-f-]{36}$/.test(x)||/^https?:\/\//i.test(x));
+ const safe=x=>typeof x==='string'&&(x.startsWith('assets/')||/^(?:rvb-kitchen-2026|rvb-bar-20261021)\/[a-z0-9_-]+\.(?:jpe?g|png|webp)$/i.test(x)||/^course-media:[0-9a-f-]{36}$/.test(x)||/^https?:\/\//i.test(x));
  const paragraphs=t=>'<p>'+esc(t).replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>')+'</p>';
  function blockHTML(b){const tone=colors[b.tone]?b.tone:'sky',image=b.image||b.src,media=safe(image)?`data-private-src="${esc(image)}"`:'';
  switch(b.type){
