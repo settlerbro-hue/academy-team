@@ -1,0 +1,32 @@
+do $$
+declare uid uuid:=gen_random_uuid(); other_id uuid:=gen_random_uuid(); local_id uuid:=gen_random_uuid(); owner_id uuid; req uuid; p public.academy_profiles; denied boolean;
+begin
+ select id into owner_id from public.academy_profiles where role='admin' and status='active' limit 1;
+ insert into auth.users(id,aud,role,email) values(uid,'authenticated','authenticated','qa-caption-'||uid||'@example.invalid'),(other_id,'authenticated','authenticated','qa-caption-'||other_id||'@example.invalid'),(local_id,'authenticated','authenticated','qa-caption-'||local_id||'@example.invalid');
+ insert into public.academy_profiles(id,full_name,status,role,restaurant_id,department,position) values(local_id,'QA local','active','manager','minsk','Бар','Старший бармен') on conflict(id) do update set status='active',role='manager',restaurant_id='minsk',department='Бар',position='Старший бармен';
+ perform set_config('request.jwt.claim.sub',uid::text,true);execute 'set local role authenticated';
+ p:=public.academy_enroll('QA Company','network','Руководитель','Управляющая компания');
+ perform public.academy_set_position_caption('  Руководитель обучения  ',uid,null);
+ if (select position_caption<>'Руководитель обучения' or position<>'Управляющая компания' or status<>'pending' or role<>'employee' or operations_director or venue_director from public.academy_profiles where id=uid) then raise exception 'Enrollment caption or role wrong';end if;
+ denied:=false;begin perform public.academy_set_position_caption(repeat('x',101),uid,null);exception when others then denied:=true;end;if not denied then raise exception 'Long caption accepted';end if;
+ denied:=false;begin perform public.academy_set_position_caption(E'one\ntwo',uid,null);exception when others then denied:=true;end;if not denied then raise exception 'Multiline caption accepted';end if;
+ p:=public.academy_enroll('QA Company','minsk','Бар','Бармен');if p.position_caption is not null then raise exception 'Enrollment left a stale caption';end if;
+ denied:=false;begin perform public.academy_enroll('QA Company','minsk','Руководитель','Управляющая компания');exception when others then denied:=true;end;if not denied then raise exception 'Company job accepted for physical venue';end if;
+ execute 'reset role';update public.academy_profiles set status='active' where id=uid;
+ perform set_config('request.jwt.claim.sub',other_id::text,true);execute 'set local role authenticated';perform public.academy_enroll('QA Other','network','Руководитель','Управляющая компания');execute 'reset role';
+ perform set_config('request.jwt.claim.sub',uid::text,true);execute 'set local role authenticated';
+ denied:=false;begin perform public.academy_set_position_caption('Чужая подпись',other_id,null);exception when others then denied:=true;end;if not denied then raise exception 'Other user caption editable';end if;
+ req:=public.academy_request_work_change('network','Руководитель','Управляющая компания');perform public.academy_set_position_caption('Директор по развитию',null,req);execute 'reset role';
+ if (select position_caption is not null from public.academy_profiles where id=uid) then raise exception 'Pending caption changed profile early';end if;
+ perform set_config('request.jwt.claim.sub',local_id::text,true);execute 'set local role authenticated';denied:=false;begin perform public.academy_set_position_caption('QA',null,req);exception when others then denied:=true;end;if not denied then raise exception 'Local Admin edited network request';end if;execute 'reset role';
+ perform set_config('request.jwt.claim.sub',owner_id::text,true);execute 'set local role authenticated';perform public.academy_review_work_change(req,true);execute 'reset role';
+ select * into p from public.academy_profiles where id=uid;if p.position<>'Управляющая компания' or p.position_caption<>'Директор по развитию' or p.role<>'employee' or p.operations_director or p.venue_director then raise exception 'Review lost caption or changed role';end if;
+ perform set_config('request.jwt.claim.sub',uid::text,true);execute 'set local role authenticated';perform public.academy_set_position_caption('Сетевой тренер',uid,null);denied:=false;begin perform public.academy_save_content('{"id":"qa-caption-denied","kind":"material","title":"QA denied","restaurant_id":"khimki","department":"Бар","payload":{}}',null);exception when others then denied:=true;end;if not denied then raise exception 'Caption granted privileges';end if;execute 'reset role';
+ delete from academy_private.notifications where subject_id=other_id;
+ delete from public.academy_profiles where id=other_id;
+ perform set_config('request.jwt.claim.sub',other_id::text,true);execute 'set local role authenticated';denied:=false;begin perform public.academy_set_position_caption('QA',uid,null);exception when others then denied:=true;end;if not denied then raise exception 'Account without a profile edited a caption';end if;execute 'reset role';
+ perform set_config('request.jwt.claim.sub',owner_id::text,true);execute 'set local role authenticated';perform public.academy_set_position_caption('Руководитель обучения',uid,null);perform public.academy_assign_work(uid,'minsk','Бар','Бармен');execute 'reset role';
+ if (select position_caption is not null from public.academy_profiles where id=uid) then raise exception 'Venue transfer left stale caption';end if;
+end $$;
+rollback;
+select 'PASS: company job only for network; own pending and active captions; length/newline checks; request stores caption until approval; owner approval copies it; other users/local Admin denied; permissions unchanged; physical venue clears caption. All fixtures rolled back.' result;
