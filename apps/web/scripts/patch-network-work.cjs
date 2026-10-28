@@ -1,0 +1,31 @@
+const fs=require('node:fs'),path=require('node:path'),root=path.join(__dirname,'..'),file=path.join(root,'secure-dist/portal.js');let src=fs.readFileSync(file,'utf8');
+if(!src.includes('const workRestaurants=')){
+ src=src.replace("const departments=", "const workRestaurants={...restaurants,network:'МХП & РВБ'};\nconst departments=");
+ src=src.replaceAll('restaurants[','workRestaurants[');
+ src=src.replace('||!workRestaurants[p.restaurant_id])return','||!restaurants[p.restaurant_id])return');
+ src=src.replace("options(venueManager()?venueRestaurants():restaurants,p.restaurant_id||''", "options(venueManager()?venueRestaurants():globalManager()||p.id===s.profile.id?workRestaurants:restaurants,p.restaurant_id||''");
+ src=src.replace("options(restaurants,'','Выберите заведение')", "options(workRestaurants,'','Выберите заведение')");
+ src=src.replaceAll("{'':'Все заведения',...restaurants}","{'':'Все заведения',...workRestaurants}");
+ src=src.replace("const form=$('#enroll');form.department.onchange=()=>form.position.innerHTML=options(Object.fromEntries((departments[form.department.value]||[]).map(k=>[k,k])),'','Выберите должность');", "const form=$('#enroll');bindWorkScope(form,'restaurant','department','position');");
+ src=src.replace("f.elements.work_department.onchange=()=>{f.elements.work_position.innerHTML=options(Object.fromEntries((departments[f.elements.work_department.value]||[]).map(x=>[x,x])),'','Выберите должность');};", "bindWorkScope(f,'work_restaurant','work_department','work_position');");
+ const helper=`function bindWorkScope(form,restaurantName,departmentName,positionName){const r=form.elements[restaurantName],d=form.elements[departmentName],p=form.elements[positionName];let hint=form.querySelector('.network-work-hint');if(!hint){hint=document.createElement('p');hint.className='muted network-work-hint';p.closest('label').after(hint);}const positions=()=>{const previous=p.value,values=departments[d.value]||[];p.innerHTML=options(Object.fromEntries(values.map(v=>[v,v])),values.includes(previous)?previous:'','Выберите должность');};const scope=()=>{const network=r.value==='network',previous=d.value,values=network?['Руководитель']:Object.keys(departments);d.innerHTML=options(Object.fromEntries(values.map(v=>[v,v])),network?'Руководитель':values.includes(previous)?previous:'','Выберите подразделение');positions();if(network)p.value='Управляющий';hint.hidden=!network;hint.textContent='Вся сеть: РВБ Минск, 90-е Пушкино, Химки и Мытищи. Полномочия назначаются отдельно; заявку подтверждает владелец или операционный директор.';};r.addEventListener('change',scope);d.addEventListener('change',positions);scope();}\n`;
+ src=src.replace('function workFields(',helper+'function workFields(');
+ fs.writeFileSync(file,src);
+}
+const snap=JSON.parse(fs.readFileSync(path.join(root,'supabase/sources/network-work-before-20261028.json'),'utf8'));
+const get=n=>snap.functions.find(f=>f.name===n).definition.replace(/\r/g,'').trim();
+let valid=get('valid_work').replace("select coalesce(p_restaurant in", "select coalesce((p_restaurant='network' and p_department='Руководитель' and p_position='Управляющий') or p_restaurant in");
+let enroll=get('academy_enroll'),start=enroll.indexOf(' if p_restaurant_id is null'),end=enroll.indexOf(' insert into public.academy_profiles',start);
+if(start<0||end<0)throw Error('Enrollment anchor missing');enroll=enroll.slice(0,start)+" if not academy_private.valid_work(p_restaurant_id,p_department,p_position) then raise exception 'Проверьте заведение, подразделение и должность.';end if;\n"+enroll.slice(end);
+let assign=get('academy_assign_work').replace(" if not academy_private.valid_work", " if (p_restaurant_id='network' or member.restaurant_id='network') and actor.role<>'admin' and not actor.operations_director then raise exception 'Сетевую принадлежность назначает владелец или операционный директор.';end if;\n if not academy_private.valid_work");
+let review=get('academy_review_work_change').replace(" if member.id=actor.id", " if (request.restaurant_id='network' or member.restaurant_id='network') and actor.role<>'admin' and not actor.operations_director then raise exception 'Сетевую заявку подтверждает владелец или операционный директор.';end if;\n if member.id=actor.id");
+let list=get('academy_work_change_list');list=list.replaceAll("(actor.role='manager' and not actor.venue_director", "(r.restaurant_id<>'network' and r.from_restaurant is distinct from 'network' and actor.role='manager' and not actor.venue_director");
+const constraints=`alter table public.academy_profiles drop constraint academy_profiles_restaurant_id_check;
+alter table public.academy_profiles add constraint academy_profiles_restaurant_id_check check(restaurant_id in ('minsk','pushkino','khimki','mytishchi','network'));
+alter table public.academy_profiles add constraint academy_network_work_identity check(restaurant_id is distinct from 'network' or coalesce(department='Руководитель' and position='Управляющий',false));
+alter table public.academy_work_changes drop constraint academy_work_changes_restaurant_id_check;
+alter table public.academy_work_changes add constraint academy_work_changes_restaurant_id_check check(restaurant_id in ('minsk','pushkino','khimki','mytishchi','network'));
+alter table public.academy_work_changes add constraint academy_network_request_identity check(restaurant_id<>'network' or department='Руководитель' and position='Управляющий');
+`;
+fs.writeFileSync(path.join(root,'supabase/migrations/035_network_work_selection.sql'),'-- Network affiliation is not a permission grant. No profiles are reassigned.\nbegin;\n'+constraints+[valid,enroll,assign,review,list].map(s=>s+';').join('\n')+'\ncommit;\n');
+console.log('Network selection and default-preserving migration prepared.');

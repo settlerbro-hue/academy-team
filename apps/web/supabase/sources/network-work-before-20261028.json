@@ -1,0 +1,91 @@
+{
+  "functions": [
+    {
+      "name": "academy_assign_work",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_assign_work(p_user_id uuid, p_restaurant_id text, p_department text, p_position text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; member public.academy_profiles;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n select * into member from public.academy_profiles where id=p_user_id for update;\r\n if actor.id is null or member.id is null or not academy_private.can_manage(p_user_id) or (actor.role<>'admin' and not actor.operations_director and not actor.venue_director and (member.id=actor.id or member.role<>'employee')) then raise exception 'Можно менять только рабочие данные сотрудников своей команды.'; end if;\r\n if actor.venue_director and not academy_private.venue_scope(actor,p_restaurant_id) then raise exception 'Перевод за пределы области управляющего недоступен.';end if;\r\n if member.venue_director and row(member.restaurant_id,member.department,member.position) is distinct from row(p_restaurant_id,p_department,p_position) then raise exception 'Сначала снимите допуск управляющего перед изменением его области.';end if;\r\n if not academy_private.valid_work(p_restaurant_id,p_department,p_position) then raise exception 'Проверьте заведение, подразделение и должность.'; end if;\r\n update public.academy_profiles set restaurant_id=p_restaurant_id,department=p_department,position=p_position,updated_at=now() where id=member.id;\r\n update public.academy_work_changes set status='cancelled',reviewed_at=now(),reviewed_by=actor.id where user_id=member.id and status='pending';\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'assign_work',member.id::text,jsonb_build_object('from',jsonb_build_object('restaurant',member.restaurant_id,'department',member.department,'position',member.position),'to',jsonb_build_object('restaurant',p_restaurant_id,'department',p_department,'position',p_position)));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_enroll",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_enroll(p_full_name text, p_restaurant_id text, p_department text, p_position text)\n RETURNS academy_profiles\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare r public.academy_profiles;\r\nbegin\r\n if auth.uid() is null then raise exception 'Authentication required'; end if;\r\n if p_full_name is null or length(trim(p_full_name))<2 or length(p_full_name)>150 then raise exception 'Invalid name'; end if;\r\n if p_restaurant_id is null or p_restaurant_id not in ('minsk','pushkino','khimki','mytishchi') or p_department is null or p_position is null then raise exception 'Complete your team profile'; end if;\r\n if not ((p_department='Зал' and p_position in ('Официант','Администратор зала','Хостес')) or\r\n (p_department='Бар' and p_position in ('Старший бармен','Барбэк','Бармен','Бар-менеджер')) or\r\n (p_department='Кухня' and p_position in ('Повар','Шеф-повар')) or (p_department='Арт' and p_position='Сотрудник арт') or\r\n (p_department='Кальян' and p_position in ('Кальянный мастер','Старший кальянный мастер')) or (p_department='Руководитель' and p_position in ('Руководитель','Управляющий'))) then raise exception 'Invalid position'; end if;\r\n insert into public.academy_profiles(id,full_name,restaurant_id,department,position) values(auth.uid(),trim(p_full_name),p_restaurant_id,p_department,p_position)\r\n on conflict(id) do update set full_name=excluded.full_name,restaurant_id=excluded.restaurant_id,department=excluded.department,position=excluded.position,updated_at=now()\r\n where academy_profiles.status='pending' and academy_profiles.role='employee' returning * into r;\r\n if r.id is null then select * into r from public.academy_profiles where id=auth.uid(); end if;\r\n return r;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_request_work_change",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_request_work_change(p_restaurant_id text, p_department text, p_position text)\n RETURNS uuid\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; request_id uuid;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active' for update;\r\n if actor.venue_director then raise exception 'Сначала владелец или операционный директор должен снять допуск управляющего.';end if;\r\n if actor.id is null then raise exception 'Доступ закрыт.'; end if;\r\n if not academy_private.valid_work(p_restaurant_id,p_department,p_position) then raise exception 'Проверьте заведение, подразделение и должность.'; end if;\r\n if actor.restaurant_id is not distinct from p_restaurant_id and actor.department is not distinct from p_department and actor.position is not distinct from p_position then raise exception 'Выберите новые рабочие данные.'; end if;\r\n if exists(select 1 from public.academy_work_changes where user_id=actor.id and status='pending') then raise exception 'Сначала дождитесь решения или отмените текущую заявку.'; end if;\r\n insert into public.academy_work_changes(user_id,full_name,original_role,from_restaurant,from_department,from_position,restaurant_id,department,position)\r\n values(actor.id,actor.full_name,actor.role,actor.restaurant_id,actor.department,actor.position,p_restaurant_id,p_department,p_position) returning id into request_id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'request_work_change',request_id::text,jsonb_build_object('user_id',actor.id,'restaurant',p_restaurant_id,'department',p_department,'position',p_position));\r\n return request_id;\r\nend $function$\n"
+    },
+    {
+      "name": "academy_review_work_change",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_review_work_change(p_request_id uuid, p_approve boolean)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; member public.academy_profiles; request public.academy_work_changes; target_user uuid;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null or actor.role not in ('manager','admin') or p_approve is null then raise exception 'Доступ закрыт.'; end if;\r\n select user_id into target_user from public.academy_work_changes where id=p_request_id;\r\n select * into member from public.academy_profiles where id=target_user for update;\r\n select * into request from public.academy_work_changes where id=p_request_id for update;\r\n if request.id is null or request.status<>'pending' then raise exception 'Заявка уже обработана или недоступна.'; end if;\r\n if member.id=actor.id or not(actor.role='admin' or actor.operations_director and academy_private.can_manage(member.id) or (actor.venue_director and academy_private.can_manage(member.id) and academy_private.venue_scope(actor,request.restaurant_id)) or (actor.role='manager' and not actor.venue_director and member.role='employee' and request.original_role='employee' and actor.restaurant_id=request.restaurant_id and actor.department=request.department)) then raise exception 'Подтверждение доступно администратору принимающей команды или владельцу.'; end if;\r\n if member.status<>'active' or member.role is distinct from request.original_role or member.restaurant_id is distinct from request.from_restaurant or member.department is distinct from request.from_department or member.position is distinct from request.from_position then raise exception 'Рабочие данные уже изменились. Попросите сотрудника отменить заявку и отправить новую.'; end if;\r\n if p_approve then\r\n update public.academy_profiles set restaurant_id=request.restaurant_id,department=request.department,position=request.position,updated_at=now() where id=member.id;\r\n end if;\r\n update public.academy_work_changes set status=case when p_approve then 'approved' else 'rejected' end,reviewed_at=now(),reviewed_by=actor.id where id=request.id;\r\n insert into academy_private.audit_log(actor_id,action,target,details) values(actor.id,'review_work_change',request.id::text,jsonb_build_object('approved',p_approve,'user_id',member.id,'from',jsonb_build_object('restaurant',member.restaurant_id,'department',member.department,'position',member.position),'to',jsonb_build_object('restaurant',request.restaurant_id,'department',request.department,'position',request.position)));\r\nend $function$\n"
+    },
+    {
+      "name": "academy_work_change_list",
+      "schema": "public",
+      "definition": "CREATE OR REPLACE FUNCTION public.academy_work_change_list()\n RETURNS jsonb\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO ''\nAS $function$\r\ndeclare actor public.academy_profiles; result jsonb;\r\nbegin\r\n select * into actor from public.academy_profiles where id=auth.uid() and status='active';\r\n if actor.id is null then raise exception 'Доступ закрыт.'; end if;\r\n select coalesce(jsonb_agg(to_jsonb(r)||jsonb_build_object('can_review',r.user_id<>actor.id and ((actor.role='admin' or actor.operations_director and academy_private.can_manage(r.user_id) or (actor.venue_director and academy_private.venue_scope(actor,r.restaurant_id) and exists(select 1 from public.academy_profiles m where m.id=r.user_id and academy_private.venue_scope(actor,m.restaurant_id) and m.role<>'admin' and not m.operations_director and not m.venue_director))) or (actor.role='manager' and not actor.venue_director and r.original_role='employee' and r.restaurant_id=actor.restaurant_id and r.department=actor.department))) order by r.created_at desc),'[]'::jsonb) into result\r\n from public.academy_work_changes r where r.user_id=actor.id or (actor.role='admin' or actor.operations_director and academy_private.can_manage(r.user_id) or (actor.venue_director and academy_private.venue_scope(actor,r.restaurant_id) and exists(select 1 from public.academy_profiles m where m.id=r.user_id and academy_private.venue_scope(actor,m.restaurant_id) and m.role<>'admin' and not m.operations_director and not m.venue_director))) or\r\n (actor.role='manager' and not actor.venue_director and r.original_role='employee' and r.restaurant_id=actor.restaurant_id and r.department=actor.department);\r\n return result;\r\nend $function$\n"
+    },
+    {
+      "name": "valid_work",
+      "schema": "academy_private",
+      "definition": "CREATE OR REPLACE FUNCTION academy_private.valid_work(p_restaurant text, p_department text, p_position text)\n RETURNS boolean\n LANGUAGE sql\n IMMUTABLE\n SET search_path TO ''\nAS $function$\r\n select coalesce(p_restaurant in ('minsk','pushkino','khimki','mytishchi') and (\r\n (p_department='Зал' and p_position in ('Официант','Администратор зала','Хостес')) or\r\n (p_department='Бар' and p_position in ('Старший бармен','Барбэк','Бармен','Бар-менеджер')) or\r\n (p_department='Кухня' and p_position in ('Повар','Шеф-повар')) or\r\n (p_department='Арт' and p_position='Сотрудник арт') or\r\n (p_department='Кальян' and p_position in ('Кальянный мастер','Старший кальянный мастер')) or\r\n (p_department='Руководитель' and p_position in ('Руководитель','Управляющий'))),false)\r\n$function$\n"
+    }
+  ],
+  "constraints": [
+    {
+      "name": "academy_operations_identity",
+      "table": "academy_profiles",
+      "definition": "CHECK (((NOT operations_director) OR COALESCE(((role = 'manager'::text) AND (department = 'Руководитель'::text) AND (\"position\" = 'Операционный директор'::text) AND (restaurant_id IS NULL)), false)))"
+    },
+    {
+      "name": "academy_profiles_department_check",
+      "table": "academy_profiles",
+      "definition": "CHECK ((department = ANY (ARRAY['Зал'::text, 'Бар'::text, 'Кухня'::text, 'Арт'::text, 'Кальян'::text, 'Руководитель'::text])))"
+    },
+    {
+      "name": "academy_profiles_restaurant_id_check",
+      "table": "academy_profiles",
+      "definition": "CHECK ((restaurant_id = ANY (ARRAY['minsk'::text, 'pushkino'::text, 'khimki'::text, 'mytishchi'::text])))"
+    },
+    {
+      "name": "academy_profiles_role_check",
+      "table": "academy_profiles",
+      "definition": "CHECK ((role = ANY (ARRAY['employee'::text, 'manager'::text, 'admin'::text])))"
+    },
+    {
+      "name": "academy_profiles_status_check",
+      "table": "academy_profiles",
+      "definition": "CHECK ((status = ANY (ARRAY['pending'::text, 'active'::text, 'suspended'::text])))"
+    },
+    {
+      "name": "academy_profiles_training_level_check",
+      "table": "academy_profiles",
+      "definition": "CHECK ((training_level = ANY (ARRAY['trainee'::text, 'certified'::text])))"
+    },
+    {
+      "name": "academy_profiles_venue_director_base_role_check",
+      "table": "academy_profiles",
+      "definition": "CHECK ((venue_director_base_role = ANY (ARRAY['employee'::text, 'manager'::text])))"
+    },
+    {
+      "name": "academy_single_operations_person",
+      "table": "academy_profiles",
+      "definition": "CHECK (((id = 'd4c13a7d-27c6-434d-812b-6bd477166573'::uuid) OR ((NOT operations_director) AND (\"position\" IS DISTINCT FROM 'Операционный директор'::text))))"
+    },
+    {
+      "name": "academy_venue_director_identity",
+      "table": "academy_profiles",
+      "definition": "CHECK (((NOT venue_director) OR COALESCE(((role = 'manager'::text) AND (NOT operations_director) AND (\"position\" = 'Управляющий'::text) AND (department = 'Руководитель'::text) AND (restaurant_id = ANY (ARRAY['minsk'::text, 'pushkino'::text, 'khimki'::text, 'mytishchi'::text]))), false)))"
+    },
+    {
+      "name": "academy_work_changes_restaurant_id_check",
+      "table": "academy_work_changes",
+      "definition": "CHECK ((restaurant_id = ANY (ARRAY['minsk'::text, 'pushkino'::text, 'khimki'::text, 'mytishchi'::text])))"
+    },
+    {
+      "name": "academy_work_changes_status_check",
+      "table": "academy_work_changes",
+      "definition": "CHECK ((status = ANY (ARRAY['pending'::text, 'approved'::text, 'rejected'::text, 'cancelled'::text])))"
+    }
+  ]
+}
