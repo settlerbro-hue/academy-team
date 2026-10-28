@@ -8,3 +8,6 @@
 .lesson-video{display:block;width:100%;max-height:75vh;border-radius:12px;background:#17151a;margin:20px 0}
 
 .menu-ingredients{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:7px}.menu-ingredients li{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid #e6ddc9;padding-bottom:6px}.menu-ingredients strong{white-space:nowrap;font-size:12px}.menu-recipe{margin:16px 0;font-size:13px}.menu-recipe summary{cursor:pointer;font-weight:650}.menu-recipe h4{margin:14px 0 4px}
+
+/* Wine facts remain readable as separate labelled lines on small screens. */
+.wine-description p{margin:0 0 9px;overflow-wrap:anywhere}.wine-description p:last-child{margin-bottom:0}.wine-description strong{font-weight:700}
