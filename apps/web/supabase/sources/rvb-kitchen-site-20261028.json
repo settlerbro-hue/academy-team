@@ -1,0 +1,998 @@
+[
+  {
+    "index": 1,
+    "category": "Закуски",
+    "name": "ДетЯм мороженое!",
+    "description": "Тартар из лосося, с авокадо и сливочным сыром",
+    "values": [
+      "140 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/detjam-morozhenoe-copy.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/detjam-morozhenoe-copy.png"
+  },
+  {
+    "index": 2,
+    "category": "Закуски",
+    "name": "А чё-чё",
+    "description": "Карпаччо из лосося с соусом из манго и чили",
+    "values": [
+      "120 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/karpachcho-iz-lososja.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/karpachcho-iz-lososja.png"
+  },
+  {
+    "index": 3,
+    "category": "Закуски",
+    "name": "Брускетта пушка-ракета",
+    "description": "С ростбифом и соусом из тунца, с лососем и каперсами, с цыпленком и вялеными томатами",
+    "values": [
+      "170 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/brusketta-pushka-raketa-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/brusketta-pushka-raketa-2.png"
+  },
+  {
+    "index": 4,
+    "category": "Закуски",
+    "name": "Играем в бутылочку?",
+    "description": "Ростбиф, сыр гауда, сыр дор-блю, маслины, креветки, корнишоны и помидоры черри",
+    "values": [
+      "200 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/igraem-v-butylochku.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/igraem-v-butylochku.png"
+  },
+  {
+    "index": 5,
+    "category": "Закуски",
+    "name": "Жадина-говядина",
+    "description": "Тартар из мраморной говядины, с каперсами, горчицей и чипсами из батата",
+    "values": [
+      "150 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/zhadina-govjadina-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/zhadina-govjadina-1.png"
+  },
+  {
+    "index": 6,
+    "category": "Закуски",
+    "name": "Закуска для папы",
+    "description": "Филе сельди с молодым картофелем, сметаной и маринованными корнишонами",
+    "values": [
+      "210 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/zakuska-dlya-papy.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/zakuska-dlya-papy.png"
+  },
+  {
+    "index": 7,
+    "category": "Салаты",
+    "name": "Трава у дома",
+    "description": "Зеленый летний салат из свежих овощей с оливковым маслом, лимонным соком, мёдом и сладкой горчицей",
+    "values": [
+      "230 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/trava-u-doma.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/trava-u-doma.png"
+  },
+  {
+    "index": 8,
+    "category": "Салаты",
+    "name": "Аве! Цезарь!",
+    "description": "Листья салата с куриным филе, хрустящими гренками и пармезаном",
+    "values": [
+      "240 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/ave-cezar.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/ave-cezar.png"
+  },
+  {
+    "index": 9,
+    "category": "Салаты",
+    "name": "А вот и он! Весёлый доктор!",
+    "description": "Домашний оливье с докторской колбасой и красной икрой",
+    "values": [
+      "250 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/veselyj-doktor2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/veselyj-doktor2.png"
+  },
+  {
+    "index": 10,
+    "category": "Салаты",
+    "name": "Вам бы лишь пощупать!",
+    "description": "Теплый салат со щупальцами кальмара, молодым картофелем и овощами",
+    "values": [
+      "230 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/vam-by-lish-poshchupat.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/vam-by-lish-poshchupat.png"
+  },
+  {
+    "index": 11,
+    "category": "Салаты",
+    "name": "Тёплый баклажан",
+    "description": "Салат из жаренных баклажанов с томатами, сливочным сыром и соусом понзу",
+    "values": [
+      "230 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/teplyj-baklazhan.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/teplyj-baklazhan.png"
+  },
+  {
+    "index": 12,
+    "category": "Салаты",
+    "name": "Тропикана женщина",
+    "description": "Салат из тёплых креветок в соусе из манго с кокосовым молоком и свежими ягодами",
+    "values": [
+      "170 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/tropikana-zhenshchina.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/tropikana-zhenshchina.png"
+  },
+  {
+    "index": 13,
+    "category": "Салаты",
+    "name": "И с тобою, и со мной – это яйца",
+    "description": "Зеленый салат со слабосоленым лососем, яйцом пашот и соусом блю-чиз",
+    "values": [
+      "180 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/i-s-toboju-i-so-mnoju-eto-jajca.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/i-s-toboju-i-so-mnoju-eto-jajca.png"
+  },
+  {
+    "index": 14,
+    "category": "Салаты",
+    "name": "Шеф развязал",
+    "description": "Зеленый салат с шампиньонами, запеченными с креветками и сыром",
+    "values": [
+      "180 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/shef-soshel-s-uma.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/shef-soshel-s-uma.png"
+  },
+  {
+    "index": 15,
+    "category": "Салаты",
+    "name": "В греческом зале…",
+    "description": "Салат из свежих овощей с брынзой и соусом песто",
+    "values": [
+      "280 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/v-grecheskom-zale.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/v-grecheskom-zale.png"
+  },
+  {
+    "index": 16,
+    "category": "Салаты",
+    "name": "Элтон Джон в Рязани",
+    "description": "Ростбиф с обжаренными овощами, листьями салата и соусом из тунца",
+    "values": [
+      "250 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/elton-dzhon-v-rjazani.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/elton-dzhon-v-rjazani.png"
+  },
+  {
+    "index": 17,
+    "category": "Салаты",
+    "name": "Чубайс в оранжерее",
+    "description": "Зеленый салат с авокадо, свежими ягодами и хрустящими креветками",
+    "values": [
+      "180 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/chubajs-v-oranzheree-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/chubajs-v-oranzheree-1.png"
+  },
+  {
+    "index": 18,
+    "category": "Салаты",
+    "name": "Один раз не нисуаз",
+    "description": "Салат из свежих овощей а-ля нисуаз с маринованным тунцом",
+    "values": [
+      "200 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/odin-raz-ne-nisuaz.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/odin-raz-ne-nisuaz.png"
+  },
+  {
+    "index": 19,
+    "category": "Блюда на компанию",
+    "name": "Памела Андерсон",
+    "description": "Сезонные фрукты и ягоды",
+    "values": [
+      "1000 гр.",
+      "65 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/pamela-anderson-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/pamela-anderson-1.png"
+  },
+  {
+    "index": 20,
+    "category": "Блюда на компанию",
+    "name": "Молчание ягнят",
+    "description": "Ростбиф, копченый карбонат, рулет из цыпленка с грибами, сало с чесноком и тмином, хрен, горчица, овощи, зелень",
+    "values": [
+      "350 гр.",
+      "65 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/molchanie-jagnjat-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/molchanie-jagnjat-1.png"
+  },
+  {
+    "index": 21,
+    "category": "Блюда на компанию",
+    "name": "Сырки не дружба",
+    "description": "Дор-блю, камамбер, чеддер, пармезан, виноград, ягоды, мед, орехи",
+    "values": [
+      "330 гр.",
+      "65 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/syrki-ne-druzhba-3.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/syrki-ne-druzhba-3.png"
+  },
+  {
+    "index": 22,
+    "category": "Блюда на компанию",
+    "name": "Вот он-язь! Здоровенный!",
+    "description": "Маринованный тунец, масляная рыба х\\к, семга слабой соли, икра, масло, зелень, лимон",
+    "values": [
+      "300 гр.",
+      "65 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/vot-on-jaz-zdorovennyj-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/vot-on-jaz-zdorovennyj-2.png"
+  },
+  {
+    "index": 23,
+    "category": "Блюда на компанию",
+    "name": "Закуска а-ля 90-е",
+    "description": "Брускетты с ростбифом, рулет из цыпленка, рулетики из ветчины с сыром, паштет из шпрот, маринованные помидоры, корнишоны, сыр, канапе с филе сельди, докторская колбаса, маслины, зелень",
+    "values": [
+      "1000 гр.",
+      "110 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/zakuska-a-lja-90-e-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/zakuska-a-lja-90-e-1.png"
+  },
+  {
+    "index": 24,
+    "category": "Блюда на компанию",
+    "name": "Пивное плато «Бригада»",
+    "description": "Куринные крылья, сырные палочки, свиные ребра, картошка фри, чесночные гренки, крокеты из снежного краба с сыром, с тремя соусами",
+    "values": [
+      "1300 гр.",
+      "110 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/pivnoe-plato-brigada-3.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/pivnoe-plato-brigada-3.png"
+  },
+  {
+    "index": 25,
+    "category": "Блюда на компанию",
+    "name": "Лихие 90-е",
+    "description": "Шашлычки из свинины и цыпленка, три вида колбасок, свиные ребра, молодой картофель, тушеная капуста с беконом, картофель по-деревенски, маринованные овощи и три вида соуса",
+    "values": [
+      "2000 гр.",
+      "180 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/lihie-90-e-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/lihie-90-e-1.png"
+  },
+  {
+    "index": 26,
+    "category": "Горячие закуски",
+    "name": "Драники по-богатому",
+    "description": "с беконом, с лососем, с икрой",
+    "values": [
+      "220 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/draniki-po-bogatomu.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/draniki-po-bogatomu.png"
+  },
+  {
+    "index": 27,
+    "category": "Горячие закуски",
+    "name": "Попробуй джага-джага",
+    "description": "Запеченный багет с пепперони, ветчиной, курицей, томатами и моцареллой",
+    "values": [
+      "200 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/poprobuj-dzhaga-dzhaga-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/poprobuj-dzhaga-dzhaga-1.png"
+  },
+  {
+    "index": 28,
+    "category": "Горячие закуски",
+    "name": "Тимон и Пумба",
+    "description": "Свиные ребра, запеченные с соусом чили и медом",
+    "values": [
+      "240 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/timon-i-pumba.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/timon-i-pumba.png"
+  },
+  {
+    "index": 29,
+    "category": "Горячие закуски",
+    "name": "Мидийное место",
+    "description": "Мидии гранд киви запеченные с сыром и икрой тобико в соусе унаги",
+    "values": [
+      "180 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/midijnoe-mesto-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/midijnoe-mesto-1.png"
+  },
+  {
+    "index": 30,
+    "category": "Горячие закуски",
+    "name": "Не грусти, похрусти",
+    "description": "Хрустящие креветки темпура с соусом тар-тар",
+    "values": [
+      "180 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/ne-grusti-pohrusti-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/ne-grusti-pohrusti-1.png"
+  },
+  {
+    "index": 31,
+    "category": "Горячие закуски",
+    "name": "Шары ярости",
+    "description": "Крокеты из снежного краба с сыром и соусом унаги",
+    "values": [
+      "180 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/shary-jarosti.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/shary-jarosti.png"
+  },
+  {
+    "index": 32,
+    "category": "Горячие закуски",
+    "name": "Хрустяцкий сыыыыыыыр",
+    "description": "Сырные палочки с соусом спайси",
+    "values": [
+      "200 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/hrustjackij-syyyyyyyr.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/hrustjackij-syyyyyyyr.png"
+  },
+  {
+    "index": 33,
+    "category": "Горячие закуски",
+    "name": "В Багдаде все спокойно",
+    "description": "Арабская пицца с креветками, лососем, моцареллой и фисташками",
+    "values": [
+      "280 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/v-bagdade-vse-spokojno-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/v-bagdade-vse-spokojno-1.png"
+  },
+  {
+    "index": 34,
+    "category": "Горячие закуски",
+    "name": "Сам ты — Наташа!",
+    "description": "Турецкая пицца с говядиной, овощами и сыром",
+    "values": [
+      "280 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/sam-ty-natasha.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/sam-ty-natasha.png"
+  },
+  {
+    "index": 35,
+    "category": "Супы",
+    "name": "Том Ям",
+    "description": "C креветками, мидиями, кальмарами, лососем и грибами",
+    "values": [
+      "400 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/tom-jam-s-krevetkami.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/tom-jam-s-krevetkami.png"
+  },
+  {
+    "index": 36,
+    "category": "Супы",
+    "name": "Борщ домашний",
+    "description": "С говядиной, сметаной и салом",
+    "values": [
+      "350 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/borshch-domashnij-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/borshch-domashnij-1.png"
+  },
+  {
+    "index": 37,
+    "category": "Паста",
+    "name": "Фетучини с лососем",
+    "description": "В сливочном соусе с пармезаном",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/fetuchini-s-lososem2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/fetuchini-s-lososem2.png"
+  },
+  {
+    "index": 38,
+    "category": "Паста",
+    "name": "Соба с морепродуктами",
+    "description": "Гречневая лапша с креветками, кальмарами и овощами",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/soba-s-moreproduktami.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/soba-s-moreproduktami.png"
+  },
+  {
+    "index": 39,
+    "category": "Паста",
+    "name": "Барби паста",
+    "description": "Лингвини в сырном соусе с креветками",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/barbi-pasta.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/barbi-pasta.png"
+  },
+  {
+    "index": 40,
+    "category": "Паста",
+    "name": "Спагетти Том Ям",
+    "description": "Черная паста с чернилами каракатицы, с креветками и овощами в соусе том ям",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/spagetti-tom-jam.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/spagetti-tom-jam.png"
+  },
+  {
+    "index": 41,
+    "category": "Паста",
+    "name": "Спагетти Карбонара",
+    "description": "С беконом и пармезаном",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/spagetti-karbonara-2-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/spagetti-karbonara-2-1.png"
+  },
+  {
+    "index": 42,
+    "category": "Паста",
+    "name": "Удон с индейкой",
+    "description": "Пшеничная лапша с филе индейки и овощами",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/udon-s-utkoj.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/udon-s-utkoj.png"
+  },
+  {
+    "index": 43,
+    "category": "Бургеры",
+    "name": "Кевин спайси",
+    "description": "Чизбургер с говядиной, беконом, острым соусом и сыром",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/kevin-spajsi_2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/kevin-spajsi_2.png"
+  },
+  {
+    "index": 44,
+    "category": "Бургеры",
+    "name": "Мамин симпатяга",
+    "description": "Чизбургер с цыпленком, овощами, соусом карри, беконом и сыром",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/mamin-simpatyaga_2-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/mamin-simpatyaga_2-1.png"
+  },
+  {
+    "index": 45,
+    "category": "Горячие блюда",
+    "name": "Побег из курятника",
+    "description": "Куриное филе на гриле с теплым картофельным салатом и лёгким горчичным соусом",
+    "values": [
+      "280 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/pobeg-iz-kuryatnika.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/pobeg-iz-kuryatnika.png"
+  },
+  {
+    "index": 46,
+    "category": "Горячие блюда",
+    "name": "Мальчик хочет тюрбо",
+    "description": "Филе морского окуня с креветками, кальмарами и мидиями в соусе том ям с кокосовым молоком",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/malchik-hochet-tjurbo-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/malchik-hochet-tjurbo-2.png"
+  },
+  {
+    "index": 47,
+    "category": "Горячие блюда",
+    "name": "Драники с мачанкой",
+    "description": "Домашняя колбаса, свиные рёбра с румяными драниками и беконом",
+    "values": [
+      "400 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/draniki-s-mochankoi.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/draniki-s-mochankoi.png"
+  },
+  {
+    "index": 48,
+    "category": "Горячие блюда",
+    "name": "Импортозамещение началось",
+    "description": "Филе лосося с картофелем и грибами в соусе бешамель",
+    "values": [
+      "370 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/importozameshchenie-nachalos.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/importozameshchenie-nachalos.png"
+  },
+  {
+    "index": 49,
+    "category": "Горячие блюда",
+    "name": "Филе миньон",
+    "description": "Соус на выбор: мясной, горчичный, грибной",
+    "values": [
+      "200 гр.",
+      "45 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/file-minon-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/file-minon-1.png"
+  },
+  {
+    "index": 50,
+    "category": "Горячие блюда",
+    "name": "Настоящему индейцу",
+    "description": "Стейк из филе индейки с грибным соусом и беконом",
+    "values": [
+      "230 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/nastojashchnmu-indejcu-3.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/nastojashchnmu-indejcu-3.png"
+  },
+  {
+    "index": 51,
+    "category": "Горячие блюда",
+    "name": "Стреляй, Пятачок!",
+    "description": "Свиные колбаски с молодым картофелем, тушеной капустой с беконом и соусом BBQ",
+    "values": [
+      "400 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/streljaj-pjatachok.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/streljaj-pjatachok.png"
+  },
+  {
+    "index": 52,
+    "category": "Горячие блюда",
+    "name": "В Тае День Благодарения",
+    "description": "Филе индейки в азиатском стиле с картофелем фри",
+    "values": [
+      "320 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/v-tae-den-blagodarenija-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/v-tae-den-blagodarenija-2.png"
+  },
+  {
+    "index": 53,
+    "category": "Горячие блюда",
+    "name": "Стейк лосося",
+    "description": "Филе лосося с пюре из брокколи, сливочным соусом с шафраном и красной икрой",
+    "values": [
+      "280 гр.",
+      "45 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/stejk-lososja-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/stejk-lososja-1.png"
+  },
+  {
+    "index": 54,
+    "category": "Горячие блюда",
+    "name": "Могу себе позволить",
+    "description": "Свиная отбивная с шампиньонами, томатами и молодым картофелем",
+    "values": [
+      "310 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/mogu-sebe-pozvolit-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/mogu-sebe-pozvolit-1.png"
+  },
+  {
+    "index": 55,
+    "category": "Горячие блюда",
+    "name": "Гаврюша, ко мне!",
+    "description": "Телячьи щечки томленные в красном вине, с картофельным пюре и малосольными огурцами",
+    "values": [
+      "300 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/gavrjusha-ko-mne.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/gavrjusha-ko-mne.png"
+  },
+  {
+    "index": 56,
+    "category": "Горячие блюда",
+    "name": "Птичку жалко!",
+    "description": "Куриные колбаски с картофелем по-деревенски, тушеной капустой с беконом и русской горчицей",
+    "values": [
+      "400 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/ptichku-zhalk.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/ptichku-zhalk.png"
+  },
+  {
+    "index": 57,
+    "category": "Горячие блюда",
+    "name": "Стейк пиканья",
+    "description": "Соусы на выбор: мясной, горчичный, грибной",
+    "values": [
+      "250 гр.",
+      "45 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/stejk-pikanja.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/stejk-pikanja.png"
+  },
+  {
+    "index": 58,
+    "category": "Горячие блюда",
+    "name": "Биф очень строганов",
+    "description": "Бефстроганов из говядины с шампиньонами, картофельным пюре и маринованными овощами",
+    "values": [
+      "370 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/bif-ochen-stroganov-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/bif-ochen-stroganov-2.png"
+  },
+  {
+    "index": 59,
+    "category": "Горячие блюда",
+    "name": "Сковорода от папы",
+    "description": "Жареный картофель с докторской колбасой, глазуньей, беконом и луком",
+    "values": [
+      "500 гр.",
+      "25 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/skovoroda-ot-papy-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/skovoroda-ot-papy-2.png"
+  },
+  {
+    "index": 60,
+    "category": "Всяко разно",
+    "name": "Свободу Анджеле Девис!",
+    "description": "Картофель FREE классический или по деревенски с кетчупом",
+    "values": [
+      "190 гр.",
+      "15 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/sloj-12.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/sloj-12.png"
+  },
+  {
+    "index": 61,
+    "category": "Всяко разно",
+    "name": "Гренки Чеснокова",
+    "description": "Ржаные гренки с чесноком и сырным соусом",
+    "values": [
+      "200 гр.",
+      "15 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/grenki-chesnokova.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/grenki-chesnokova.png"
+  },
+  {
+    "index": 62,
+    "category": "Всяко разно",
+    "name": "Батат FREE",
+    "description": "С соусом спайси",
+    "values": [
+      "190 гр.",
+      "15 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/batat-free.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/batat-free.png"
+  },
+  {
+    "index": 63,
+    "category": "Всяко разно",
+    "name": "Молодой картофель",
+    "description": "",
+    "values": [
+      "200 гр.",
+      "10 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/molodoj-kartofel.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/molodoj-kartofel.png"
+  },
+  {
+    "index": 64,
+    "category": "Всяко разно",
+    "name": "Картофельное пюре",
+    "description": "",
+    "values": [
+      "200 гр.",
+      "10 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/kartofelnoe-pjure.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/kartofelnoe-pjure.png"
+  },
+  {
+    "index": 65,
+    "category": "Всяко разно",
+    "name": "Салат из помидоров с красным луком",
+    "description": "",
+    "values": [
+      "200 гр.",
+      "10 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/salat-iz-pomidorov-s-krasnym-lukom.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/salat-iz-pomidorov-s-krasnym-lukom.png"
+  },
+  {
+    "index": 66,
+    "category": "Всяко разно",
+    "name": "Малосольные огурцы",
+    "description": "",
+    "values": [
+      "200 гр.",
+      "10 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/malosolnye-ogurcy.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/malosolnye-ogurcy.png"
+  },
+  {
+    "index": 67,
+    "category": "Всяко разно",
+    "name": "Фокачча с розмарином",
+    "description": "",
+    "values": [
+      "270 гр.",
+      "10 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/fokachcha-s-rozmarinom.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/fokachcha-s-rozmarinom.png"
+  },
+  {
+    "index": 68,
+    "category": "Всяко разно",
+    "name": "Хлебная корзина",
+    "description": "",
+    "values": [
+      "150 гр.",
+      "10 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/chesnochnyj-hleb.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/chesnochnyj-hleb.png"
+  },
+  {
+    "index": 69,
+    "category": "Пицца",
+    "name": "Руки ВВерх с сырным бортом",
+    "description": "Томатный соус, куриное филе, филе копченной индейки, пепперони, охотничьи колбаски, ветчина , шампиньоны, красный лук, сыр моцарелла, помидоры черри, маслины, соус блю чиз",
+    "values": [
+      "33 см. 1000 гр.",
+      "50 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/ruki-vverh-s-syrnym-bortom.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/ruki-vverh-s-syrnym-bortom.png"
+  },
+  {
+    "index": 70,
+    "category": "Пицца",
+    "name": "Цыплёнок BBQ",
+    "description": "Томатный соус, филе цыпленка, сыр моцарелла, корнишоны, соус BBQ",
+    "values": [
+      "22 см. 350 гр. · 33 см. 500 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/czyplenok-bbq-2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/czyplenok-bbq-2.png"
+  },
+  {
+    "index": 71,
+    "category": "Пицца",
+    "name": "Карбонара",
+    "description": "Томатный соус, сливки, сыр моцарелла, бекон, яйцо",
+    "values": [
+      "22 см. 350 гр. · 33 см. 500 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/piczcza-karbonara2.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/piczcza-karbonara2.png"
+  },
+  {
+    "index": 72,
+    "category": "Пицца",
+    "name": "Пицца охотничья",
+    "description": "Томатный соус, охотничьи колбаски, сыр моцарелла, сладкий лук, корнишоны, зеленый лук",
+    "values": [
+      "22 см. 350 гр. · 33 см. 550 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/picca-ohotnichja-1.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/picca-ohotnichja-1.png"
+  },
+  {
+    "index": 73,
+    "category": "Пицца",
+    "name": "С грушей и горгондзолой",
+    "description": "Сыр моцарелла, оливковое масло, груша, горгондзола, фисташки, мед",
+    "values": [
+      "22 см. 300 гр. · 33 см. 450 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/picca-s-grushei-i-gorgondzoloi.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/picca-s-grushei-i-gorgondzoloi.png"
+  },
+  {
+    "index": 74,
+    "category": "Пицца",
+    "name": "С беконом и пепперони",
+    "description": "Томатный соус, бекон, пепперони, сыр моцарелла, корнишоны, картофель фри",
+    "values": [
+      "22 см. 350 гр. · 33 см. 500 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/piczcza-s-bekonom-i-pepperoni.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/piczcza-s-bekonom-i-pepperoni.png"
+  },
+  {
+    "index": 75,
+    "category": "Пицца",
+    "name": "Пепперони",
+    "description": "Томатный соус, салями пепперони, сыр моцарелла",
+    "values": [
+      "22 см. 350 гр. · 33 см. 550 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/piczcza-pepperoni.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/piczcza-pepperoni.png"
+  },
+  {
+    "index": 76,
+    "category": "Пицца",
+    "name": "С ветчиной и грибами",
+    "description": "Томатный соус, ветчина, шампиньоны, сыр моцарелла",
+    "values": [
+      "22 см. 350 гр. · 33 см. 500 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/s-vetchinoj-i-gribami.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/s-vetchinoj-i-gribami.png"
+  },
+  {
+    "index": 77,
+    "category": "Пицца",
+    "name": "Цезарь с курицей",
+    "description": "Филе цыпленка, сыр моцарелла, соус цезарь, помидоры черри, зеленый салат, пармезан",
+    "values": [
+      "22 см. 350 гр. · 33 см. 500 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/piczcza-czezar-s-kuriczej.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/piczcza-czezar-s-kuriczej.png"
+  },
+  {
+    "index": 78,
+    "category": "Пицца",
+    "name": "Четыре сыра",
+    "description": "Томатный соус, моцарелла, дор-блю, гауда, пармезан",
+    "values": [
+      "22 см. 350 гр. · 33 см. 550 гр.",
+      "25 руб. · 35 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/piczcza-chetyre-syra.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/piczcza-chetyre-syra.png"
+  },
+  {
+    "index": 79,
+    "category": "Десерты",
+    "name": "Мороженка 90-е",
+    "description": "Ванильное, шоколадное или клубничное на ваш выбор. Подается со свежими ягодами, печеньем и шоколадом",
+    "values": [
+      "220 гр.",
+      "20 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/morozhennoe-90-e.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/morozhennoe-90-e.png"
+  },
+  {
+    "index": 80,
+    "category": "Десерты",
+    "name": "Мне ухаживать некогда",
+    "description": "Тирамису домашний из сыра маскарпоне, с бисквитным печеньем, коньяком, кофе и ягодами",
+    "values": [
+      "180 гр.",
+      "20 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/zakatki-na-zimu.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/zakatki-na-zimu.png"
+  },
+  {
+    "index": 81,
+    "category": "Десерты",
+    "name": "Фисташковый рулет",
+    "description": "",
+    "values": [
+      "100 гр.",
+      "20 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/fistashkoyi-rulet.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/fistashkoyi-rulet.png"
+  },
+  {
+    "index": 82,
+    "category": "Десерты",
+    "name": "Яблочный штрейзель",
+    "description": "",
+    "values": [
+      "110 гр.",
+      "20 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/yablochnyi-shtreizel.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/yablochnyi-shtreizel.png"
+  },
+  {
+    "index": 83,
+    "category": "Десерты",
+    "name": "Чизкейк манго",
+    "description": "",
+    "values": [
+      "100 гр.",
+      "20 руб."
+    ],
+    "image": "https://rvbarminsk.by/Content/images/menu/chizkeik-mango.png",
+    "thumbnail": "https://rvbarminsk.by/Content/images/menu/small/chizkeik-mango.png"
+  }
+]

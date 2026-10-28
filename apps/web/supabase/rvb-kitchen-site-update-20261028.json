@@ -1,0 +1,2337 @@
+{
+  "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+  "checkedOn": "2026-10-28",
+  "siteDishes": 83,
+  "cards": 92,
+  "changes": [
+    {
+      "id": "rvb-kitchen-p03-1",
+      "siteIndex": 1,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/detjam-morozhenoe-copy.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/detjam-morozhenoe-copy.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p03-2",
+      "siteIndex": 2,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/karpachcho-iz-lososja.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/karpachcho-iz-lososja.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p03-3",
+      "siteIndex": 3,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/brusketta-pushka-raketa-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/brusketta-pushka-raketa-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p04-3",
+      "siteIndex": 4,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/igraem-v-butylochku.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/igraem-v-butylochku.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p04-1",
+      "siteIndex": 5,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/zhadina-govjadina-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/zhadina-govjadina-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p04-2",
+      "siteIndex": 6,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/zakuska-dlya-papy.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/zakuska-dlya-papy.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p06-2",
+      "siteIndex": 7,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/trava-u-doma.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/trava-u-doma.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+        "description": "Зеленый летний салат из свежих овощей с оливковым маслом, лимонным соком, мёдом и сладкой горчицей",
+        "volume": "230 г"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl",
+        "description",
+        "volume"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p05-1",
+      "siteIndex": 8,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/ave-cezar.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/ave-cezar.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p05-2",
+      "siteIndex": 9,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/veselyj-doktor2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/veselyj-doktor2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p05-3",
+      "siteIndex": 10,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/vam-by-lish-poshchupat.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/vam-by-lish-poshchupat.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p06-1",
+      "siteIndex": 11,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/teplyj-baklazhan.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/teplyj-baklazhan.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p06-3",
+      "siteIndex": 12,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/tropikana-zhenshchina.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/tropikana-zhenshchina.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p07-1",
+      "siteIndex": 13,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/i-s-toboju-i-so-mnoju-eto-jajca.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/i-s-toboju-i-so-mnoju-eto-jajca.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p07-2",
+      "siteIndex": 14,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/shef-soshel-s-uma.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/shef-soshel-s-uma.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+        "description": "Зеленый салат с шампиньонами, запеченными с креветками и сыром"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl",
+        "description"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p07-3",
+      "siteIndex": 15,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/v-grecheskom-zale.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/v-grecheskom-zale.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p08-1",
+      "siteIndex": 16,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/elton-dzhon-v-rjazani.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/elton-dzhon-v-rjazani.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p08-2",
+      "siteIndex": 17,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/chubajs-v-oranzheree-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/chubajs-v-oranzheree-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p08-3",
+      "siteIndex": 18,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/odin-raz-ne-nisuaz.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/odin-raz-ne-nisuaz.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p09-1",
+      "siteIndex": 19,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/pamela-anderson-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/pamela-anderson-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p09-2",
+      "siteIndex": 20,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/molchanie-jagnjat-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/molchanie-jagnjat-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+        "description": "Ростбиф, копченый карбонат, рулет из цыпленка с грибами, сало с чесноком и тмином, хрен, горчица, овощи, зелень",
+        "vividDescription": ""
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl",
+        "description",
+        "vividDescription"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p10-1",
+      "siteIndex": 21,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/syrki-ne-druzhba-3.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/syrki-ne-druzhba-3.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p10-2",
+      "siteIndex": 22,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/vot-on-jaz-zdorovennyj-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/vot-on-jaz-zdorovennyj-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p11-1",
+      "siteIndex": 23,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/zakuska-a-lja-90-e-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/zakuska-a-lja-90-e-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p11-2",
+      "siteIndex": 24,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/pivnoe-plato-brigada-3.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/pivnoe-plato-brigada-3.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p12-1",
+      "siteIndex": 25,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/lihie-90-e-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/lihie-90-e-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p13-1",
+      "siteIndex": 26,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/draniki-po-bogatomu.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/draniki-po-bogatomu.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p13-2",
+      "siteIndex": 27,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/poprobuj-dzhaga-dzhaga-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/poprobuj-dzhaga-dzhaga-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p13-3",
+      "siteIndex": 28,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/timon-i-pumba.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/timon-i-pumba.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+        "name": "Тимон и Пумба"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl",
+        "name"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p15-1",
+      "siteIndex": 29,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/midijnoe-mesto-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/midijnoe-mesto-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p14-1",
+      "siteIndex": 30,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/ne-grusti-pohrusti-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/ne-grusti-pohrusti-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p14-2",
+      "siteIndex": 31,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/shary-jarosti.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/shary-jarosti.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p14-3",
+      "siteIndex": 32,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/hrustjackij-syyyyyyyr.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/hrustjackij-syyyyyyyr.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+        "name": "Хрустяцкий сыыыыыыыр"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl",
+        "name"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p15-2",
+      "siteIndex": 33,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/v-bagdade-vse-spokojno-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/v-bagdade-vse-spokojno-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p15-3",
+      "siteIndex": 34,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/sam-ty-natasha.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/sam-ty-natasha.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p16-1",
+      "siteIndex": 35,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/tom-jam-s-krevetkami.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/tom-jam-s-krevetkami.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p16-2",
+      "siteIndex": 36,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/borshch-domashnij-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/borshch-domashnij-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p17-1",
+      "siteIndex": 37,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/fetuchini-s-lososem2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/fetuchini-s-lososem2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p17-2",
+      "siteIndex": 38,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/soba-s-moreproduktami.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/soba-s-moreproduktami.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p17-3",
+      "siteIndex": 39,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/barbi-pasta.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/barbi-pasta.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p18-3",
+      "siteIndex": 40,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/spagetti-tom-jam.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/spagetti-tom-jam.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p18-1",
+      "siteIndex": 41,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/spagetti-karbonara-2-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/spagetti-karbonara-2-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p18-2",
+      "siteIndex": 42,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/udon-s-utkoj.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/udon-s-utkoj.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p19-1",
+      "siteIndex": 43,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/kevin-spajsi_2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/kevin-spajsi_2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p19-2",
+      "siteIndex": 44,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/mamin-simpatyaga_2-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/mamin-simpatyaga_2-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p26-3",
+      "siteIndex": 45,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/pobeg-iz-kuryatnika.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/pobeg-iz-kuryatnika.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p20-1",
+      "siteIndex": 46,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/malchik-hochet-tjurbo-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/malchik-hochet-tjurbo-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p20-2",
+      "siteIndex": 47,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/draniki-s-mochankoi.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/draniki-s-mochankoi.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p20-3",
+      "siteIndex": 48,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/importozameshchenie-nachalos.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/importozameshchenie-nachalos.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p21-1",
+      "siteIndex": 49,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/file-minon-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/file-minon-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p22-1",
+      "siteIndex": 50,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/nastojashchnmu-indejcu-3.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/nastojashchnmu-indejcu-3.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p22-2",
+      "siteIndex": 51,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/streljaj-pjatachok.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/streljaj-pjatachok.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p22-3",
+      "siteIndex": 52,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/v-tae-den-blagodarenija-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/v-tae-den-blagodarenija-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p23-1",
+      "siteIndex": 53,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/stejk-lososja-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/stejk-lososja-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p24-1",
+      "siteIndex": 54,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/mogu-sebe-pozvolit-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/mogu-sebe-pozvolit-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p24-2",
+      "siteIndex": 55,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/gavrjusha-ko-mne.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/gavrjusha-ko-mne.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p24-3",
+      "siteIndex": 56,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/ptichku-zhalk.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/ptichku-zhalk.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p25-1",
+      "siteIndex": 57,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/stejk-pikanja.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/stejk-pikanja.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p26-1",
+      "siteIndex": 58,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/bif-ochen-stroganov-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/bif-ochen-stroganov-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p26-2",
+      "siteIndex": 59,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/skovoroda-ot-papy-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/skovoroda-ot-papy-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p27-1",
+      "siteIndex": 60,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/sloj-12.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/sloj-12.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p27-2",
+      "siteIndex": 61,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/grenki-chesnokova.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/grenki-chesnokova.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p27-3",
+      "siteIndex": 62,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/batat-free.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/batat-free.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p28-1",
+      "siteIndex": 63,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/molodoj-kartofel.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/molodoj-kartofel.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p28-2",
+      "siteIndex": 64,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/kartofelnoe-pjure.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/kartofelnoe-pjure.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p28-3",
+      "siteIndex": 65,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/salat-iz-pomidorov-s-krasnym-lukom.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/salat-iz-pomidorov-s-krasnym-lukom.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p29-1",
+      "siteIndex": 66,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/malosolnye-ogurcy.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/malosolnye-ogurcy.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p29-2",
+      "siteIndex": 67,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/fokachcha-s-rozmarinom.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/fokachcha-s-rozmarinom.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p29-3",
+      "siteIndex": 68,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/chesnochnyj-hleb.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/chesnochnyj-hleb.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p30-1",
+      "siteIndex": 69,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/ruki-vverh-s-syrnym-bortom.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/ruki-vverh-s-syrnym-bortom.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p31-1-1",
+      "siteIndex": 70,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/czyplenok-bbq-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/czyplenok-bbq-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p31-1-2",
+      "siteIndex": 70,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/czyplenok-bbq-2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/czyplenok-bbq-2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p31-2-1",
+      "siteIndex": 71,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-karbonara2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-karbonara2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p31-2-2",
+      "siteIndex": 71,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-karbonara2.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-karbonara2.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p31-3-1",
+      "siteIndex": 72,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/picca-ohotnichja-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/picca-ohotnichja-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p31-3-2",
+      "siteIndex": 72,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/picca-ohotnichja-1.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/picca-ohotnichja-1.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p32-1-1",
+      "siteIndex": 73,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/picca-s-grushei-i-gorgondzoloi.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/picca-s-grushei-i-gorgondzoloi.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p32-1-2",
+      "siteIndex": 73,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/picca-s-grushei-i-gorgondzoloi.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/picca-s-grushei-i-gorgondzoloi.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p32-2-1",
+      "siteIndex": 74,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-s-bekonom-i-pepperoni.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-s-bekonom-i-pepperoni.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p32-2-2",
+      "siteIndex": 74,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-s-bekonom-i-pepperoni.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-s-bekonom-i-pepperoni.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p32-3-1",
+      "siteIndex": 75,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-pepperoni.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-pepperoni.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p32-3-2",
+      "siteIndex": 75,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-pepperoni.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-pepperoni.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p33-1-1",
+      "siteIndex": 76,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/s-vetchinoj-i-gribami.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/s-vetchinoj-i-gribami.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p33-1-2",
+      "siteIndex": 76,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/s-vetchinoj-i-gribami.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/s-vetchinoj-i-gribami.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p33-2-1",
+      "siteIndex": 77,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-czezar-s-kuriczej.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-czezar-s-kuriczej.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p33-2-2",
+      "siteIndex": 77,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-czezar-s-kuriczej.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-czezar-s-kuriczej.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p33-3-1",
+      "siteIndex": 78,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-chetyre-syra.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-chetyre-syra.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p33-3-2",
+      "siteIndex": 78,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/piczcza-chetyre-syra.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/piczcza-chetyre-syra.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p34-2",
+      "siteIndex": 79,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/morozhennoe-90-e.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/morozhennoe-90-e.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p34-1",
+      "siteIndex": 80,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/zakatki-na-zimu.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/zakatki-na-zimu.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p35-1",
+      "siteIndex": 81,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/fistashkoyi-rulet.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/fistashkoyi-rulet.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni",
+        "volume": "100 г"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl",
+        "volume"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p35-2",
+      "siteIndex": 82,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/yablochnyi-shtreizel.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/yablochnyi-shtreizel.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    },
+    {
+      "id": "rvb-kitchen-p35-3",
+      "siteIndex": 83,
+      "patch": {
+        "image": "https://rvbarminsk.by/Content/images/menu/chizkeik-mango.png",
+        "imageKind": "dish",
+        "imageSource": "https://rvbarminsk.by/Content/images/menu/chizkeik-mango.png",
+        "imageSourceLabel": "Меню кухни РВБ Минск",
+        "sourceUrl": "https://rvbarminsk.by/menu-kuhni"
+      },
+      "changes": [
+        "image",
+        "imageSource",
+        "imageSourceLabel",
+        "sourceUrl"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "index": 1,
+      "name": "ДетЯм мороженое!",
+      "url": "https://rvbarminsk.by/Content/images/menu/detjam-morozhenoe-copy.png",
+      "bytes": 202388,
+      "mime": "image/png",
+      "sha256": "e9697df74767aab8a6df1e08b7c9d7359a5cafddf31b85b3f1d763a39fa7338c",
+      "filename": "001.png"
+    },
+    {
+      "index": 2,
+      "name": "А чё-чё",
+      "url": "https://rvbarminsk.by/Content/images/menu/karpachcho-iz-lososja.png",
+      "bytes": 289352,
+      "mime": "image/png",
+      "sha256": "d857ca81ece5f24e02289917386061d8cf76a338b66ec5f092df0355cb6292b8",
+      "filename": "002.png"
+    },
+    {
+      "index": 3,
+      "name": "Брускетта пушка-ракета",
+      "url": "https://rvbarminsk.by/Content/images/menu/brusketta-pushka-raketa-2.png",
+      "bytes": 225674,
+      "mime": "image/png",
+      "sha256": "3b5f5523fa1f0810c4db87d7d32564bff2b8502edbcdfa487ee0533fb24e9b17",
+      "filename": "003.png"
+    },
+    {
+      "index": 4,
+      "name": "Играем в бутылочку?",
+      "url": "https://rvbarminsk.by/Content/images/menu/igraem-v-butylochku.png",
+      "bytes": 182772,
+      "mime": "image/png",
+      "sha256": "5369e6c8ee0e304897af59075bfb80bae6997a8fac7bc4cb91245259d619e491",
+      "filename": "004.png"
+    },
+    {
+      "index": 5,
+      "name": "Жадина-говядина",
+      "url": "https://rvbarminsk.by/Content/images/menu/zhadina-govjadina-1.png",
+      "bytes": 250946,
+      "mime": "image/png",
+      "sha256": "ed905836ebcde33ca67cc47ab4b00d2d2cc735da0c62c54d51abb0039f0a2cd0",
+      "filename": "005.png"
+    },
+    {
+      "index": 6,
+      "name": "Закуска для папы",
+      "url": "https://rvbarminsk.by/Content/images/menu/zakuska-dlya-papy.png",
+      "bytes": 252053,
+      "mime": "image/png",
+      "sha256": "078d9b7ac6b96f8f93c0f58fd10a7124951f9e6d2e6b77a0c636c3955035f7e6",
+      "filename": "006.png"
+    },
+    {
+      "index": 7,
+      "name": "Трава у дома",
+      "url": "https://rvbarminsk.by/Content/images/menu/trava-u-doma.png",
+      "bytes": 293884,
+      "mime": "image/png",
+      "sha256": "3b7f12004a686e70c0863378098e33a0fa6fd6fcc46af65bfc69361d1bb81cd1",
+      "filename": "007.png"
+    },
+    {
+      "index": 8,
+      "name": "Аве! Цезарь!",
+      "url": "https://rvbarminsk.by/Content/images/menu/ave-cezar.png",
+      "bytes": 282134,
+      "mime": "image/png",
+      "sha256": "2be4b21983f550f3315f9d21c2cf86ffec7ffaec666ff31ef311cbd91933dacd",
+      "filename": "008.png"
+    },
+    {
+      "index": 9,
+      "name": "А вот и он! Весёлый доктор!",
+      "url": "https://rvbarminsk.by/Content/images/menu/veselyj-doktor2.png",
+      "bytes": 238274,
+      "mime": "image/png",
+      "sha256": "ff0e9aabc5c59efaf878b7cf1b407fc3d97c15f00ea98ca3c8870512ebadcabb",
+      "filename": "009.png"
+    },
+    {
+      "index": 10,
+      "name": "Вам бы лишь пощупать!",
+      "url": "https://rvbarminsk.by/Content/images/menu/vam-by-lish-poshchupat.png",
+      "bytes": 277515,
+      "mime": "image/png",
+      "sha256": "f0cd100653154578b2823ef7f4b88275d1819e93aa10be1f5993b688a21ef120",
+      "filename": "010.png"
+    },
+    {
+      "index": 11,
+      "name": "Тёплый баклажан",
+      "url": "https://rvbarminsk.by/Content/images/menu/teplyj-baklazhan.png",
+      "bytes": 294720,
+      "mime": "image/png",
+      "sha256": "dd5f3c5522c9cd0605b416476d451082e091ecbf7d75f64c4823ee854c85ef24",
+      "filename": "011.png"
+    },
+    {
+      "index": 12,
+      "name": "Тропикана женщина",
+      "url": "https://rvbarminsk.by/Content/images/menu/tropikana-zhenshchina.png",
+      "bytes": 312553,
+      "mime": "image/png",
+      "sha256": "e3e19a22c9060dc7eccf7c81e215a04ab36cd44f10a233f30d2fff15a1a06dd5",
+      "filename": "012.png"
+    },
+    {
+      "index": 13,
+      "name": "И с тобою, и со мной – это яйца",
+      "url": "https://rvbarminsk.by/Content/images/menu/i-s-toboju-i-so-mnoju-eto-jajca.png",
+      "bytes": 287717,
+      "mime": "image/png",
+      "sha256": "eefb8946fbf3172f6f471a7a096c6e30d209c335e2ef8d23d795e6e72a9ae005",
+      "filename": "013.png"
+    },
+    {
+      "index": 14,
+      "name": "Шеф развязал",
+      "url": "https://rvbarminsk.by/Content/images/menu/shef-soshel-s-uma.png",
+      "bytes": 307597,
+      "mime": "image/png",
+      "sha256": "05b57cd7a5eded6010a54d09047743586f0d47dfc0951b02157208b4d1d0d03b",
+      "filename": "014.png"
+    },
+    {
+      "index": 15,
+      "name": "В греческом зале…",
+      "url": "https://rvbarminsk.by/Content/images/menu/v-grecheskom-zale.png",
+      "bytes": 306925,
+      "mime": "image/png",
+      "sha256": "e39a387eb7e0848815a409b115c1d3692ec74e48c3399ef2cac43144eb449a62",
+      "filename": "015.png"
+    },
+    {
+      "index": 16,
+      "name": "Элтон Джон в Рязани",
+      "url": "https://rvbarminsk.by/Content/images/menu/elton-dzhon-v-rjazani.png",
+      "bytes": 381557,
+      "mime": "image/png",
+      "sha256": "8db8227d4a9f9f564edc2d1b5bcf0f01f74df0b3b2c938d5de838b69b4d8d5d6",
+      "filename": "016.png"
+    },
+    {
+      "index": 17,
+      "name": "Чубайс в оранжерее",
+      "url": "https://rvbarminsk.by/Content/images/menu/chubajs-v-oranzheree-1.png",
+      "bytes": 297243,
+      "mime": "image/png",
+      "sha256": "85f771427210dbaf29e6085709c5ae2d63daecac3d7027e21b81d039b4fa0f89",
+      "filename": "017.png"
+    },
+    {
+      "index": 18,
+      "name": "Один раз не нисуаз",
+      "url": "https://rvbarminsk.by/Content/images/menu/odin-raz-ne-nisuaz.png",
+      "bytes": 264008,
+      "mime": "image/png",
+      "sha256": "88c0a408d96c48c4e59f5270c6d75a2c78d7d56ef13d80ab8a6259b1785b0a23",
+      "filename": "018.png"
+    },
+    {
+      "index": 19,
+      "name": "Памела Андерсон",
+      "url": "https://rvbarminsk.by/Content/images/menu/pamela-anderson-1.png",
+      "bytes": 222651,
+      "mime": "image/png",
+      "sha256": "508bc32d8b0d0a2eeea88cac9f67965fb781df7277a9003836e13b8a1643bf31",
+      "filename": "019.png"
+    },
+    {
+      "index": 20,
+      "name": "Молчание ягнят",
+      "url": "https://rvbarminsk.by/Content/images/menu/molchanie-jagnjat-1.png",
+      "bytes": 258564,
+      "mime": "image/png",
+      "sha256": "5dbcd5099d36827f575a2f0ebc3a5183d0b4ea981a4fd2fc0d8d06c8661e15b3",
+      "filename": "020.png"
+    },
+    {
+      "index": 21,
+      "name": "Сырки не дружба",
+      "url": "https://rvbarminsk.by/Content/images/menu/syrki-ne-druzhba-3.png",
+      "bytes": 212297,
+      "mime": "image/png",
+      "sha256": "ae1df3fc492b0711ec84710a44becb40351abd005e704e1ee1680392fb13ed80",
+      "filename": "021.png"
+    },
+    {
+      "index": 22,
+      "name": "Вот он-язь! Здоровенный!",
+      "url": "https://rvbarminsk.by/Content/images/menu/vot-on-jaz-zdorovennyj-2.png",
+      "bytes": 256553,
+      "mime": "image/png",
+      "sha256": "ac1229396ca06f0ca41ca42212607b4cb06798ba586180754c4e5418cf92652e",
+      "filename": "022.png"
+    },
+    {
+      "index": 23,
+      "name": "Закуска а-ля 90-е",
+      "url": "https://rvbarminsk.by/Content/images/menu/zakuska-a-lja-90-e-1.png",
+      "bytes": 305562,
+      "mime": "image/png",
+      "sha256": "16fea23fbf68fb366f695d14aaadf1ccd228d5c11e743bcfa5f662122d1e3566",
+      "filename": "023.png"
+    },
+    {
+      "index": 24,
+      "name": "Пивное плато «Бригада»",
+      "url": "https://rvbarminsk.by/Content/images/menu/pivnoe-plato-brigada-3.png",
+      "bytes": 310425,
+      "mime": "image/png",
+      "sha256": "270ac5e022258ed5454767e587bbfb9f09dce9b2b236409fbdb72c60776125d8",
+      "filename": "024.png"
+    },
+    {
+      "index": 25,
+      "name": "Лихие 90-е",
+      "url": "https://rvbarminsk.by/Content/images/menu/lihie-90-e-1.png",
+      "bytes": 304009,
+      "mime": "image/png",
+      "sha256": "2ed892593d358b35a9143a3e9a1a33e6cfd9763ad055c3d5b6241536d82cae40",
+      "filename": "025.png"
+    },
+    {
+      "index": 26,
+      "name": "Драники по-богатому",
+      "url": "https://rvbarminsk.by/Content/images/menu/draniki-po-bogatomu.png",
+      "bytes": 225160,
+      "mime": "image/png",
+      "sha256": "ec57d842c56885e6d954e52bc653d9f210171738dfa1606ab16289c27de23dff",
+      "filename": "026.png"
+    },
+    {
+      "index": 27,
+      "name": "Попробуй джага-джага",
+      "url": "https://rvbarminsk.by/Content/images/menu/poprobuj-dzhaga-dzhaga-1.png",
+      "bytes": 203027,
+      "mime": "image/png",
+      "sha256": "c21f0de556247a2114068405b95ffbb2253d518884a4dceaa8fba3b884ebc71b",
+      "filename": "027.png"
+    },
+    {
+      "index": 28,
+      "name": "Тимон и Пумба",
+      "url": "https://rvbarminsk.by/Content/images/menu/timon-i-pumba.png",
+      "bytes": 279210,
+      "mime": "image/png",
+      "sha256": "1d85f5c917a81dadbc0754ea9c2c5ff483eb0c99ca5984315721461b24c1ceab",
+      "filename": "028.png"
+    },
+    {
+      "index": 29,
+      "name": "Мидийное место",
+      "url": "https://rvbarminsk.by/Content/images/menu/midijnoe-mesto-1.png",
+      "bytes": 213432,
+      "mime": "image/png",
+      "sha256": "993ec6eda2fdf423785e6a532b88f5ff95fad6337fe65333aa02b5cec883610e",
+      "filename": "029.png"
+    },
+    {
+      "index": 30,
+      "name": "Не грусти, похрусти",
+      "url": "https://rvbarminsk.by/Content/images/menu/ne-grusti-pohrusti-1.png",
+      "bytes": 196834,
+      "mime": "image/png",
+      "sha256": "5e16c0fa6d3b45224ed201c83535e229062214f36da81d014856dd210a74dc9e",
+      "filename": "030.png"
+    },
+    {
+      "index": 31,
+      "name": "Шары ярости",
+      "url": "https://rvbarminsk.by/Content/images/menu/shary-jarosti.png",
+      "bytes": 256422,
+      "mime": "image/png",
+      "sha256": "e7cbb36bd89fd06bbe39cb41665eb5816dc7a3410c594f3fb45edef20494f47d",
+      "filename": "031.png"
+    },
+    {
+      "index": 32,
+      "name": "Хрустяцкий сыыыыыыыр",
+      "url": "https://rvbarminsk.by/Content/images/menu/hrustjackij-syyyyyyyr.png",
+      "bytes": 239016,
+      "mime": "image/png",
+      "sha256": "01b1f067c0656f5c979a7f2b6c6255419aa0d5999e3085b090e07bf845b8441b",
+      "filename": "032.png"
+    },
+    {
+      "index": 33,
+      "name": "В Багдаде все спокойно",
+      "url": "https://rvbarminsk.by/Content/images/menu/v-bagdade-vse-spokojno-1.png",
+      "bytes": 308051,
+      "mime": "image/png",
+      "sha256": "3558afcda41821f71407485107d790f285a880f7358cbf6dac2073193e26714e",
+      "filename": "033.png"
+    },
+    {
+      "index": 34,
+      "name": "Сам ты — Наташа!",
+      "url": "https://rvbarminsk.by/Content/images/menu/sam-ty-natasha.png",
+      "bytes": 301503,
+      "mime": "image/png",
+      "sha256": "421dce3086f295198c53d7445fbb4ee9a0a99581fae5380faa8c6e2ebca6b0e9",
+      "filename": "034.png"
+    },
+    {
+      "index": 35,
+      "name": "Том Ям",
+      "url": "https://rvbarminsk.by/Content/images/menu/tom-jam-s-krevetkami.png",
+      "bytes": 298963,
+      "mime": "image/png",
+      "sha256": "6138d7b3860734016c30a4688249f0590839f845e3933fc9eb2106ea32c32d29",
+      "filename": "035.png"
+    },
+    {
+      "index": 36,
+      "name": "Борщ домашний",
+      "url": "https://rvbarminsk.by/Content/images/menu/borshch-domashnij-1.png",
+      "bytes": 319897,
+      "mime": "image/png",
+      "sha256": "81eacd99339af3b155fb5272000e3b413b923c5d157d787bb7ab2cdbbbe9950f",
+      "filename": "036.png"
+    },
+    {
+      "index": 37,
+      "name": "Фетучини с лососем",
+      "url": "https://rvbarminsk.by/Content/images/menu/fetuchini-s-lososem2.png",
+      "bytes": 243287,
+      "mime": "image/png",
+      "sha256": "f99eb0164c17b4d3ca7bc85c8b6e974366d0c5cb1265c0f8dd1a2e642e612b0d",
+      "filename": "037.png"
+    },
+    {
+      "index": 38,
+      "name": "Соба с морепродуктами",
+      "url": "https://rvbarminsk.by/Content/images/menu/soba-s-moreproduktami.png",
+      "bytes": 289988,
+      "mime": "image/png",
+      "sha256": "ebd1251662fdb80719c63e799ac419fd2b5fa33e0f3c05b098dfd5efa8bad456",
+      "filename": "038.png"
+    },
+    {
+      "index": 39,
+      "name": "Барби паста",
+      "url": "https://rvbarminsk.by/Content/images/menu/barbi-pasta.png",
+      "bytes": 305656,
+      "mime": "image/png",
+      "sha256": "f5aad33c103cd6dcaab63d549ffe811dd3f17474e46028259cd7b5f44f43e614",
+      "filename": "039.png"
+    },
+    {
+      "index": 40,
+      "name": "Спагетти Том Ям",
+      "url": "https://rvbarminsk.by/Content/images/menu/spagetti-tom-jam.png",
+      "bytes": 272155,
+      "mime": "image/png",
+      "sha256": "80c7557e994d14cc1579834ed988090316ebff7564795d3dd66c1ef8f73b522b",
+      "filename": "040.png"
+    },
+    {
+      "index": 41,
+      "name": "Спагетти Карбонара",
+      "url": "https://rvbarminsk.by/Content/images/menu/spagetti-karbonara-2-1.png",
+      "bytes": 301209,
+      "mime": "image/png",
+      "sha256": "b24f03df3ad378b44ba74f4c92f0a4bb6b562d50ea2d6d0e5cae82d098597e89",
+      "filename": "041.png"
+    },
+    {
+      "index": 42,
+      "name": "Удон с индейкой",
+      "url": "https://rvbarminsk.by/Content/images/menu/udon-s-utkoj.png",
+      "bytes": 290710,
+      "mime": "image/png",
+      "sha256": "deb23341f187d46639553bc7cd68141c121034cd2fe6e1170d4127acd1b37f94",
+      "filename": "042.png"
+    },
+    {
+      "index": 43,
+      "name": "Кевин спайси",
+      "url": "https://rvbarminsk.by/Content/images/menu/kevin-spajsi_2.png",
+      "bytes": 57630,
+      "mime": "image/png",
+      "sha256": "a3b94016894d2305049d0a8d86e080f8ab03f3ed6026b8af2c95f9977ed4aa4c",
+      "filename": "043.png"
+    },
+    {
+      "index": 44,
+      "name": "Мамин симпатяга",
+      "url": "https://rvbarminsk.by/Content/images/menu/mamin-simpatyaga_2-1.png",
+      "bytes": 63495,
+      "mime": "image/png",
+      "sha256": "02cfa79f08cafe3c07f708b8ea435cae6c10132e627fe9ea89ec2b00012e86ff",
+      "filename": "044.png"
+    },
+    {
+      "index": 45,
+      "name": "Побег из курятника",
+      "url": "https://rvbarminsk.by/Content/images/menu/pobeg-iz-kuryatnika.png",
+      "bytes": 239740,
+      "mime": "image/png",
+      "sha256": "9398a6dbd1f6756ba3f53a8273657caa9e282fba8db82f38e922950fe1b7d18e",
+      "filename": "045.png"
+    },
+    {
+      "index": 46,
+      "name": "Мальчик хочет тюрбо",
+      "url": "https://rvbarminsk.by/Content/images/menu/malchik-hochet-tjurbo-2.png",
+      "bytes": 286412,
+      "mime": "image/png",
+      "sha256": "f6136532cc44aa26264a45f3c793b111112da4f9b6a52fef1dd4050bc01ac048",
+      "filename": "046.png"
+    },
+    {
+      "index": 47,
+      "name": "Драники с мачанкой",
+      "url": "https://rvbarminsk.by/Content/images/menu/draniki-s-mochankoi.png",
+      "bytes": 336417,
+      "mime": "image/png",
+      "sha256": "3454b44e3ce70bd2ca746ee5b3e33572de078f01b71e97a8c217d06b7da02546",
+      "filename": "047.png"
+    },
+    {
+      "index": 48,
+      "name": "Импортозамещение началось",
+      "url": "https://rvbarminsk.by/Content/images/menu/importozameshchenie-nachalos.png",
+      "bytes": 273789,
+      "mime": "image/png",
+      "sha256": "afca094a70aedab1fc3dd6be177a07e7e5bd18fc74b6ea1a6ebcbf6f1f116d1d",
+      "filename": "048.png"
+    },
+    {
+      "index": 49,
+      "name": "Филе миньон",
+      "url": "https://rvbarminsk.by/Content/images/menu/file-minon-1.png",
+      "bytes": 248306,
+      "mime": "image/png",
+      "sha256": "074bd001d131901ea9932fa68a7896f3616442f6f8a31c55a4e73bf97b64e616",
+      "filename": "049.png"
+    },
+    {
+      "index": 50,
+      "name": "Настоящему индейцу",
+      "url": "https://rvbarminsk.by/Content/images/menu/nastojashchnmu-indejcu-3.png",
+      "bytes": 294451,
+      "mime": "image/png",
+      "sha256": "0e61ab9cbfe3b3c6c63283cdef65c027fe81097eaa429b16ac352b84f88dba32",
+      "filename": "050.png"
+    },
+    {
+      "index": 51,
+      "name": "Стреляй, Пятачок!",
+      "url": "https://rvbarminsk.by/Content/images/menu/streljaj-pjatachok.png",
+      "bytes": 260783,
+      "mime": "image/png",
+      "sha256": "bae523e6e641eafee05642fcae0eeacd591f93392ef02b2e24f37e7b675a38a6",
+      "filename": "051.png"
+    },
+    {
+      "index": 52,
+      "name": "В Тае День Благодарения",
+      "url": "https://rvbarminsk.by/Content/images/menu/v-tae-den-blagodarenija-2.png",
+      "bytes": 271948,
+      "mime": "image/png",
+      "sha256": "d4ecc9d3cdaf510141a96487332db967b94f93f56a21d7b4097658fd1dc1ecb7",
+      "filename": "052.png"
+    },
+    {
+      "index": 53,
+      "name": "Стейк лосося",
+      "url": "https://rvbarminsk.by/Content/images/menu/stejk-lososja-1.png",
+      "bytes": 301472,
+      "mime": "image/png",
+      "sha256": "8dbdc40fb4f8a00450947226c5139f424f339ae0bcee2bd0f1aa64fb19569628",
+      "filename": "053.png"
+    },
+    {
+      "index": 54,
+      "name": "Могу себе позволить",
+      "url": "https://rvbarminsk.by/Content/images/menu/mogu-sebe-pozvolit-1.png",
+      "bytes": 273981,
+      "mime": "image/png",
+      "sha256": "545b6f79758ea0629d2ce0ffa7b0f82e66b4b7300a86ffc7d8161255ca90bc6d",
+      "filename": "054.png"
+    },
+    {
+      "index": 55,
+      "name": "Гаврюша, ко мне!",
+      "url": "https://rvbarminsk.by/Content/images/menu/gavrjusha-ko-mne.png",
+      "bytes": 306890,
+      "mime": "image/png",
+      "sha256": "27bdbbab176714e48eb93038e59c02cab567ec3072c75267eddeed302d588fcd",
+      "filename": "055.png"
+    },
+    {
+      "index": 56,
+      "name": "Птичку жалко!",
+      "url": "https://rvbarminsk.by/Content/images/menu/ptichku-zhalk.png",
+      "bytes": 239951,
+      "mime": "image/png",
+      "sha256": "3aef701c8e36d82233fa78813757aa1148e55d887000e7e8dc3a0c7f7abeeb09",
+      "filename": "056.png"
+    },
+    {
+      "index": 57,
+      "name": "Стейк пиканья",
+      "url": "https://rvbarminsk.by/Content/images/menu/stejk-pikanja.png",
+      "bytes": 240208,
+      "mime": "image/png",
+      "sha256": "cc94e8c264414a13135fc73a9f453087374fa0065c06ea12a5542542c14040b4",
+      "filename": "057.png"
+    },
+    {
+      "index": 58,
+      "name": "Биф очень строганов",
+      "url": "https://rvbarminsk.by/Content/images/menu/bif-ochen-stroganov-2.png",
+      "bytes": 272370,
+      "mime": "image/png",
+      "sha256": "c82918d77d88b9880715b32c0fcbea0bd4ccb8a23d4bcad1600c995c26f026b8",
+      "filename": "058.png"
+    },
+    {
+      "index": 59,
+      "name": "Сковорода от папы",
+      "url": "https://rvbarminsk.by/Content/images/menu/skovoroda-ot-papy-2.png",
+      "bytes": 257188,
+      "mime": "image/png",
+      "sha256": "47a4746bfb5c9ef0f96044bec5756251e53e8f1d685ef3540773b21d56fad1dd",
+      "filename": "059.png"
+    },
+    {
+      "index": 60,
+      "name": "Свободу Анджеле Девис!",
+      "url": "https://rvbarminsk.by/Content/images/menu/sloj-12.png",
+      "bytes": 270502,
+      "mime": "image/png",
+      "sha256": "f5a1f763aab0076a4cb21912d71fd338647fa52bc240a8776f6378919454b0b3",
+      "filename": "060.png"
+    },
+    {
+      "index": 61,
+      "name": "Гренки Чеснокова",
+      "url": "https://rvbarminsk.by/Content/images/menu/grenki-chesnokova.png",
+      "bytes": 338879,
+      "mime": "image/png",
+      "sha256": "f80f1a62560918e5e97416697c32e00a2ccee25a983e60889507bcbfc8ef3174",
+      "filename": "061.png"
+    },
+    {
+      "index": 62,
+      "name": "Батат FREE",
+      "url": "https://rvbarminsk.by/Content/images/menu/batat-free.png",
+      "bytes": 308933,
+      "mime": "image/png",
+      "sha256": "56e7a3c227d2abbb7a71a9b2724ea0ddb427f2b3f2bea78bfcab271c492471d8",
+      "filename": "062.png"
+    },
+    {
+      "index": 63,
+      "name": "Молодой картофель",
+      "url": "https://rvbarminsk.by/Content/images/menu/molodoj-kartofel.png",
+      "bytes": 250769,
+      "mime": "image/png",
+      "sha256": "b892a37c6cb1d5d3fdf5ed6486345761a2bf26d7f5f5ae0c25d147a32eb3f3a5",
+      "filename": "063.png"
+    },
+    {
+      "index": 64,
+      "name": "Картофельное пюре",
+      "url": "https://rvbarminsk.by/Content/images/menu/kartofelnoe-pjure.png",
+      "bytes": 235532,
+      "mime": "image/png",
+      "sha256": "58b8984fe0570acb711683180465db54569e8255a98d96d6c0f3a1292bbf97d4",
+      "filename": "064.png"
+    },
+    {
+      "index": 65,
+      "name": "Салат из помидоров с красным луком",
+      "url": "https://rvbarminsk.by/Content/images/menu/salat-iz-pomidorov-s-krasnym-lukom.png",
+      "bytes": 243216,
+      "mime": "image/png",
+      "sha256": "74dbf997d4c0a18f8c0bfd95568050df459dd23b8000456cd4ee38723835d92b",
+      "filename": "065.png"
+    },
+    {
+      "index": 66,
+      "name": "Малосольные огурцы",
+      "url": "https://rvbarminsk.by/Content/images/menu/malosolnye-ogurcy.png",
+      "bytes": 272156,
+      "mime": "image/png",
+      "sha256": "3ef13016fb81fc48df0bebf29bae5e0675b5eae94eae5e7c962337606bf6212b",
+      "filename": "066.png"
+    },
+    {
+      "index": 67,
+      "name": "Фокачча с розмарином",
+      "url": "https://rvbarminsk.by/Content/images/menu/fokachcha-s-rozmarinom.png",
+      "bytes": 275752,
+      "mime": "image/png",
+      "sha256": "413bd43aad8ee0ef842d034b3db7d0198dc1aab798a8a3421c76655ccacc5ef2",
+      "filename": "067.png"
+    },
+    {
+      "index": 68,
+      "name": "Хлебная корзина",
+      "url": "https://rvbarminsk.by/Content/images/menu/chesnochnyj-hleb.png",
+      "bytes": 235275,
+      "mime": "image/png",
+      "sha256": "2f061c30d758fe6cd90cc6fe8fa78ca855ff919383e0d9631f6e35ab413c8259",
+      "filename": "068.png"
+    },
+    {
+      "index": 69,
+      "name": "Руки ВВерх с сырным бортом",
+      "url": "https://rvbarminsk.by/Content/images/menu/ruki-vverh-s-syrnym-bortom.png",
+      "bytes": 294275,
+      "mime": "image/png",
+      "sha256": "4b372d17353caba3226893277cb2c1142ffc6067821ba2f513b32cba4da071bf",
+      "filename": "069.png"
+    },
+    {
+      "index": 70,
+      "name": "Цыплёнок BBQ",
+      "url": "https://rvbarminsk.by/Content/images/menu/czyplenok-bbq-2.png",
+      "bytes": 82890,
+      "mime": "image/png",
+      "sha256": "61a9966f30367d21306ccc5574c035694d40520208dcba764d99f61f2d795154",
+      "filename": "070.png"
+    },
+    {
+      "index": 71,
+      "name": "Карбонара",
+      "url": "https://rvbarminsk.by/Content/images/menu/piczcza-karbonara2.png",
+      "bytes": 95425,
+      "mime": "image/png",
+      "sha256": "0693ddd0b1ff26082e227c3e79eb711858b9f70271d54d94bddcf40fff5016d9",
+      "filename": "071.png"
+    },
+    {
+      "index": 72,
+      "name": "Пицца охотничья",
+      "url": "https://rvbarminsk.by/Content/images/menu/picca-ohotnichja-1.png",
+      "bytes": 312407,
+      "mime": "image/png",
+      "sha256": "ca607d2a4c62dba3e334d0eb7a8ff6ae55a267d02f2d3d472f24b6b321d386b8",
+      "filename": "072.png"
+    },
+    {
+      "index": 73,
+      "name": "С грушей и горгондзолой",
+      "url": "https://rvbarminsk.by/Content/images/menu/picca-s-grushei-i-gorgondzoloi.png",
+      "bytes": 327380,
+      "mime": "image/png",
+      "sha256": "db13a673e0bb8a9745d42ea8fba59fd12f975a2ea869c4ed56a40d73a9d26445",
+      "filename": "073.png"
+    },
+    {
+      "index": 74,
+      "name": "С беконом и пепперони",
+      "url": "https://rvbarminsk.by/Content/images/menu/piczcza-s-bekonom-i-pepperoni.png",
+      "bytes": 82097,
+      "mime": "image/png",
+      "sha256": "8934ad8e020601042de6e404f86ddd7fa29f3ff51c24fe63d448b3cc1ccd23fb",
+      "filename": "074.png"
+    },
+    {
+      "index": 75,
+      "name": "Пепперони",
+      "url": "https://rvbarminsk.by/Content/images/menu/piczcza-pepperoni.png",
+      "bytes": 88354,
+      "mime": "image/png",
+      "sha256": "1281fc744cf9cabc37a27de353a5519b9967aa001abf833fa8dd3a38044dd975",
+      "filename": "075.png"
+    },
+    {
+      "index": 76,
+      "name": "С ветчиной и грибами",
+      "url": "https://rvbarminsk.by/Content/images/menu/s-vetchinoj-i-gribami.png",
+      "bytes": 81974,
+      "mime": "image/png",
+      "sha256": "5913df6e5f63082d2653cae114a85c042eed0d61e37a2178f3f579e1a07d77a2",
+      "filename": "076.png"
+    },
+    {
+      "index": 77,
+      "name": "Цезарь с курицей",
+      "url": "https://rvbarminsk.by/Content/images/menu/piczcza-czezar-s-kuriczej.png",
+      "bytes": 75651,
+      "mime": "image/png",
+      "sha256": "f59772404ba3c3f366ce7397bab9b8c388dd64e29fd68f52dc45a67e5028a2d8",
+      "filename": "077.png"
+    },
+    {
+      "index": 78,
+      "name": "Четыре сыра",
+      "url": "https://rvbarminsk.by/Content/images/menu/piczcza-chetyre-syra.png",
+      "bytes": 82940,
+      "mime": "image/png",
+      "sha256": "b06b6559c65280185fd803c37f56e81498c21662b088b1910582aeb1dde38895",
+      "filename": "078.png"
+    },
+    {
+      "index": 79,
+      "name": "Мороженка 90-е",
+      "url": "https://rvbarminsk.by/Content/images/menu/morozhennoe-90-e.png",
+      "bytes": 180482,
+      "mime": "image/png",
+      "sha256": "3ef81a001122bf2fd7894d4f84da750bd4b7a17a1b29796975033186222ac60b",
+      "filename": "079.png"
+    },
+    {
+      "index": 80,
+      "name": "Мне ухаживать некогда",
+      "url": "https://rvbarminsk.by/Content/images/menu/zakatki-na-zimu.png",
+      "bytes": 195346,
+      "mime": "image/png",
+      "sha256": "7e60abdabf8ad46801dfc36ee32ead32ead47a5d86d26de742e4587561e74687",
+      "filename": "080.png"
+    },
+    {
+      "index": 81,
+      "name": "Фисташковый рулет",
+      "url": "https://rvbarminsk.by/Content/images/menu/fistashkoyi-rulet.png",
+      "bytes": 204788,
+      "mime": "image/png",
+      "sha256": "951189bdc0d4b98d5e065735f08ee7956f3770ed145700a46b031b2dc998ae31",
+      "filename": "081.png"
+    },
+    {
+      "index": 82,
+      "name": "Яблочный штрейзель",
+      "url": "https://rvbarminsk.by/Content/images/menu/yablochnyi-shtreizel.png",
+      "bytes": 196120,
+      "mime": "image/png",
+      "sha256": "e90495960b8efa598b932ecf79221d4a31865555e77fc78bb058c09628793ff5",
+      "filename": "082.png"
+    },
+    {
+      "index": 83,
+      "name": "Чизкейк манго",
+      "url": "https://rvbarminsk.by/Content/images/menu/chizkeik-mango.png",
+      "bytes": 189341,
+      "mime": "image/png",
+      "sha256": "24c83eb6cbf8365699bb4e24415f3599ce7f54def879220d3d477406c4897e49",
+      "filename": "083.png"
+    }
+  ]
+}
