@@ -1,0 +1,234 @@
+{
+  "verifiedAt": "2026-10-28",
+  "source": "https://docs.google.com/document/d/1n1rBC1Jgj9fW3cp-v05RahPYMxW159ke/edit",
+  "editorialScope": "Verified edited handbook, not a verbatim import. Unverified brand histories and universal recipes were omitted; original source preserved privately.",
+  "sections": [
+    {
+      "title": "0. Основные понятия",
+      "sources": [
+        [
+          "ВОЗ: алкоголь",
+          "https://www.who.int/news-room/fact-sheets/detail/alcohol"
+        ],
+        [
+          "CDC: отравление метанолом",
+          "https://www.cdc.gov/mmwr/volumes/65/wr/mm6522a4.htm"
+        ],
+        [
+          "Пример технологического процесса: BACARDÍ",
+          "https://www.bacardi.com/us/en/culture/everything-you-need-to-know-about-rum/"
+        ]
+      ]
+    },
+    {
+      "title": "1. Водка",
+      "sources": [
+        [
+          "Absolut: сырьё и производство",
+          "https://www.absolut.com/en-us/faq/"
+        ],
+        [
+          "ЕС: определение водки, приложение I, категория 15",
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0787-20240513"
+        ]
+      ]
+    },
+    {
+      "title": "2. Джин",
+      "sources": [
+        [
+          "ЕС: категории 20–22",
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0787-20240513"
+        ],
+        [
+          "Hendrick’s: состав и профиль",
+          "https://hendricksgin.com/faqs/"
+        ]
+      ]
+    },
+    {
+      "title": "3. Текила и другие напитки Мексики",
+      "sources": [
+        [
+          "CRT: категории, классы и происхождение",
+          "https://www.crt.org.mx/nuestro-tequila/"
+        ],
+        [
+          "NOM-006: спецификация текилы",
+          "https://old.crt.org.mx/images/documentos/Normas/NOM_006_SCFI_2012_Ingles.pdf"
+        ],
+        [
+          "Правительство Мексики: сырьё sotol",
+          "https://www.gob.mx/profepa/articulos/el-sotol-y-la-pata-de-elefante-especies-protegidas-por-la-ley?idiom=es"
+        ],
+        [
+          "NOM-070: спецификация мескаля",
+          "https://dof.gob.mx/nota_detalle_popup.php?codigo=5472787"
+        ]
+      ]
+    },
+    {
+      "title": "4. Ром и кашаса",
+      "sources": [
+        [
+          "BACARDÍ: производство, цвет и выдержка",
+          "https://www.bacardi.com/us/en/faq/"
+        ],
+        [
+          "Бразилия: спецификация cachaça",
+          "https://www.gov.br/inpi/pt-br/servicos/indicacoes-geograficas/arquivos/cadernos-de-especificacoes-tecnicas/LuizAlvescachaaeaguardente.pdf"
+        ]
+      ]
+    },
+    {
+      "title": "5. Виски",
+      "sources": [
+        [
+          "SWA: требования Scotch",
+          "https://www.scotch-whisky.org.uk/industry-insights/protecting-scotch-whisky/"
+        ],
+        [
+          "SWA: пять категорий",
+          "https://www.scotch-whisky.org.uk/discover-scotch/enjoying-scotch/scotch-whisky-categories/"
+        ],
+        [
+          "SWA: регионы",
+          "https://www.scotch-whisky.org.uk/media/2492/big-map-of-scotch-whisky-scotch-whisky-association-2025.pdf"
+        ],
+        [
+          "Ирландия: техническая спецификация",
+          "https://www.marketaccess.agriculture.gov.ie/media/marketaccess/content/Irish%20Whiskey%20Technical%20File.pdf"
+        ],
+        [
+          "США: 27 CFR 5.143",
+          "https://www.govinfo.gov/content/pkg/CFR-2025-title27-vol1/pdf/CFR-2025-title27-vol1-chapI.pdf"
+        ],
+        [
+          "TTB: новый стандарт American Single Malt",
+          "https://www.ttb.gov/public-information/featured-stories/ttb-establishes-american-single-malt-whisky-standard-identity"
+        ],
+        [
+          "Heaven Hill: требования Bottled in Bond",
+          "https://heavenhill.com/news-and-notes/heaven-hill-distillery-announces-spring-2026-edition-of-the-old-fitzgerald-bottled-in-bond-decanter-series/"
+        ],
+        [
+          "SWA: ответы о выдержке и подаче",
+          "https://www.scotch-whisky.org.uk/discover-scotch/faqs/"
+        ]
+      ]
+    },
+    {
+      "title": "6. Бренди и родственные дистилляты",
+      "sources": [
+        [
+          "Metaxa: состав",
+          "https://www.metaxa.com/en-nz/pages/discover-metaxa"
+        ],
+        [
+          "Campari Group: Cynar",
+          "https://www.camparigroup.com/en/pages/brands?brand_house_category=house-of-aperitifs"
+        ],
+        [
+          "BNIC: Cognac, возраст и крепость",
+          "https://www.cognac.fr/faq/"
+        ],
+        [
+          "BNIA: Blanche Armagnac",
+          "https://www.armagnac.fr/learn-blanche-armagnac-aoc"
+        ],
+        [
+          "BNIA: способы дистилляции",
+          "https://www.armagnac.fr/fiche-producteur/janneau-sa/413"
+        ]
+      ]
+    },
+    {
+      "title": "7. Ликёры, аперитивы и биттеры",
+      "sources": [
+        [
+          "Chartreuse: продукт и состав",
+          "https://www.chartreuse.fr/produit/chartreuse-verte/"
+        ],
+        [
+          "Kahlúa: происхождение и сырьё",
+          "https://www.kahlua.com/en-us/about/"
+        ],
+        [
+          "Grand Marnier: композиция",
+          "https://www.grandmarnier.com/fr-fr/notre-alchimie/"
+        ],
+        [
+          "Baileys: состав и аллерген",
+          "https://www.baileys.com/en-us/products/baileys-original-irish-cream"
+        ]
+      ]
+    },
+    {
+      "title": "8. Херес",
+      "sources": [
+        [
+          "Consejo Regulador: спецификация DOP Jerez",
+          "https://www.juntadeandalucia.es/sites/default/files/inline-files/2024/05/Pliego_Jerez_modif_UE_2.pdf"
+        ],
+        [
+          "Consejo Regulador: вступление изменений в силу, отчёт 2025",
+          "https://www.sherry.wine/documents/593/Memoria_2025_compressed_1.pdf"
+        ],
+        [
+          "Sherry Wines: возрастные категории",
+          "https://wwv.sherry.wine/sherry-wine/special-categories"
+        ],
+        [
+          "Sherry Wines: крепление",
+          "https://www.sherry.wine/news/what-is-fortification-in-sherry-wine"
+        ],
+        [
+          "Sherry Wines: Cream и сочетания",
+          "https://cdn.sherry.wine/sherry-wine/sweet-sherry-wines/cream"
+        ]
+      ]
+    },
+    {
+      "title": "9. Портвейн",
+      "sources": [
+        [
+          "IVDP: производство и стили",
+          "https://www.ivdp.pt/en/wines/port-wines/introduction"
+        ],
+        [
+          "IVDP: актуальные специальные категории",
+          "https://ivdp.pt/pt/vinhos/vinhos-do-porto/categorias-especiais/"
+        ],
+        [
+          "IVDP: подача и хранение",
+          "https://ivdp.pt/en/wines/port-wines/choose-and-enjoy/"
+        ]
+      ]
+    },
+    {
+      "title": "10. Вермут",
+      "sources": [
+        [
+          "ЕС: Regulation 251/2014, определение и сладость",
+          "https://eur-lex.europa.eu/eli/reg/2014/251/oj/eng"
+        ]
+      ]
+    }
+  ],
+  "corrections": [
+    "Removed claims that fusel oils protect the liver and rectification makes alcohol harmless.",
+    "Removed universal distillation temperatures, cuts and lethal-dose instructions.",
+    "Vodka feedstocks and Mendeleev legend corrected.",
+    "Gin definitions updated to EU 2019/787; London Dry not geographical.",
+    "Tequila categories separated from age classes; 35–55% and minimum ages corrected.",
+    "Mezcal categories corrected; sotol is Dasylirion.",
+    "Rum colour not an age guarantee; cachaça 38–48%.",
+    "Five Scotch categories; Irish triple distillation not mandatory; bourbon/straight distinction.",
+    "American Single Malt standard effective 2025 added.",
+    "Cognac VS/VSOP/XO minima corrected; Armagnac Blanche exception.",
+    "Kahlúa Mexican, Grand Marnier French; Baileys and Chartreuse facts corrected.",
+    "Sherry unfortified category, expanded grapes, solera explanation corrected.",
+    "Port current categories, Garrafeira and Reserve outdated timings removed.",
+    "Vermouth sugar categories corrected; colour not sweetness."
+  ]
+}
