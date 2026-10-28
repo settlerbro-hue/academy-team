@@ -5,8 +5,17 @@ const ctx={esc,ingredients:()=>[]};vm.createContext(ctx);
 vm.runInContext(src.slice(src.indexOf('function studyText('),src.indexOf('function menuCategoryIcon(')),ctx);
 const wines=JSON.parse(fs.readFileSync(root+'/supabase/wine-information-20261028.json','utf8'));
 assert.equal(wines.length,51);assert.equal(new Set(wines.map(w=>w.id)).size,51);
-for(const w of wines){const item=ctx.studyItem({category:'wine',description:w.description}),html=ctx.menuDescription(item);assert.equal(item.description,w.description,'Uncertainty and line breaks survive study cleanup: '+w.id);assert.equal((html.match(/<strong>/g)||[]).length,8,w.id);assert.equal(w.description.split('\n').length,8);assert(!w.description.includes('undefined'));}
+for(const w of wines){const legacy={category:'wine',description:w.description},item=ctx.studyItem(legacy),html=ctx.menuDescription(item),details=ctx.menuDetails(item);assert.equal((html.match(/<strong>/g)||[]).length,4,w.id);assert.equal(item.description.split('\n').length,4);assert.equal((details.match(/<h4>/g)||[]).length,4,w.id);assert(details.includes('<summary>Подробнее</summary>'));assert(!html.includes('Способ производства'));assert(item.productionMethod.length>0);for(const key of ['styleDescription','tastingNotes','gastronomy','productionMethod'])assert.equal(ctx.menuWineInformation(item)[key],ctx.menuWineInformation(legacy)[key]);assert(!w.description.includes('undefined'));}
+assert(ctx.menuDetails({category:'wine',description:wines[0].description,gastronomy:''}).includes('Подробнее'));
+assert(!ctx.menuDetails({features:'legacy'}));
+assert(!ctx.menuDetailsEditor({}).includes('features'));
+assert(!src.includes('<summary>Подача и приготовление</summary>'));
+assert(!src.includes('<h4>Что запомнить</h4>'));
+assert(!src.includes('Что запомнить<textarea'));
+assert(ctx.menuDetails({method:'Встряхнуть',garnish:'Лайм'}).includes('Встряхнуть'));
+assert(ctx.menuDetails({gastronomy:'<script>x</script>'}).includes('&lt;script&gt;'));
+for(const key of ['styleDescription','tastingNotes','gastronomy','productionMethod'])assert(ctx.menuDetailsEditor({[key]:'custom'}).includes('name="'+key+'">custom'));
 assert(!ctx.menuDescription({category:'wine',description:'Вино: <img src=x onerror=alert(1)>\nСахар: <script>x</script>'}).includes('<script>'));
 assert(ctx.menuDescription({category:'cocktails',description:'Вино: <b>text</b>'}).includes('&lt;b&gt;'));
 assert.equal(wines.filter(w=>w.id.startsWith('90-')).length,30);assert.equal(wines.filter(w=>w.id.startsWith('rvb-')).length,21);
-console.log('PASS: 51 wines / 8 fields each; uncertain facts preserved; safe text rendering; other drinks unchanged.');
+console.log('PASS: 51 wines; four basic facts and four separate Details fields; legacy fallback, editable fields, escaping, removed memorization UI, existing recipes preserved.');
