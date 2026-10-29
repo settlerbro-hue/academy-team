@@ -64,12 +64,12 @@ body{font-family:Geologica,Arial,sans-serif;background:#f9f5f2;color:#1a1a1d}but
 /* Three independent, server-scoped bar references. */
 .bar-knowledge-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0 24px}.bar-knowledge-links .bar-knowledge-entry{margin:0;padding:20px;gap:12px}.bar-knowledge-links .bar-knowledge-entry strong{font-size:20px}.bar-knowledge-links .bar-knowledge-entry>span:first-child{min-width:0}.bar-knowledge-links .bar-knowledge-entry>span:first-child>span:last-child{font-size:13px;line-height:1.5}@media(max-width:850px){.bar-knowledge-links{grid-template-columns:1fr}.bar-knowledge-links .bar-knowledge-entry{padding:16px 18px}.bar-knowledge-links .bar-knowledge-entry>span:first-child{gap:4px}}
 
-/* Keep a test and its wrapper in one full-width slot of the mobile lesson rail. */
+/* Stack complete lesson and test names on phones and narrow tablets. */
 @media(max-width:850px){
- .lesson-nav{align-items:stretch}
- .lesson-nav>button,.lesson-nav>.course-test-step{flex:0 0 220px;min-width:0;max-width:220px}
- .lesson-nav>.course-test-step{display:flex;align-self:stretch}
- .lesson-nav>.course-test-step>button{flex:1;min-width:0;white-space:normal;overflow-wrap:anywhere}
+ .lesson-nav{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;overflow:visible;align-items:stretch}
+ .lesson-nav>button,.lesson-nav>.course-test-step{width:100%;min-width:0;max-width:none}
+ .lesson-nav>.course-test-step{display:block}
+ .lesson-nav>button,.lesson-nav>.course-test-step>button{width:100%;min-width:0;height:auto;white-space:normal;overflow-wrap:anywhere}
 }
 @media(max-width:800px){
  .nav button span{min-width:0;max-width:100%;min-height:2.5em;white-space:normal;overflow-wrap:anywhere;hyphens:auto;text-align:center}
