@@ -1,0 +1,833 @@
+{
+  "strongItems": [
+    "rvb-autumn26-35-1",
+    "rvb-autumn26-36-1",
+    "rvb-autumn26-37-1",
+    "rvb-autumn26-38-1",
+    "rvb-autumn26-40-1",
+    "rvb-autumn26-41-1",
+    "rvb-autumn26-42-1",
+    "rvb-autumn26-44-1",
+    "rvb-autumn26-45-1",
+    "rvb-autumn26-46-1",
+    "rvb-autumn26-48-1",
+    "rvb-autumn26-49-1",
+    "rvb-autumn26-49-2",
+    "rvb-autumn26-50-1",
+    "rvb-autumn26-51-1",
+    "rvb-autumn26-53-1",
+    "rvb-autumn26-54-1",
+    "rvb-autumn26-54-2",
+    "rvb-autumn26-54-3",
+    "rvb-autumn26-55-1",
+    "rvb-autumn26-57-1",
+    "rvb-autumn26-58-1",
+    "rvb-autumn26-59-1",
+    "rvb-autumn26-60-1",
+    "rvb-autumn26-61-1",
+    "rvb-autumn26-62-1",
+    "rvb-autumn26-65-1",
+    "rvb-autumn26-66-1",
+    "rvb-autumn26-68-1",
+    "rvb-autumn26-69-1",
+    "rvb-autumn26-70-1",
+    "rvb-autumn26-71-1",
+    "rvb-autumn26-72-1",
+    "rvb-autumn26-74-1",
+    "rvb-autumn26-75-1",
+    "rvb-autumn26-76-1",
+    "rvb-autumn26-77-1",
+    "rvb-autumn26-78-1",
+    "rvb-autumn26-80-1",
+    "rvb-autumn26-81-1",
+    "rvb-autumn26-83-1",
+    "rvb-autumn26-84-1",
+    "rvb-autumn26-86-1",
+    "rvb-autumn26-87-1",
+    "rvb-autumn26-88-1",
+    "rvb-autumn26-89-1",
+    "rvb-autumn26-91-1",
+    "rvb-autumn26-92-1",
+    "rvb-autumn26-93-1",
+    "rvb-autumn26-94-1",
+    "rvb-autumn26-95-1",
+    "rvb-autumn26-96-1",
+    "rvb-autumn26-97-1"
+  ],
+  "wineItems": [
+    "rvb-wine-11",
+    "rvb-wine-12",
+    "rvb-wine-13",
+    "rvb-wine-16",
+    "rvb-wine-17",
+    "rvb-wine-18",
+    "rvb-wine-19",
+    "rvb-wine-20",
+    "rvb-wine-22",
+    "rvb-wine-24",
+    "rvb-wine-25",
+    "rvb-wine-26",
+    "rvb-wine-28",
+    "rvb-wine-29",
+    "rvb-wine-30",
+    "rvb-wine-32",
+    "rvb-wine-4",
+    "rvb-wine-5",
+    "rvb-wine-7",
+    "rvb-wine-8",
+    "rvb-wine-9"
+  ],
+  "retiredTests": [
+    "rvb-assortment-test-beer",
+    "rvb-waiter-bar-test-2"
+  ],
+  "questions": [
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-35-1",
+      "topic": "Вермут",
+      "menuItemId": "rvb-autumn26-35-1",
+      "source": [
+        "menu:rvb-autumn26-35-1"
+      ],
+      "answer": "Апельсин и цитрусовая горчинка"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-40-1",
+      "topic": "Коньяк",
+      "menuItemId": "rvb-autumn26-40-1",
+      "source": [
+        "menu:rvb-autumn26-40-1"
+      ],
+      "answer": "2 года"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-44-1",
+      "topic": "Бренди",
+      "menuItemId": "rvb-autumn26-44-1",
+      "source": [
+        "menu:rvb-autumn26-44-1"
+      ],
+      "answer": "Армения"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-48-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-48-1",
+      "source": [
+        "menu:rvb-autumn26-48-1"
+      ],
+      "answer": "Классическая водка"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-57-1",
+      "topic": "Текила",
+      "menuItemId": "rvb-autumn26-57-1",
+      "source": [
+        "menu:rvb-autumn26-57-1"
+      ],
+      "answer": "Свежая агава, травы, цитрус и перечная пряность"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-65-1",
+      "topic": "Джин",
+      "menuItemId": "rvb-autumn26-65-1",
+      "source": [
+        "menu:rvb-autumn26-65-1"
+      ],
+      "answer": "Можжевельник и сухие ботаникалы"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-68-1",
+      "topic": "Ром",
+      "menuItemId": "rvb-autumn26-68-1",
+      "source": [
+        "menu:rvb-autumn26-68-1"
+      ],
+      "answer": "Белый ром с дубовой выдержкой и фильтрацией"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-74-1",
+      "topic": "Виски · купажированный",
+      "menuItemId": "rvb-autumn26-74-1",
+      "source": [
+        "menu:rvb-autumn26-74-1"
+      ],
+      "answer": "Купажированный шотландский виски"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-80-1",
+      "topic": "Виски · американский",
+      "menuItemId": "rvb-autumn26-80-1",
+      "source": [
+        "menu:rvb-autumn26-80-1"
+      ],
+      "answer": "Новые обожжённые дубовые бочки"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-83-1",
+      "topic": "Виски · ирландский",
+      "menuItemId": "rvb-autumn26-83-1",
+      "source": [
+        "menu:rvb-autumn26-83-1"
+      ],
+      "answer": "Зерновой, солодовый и pot still"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-86-1",
+      "topic": "Виски · односолодовый",
+      "menuItemId": "rvb-autumn26-86-1",
+      "source": [
+        "menu:rvb-autumn26-86-1"
+      ],
+      "answer": "Ваниль, ананас и мягкий солодовый фон"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-91-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-91-1",
+      "source": [
+        "menu:rvb-autumn26-91-1"
+      ],
+      "answer": "Выраженная горечь, горький апельсин и травы"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-36-1",
+      "topic": "Вермут",
+      "menuItemId": "rvb-autumn26-36-1",
+      "source": [
+        "menu:rvb-autumn26-36-1"
+      ],
+      "answer": "Белый сладкий вермут с ванильно-травяными оттенками"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-41-1",
+      "topic": "Коньяк",
+      "menuItemId": "rvb-autumn26-41-1",
+      "source": [
+        "menu:rvb-autumn26-41-1"
+      ],
+      "answer": "Франция, регион Коньяк"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-45-1",
+      "topic": "Бренди",
+      "menuItemId": "rvb-autumn26-45-1",
+      "source": [
+        "menu:rvb-autumn26-45-1"
+      ],
+      "answer": "Виноградные дистилляты с дубовой выдержкой"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-49-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-49-1",
+      "source": [
+        "menu:rvb-autumn26-49-1"
+      ],
+      "answer": "Ягодная кислинка клюквы"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-58-1",
+      "topic": "Текила",
+      "menuItemId": "rvb-autumn26-58-1",
+      "source": [
+        "menu:rvb-autumn26-58-1"
+      ],
+      "answer": "Выдержка в дубе"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-66-1",
+      "topic": "Джин",
+      "menuItemId": "rvb-autumn26-66-1",
+      "source": [
+        "menu:rvb-autumn26-66-1"
+      ],
+      "answer": "Пары спирта проходят через ботаникалы"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-69-1",
+      "topic": "Ром",
+      "menuItemId": "rvb-autumn26-69-1",
+      "source": [
+        "menu:rvb-autumn26-69-1"
+      ],
+      "answer": "Куба"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-75-1",
+      "topic": "Виски · купажированный",
+      "menuItemId": "rvb-autumn26-75-1",
+      "source": [
+        "menu:rvb-autumn26-75-1"
+      ],
+      "answer": "Мёд, красное яблоко, ваниль и мягкие пряности"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-81-1",
+      "topic": "Виски · американский",
+      "menuItemId": "rvb-autumn26-81-1",
+      "source": [
+        "menu:rvb-autumn26-81-1"
+      ],
+      "answer": "Смягчают древесным углём"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-84-1",
+      "topic": "Виски · ирландский",
+      "menuItemId": "rvb-autumn26-84-1",
+      "source": [
+        "menu:rvb-autumn26-84-1"
+      ],
+      "answer": "Тройная дистилляция"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-87-1",
+      "topic": "Виски · односолодовый",
+      "menuItemId": "rvb-autumn26-87-1",
+      "source": [
+        "menu:rvb-autumn26-87-1"
+      ],
+      "answer": "Французский дуб"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-92-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-92-1",
+      "source": [
+        "menu:rvb-autumn26-92-1"
+      ],
+      "answer": "Aperol Spritz"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-37-1",
+      "topic": "Вермут",
+      "menuItemId": "rvb-autumn26-37-1",
+      "source": [
+        "menu:rvb-autumn26-37-1"
+      ],
+      "answer": "Горько-сладкие травы, пряности и карамель"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-42-1",
+      "topic": "Коньяк",
+      "menuItemId": "rvb-autumn26-42-1",
+      "source": [
+        "menu:rvb-autumn26-42-1"
+      ],
+      "answer": "Французский коньяк"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-46-1",
+      "topic": "Бренди",
+      "menuItemId": "rvb-autumn26-46-1",
+      "source": [
+        "menu:rvb-autumn26-46-1"
+      ],
+      "answer": "Испания"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-49-2",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-49-2",
+      "source": [
+        "menu:rvb-autumn26-49-2"
+      ],
+      "answer": "Медовый аромат и округлый зерновой фон"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-59-1",
+      "topic": "Текила",
+      "menuItemId": "rvb-autumn26-59-1",
+      "source": [
+        "menu:rvb-autumn26-59-1"
+      ],
+      "answer": "Из 100% голубой агавы"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-70-1",
+      "topic": "Ром",
+      "menuItemId": "rvb-autumn26-70-1",
+      "source": [
+        "menu:rvb-autumn26-70-1"
+      ],
+      "answer": "Пряный напиток на ромовой основе"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-76-1",
+      "topic": "Виски · купажированный",
+      "menuItemId": "rvb-autumn26-76-1",
+      "source": [
+        "menu:rvb-autumn26-76-1"
+      ],
+      "answer": "Самому молодому виски в купаже не менее 12 лет"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-88-1",
+      "topic": "Виски · односолодовый",
+      "menuItemId": "rvb-autumn26-88-1",
+      "source": [
+        "menu:rvb-autumn26-88-1"
+      ],
+      "answer": "Любителю выраженного торфяного дыма и морских оттенков"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-93-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-93-1",
+      "source": [
+        "menu:rvb-autumn26-93-1"
+      ],
+      "answer": "Красный апельсин, манго и маракуйя"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-38-1",
+      "topic": "Вермут",
+      "menuItemId": "rvb-autumn26-38-1",
+      "source": [
+        "menu:rvb-autumn26-38-1"
+      ],
+      "answer": "Martini Extra Dry"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-50-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-50-1",
+      "source": [
+        "menu:rvb-autumn26-50-1"
+      ],
+      "answer": "Беларусь"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-60-1",
+      "topic": "Текила",
+      "menuItemId": "rvb-autumn26-60-1",
+      "source": [
+        "menu:rvb-autumn26-60-1"
+      ],
+      "answer": "Агава, ваниль, мягкий дуб и перечные оттенки"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-71-1",
+      "topic": "Ром",
+      "menuItemId": "rvb-autumn26-71-1",
+      "source": [
+        "menu:rvb-autumn26-71-1"
+      ],
+      "answer": "Тропические фрукты, карамель, ваниль и дымно-древесный финал"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-77-1",
+      "topic": "Виски · купажированный",
+      "menuItemId": "rvb-autumn26-77-1",
+      "source": [
+        "menu:rvb-autumn26-77-1"
+      ],
+      "answer": "Садовые фрукты, вересковый мёд, ваниль и орехи"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-89-1",
+      "topic": "Виски · односолодовый",
+      "menuItemId": "rvb-autumn26-89-1",
+      "source": [
+        "menu:rvb-autumn26-89-1"
+      ],
+      "answer": "Американский и европейский дуб, подготовленный хересом"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-94-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-94-1",
+      "source": [
+        "menu:rvb-autumn26-94-1"
+      ],
+      "answer": "Молочные сливки"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-51-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-51-1",
+      "source": [
+        "menu:rvb-autumn26-51-1"
+      ],
+      "answer": "Беларусь"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-61-1",
+      "topic": "Текила",
+      "menuItemId": "rvb-autumn26-61-1",
+      "source": [
+        "menu:rvb-autumn26-61-1"
+      ],
+      "answer": "Копчёный ананас на агавовой основе"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-72-1",
+      "topic": "Ром",
+      "menuItemId": "rvb-autumn26-72-1",
+      "source": [
+        "menu:rvb-autumn26-72-1"
+      ],
+      "answer": "69%"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-78-1",
+      "topic": "Виски · купажированный",
+      "menuItemId": "rvb-autumn26-78-1",
+      "source": [
+        "menu:rvb-autumn26-78-1"
+      ],
+      "answer": "Сухофрукты, тёмный шоколад и мягкая дымность"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-95-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-95-1",
+      "source": [
+        "menu:rvb-autumn26-95-1"
+      ],
+      "answer": "Горько-сладкий травяной ликёр"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-53-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-53-1",
+      "source": [
+        "menu:rvb-autumn26-53-1"
+      ],
+      "answer": "Ячмень"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-62-1",
+      "topic": "Текила",
+      "menuItemId": "rvb-autumn26-62-1",
+      "source": [
+        "menu:rvb-autumn26-62-1"
+      ],
+      "answer": "Более 12 месяцев"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-96-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-96-1",
+      "source": [
+        "menu:rvb-autumn26-96-1"
+      ],
+      "answer": "Анис"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-54-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-54-1",
+      "source": [
+        "menu:rvb-autumn26-54-1"
+      ],
+      "answer": "Лайм и цитрусовая цедра"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-97-1",
+      "topic": "Ликёры и биттеры",
+      "menuItemId": "rvb-autumn26-97-1",
+      "source": [
+        "menu:rvb-autumn26-97-1"
+      ],
+      "answer": "Полынно-анисовое"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-54-2",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-54-2",
+      "source": [
+        "menu:rvb-autumn26-54-2"
+      ],
+      "answer": "Finlandia Grapefruit"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-54-3",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-54-3",
+      "source": [
+        "menu:rvb-autumn26-54-3"
+      ],
+      "answer": "Клюквенный аромат и ягодная кислинка"
+    },
+    {
+      "questionId": "rvb-alcohol-v2-rvb-autumn26-55-1",
+      "topic": "Водка",
+      "menuItemId": "rvb-autumn26-55-1",
+      "source": [
+        "menu:rvb-autumn26-55-1"
+      ],
+      "answer": "Мягкая озимая пшеница"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-11",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-11",
+      "source": [
+        "menu:rvb-wine-11"
+      ],
+      "answer": "Мягкое, фруктовое, округлое красное"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-12",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-12",
+      "source": [
+        "menu:rvb-wine-12"
+      ],
+      "answer": "Чили"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-13",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-13",
+      "source": [
+        "menu:rvb-wine-13"
+      ],
+      "answer": "Ягодный и пряный, со средним или полным телом"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-16",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-16",
+      "source": [
+        "menu:rvb-wine-16"
+      ],
+      "answer": "Французский креман из Бордо"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-17",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-17",
+      "source": [
+        "menu:rvb-wine-17"
+      ],
+      "answer": "Глера"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-18",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-18",
+      "source": [
+        "menu:rvb-wine-18"
+      ],
+      "answer": "Сладкое"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-19",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-19",
+      "source": [
+        "menu:rvb-wine-19"
+      ],
+      "answer": "Вторичное брожение в бутылке"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-20",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-20",
+      "source": [
+        "menu:rvb-wine-20"
+      ],
+      "answer": "Light House Alcohol Free"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-22",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-22",
+      "source": [
+        "menu:rvb-wine-22"
+      ],
+      "answer": "Шампань, Франция"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-24",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-24",
+      "source": [
+        "menu:rvb-wine-24"
+      ],
+      "answer": "Роза, личи, фрукты и пряности"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-25",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-25",
+      "source": [
+        "menu:rvb-wine-25"
+      ],
+      "answer": "Бодрое белое с цитрусом и яркой кислотностью"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-26",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-26",
+      "source": [
+        "menu:rvb-wine-26"
+      ],
+      "answer": "Полусладкое"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-28",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-28",
+      "source": [
+        "menu:rvb-wine-28"
+      ],
+      "answer": "Аргентина"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-29",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-29",
+      "source": [
+        "menu:rvb-wine-29"
+      ],
+      "answer": "Ягодное красное с деликатным телом и тонкими танинами"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-30",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-30",
+      "source": [
+        "menu:rvb-wine-30"
+      ],
+      "answer": "Красное полусладкое вино"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-32",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-32",
+      "source": [
+        "menu:rvb-wine-32"
+      ],
+      "answer": "Испания"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-4",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-4",
+      "source": [
+        "menu:rvb-wine-4"
+      ],
+      "answer": "Более мягкий и сладкий стиль"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-5",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-5",
+      "source": [
+        "menu:rvb-wine-5"
+      ],
+      "answer": "Glera Brut РБ"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-7",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-7",
+      "source": [
+        "menu:rvb-wine-7"
+      ],
+      "answer": "Лёгкое, свежее, деликатное белое"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-8",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-8",
+      "source": [
+        "menu:rvb-wine-8"
+      ],
+      "answer": "Яблоко, груша, персик и мягкий свежий вкус"
+    },
+    {
+      "questionId": "rvb-wine-v2-rvb-wine-9",
+      "topic": "Ассортимент вина",
+      "menuItemId": "rvb-wine-9",
+      "source": [
+        "menu:rvb-wine-9"
+      ],
+      "answer": "Германия"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-dry-fish",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Luis Felipe Edwards Chardonnay"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-sweet-dessert",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Martini Asti DOCG"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-light-red",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Stonehaven Stepping Stone Pinot Noir"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-rose",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Costa Azul Grenache Rosé"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-grape",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Martini Asti DOCG — Москато Бьянко"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-acidity",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Свежесть и усиление слюноотделения"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-tannin",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Терпкость и вяжущее ощущение"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-sparkling",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Контролировать пробку и открывать без резкого хлопка, направив бутылку от людей"
+    },
+    {
+      "questionId": "rvb-wine-case-v2-recommendation",
+      "topic": "Выбор и подача",
+      "menuItemId": null,
+      "source": [
+        "bar-wine-guide"
+      ],
+      "answer": "Уточнить желаемый вкус, сладость, блюдо и бюджет"
+    }
+  ]
+}

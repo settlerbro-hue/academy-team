@@ -69,6 +69,14 @@ if(fs.existsSync(revisionPath)){
  audit.questions=audit.questions.filter(q=>currentQuestions.has(q.id));audit.recipes=audit.recipes.filter(r=>r.row!==41);
  audit.excludedRecipes.push({name:'Налево от Лифта',row:41,reason:'Убрано из обучения по решению руководителя'});
 }
+// Preserve the reviewed full-assortment questions and retired beer test.
+require('./apply-rvb-assortment-test-revision.cjs')(documents,keys);
+const reviewedQuestionAuditPath=path.join(root,'supabase/sources/rvb-assortment-tests-audit-20261029.json');
+if(fs.existsSync(reviewedQuestionAuditPath)){
+ const reviewedAudit=JSON.parse(fs.readFileSync(reviewedQuestionAuditPath,'utf8')),byQuestion=new Map([...audit.questions.map(q=>[q.id,q]),...reviewedAudit.questions.map(q=>[q.questionId,{id:q.questionId,source:q.source,answer:q.answer}])]);
+ audit.questions=documents.filter(d=>d.kind==='test').flatMap(d=>d.payload.questions.map(q=>{assert(byQuestion.has(q.id));return byQuestion.get(q.id);}));
+}
+
 // Fail closed on answer-key mistakes; keys are never written into public course payloads.
 for(const d of documents.filter(d=>d.kind==='test')){assert(d.payload.questions.length);assert(d.payload.passCount>=1);for(const q of d.payload.questions){assert.equal(new Set(q.options).size,q.options.length);assert.equal(keys[d.id][q.id].length,1);assert(q.options[keys[d.id][q.id][0]]);}}
 fs.writeFileSync(path.join(root,'supabase/rvb-bar-training.json'),JSON.stringify(documents,null,2)+'\n');

@@ -27,6 +27,9 @@ const diaryMappings=[['rvb-waiter-diary-kitchen','Тест по 7-й смене 
 for(const [id,title,anchor,src] of diaryMappings){assert(src);const t=cloneTest(src,id,title,'waiter-internship');t.payload.diaryAnchor=anchor;if(privateKeys[src.id]){const mapping=cloneKeys.pop();privateKeys[id]=Object.fromEntries(mapping.maps.map(m=>[m.new,privateKeys[src.id][m.old]]));}}
 // Cover all kitchen categories in the day-seven checkpoint, using verified questions.
 const diaryKitchen=docs.find(d=>d.id==='rvb-waiter-diary-kitchen');diaryKitchen.payload.questions=[];privateKeys[diaryKitchen.id]={};for(const c of docs.filter(d=>d.id.startsWith('rvb-waiter-kitchen-test-'))){for(const q of c.payload.questions.slice(0,2)){const id=diaryKitchen.id+'-q'+(diaryKitchen.payload.questions.length+1);diaryKitchen.payload.questions.push({...q,id});privateKeys[diaryKitchen.id][id]=privateKeys[c.id][q.id];}}diaryKitchen.payload.passCount=Math.ceil(diaryKitchen.payload.questions.length*.8);
+const revisedIds=require('./apply-rvb-assortment-test-revision.cjs')(docs,privateKeys);
+for(let i=cloneKeys.length-1;i>=0;i--)if(revisedIds.includes(cloneKeys[i].id)&&privateKeys[cloneKeys[i].id])cloneKeys.splice(i,1);
+
 for(const d of docs.filter(d=>d.kind==='test')){assert(d.payload.questions.length);assert(d.payload.passCount>=1);assert(d.payload.questions.every(q=>q.options.length>=3&&new Set(q.options).size===q.options.length));}
 fs.writeFileSync(path.join(root,'supabase/rvb-waiter-training.json'),JSON.stringify(docs,null,2)+'\n');fs.writeFileSync(path.join(root,'supabase/sources/rvb-waiter-question-audit.json'),JSON.stringify({kitchenQuestions:audit,barTests:cloneKeys,diary:diaryMappings.map(([id,title,anchor])=>({id,title,anchor})),excluded90Tests:['104760','104939','105476','104336']},null,2)+'\n');
 const sql=['-- Waiter RVB curriculum: stable existing lesson/test IDs and history are retained.','begin;'];

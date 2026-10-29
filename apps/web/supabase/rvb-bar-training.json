@@ -383,30 +383,10 @@
     "id": "rvb-bar-assortment",
     "kind": "course",
     "title": "Ассортимент бара РВБ",
-    "course_id": null,
-    "published": true,
-    "restaurant_id": "minsk",
-    "department": "Бар",
     "payload": {
       "id": "rvb-bar-assortment",
-      "title": "Ассортимент бара РВБ",
       "brand": "rvb",
-      "description": "Ассортимент своего бара: категории, вкус, состав и подача. Отдельные проверки по разделам.",
-      "priority": "attestation",
-      "audiencePositions": [
-        "Бармен",
-        "Барбэк",
-        "Старший бармен",
-        "Бар-менеджер"
-      ],
-      "audienceLevels": [
-        "trainee",
-        "certified"
-      ],
-      "trainingPath": {
-        "id": "rvb-bar",
-        "step": 4
-      },
+      "title": "Ассортимент бара РВБ",
       "lessons": [
         {
           "id": "rvb-assortment-alcohol",
@@ -421,16 +401,16 @@
             },
             {
               "id": "b-32",
-              "text": "Узнай позиции раздела, их вкус, состав, объём и подачу. Потренируй рекомендацию гостю. Точные дозировки коктейлей изучаются отдельно в курсе ТТК.",
+              "text": "Изучи весь ассортимент: водку, джин, текилу, ром, все группы виски, коньяк, бренди, вермуты, ликёры и биттеры. В тесте 53 вопроса — по каждой позиции.",
               "tone": "sky",
               "type": "callout",
               "title": "Что нужно знать"
             },
             {
               "id": "rvb-group-0-0",
+              "text": "Вермут",
               "type": "heading",
-              "level": 2,
-              "text": "Вермут"
+              "level": 2
             },
             {
               "id": "rvb-group-0-1",
@@ -444,9 +424,9 @@
             },
             {
               "id": "rvb-group-0-2",
+              "text": "Коньяк",
               "type": "heading",
-              "level": 2,
-              "text": "Коньяк"
+              "level": 2
             },
             {
               "id": "rvb-group-0-3",
@@ -459,9 +439,9 @@
             },
             {
               "id": "rvb-group-0-4",
+              "text": "Бренди",
               "type": "heading",
-              "level": 2,
-              "text": "Бренди"
+              "level": 2
             },
             {
               "id": "rvb-group-0-5",
@@ -474,9 +454,9 @@
             },
             {
               "id": "rvb-group-0-6",
+              "text": "Водка",
               "type": "heading",
-              "level": 2,
-              "text": "Водка"
+              "level": 2
             },
             {
               "id": "rvb-group-0-7",
@@ -496,9 +476,9 @@
             },
             {
               "id": "rvb-group-0-8",
+              "text": "Текила",
               "type": "heading",
-              "level": 2,
-              "text": "Текила"
+              "level": 2
             },
             {
               "id": "rvb-group-0-9",
@@ -514,9 +494,9 @@
             },
             {
               "id": "rvb-group-0-10",
+              "text": "Джин",
               "type": "heading",
-              "level": 2,
-              "text": "Джин"
+              "level": 2
             },
             {
               "id": "rvb-group-0-11",
@@ -528,9 +508,9 @@
             },
             {
               "id": "rvb-group-0-12",
+              "text": "Ром",
               "type": "heading",
-              "level": 2,
-              "text": "Ром"
+              "level": 2
             },
             {
               "id": "rvb-group-0-13",
@@ -545,9 +525,9 @@
             },
             {
               "id": "rvb-group-0-14",
+              "text": "Виски · купажированный",
               "type": "heading",
-              "level": 2,
-              "text": "Виски · купажированный"
+              "level": 2
             },
             {
               "id": "rvb-group-0-15",
@@ -562,9 +542,9 @@
             },
             {
               "id": "rvb-group-0-16",
+              "text": "Виски · американский",
               "type": "heading",
-              "level": 2,
-              "text": "Виски · американский"
+              "level": 2
             },
             {
               "id": "rvb-group-0-17",
@@ -576,9 +556,9 @@
             },
             {
               "id": "rvb-group-0-18",
+              "text": "Виски · ирландский",
               "type": "heading",
-              "level": 2,
-              "text": "Виски · ирландский"
+              "level": 2
             },
             {
               "id": "rvb-group-0-19",
@@ -590,9 +570,9 @@
             },
             {
               "id": "rvb-group-0-20",
+              "text": "Виски · односолодовый",
               "type": "heading",
-              "level": 2,
-              "text": "Виски · односолодовый"
+              "level": 2
             },
             {
               "id": "rvb-group-0-21",
@@ -606,9 +586,9 @@
             },
             {
               "id": "rvb-group-0-22",
+              "text": "Ликёры и биттеры",
               "type": "heading",
-              "level": 2,
-              "text": "Ликёры и биттеры"
+              "level": 2
             },
             {
               "id": "rvb-group-0-23",
@@ -628,6 +608,12 @@
               "url": "https://askacademy.ru/#/menu?brand=rvb&section=bar",
               "text": "Открыть карточки меню РВБ",
               "type": "link"
+            },
+            {
+              "id": "rvb-test-guide-v2-bar-drinks-guide",
+              "type": "link",
+              "text": "Справочник по напиткам бара",
+              "url": "https://askacademy.ru/#/library/bar-drinks-guide"
             }
           ],
           "priority": "attestation"
@@ -652,9 +638,9 @@
             },
             {
               "id": "rvb-group-1-0",
+              "text": "Пиво · разливное",
               "type": "heading",
-              "level": 2,
-              "text": "Пиво · разливное"
+              "level": 2
             },
             {
               "id": "rvb-group-1-1",
@@ -668,9 +654,9 @@
             },
             {
               "id": "rvb-group-1-2",
+              "text": "Пиво · бутылочное",
               "type": "heading",
-              "level": 2,
-              "text": "Пиво · бутылочное"
+              "level": 2
             },
             {
               "id": "rvb-group-1-3",
@@ -704,16 +690,16 @@
             },
             {
               "id": "b-40",
-              "text": "Узнай позиции раздела, их вкус, состав, объём и подачу. Потренируй рекомендацию гостю. Точные дозировки коктейлей изучаются отдельно в курсе ТТК.",
+              "text": "Изучи все вина карты: страна, сорт, сладость и стиль. Потренируй выбор вина к блюду и под запрос гостя. В тесте 30 вопросов, включая практические ситуации.",
               "tone": "sky",
               "type": "callout",
               "title": "Что нужно знать"
             },
             {
               "id": "rvb-group-2-0",
+              "text": "Красное",
               "type": "heading",
-              "level": 2,
-              "text": "Красное"
+              "level": 2
             },
             {
               "id": "rvb-group-2-1",
@@ -729,9 +715,9 @@
             },
             {
               "id": "rvb-group-2-2",
+              "text": "Игристое",
               "type": "heading",
-              "level": 2,
-              "text": "Игристое"
+              "level": 2
             },
             {
               "id": "rvb-group-2-3",
@@ -747,9 +733,9 @@
             },
             {
               "id": "rvb-group-2-4",
+              "text": "Безалкогольное",
               "type": "heading",
-              "level": 2,
-              "text": "Безалкогольное"
+              "level": 2
             },
             {
               "id": "rvb-group-2-5",
@@ -760,9 +746,9 @@
             },
             {
               "id": "rvb-group-2-6",
+              "text": "Шампанское",
               "type": "heading",
-              "level": 2,
-              "text": "Шампанское"
+              "level": 2
             },
             {
               "id": "rvb-group-2-7",
@@ -773,9 +759,9 @@
             },
             {
               "id": "rvb-group-2-8",
+              "text": "Белое",
               "type": "heading",
-              "level": 2,
-              "text": "Белое"
+              "level": 2
             },
             {
               "id": "rvb-group-2-9",
@@ -791,9 +777,9 @@
             },
             {
               "id": "rvb-group-2-10",
+              "text": "Розовое",
               "type": "heading",
-              "level": 2,
-              "text": "Розовое"
+              "level": 2
             },
             {
               "id": "rvb-group-2-11",
@@ -807,6 +793,12 @@
               "url": "https://askacademy.ru/#/menu?brand=rvb&section=bar",
               "text": "Открыть карточки меню РВБ",
               "type": "link"
+            },
+            {
+              "id": "rvb-test-guide-v2-bar-wine-guide",
+              "type": "link",
+              "text": "Справочник по вину",
+              "url": "https://askacademy.ru/#/library/bar-wine-guide"
             }
           ],
           "priority": "attestation"
@@ -831,9 +823,9 @@
             },
             {
               "id": "rvb-group-3-0",
+              "text": "Классические",
               "type": "heading",
-              "level": 2,
-              "text": "Классические"
+              "level": 2
             },
             {
               "id": "rvb-group-3-1",
@@ -861,9 +853,9 @@
             },
             {
               "id": "rvb-group-3-2",
+              "text": "Миксы",
               "type": "heading",
-              "level": 2,
-              "text": "Миксы"
+              "level": 2
             },
             {
               "id": "rvb-group-3-3",
@@ -878,9 +870,9 @@
             },
             {
               "id": "rvb-group-3-4",
+              "text": "Аперитивы",
               "type": "heading",
-              "level": 2,
-              "text": "Аперитивы"
+              "level": 2
             },
             {
               "id": "rvb-group-3-5",
@@ -894,9 +886,9 @@
             },
             {
               "id": "rvb-group-3-6",
+              "text": "Авторские",
               "type": "heading",
-              "level": 2,
-              "text": "Авторские"
+              "level": 2
             },
             {
               "id": "rvb-group-3-7",
@@ -914,9 +906,9 @@
             },
             {
               "id": "rvb-group-3-8",
+              "text": "Крепкие",
               "type": "heading",
-              "level": 2,
-              "text": "Крепкие"
+              "level": 2
             },
             {
               "id": "rvb-group-3-9",
@@ -930,9 +922,9 @@
             },
             {
               "id": "rvb-group-3-10",
+              "text": "Шоты",
               "type": "heading",
-              "level": 2,
-              "text": "Шоты"
+              "level": 2
             },
             {
               "id": "rvb-group-3-11",
@@ -944,9 +936,9 @@
             },
             {
               "id": "rvb-group-3-12",
+              "text": "Бомбические",
               "type": "heading",
-              "level": 2,
-              "text": "Бомбические"
+              "level": 2
             },
             {
               "id": "rvb-group-3-13",
@@ -986,9 +978,9 @@
             },
             {
               "id": "rvb-group-4-0",
+              "text": "Домашние",
               "type": "heading",
-              "level": 2,
-              "text": "Домашние"
+              "level": 2
             },
             {
               "id": "rvb-group-4-1",
@@ -1033,9 +1025,9 @@
             },
             {
               "id": "rvb-group-5-0",
+              "text": "Для вечеринки",
               "type": "heading",
-              "level": 2,
-              "text": "Для вечеринки"
+              "level": 2
             },
             {
               "id": "rvb-group-5-1",
@@ -1049,9 +1041,9 @@
             },
             {
               "id": "rvb-group-5-2",
+              "text": "Шот-сеты",
               "type": "heading",
-              "level": 2,
-              "text": "Шот-сеты"
+              "level": 2
             },
             {
               "id": "rvb-group-5-3",
@@ -1068,9 +1060,9 @@
             },
             {
               "id": "rvb-group-5-4",
+              "text": "Сеты настоек",
               "type": "heading",
-              "level": 2,
-              "text": "Сеты настоек"
+              "level": 2
             },
             {
               "id": "rvb-group-5-5",
@@ -1108,9 +1100,9 @@
             },
             {
               "id": "rvb-group-6-0",
+              "text": "Пиво б/а",
               "type": "heading",
-              "level": 2,
-              "text": "Пиво б/а"
+              "level": 2
             },
             {
               "id": "rvb-group-6-1",
@@ -1121,9 +1113,9 @@
             },
             {
               "id": "rvb-group-6-2",
+              "text": "Лимонады и коктейли",
               "type": "heading",
-              "level": 2,
-              "text": "Лимонады и коктейли"
+              "level": 2
             },
             {
               "id": "rvb-group-6-3",
@@ -1141,9 +1133,9 @@
             },
             {
               "id": "rvb-group-6-4",
+              "text": "Холодные напитки",
               "type": "heading",
-              "level": 2,
-              "text": "Холодные напитки"
+              "level": 2
             },
             {
               "id": "rvb-group-6-5",
@@ -1162,9 +1154,9 @@
             },
             {
               "id": "rvb-group-6-6",
+              "text": "Энергетики",
               "type": "heading",
-              "level": 2,
-              "text": "Энергетики"
+              "level": 2
             },
             {
               "id": "rvb-group-6-7",
@@ -1175,9 +1167,9 @@
             },
             {
               "id": "rvb-group-6-8",
+              "text": "Сопровождение",
               "type": "heading",
-              "level": 2,
-              "text": "Сопровождение"
+              "level": 2
             },
             {
               "id": "rvb-group-6-9",
@@ -1215,9 +1207,9 @@
             },
             {
               "id": "rvb-group-7-0",
+              "text": "Кофе",
               "type": "heading",
-              "level": 2,
-              "text": "Кофе"
+              "level": 2
             },
             {
               "id": "rvb-group-7-1",
@@ -1232,9 +1224,9 @@
             },
             {
               "id": "rvb-group-7-2",
+              "text": "Чай",
               "type": "heading",
-              "level": 2,
-              "text": "Чай"
+              "level": 2
             },
             {
               "id": "rvb-group-7-3",
@@ -1245,9 +1237,9 @@
             },
             {
               "id": "rvb-group-7-4",
+              "text": "Авторский чай",
               "type": "heading",
-              "level": 2,
-              "text": "Авторский чай"
+              "level": 2
             },
             {
               "id": "rvb-group-7-5",
@@ -1268,6 +1260,16 @@
           "priority": "attestation"
         }
       ],
+      "testIds": [
+        "rvb-assortment-test-alcohol",
+        "rvb-assortment-test-wine",
+        "rvb-assortment-test-cocktails",
+        "rvb-assortment-test-tinctures",
+        "rvb-assortment-test-sets",
+        "rvb-assortment-test-nonalcoholic",
+        "rvb-assortment-test-hot"
+      ],
+      "priority": "attestation",
       "sequence": [
         {
           "id": "rvb-assortment-alcohol",
@@ -1280,10 +1282,6 @@
         {
           "id": "rvb-assortment-beer",
           "type": "lesson"
-        },
-        {
-          "id": "rvb-assortment-test-beer",
-          "type": "test"
         },
         {
           "id": "rvb-assortment-wine",
@@ -1334,158 +1332,641 @@
           "type": "test"
         }
       ],
-      "testIds": [
-        "rvb-assortment-test-alcohol",
-        "rvb-assortment-test-beer",
-        "rvb-assortment-test-wine",
-        "rvb-assortment-test-cocktails",
-        "rvb-assortment-test-tinctures",
-        "rvb-assortment-test-sets",
-        "rvb-assortment-test-nonalcoholic",
-        "rvb-assortment-test-hot"
+      "description": "Ассортимент своего бара: категории, вкус, состав и подача. Отдельные проверки по разделам.",
+      "trainingPath": {
+        "id": "rvb-bar",
+        "step": 4
+      },
+      "audienceLevels": [
+        "trainee",
+        "certified"
+      ],
+      "audiencePositions": [
+        "Бармен",
+        "Барбэк",
+        "Старший бармен",
+        "Бар-менеджер"
       ]
-    }
+    },
+    "course_id": null,
+    "published": true,
+    "department": "Бар",
+    "updated_at": "2026-10-27T14:03:39.11613+00:00",
+    "restaurant_id": "minsk"
   },
   {
     "id": "rvb-assortment-test-alcohol",
     "kind": "test",
     "title": "РВБ · Крепкий алкоголь и аперитивы",
-    "course_id": "rvb-bar-assortment",
-    "published": true,
-    "restaurant_id": "minsk",
-    "department": "Бар",
     "payload": {
       "id": "rvb-assortment-test-alcohol",
       "title": "РВБ · Крепкий алкоголь и аперитивы",
       "priority": "attestation",
+      "passCount": 43,
       "questions": [
         {
-          "id": "rvb-menu-alcohol-1",
-          "text": "Какой напиток описан в меню РВБ так: «Аперитив на винной основе с ярким апельсиновым профилем.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-35-1",
+          "text": "Какой вкус определяет характер Martini Fiero?",
           "type": "single",
           "options": [
-            "Martini Fiero",
-            "Martini Bianco",
-            "Martini Rosso",
-            "Martini Extra Dry"
+            "Анис и полынь",
+            "Апельсин и цитрусовая горчинка",
+            "Сливки и кофе",
+            "Можжевельник и хвоя"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-2",
-          "text": "Какой напиток описан в меню РВБ так: «Белый вермут с лёгкой сладостью, ванильными и травяными нотами.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-40-1",
+          "text": "Какой минимальный возраст самого молодого спирта в Courvoisier VS?",
           "type": "single",
           "options": [
-            "Martini Fiero",
-            "Martini Rosso",
-            "Martini Extra Dry",
-            "Martini Bianco"
+            "4 года",
+            "2 года",
+            "12 лет",
+            "10 лет"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-3",
-          "text": "Какой напиток описан в меню РВБ так: «Сладкий вермут с горько-сладким травяным профилем.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-44-1",
+          "text": "Из какой страны виноградный бренди АрАрАт 3 YO?",
           "type": "single",
           "options": [
-            "Martini Bianco",
+            "Франция",
+            "Армения",
+            "Испания",
+            "Грузия"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-48-1",
+          "text": "К какой категории относится Сябры Платинум?",
+          "type": "single",
+          "options": [
+            "Можжевеловый джин",
+            "Зерновой виски",
+            "Классическая водка",
+            "Травяной ликёр"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-57-1",
+          "text": "Какой стиль у Sierra Blanco?",
+          "type": "single",
+          "options": [
+            "Сливки, какао и кофе",
+            "Ванильный пломбир и ягоды",
+            "Свежая агава, травы, цитрус и перечная пряность",
+            "Длительный торфяной дым и морская соль"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-65-1",
+          "text": "Какая ароматика определяет классический характер Gordon’s?",
+          "type": "single",
+          "options": [
+            "Торф, йод и морские водоросли",
+            "Можжевельник и сухие ботаникалы",
+            "Сливки и шоколад",
+            "Маракуйя и манго"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-68-1",
+          "text": "Как правильно описать Havana Club Añejo 3 YO?",
+          "type": "single",
+          "options": [
+            "Белый ром с дубовой выдержкой и фильтрацией",
+            "Тёмный пряный ликёр на ромовой основе",
+            "Белый ром, который никогда не выдерживали",
+            "Купаж зернового и солодового виски"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-74-1",
+          "text": "К какому типу виски относится William Lawson’s?",
+          "type": "single",
+          "options": [
+            "Американский бурбон",
+            "Односолодовый шотландский виски",
+            "Ирландский pot still без купажа",
+            "Купажированный шотландский виски"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-80-1",
+          "text": "Какие бочки используют для выдержки классического Jim Beam?",
+          "type": "single",
+          "options": [
+            "Только старые бочки из-под хереса",
+            "Герметичные резервуары для вторичного брожения",
+            "Новые обожжённые дубовые бочки",
+            "Стальные ёмкости без контакта с дубом"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-83-1",
+          "text": "Какие три типа виски входят в Tullamore D.E.W. Original?",
+          "type": "single",
+          "options": [
+            "Три односолодовых с острова Айла",
+            "Текила, ром и виноградный бренди",
+            "Зерновой, солодовый и pot still",
+            "Бурбон, ржаной и канадский"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-86-1",
+          "text": "Какой профиль у Glenlivet 12 YO?",
+          "type": "single",
+          "options": [
+            "Можжевельник и кориандр",
+            "Сильный торфяной дым и йод",
+            "Кофе, сливки и шоколад",
+            "Ваниль, ананас и мягкий солодовый фон"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-91-1",
+          "text": "Какой профиль у Campari?",
+          "type": "single",
+          "options": [
+            "Выраженная горечь, горький апельсин и травы",
+            "Сладкая вишня без растительных оттенков",
+            "Нейтральное зерно без сладости и горечи",
+            "Молочные сливки, шоколад и ваниль"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-36-1",
+          "text": "Какой стиль у Martini Bianco?",
+          "type": "single",
+          "options": [
+            "Красный горький биттер",
+            "Белый сладкий вермут с ванильно-травяными оттенками",
+            "Сухой вермут с минимальной сладостью",
+            "Сливочный десертный ликёр"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-41-1",
+          "text": "Где производят коньяк Martell VSOP?",
+          "type": "single",
+          "options": [
+            "Испания, Ла-Манча",
+            "Шотландия, Спейсайд",
+            "Франция, регион Коньяк",
+            "Армения, Араратская долина"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-45-1",
+          "text": "Какая основа у АрАрАт 5 YO?",
+          "type": "single",
+          "options": [
+            "Виноградные дистилляты с дубовой выдержкой",
+            "Дистиллят голубой агавы",
+            "Зерновой ректификат без выдержки",
+            "Дистиллят сахарного тростника"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-49-1",
+          "text": "Какое вкусовое направление у клюквенной версии Сябры?",
+          "type": "single",
+          "options": [
+            "Ягодная кислинка клюквы",
+            "Горький апельсин и травы",
+            "Дуб и торфяной дым",
+            "Кофе и сливки"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-58-1",
+          "text": "Какой этап отличает Sierra Reposado от молодого стиля Blanco?",
+          "type": "single",
+          "options": [
+            "Ароматизация можжевельником",
+            "Вторичное брожение в бутылке",
+            "Выдержка в дубе",
+            "Удаление алкоголя"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-66-1",
+          "text": "Как ароматизируют Bombay Sapphire при производстве?",
+          "type": "single",
+          "options": [
+            "Вторично сбраживают в бутылке",
+            "Пары спирта проходят через ботаникалы",
+            "Готовый напиток выдерживают на кофейных зёрнах",
+            "Смешивают виноградное вино со сливками"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-69-1",
+          "text": "Из какой страны ром Havana Club Añejo 7 YO?",
+          "type": "single",
+          "options": [
+            "Венесуэла",
+            "Куба",
+            "Ямайка",
+            "Гватемала"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-75-1",
+          "text": "Какой профиль у Ballantine’s Finest?",
+          "type": "single",
+          "options": [
+            "Мёд, красное яблоко, ваниль и мягкие пряности",
+            "Анис, полынь и мята",
+            "Клюква и чистый водочный фон",
+            "Агава и копчёный ананас"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-81-1",
+          "text": "Что делают с дистиллятом Jack Daniel’s Old №7 перед выдержкой?",
+          "type": "single",
+          "options": [
+            "Смягчают древесным углём",
+            "Смешивают с молочными сливками",
+            "Ароматизируют можжевельником",
+            "Удаляют алкоголь под вакуумом"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-84-1",
+          "text": "Какой способ перегонки характерен для Jameson?",
+          "type": "single",
+          "options": [
+            "Паровая инфузия ботаникалов",
+            "Только однократная перегонка",
+            "Тройная дистилляция",
+            "Вторичное брожение в бутылке"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-87-1",
+          "text": "Какой дуб влияет на характер Glenlivet 15 YO?",
+          "type": "single",
+          "options": [
+            "Французский дуб",
+            "Дуб не используется",
+            "Только новые бочки из американского дуба для бурбона",
+            "Только бочки из-под текилы"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-92-1",
+          "text": "Какую классику готовят на основе Aperol?",
+          "type": "single",
+          "options": [
+            "Daiquiri",
+            "Dry Martini",
+            "Whiskey Sour",
+            "Aperol Spritz"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-37-1",
+          "text": "Какой профиль соответствует Martini Rosso?",
+          "type": "single",
+          "options": [
+            "Сливки, шоколад и ваниль",
+            "Сухой можжевельник и кориандр",
+            "Горько-сладкие травы, пряности и карамель",
+            "Анис, фенхель и мята"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-42-1",
+          "text": "К какой категории относится Martell XO?",
+          "type": "single",
+          "options": [
+            "Испанский бренди solera",
+            "Односолодовый скотч",
+            "Купажированный ром",
+            "Французский коньяк"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-46-1",
+          "text": "Из какой страны бренди Torres 6 Solera Reserva?",
+          "type": "single",
+          "options": [
+            "Португалия",
+            "Франция",
+            "Армения",
+            "Испания"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-49-2",
+          "text": "Какой профиль предложить гостю у медовой версии Сябры?",
+          "type": "single",
+          "options": [
+            "Сухой можжевельник и хвоя",
+            "Дым и морские оттенки",
+            "Полынь и анис",
+            "Медовый аромат и округлый зерновой фон"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-59-1",
+          "text": "Из какого сырья производят Rooster Rojo Blanco?",
+          "type": "single",
+          "options": [
+            "Из виноградного вина",
+            "Из сахарного тростника",
+            "Из 100% голубой агавы",
+            "Из зерновой смеси с кукурузой"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-70-1",
+          "text": "Какой стиль у Oakheart Original?",
+          "type": "single",
+          "options": [
+            "Сухой можжевеловый джин",
+            "Односолодовый торфяной виски",
+            "Пряный напиток на ромовой основе",
+            "Горький аперитив на винной основе"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-76-1",
+          "text": "Что означает возраст 12 лет у Johnnie Walker Black Label?",
+          "type": "single",
+          "options": [
+            "Средний возраст всех спиртов ровно 12 лет",
+            "Самому молодому виски в купаже не менее 12 лет",
+            "Бутылку хранят 12 лет после розлива",
+            "В купаже обязательно ровно 12 спиртов"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-88-1",
+          "text": "Какому гостю подойдёт Laphroaig 10 YO?",
+          "type": "single",
+          "options": [
+            "Любителю выраженного торфяного дыма и морских оттенков",
+            "Гостю, который просит лёгкий джин с тоником без дыма",
+            "Любителю сладкого сливочного ликёра",
+            "Гостю, который хочет полностью нейтральную водку"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-93-1",
+          "text": "Какие фруктовые оттенки есть у Sarti Rosa?",
+          "type": "single",
+          "options": [
+            "Малина, клюква и смородина",
+            "Яблоко, груша и айва",
+            "Красный апельсин, манго и маракуйя",
+            "Лимон, лайм и огурец"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-38-1",
+          "text": "Какой вермут выбрать для сухого стиля Dry Martini?",
+          "type": "single",
+          "options": [
             "Martini Extra Dry",
             "Martini Rosso",
+            "Martini Bianco",
             "Martini Fiero"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-4",
-          "text": "Какой напиток описан в меню РВБ так: «Сухой вермут в линейке MARTINI. Отличается по стилю от сладких Bianco и Rosso.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-50-1",
+          "text": "Из какой страны водка Сябры Гонар?",
           "type": "single",
           "options": [
-            "Martini Rosso",
-            "Martini Extra Dry",
-            "Martini Fiero",
-            "Martini Bianco"
+            "Франция",
+            "Беларусь",
+            "Швеция",
+            "Финляндия"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-5",
-          "text": "Какой напиток описан в меню РВБ так: «Фруктовый коньяк с нотами яблока, груши и весенних цветов. В послевкусии — свежий дуб.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-60-1",
+          "text": "Какой профиль у Rooster Rojo Reposado?",
           "type": "single",
           "options": [
-            "Courvoisier VS",
-            "Martini Fiero",
-            "Martini Bianco",
-            "Martini Rosso"
+            "Агава, ваниль, мягкий дуб и перечные оттенки",
+            "Клюква, сливки и шоколад",
+            "Можжевельник, кориандр и сухие травы",
+            "Торфяной дым, йод и морские водоросли"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-6",
-          "text": "Какой напиток описан в меню РВБ так: «Французский коньяк категории VSOP. Отдельная ступень в линейке Martell между VS и XO.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-71-1",
+          "text": "Какой профиль у Bacardi Carta Negra?",
           "type": "single",
           "options": [
-            "Martini Fiero",
-            "Martini Bianco",
-            "Martini Rosso",
-            "Martell VSOP"
+            "Можжевельник и сухой кориандр",
+            "Тропические фрукты, карамель, ваниль и дымно-древесный финал",
+            "Нейтральный зерновой профиль без дуба",
+            "Анис, мята и полынная горечь"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-7",
-          "text": "Какой напиток описан в меню РВБ так: «Коньяк, объединяющий насыщенный характер Grande Champagne и элегантность Borderies.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-77-1",
+          "text": "Какой профиль характерен для Chivas Regal 12 YO?",
           "type": "single",
           "options": [
-            "Martini Bianco",
-            "Martini Rosso",
-            "Martell ХO",
-            "Martini Fiero"
+            "Выраженный анис и мятная горечь",
+            "Садовые фрукты, вересковый мёд, ваниль и орехи",
+            "Свежая агава и зелёный перец",
+            "Кофе, молочные сливки и какао"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-8",
-          "text": "К какой категории относится «АрАрАт 3 YO» в меню РВБ?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-89-1",
+          "text": "В каких бочках выдерживают Macallan Double Cask 12 YO?",
           "type": "single",
           "options": [
-            "Вермут",
-            "Бренди",
-            "Пиво · разливное",
-            "Пиво · бутылочное"
+            "Американский и европейский дуб, подготовленный хересом",
+            "Только новые обожжённые бочки для бурбона",
+            "Только сталь без дубовой выдержки",
+            "Только французский дуб без подготовки вином"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-9",
-          "text": "Какой напиток описан в меню РВБ так: «Армянский бренди пятилетней выдержки.»?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-94-1",
+          "text": "Какой компонент определяет текстуру Baileys?",
           "type": "single",
           "options": [
-            "АрАрАт 5 YO",
-            "Martini Fiero",
-            "Martini Bianco",
-            "Martini Rosso"
+            "Можжевеловый дистиллят",
+            "Агавовый сок",
+            "Ячменный солод",
+            "Молочные сливки"
           ]
         },
         {
-          "id": "rvb-menu-alcohol-10",
-          "text": "К какой категории относится «Torres 6 Solera Reserva» в меню РВБ?",
+          "id": "rvb-alcohol-v2-rvb-autumn26-51-1",
+          "text": "Из какой страны водка Schmidt Supreme?",
           "type": "single",
           "options": [
-            "Пиво · разливное",
-            "Пиво · бутылочное",
-            "Вермут",
-            "Бренди"
+            "Беларусь",
+            "Финляндия",
+            "Франция",
+            "Польша"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-61-1",
+          "text": "Какая особенность у Rooster Rojo Smoked Pineapple?",
+          "type": "single",
+          "options": [
+            "Кофе на сливочной основе",
+            "Грейпфрут на водочной основе",
+            "Копчёный ананас на агавовой основе",
+            "Малина на джиновой основе"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-72-1",
+          "text": "Какая крепость у рома Plantation O.F.T.D. Overproof?",
+          "type": "single",
+          "options": [
+            "69%",
+            "47,3%",
+            "40%",
+            "17%"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-78-1",
+          "text": "Какой профиль у Chivas Regal 18 YO?",
+          "type": "single",
+          "options": [
+            "Сухофрукты, тёмный шоколад и мягкая дымность",
+            "Маракуйя, манго и красный апельсин",
+            "Лайм и нейтральная водочная основа",
+            "Анис, фенхель и мята"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-95-1",
+          "text": "К какому стилю относится Jägermeister?",
+          "type": "single",
+          "options": [
+            "Выдержанный агавовый дистиллят",
+            "Нейтральная ароматизированная водка",
+            "Сухой виноградный бренди",
+            "Горько-сладкий травяной ликёр"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-53-1",
+          "text": "Какое зерновое сырьё используется для водки Finlandia?",
+          "type": "single",
+          "options": [
+            "Рис",
+            "Кукуруза",
+            "Ячмень",
+            "Мягкая озимая пшеница"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-62-1",
+          "text": "Какой срок выдержки указан для Patrón Añejo?",
+          "type": "single",
+          "options": [
+            "Без дубовой выдержки",
+            "Не менее 12 лет",
+            "Только несколько дней",
+            "Более 12 месяцев"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-96-1",
+          "text": "Какой аромат определяет характер Sambuca Gamondi?",
+          "type": "single",
+          "options": [
+            "Копчёный ананас",
+            "Анис",
+            "Торфяной дым",
+            "Кофе"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-54-1",
+          "text": "Какой профиль у Finlandia Lime?",
+          "type": "single",
+          "options": [
+            "Мёд и цветочные оттенки",
+            "Лайм и цитрусовая цедра",
+            "Грейпфрут и его горчинка",
+            "Клюква и ягодная кислинка"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-97-1",
+          "text": "Какое ароматическое направление у Absente?",
+          "type": "single",
+          "options": [
+            "Торфяно-морское",
+            "Карамельно-ромовое",
+            "Молочно-шоколадное",
+            "Полынно-анисовое"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-54-2",
+          "text": "Какую Finlandia выбрать гостю, который любит грейпфрутовую горчинку?",
+          "type": "single",
+          "options": [
+            "Finlandia Lime",
+            "Finlandia классическая",
+            "Finlandia Cranberry",
+            "Finlandia Grapefruit"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-54-3",
+          "text": "Какой профиль у Finlandia Cranberry?",
+          "type": "single",
+          "options": [
+            "Лайм и цитрусовая цедра",
+            "Клюквенный аромат и ягодная кислинка",
+            "Можжевельник и сухие травы",
+            "Грейпфрут и его горчинка"
+          ]
+        },
+        {
+          "id": "rvb-alcohol-v2-rvb-autumn26-55-1",
+          "text": "Из какого сырья получают спиртовую основу Grey Goose?",
+          "type": "single",
+          "options": [
+            "Ячменный солод",
+            "Сахарный тростник",
+            "Голубая агава",
+            "Мягкая озимая пшеница"
           ]
         }
       ],
-      "passCount": 8,
-      "timeLimitSeconds": 0
-    }
+      "timeLimitSeconds": 0,
+      "description": "53 вопроса по всему ассортименту крепкого алкоголя и аперитивов РВБ: категории, происхождение, производство и вкус.",
+      "contentRevision": "2026-10-29-assortment-v2"
+    },
+    "course_id": "rvb-bar-assortment",
+    "published": true,
+    "department": "Бар",
+    "updated_at": "2026-10-27T12:09:03.342339+00:00",
+    "restaurant_id": "minsk"
   },
   {
     "id": "rvb-assortment-test-beer",
     "kind": "test",
     "title": "РВБ · Пиво",
-    "course_id": "rvb-bar-assortment",
-    "published": true,
-    "restaurant_id": "minsk",
-    "department": "Бар",
     "payload": {
       "id": "rvb-assortment-test-beer",
       "title": "РВБ · Пиво",
       "priority": "attestation",
+      "passCount": 7,
       "questions": [
         {
           "id": "rvb-menu-beer-1",
@@ -1576,137 +2057,364 @@
           ]
         }
       ],
-      "passCount": 7,
       "timeLimitSeconds": 0
-    }
+    },
+    "course_id": "rvb-bar-assortment",
+    "published": false,
+    "department": "Бар",
+    "updated_at": "2026-10-27T12:09:03.342339+00:00",
+    "restaurant_id": "minsk"
   },
   {
     "id": "rvb-assortment-test-wine",
     "kind": "test",
     "title": "РВБ · Вино и игристое",
-    "course_id": "rvb-bar-assortment",
-    "published": true,
-    "restaurant_id": "minsk",
-    "department": "Бар",
     "payload": {
       "id": "rvb-assortment-test-wine",
       "title": "РВБ · Вино и игристое",
       "priority": "attestation",
+      "passCount": 24,
       "questions": [
         {
-          "id": "rvb-menu-wine-1",
-          "text": "Какой напиток описан в меню РВБ так: «Итальянское красное из Мерло. мягкий фруктовый характер с ягодными и сливовыми оттенками.»?",
+          "id": "rvb-wine-v2-rvb-wine-11",
+          "text": "Какой стиль у I Castelli Merlot?",
           "type": "single",
           "options": [
-            "I Castelli Merlot",
-            "Cono Sur Tocornal Cabernet Sauvignon",
-            "Casillero del Diablo Carmenere Reserva",
+            "Мягкое, фруктовое, округлое красное",
+            "Сладкое ароматное белое игристое",
+            "Мощное красное с резко выраженными танинами",
+            "Свежее сухое розовое"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-12",
+          "text": "Из какой страны Cono Sur Tocornal Cabernet Sauvignon?",
+          "type": "single",
+          "options": [
+            "Чили",
+            "Италия",
+            "Австралия",
+            "Аргентина"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-13",
+          "text": "Какой профиль у Casillero del Diablo Carmenere Reserva?",
+          "type": "single",
+          "options": [
+            "Сладкий мускатный, с пузырьками",
+            "Лёгкий розовый, с цитрусовым направлением",
+            "Очень лёгкий белый, нейтральный и цветочный",
+            "Ягодный и пряный, со средним или полным телом"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-16",
+          "text": "Что представляет собой Louis Vallon Crémant de Bordeaux AOC Brut?",
+          "type": "single",
+          "options": [
+            "Итальянское просекко",
+            "Испанская кава",
+            "Шампанское из Шампани",
+            "Французский креман из Бордо"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-17",
+          "text": "Какой сорт является основой Martini Prosecco DOC?",
+          "type": "single",
+          "options": [
+            "Москато Бьянко",
+            "Глера",
+            "Совиньон Блан",
+            "Рислинг"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-18",
+          "text": "Какая категория сахара у Martini Asti DOCG?",
+          "type": "single",
+          "options": [
+            "Экстра-брют",
+            "Брют",
+            "Сладкое",
+            "Полусухое"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-19",
+          "text": "Какой метод характерен для игристого Bellisco Cava Brut?",
+          "type": "single",
+          "options": [
+            "Вторичное брожение в бутылке",
+            "Простое насыщение тихого вина газом",
+            "Вторичное брожение только в резервуаре",
+            "Брожение без образования углекислого газа"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-20",
+          "text": "Какую позицию предложить гостю, который выбирает безалкогольное вино?",
+          "type": "single",
+          "options": [
+            "Col Mesian Pinot Grigio Provincia di Pavia",
+            "Das Ist Riesling",
+            "Luis Felipe Edwards Chardonnay",
+            "Light House Alcohol Free"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-22",
+          "text": "Из какого региона Moët & Chandon Brut Impérial?",
+          "type": "single",
+          "options": [
+            "Шампань, Франция",
+            "Cava DO, Испания",
+            "Бордо, Франция",
+            "Венето, Италия"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-24",
+          "text": "Какая ароматика характерна для Cono Sur Bicicleta Gewürztraminer?",
+          "type": "single",
+          "options": [
+            "Можжевельник и кориандр",
+            "Роза, личи, фрукты и пряности",
+            "Торф, йод и морские водоросли",
+            "Чёрная смородина и плотные танины"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-25",
+          "text": "Какой стиль у новозеландского Sauvignon Blanc в карте?",
+          "type": "single",
+          "options": [
+            "Плотное красное с выраженными танинами",
+            "Бодрое белое с цитрусом и яркой кислотностью",
+            "Сладкое мускатное игристое",
+            "Мягкое полусладкое красное"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-26",
+          "text": "Какая категория сахара у Freschello Bianco Semi Sweet?",
+          "type": "single",
+          "options": [
+            "Брют",
+            "Сухое",
+            "Полусладкое",
+            "Экстра-брют"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-28",
+          "text": "Из какой страны The Wanderer Malbec?",
+          "type": "single",
+          "options": [
+            "Аргентина",
+            "Австралия",
+            "Чили",
+            "Испания"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-29",
+          "text": "Какой стиль у Stonehaven Stepping Stone Pinot Noir?",
+          "type": "single",
+          "options": [
+            "Очень плотное красное с мощной танинной структурой",
+            "Сладкое белое с мускатным ароматом",
+            "Сухое белое с травяным ароматом",
+            "Ягодное красное с деликатным телом и тонкими танинами"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-30",
+          "text": "Что верно о Freschello Rosso Semi Sweet?",
+          "type": "single",
+          "options": [
+            "Красное полусладкое вино",
+            "Белое полусладкое вино",
+            "Красное сухое вино",
+            "Розовое сухое вино"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-32",
+          "text": "Из какой страны розовое Costa Azul Grenache Rosé?",
+          "type": "single",
+          "options": [
+            "Франция",
+            "Португалия",
+            "Италия",
+            "Испания"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-4",
+          "text": "Что означает Extra Dry у Bea Vita Prosecco DOC по сравнению с брютом?",
+          "type": "single",
+          "options": [
+            "Полное отсутствие остаточного сахара",
+            "Наличие только природной газации без брожения",
+            "Всегда меньше сахара, чем в брюте",
+            "Более мягкий и сладкий стиль"
+          ]
+        },
+        {
+          "id": "rvb-wine-v2-rvb-wine-5",
+          "text": "Какая позиция в винной карте — белорусское игристое брют?",
+          "type": "single",
+          "options": [
+            "Bellisco Cava Brut",
+            "Martini Prosecco DOC",
+            "Glera Brut РБ",
             "Louis Vallon Crémant de Bordeaux AOC Brut"
           ]
         },
         {
-          "id": "rvb-menu-wine-2",
-          "text": "Какой напиток описан в меню РВБ так: «Чилийское красное из Каберне Совиньон. насыщенные тёмные ягоды и заметная танинная структура.»?",
+          "id": "rvb-wine-v2-rvb-wine-7",
+          "text": "Какой стиль у Col Mesian Pinot Grigio Provincia di Pavia?",
           "type": "single",
           "options": [
-            "I Castelli Merlot",
-            "Casillero del Diablo Carmenere Reserva",
-            "Louis Vallon Crémant de Bordeaux AOC Brut",
-            "Cono Sur Tocornal Cabernet Sauvignon"
+            "Сладкое мускатное игристое",
+            "Сладкое креплёное красное",
+            "Плотное красное с насыщенными танинами",
+            "Лёгкое, свежее, деликатное белое"
           ]
         },
         {
-          "id": "rvb-menu-wine-3",
-          "text": "Какой напиток описан в меню РВБ так: «Красное с ароматами лесных ягод и сливы, оттенками кофе и пряностей. Среднее тело, заметные танины и продолжительное послевкусие.»?",
+          "id": "rvb-wine-v2-rvb-wine-8",
+          "text": "Какой профиль у Luis Felipe Edwards Chardonnay?",
           "type": "single",
           "options": [
-            "Cono Sur Tocornal Cabernet Sauvignon",
-            "Louis Vallon Crémant de Bordeaux AOC Brut",
-            "Casillero del Diablo Carmenere Reserva",
-            "I Castelli Merlot"
+            "Анис, полынь и травяная горечь",
+            "Яблоко, груша, персик и мягкий свежий вкус",
+            "Чёрная смородина и выраженная танинная структура",
+            "Сильная сладость муската и пузырьки"
           ]
         },
         {
-          "id": "rvb-menu-wine-4",
-          "text": "Какой напиток описан в меню РВБ так: «Французский креман брют из Бордо. Сухой игристый стиль.»?",
+          "id": "rvb-wine-v2-rvb-wine-9",
+          "text": "Из какой страны Das Ist Riesling?",
           "type": "single",
           "options": [
-            "Casillero del Diablo Carmenere Reserva",
-            "Louis Vallon Crémant de Bordeaux AOC Brut",
-            "I Castelli Merlot",
-            "Cono Sur Tocornal Cabernet Sauvignon"
+            "Германия",
+            "Австрия",
+            "Новая Зеландия",
+            "Чили"
           ]
         },
         {
-          "id": "rvb-menu-wine-5",
-          "text": "Какой напиток описан в меню РВБ так: «Итальянское игристое Prosecco DOC. Свежий фруктовый стиль для аперитива.»?",
+          "id": "rvb-wine-case-v2-dry-fish",
+          "text": "Гость хочет сухое белое к рыбе. Какой вариант подходит?",
           "type": "single",
           "options": [
-            "Martini Prosecco DOC",
-            "I Castelli Merlot",
-            "Cono Sur Tocornal Cabernet Sauvignon",
-            "Casillero del Diablo Carmenere Reserva"
+            "Luis Felipe Edwards Chardonnay",
+            "Martini Asti DOCG",
+            "Freschello Bianco Semi Sweet",
+            "Freschello Rosso Semi Sweet"
           ]
         },
         {
-          "id": "rvb-menu-wine-6",
-          "text": "Какой напиток описан в меню РВБ так: «Ароматное сладкое игристое из Москато Бьянко. Во вкусе и аромате — персик, шалфей, груша и ананас.»?",
+          "id": "rvb-wine-case-v2-sweet-dessert",
+          "text": "Гость любит сладкое ароматное игристое и заказывает фруктовый десерт. Что предложить?",
           "type": "single",
           "options": [
-            "I Castelli Merlot",
-            "Cono Sur Tocornal Cabernet Sauvignon",
-            "Casillero del Diablo Carmenere Reserva",
-            "Martini Asti DOCG"
-          ]
-        },
-        {
-          "id": "rvb-menu-wine-7",
-          "text": "Какой напиток описан в меню РВБ так: «Испанское игристое кава брют. Сухой стиль и свежесть.»?",
-          "type": "single",
-          "options": [
-            "Cono Sur Tocornal Cabernet Sauvignon",
-            "Casillero del Diablo Carmenere Reserva",
+            "Martini Asti DOCG",
             "Bellisco Cava Brut",
-            "I Castelli Merlot"
+            "Louis Vallon Crémant de Bordeaux AOC Brut",
+            "Moët & Chandon Brut Impérial"
           ]
         },
         {
-          "id": "rvb-menu-wine-8",
-          "text": "К какой категории относится «Light House Alcohol Free» в меню РВБ?",
+          "id": "rvb-wine-case-v2-light-red",
+          "text": "Гость просит красное с деликатным телом и тонкими танинами. Что лучше соответствует запросу?",
           "type": "single",
           "options": [
-            "Шампанское",
-            "Безалкогольное",
-            "Красное",
-            "Игристое"
-          ]
-        },
-        {
-          "id": "rvb-menu-wine-9",
-          "text": "Какой напиток описан в меню РВБ так: «Шампанское с оттенками зелёного яблока, цитрусов, белых цветов и бриоши. Во вкусе — сочные белые фрукты и тонкие пузырьки.»?",
-          "type": "single",
-          "options": [
-            "Moët & Chandon Brut Impérial",
-            "I Castelli Merlot",
+            "Stonehaven Stepping Stone Pinot Noir",
             "Cono Sur Tocornal Cabernet Sauvignon",
+            "The Wanderer Malbec",
             "Casillero del Diablo Carmenere Reserva"
           ]
         },
         {
-          "id": "rvb-menu-wine-10",
-          "text": "Какой напиток описан в меню РВБ так: «Ароматное белое с оттенками лепестков розы, личи, свежих фруктов и пряностей. Свежий, выразительный вкус с нотами косточковых фруктов.»?",
+          "id": "rvb-wine-case-v2-rose",
+          "text": "Гость просит сухое розовое вино. Что предложить?",
           "type": "single",
           "options": [
+            "Col Mesian Pinot Grigio Provincia di Pavia",
+            "Freschello Rosso Semi Sweet",
             "I Castelli Merlot",
-            "Cono Sur Tocornal Cabernet Sauvignon",
-            "Casillero del Diablo Carmenere Reserva",
-            "Cono Sur Bicicleta Gewürztraminer"
+            "Costa Azul Grenache Rosé"
+          ]
+        },
+        {
+          "id": "rvb-wine-case-v2-grape",
+          "text": "Какая пара «вино — сорт» верна?",
+          "type": "single",
+          "options": [
+            "Martini Prosecco DOC — Рислинг",
+            "I Castelli Merlot — Шардоне",
+            "Das Ist Riesling — Глера",
+            "Martini Asti DOCG — Москато Бьянко"
+          ]
+        },
+        {
+          "id": "rvb-wine-case-v2-acidity",
+          "text": "Как проявляется кислотность вина во вкусе?",
+          "type": "single",
+          "options": [
+            "Обязательная сладость",
+            "Вяжущее ощущение сухости дёсен",
+            "Сильное согревание от алкоголя",
+            "Свежесть и усиление слюноотделения"
+          ]
+        },
+        {
+          "id": "rvb-wine-case-v2-tannin",
+          "text": "Какое ощущение связано прежде всего с танинами?",
+          "type": "single",
+          "options": [
+            "Цитрусовая кислинка",
+            "Терпкость и вяжущее ощущение",
+            "Сладость сахара",
+            "Пузырьки на языке"
+          ]
+        },
+        {
+          "id": "rvb-wine-case-v2-sparkling",
+          "text": "Как правильно открывать охлаждённое игристое?",
+          "type": "single",
+          "options": [
+            "Встряхнуть бутылку перед снятием мюзле",
+            "Контролировать пробку и открывать без резкого хлопка, направив бутылку от людей",
+            "Сначала нагреть бутылку, чтобы пробка вышла легче",
+            "Направить пробку к гостю для эффектной подачи"
+          ]
+        },
+        {
+          "id": "rvb-wine-case-v2-recommendation",
+          "text": "С чего начать подбор вина гостю?",
+          "type": "single",
+          "options": [
+            "Уточнить желаемый вкус, сладость, блюдо и бюджет",
+            "Сразу предложить самую дорогую бутылку",
+            "Считать любое белое сладким, а любое красное сухим",
+            "Выбирать только по красивой этикетке"
           ]
         }
       ],
-      "passCount": 8,
-      "timeLimitSeconds": 0
-    }
+      "timeLimitSeconds": 0,
+      "description": "30 вопросов: все 21 вино карты, сорта, страны, стили, сладость, выбор к блюду и подача.",
+      "contentRevision": "2026-10-29-assortment-v2"
+    },
+    "course_id": "rvb-bar-assortment",
+    "published": true,
+    "department": "Бар",
+    "updated_at": "2026-10-27T12:09:03.342339+00:00",
+    "restaurant_id": "minsk"
   },
   {
     "id": "rvb-assortment-test-cocktails",
