@@ -19,3 +19,13 @@ assert(!ctx.menuDescription({category:'wine',description:'Вино: <img src=x o
 assert(ctx.menuDescription({category:'cocktails',description:'Вино: <b>text</b>'}).includes('&lt;b&gt;'));
 assert.equal(wines.filter(w=>w.id.startsWith('90-')).length,30);assert.equal(wines.filter(w=>w.id.startsWith('rvb-')).length,21);
 console.log('PASS: 51 wines; four basic facts and four separate Details fields; legacy fallback, editable fields, escaping, removed memorization UI, existing recipes preserved.');
+
+assert(ctx.menuDetails({category:'gin',fact:'Уникальная история.'}).includes('<h4>Интересный факт:</h4><p>Уникальная история.</p>'));
+assert.equal(ctx.menuFactText({fact:'Двойная перегонка.',productionMethod:'Двойная перегонка.'}),'');
+assert.equal(ctx.menuFactText({fact:'Двойная перегонка. Основан в 1860 году.',productionMethod:'Двойная перегонка.'}),'Основан в 1860 году.');
+assert.equal(ctx.menuFactText({category:'cocktails',fact:'Джин, тоник'}),'');
+assert(ctx.menuDetails({fact:'<script>x</script>'}).includes('&lt;script&gt;'));
+assert.equal((ctx.menuDetailsEditor({category:'gin'}).match(/name="fact"/g)||[]).length,1);
+assert(!ctx.menuDetailsEditor({category:'cocktails'}).includes('name="fact"'));
+assert(!src.includes('<summary>Интересный факт</summary>'));
+console.log('PASS: facts inside Details, duplicate sentences removed, unique history retained, cocktail composition preserved.');
