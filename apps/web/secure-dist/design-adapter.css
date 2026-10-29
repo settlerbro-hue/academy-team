@@ -74,3 +74,18 @@ body{font-family:Geologica,Arial,sans-serif;background:#f9f5f2;color:#1a1a1d}but
 @media(max-width:800px){
  .nav button span{min-width:0;max-width:100%;min-height:2.5em;white-space:normal;overflow-wrap:anywhere;hyphens:auto;text-align:center}
 }
+
+.lesson-outline{min-width:0}
+.lesson-outline>summary{display:none}
+@media(max-width:850px){
+ .lesson-outline{margin-bottom:18px;border:1px solid #e4ddd5;border-radius:14px;background:#fff}
+ .lesson-outline>summary{display:block;position:relative;cursor:pointer;padding:14px 44px 14px 14px;list-style:none;line-height:1.45}
+ .lesson-outline>summary::-webkit-details-marker{display:none}
+ .lesson-outline>summary::marker{content:''}
+ .lesson-outline>summary::after{content:'';position:absolute;right:18px;top:20px;width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg)}
+ .lesson-outline[open]>summary::after{transform:rotate(225deg);top:24px}
+ .lesson-outline>summary:focus-visible{outline:3px solid #9a7ee3;outline-offset:3px;border-radius:14px}
+ .lesson-outline-heading{display:block;font-size:14px;font-weight:700}
+ .lesson-outline-current{display:block;margin-top:4px;font-size:12px;color:#625e5a;overflow-wrap:anywhere}
+ .lesson-outline>.lesson-nav{margin:0;padding:0 10px 12px}
+}
