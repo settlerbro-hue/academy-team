@@ -16,3 +16,14 @@ assert.throws(()=>ctx.readLibraryAccess(fd([['libraryAccessEnabled','on']]),{}))
 assert.equal(ctx.readLibraryAccess(fd([['libraryAccessEnabled','on'],['libraryDepartments','Бар'],['libraryDepartments','Кухня'],['libraryPositions','Повар']]),{}),null);
 const rank=ctx.ranking();assert(rank.includes('Рейтинг в разработке'));assert(rank.includes('aria-hidden="true"'));assert(!rank.includes('rank-member'));assert(!src.includes("rpc('academy_ranking')"));
 console.log('PASS: badge expiry and live timer; optional library defaults, job/department validation; ranking placeholder contains no staff data or ranking requests.');
+
+vm.runInContext(['libraryDepartments','libraryDepartmentBadges','library'].map(n=>src.split('\n').find(l=>l.startsWith('function '+n+'('))).join('\n'),ctx);
+assert.deepEqual(Array.from(ctx.libraryDepartments({department:'Бар',payload:{department:'Все'}})),['Бар']);
+assert.deepEqual(Array.from(ctx.libraryDepartments({department:null,payload:{department:'Все'}})),['Все подразделения']);
+assert.deepEqual(Array.from(ctx.libraryDepartments({payload:{libraryAccess:{enabled:true,departments:['Зал','Бар','Зал']}}})),['Зал','Бар']);
+assert.deepEqual(Array.from(ctx.libraryDepartments({department:'Кухня',payload:{libraryAccess:{enabled:false,departments:['Бар']}}})),['Кухня']);
+assert.deepEqual(Array.from(ctx.libraryDepartments({payload:{libraryAccess:{enabled:true,departments:[]}}})),['Не указано']);
+ctx.esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+assert(!ctx.libraryDepartmentBadges({department:'<script>alert(1)</script>'}).includes('<script>'));
+const docs=[{id:'bar',kind:'material',published:true,department:'Бар',title:'Вино',payload:{}},{id:'all',kind:'material',published:true,department:null,title:'Для команды',payload:{}}];ctx.kind=()=>docs;ctx.payload=d=>({...d,...d.payload});ctx.s.brand='';ctx.s.filter='';const libraryHTML=ctx.library();assert.equal((libraryHTML.match(/aria-label="Подразделения"/g)||[]).length,2);assert(libraryHTML.includes('Все подразделения'));assert(libraryHTML.includes('>Бар</span>'));assert(src.includes("libraryDepartmentBadges(d)+'<article class=\"card lesson-body\">"));
+console.log('PASS: department badges in library cards and reader; shared and multiple departments, active access settings, legacy metadata and escaped labels.');
