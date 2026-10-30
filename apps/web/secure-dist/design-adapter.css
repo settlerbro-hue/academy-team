@@ -95,3 +95,5 @@ body{font-family:Geologica,Arial,sans-serif;background:#f9f5f2;color:#1a1a1d}but
 .library-department-badges{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.library-department-badges .pill{max-width:100%;white-space:normal;overflow-wrap:anywhere;line-height:1.4}
 
 .library-filters{align-items:end}.library-filters>input{min-width:0;flex:1}.library-department-filter{display:flex;flex-direction:column;gap:6px;min-width:220px;font-size:13px;font-weight:600}.library-department-filter select{width:100%;min-width:0}@media(max-width:600px){.library-filters{display:flex;flex-direction:column;align-items:stretch}.library-department-filter{min-width:0;width:100%}}
+
+.menu-mark-feedback{min-height:18px;margin:6px 0 0;font-size:12px;line-height:1.5;color:var(--muted,#737373)}
