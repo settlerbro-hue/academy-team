@@ -1,0 +1,715 @@
+/* 100 short editorial summaries. Sources checked 2026-10-31. No tracking or API calls. */
+(function(){'use strict';
+const facts=[
+  {
+    "id": "fact-001",
+    "category": "История ресторанов",
+    "text": "Гид MICHELIN появился в 1900 году как помощник автомобилистам, а не как ресторанный рейтинг.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-002",
+    "category": "Наука хлеба",
+    "text": "Пекарские дрожжи — живые одноклеточные грибы.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-003",
+    "category": "Кухня и текстуры",
+    "text": "Нагревание меняет форму яичных белков: они разворачиваются и соединяются в сеть.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-004",
+    "category": "Кондитерская наука",
+    "text": "Обычный столовый сахар — сахароза, соединяющая глюкозу и фруктозу.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-005",
+    "category": "Кофейное зерно",
+    "text": "Кофейные зёрна — семена плодов кофейного дерева.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-006",
+    "category": "Кофе до обжарки",
+    "text": "При натуральной обработке кофейные плоды сушат целиком, вместе с семенами.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-007",
+    "category": "Пивная культура",
+    "text": "Основа большинства сортов пива — вода, солод, хмель и дрожжи.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-008",
+    "category": "Вино без мифов",
+    "text": "Большинство виноградных сортов имеют светлый сок — даже при тёмной кожице.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-009",
+    "category": "Экономика меню",
+    "text": "Высокая выручка блюда ещё не означает высокую прибыль: важны затраты на его производство.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-010",
+    "category": "Кофе в баре",
+    "text": "Эспрессо — способ приготовления кофе под давлением, а не отдельный вид зерна.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-011",
+    "category": "История ресторанов",
+    "text": "Создатели ресторанного гида MICHELIN — братья Андре и Эдуар, основавшие шинную компанию.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-012",
+    "category": "Наука хлеба",
+    "text": "Тесто поднимается благодаря углекислому газу, который выделяют дрожжи.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-013",
+    "category": "Кухня и текстуры",
+    "text": "Белковая сеть удерживает воду — поэтому жидкое яйцо при готовке становится плотным.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-014",
+    "category": "Кондитерская наука",
+    "text": "Сахарозу получают и из сахарного тростника, и из сахарной свёклы.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-015",
+    "category": "Кофейное зерно",
+    "text": "Арабика и робуста относятся к разным видам кофейного растения.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-016",
+    "category": "Кофе до обжарки",
+    "text": "При мытой обработке мякоть кофейной ягоды удаляют до сушки зерна.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-017",
+    "category": "Пивная культура",
+    "text": "По объёму главный ингредиент пива — вода.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-018",
+    "category": "Вино без мифов",
+    "text": "Главный источник красного цвета вина — кожица винограда.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-019",
+    "category": "Экономика меню",
+    "text": "В анализе меню оценивают одновременно популярность позиции и её денежный вклад после стоимости продуктов.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-020",
+    "category": "Кофе в баре",
+    "text": "Для эспрессо используют мелкий помол: вода проходит через кофе за короткое время.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-021",
+    "category": "История ресторанов",
+    "text": "В раннем гиде MICHELIN были инструкции по замене шин и адреса заправок.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-022",
+    "category": "Наука хлеба",
+    "text": "Дрожжи участвуют не только в подъёме теста, но и в создании хлебного аромата.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-023",
+    "category": "Кухня и текстуры",
+    "text": "Если слишком долго нагревать яйцо, белковая сеть уплотняется, а текстура становится резиновой.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-024",
+    "category": "Кондитерская наука",
+    "text": "Сахарный песок состоит из кристаллов с упорядоченными молекулами.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-025",
+    "category": "Кофейное зерно",
+    "text": "Терруар бывает и у кофе: почва, климат и высота влияют на вкус зерна.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-026",
+    "category": "Кофе до обжарки",
+    "text": "Название honey process связано с липким слоем кофейного плода, а не с добавлением мёда.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-027",
+    "category": "Пивная культура",
+    "text": "При пивном брожении дрожжи превращают сахара в спирт и углекислый газ.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-028",
+    "category": "Вино без мифов",
+    "text": "Из тёмного винограда можно сделать белое вино, быстро отделив сок от кожицы.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-029",
+    "category": "Экономика меню",
+    "text": "Низкий процент food cost сам по себе не гарантирует больший денежный вклад блюда.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-030",
+    "category": "Кофе в баре",
+    "text": "Золотистая пенка на эспрессо называется крема.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-031",
+    "category": "История ресторанов",
+    "text": "Первые двадцать лет гид MICHELIN раздавали бесплатно.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-032",
+    "category": "Наука хлеба",
+    "text": "Клейковина образуется, когда белки пшеничной муки соединяются с водой.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-033",
+    "category": "Кухня и текстуры",
+    "text": "При взбивании белка в него попадает воздух — основа объёма меренги.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-034",
+    "category": "Кондитерская наука",
+    "text": "В горячей воде можно растворить больше сахара, чем в холодной.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-035",
+    "category": "Кофейное зерно",
+    "text": "Кофе single origin может происходить с одной фермы, из одного региона или страны.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-036",
+    "category": "Кофе до обжарки",
+    "text": "При honey-обработке на зерне оставляют часть слизистого слоя плода.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-037",
+    "category": "Пивная культура",
+    "text": "Солод даёт пиву не только сахара, но и значительную часть цвета.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-038",
+    "category": "Вино без мифов",
+    "text": "Контакт с кожицей даёт красному вину не только цвет, но и танины.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-039",
+    "category": "Экономика меню",
+    "text": "Разница между ценой блюда и стоимостью продуктов ещё должна покрыть труд и другие расходы ресторана.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-040",
+    "category": "Кофе в баре",
+    "text": "Эспрессо служит основой латте и капучино.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-041",
+    "category": "История ресторанов",
+    "text": "В 1920 году гид MICHELIN стал платным: экземпляр стоил семь франков.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-042",
+    "category": "Наука хлеба",
+    "text": "Замешивание делает клейковинную сеть теста более растяжимой.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-043",
+    "category": "Кухня и текстуры",
+    "text": "Взбивание меняет форму белковых молекул даже без нагревания.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-044",
+    "category": "Кондитерская наука",
+    "text": "При варке сиропа вода испаряется, а концентрация сахара растёт.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-045",
+    "category": "Кофейное зерно",
+    "text": "Зёрна арабики обычно более вытянутые и плоские, чем зёрна робусты.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-046",
+    "category": "Кофе до обжарки",
+    "text": "Сушка кофейных ягод натуральным способом может занимать несколько недель.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-047",
+    "category": "Пивная культура",
+    "text": "Кофейные и шоколадные ноты пива могут появиться от обжаренного солода без добавления кофе или шоколада.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-048",
+    "category": "Вино без мифов",
+    "text": "Ощущение сухости и стягивания во рту при дегустации часто связано с танинами.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-049",
+    "category": "Экономика меню",
+    "text": "Выход продукта после очистки отличается от закупочного веса — это влияет на стоимость порции.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-050",
+    "category": "Кофе в баре",
+    "text": "Порция эспрессо не обязательно содержит больше кофеина, чем большая чашка фильтр-кофе.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-051",
+    "category": "История ресторанов",
+    "text": "Инспекторы MICHELIN посещают рестораны анонимно — как обычные гости.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-052",
+    "category": "Наука хлеба",
+    "text": "Пористый мякиш получается, когда тесто удерживает множество пузырьков газа.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-053",
+    "category": "Кухня и текстуры",
+    "text": "В белковой пене молекулы образуют сетку вокруг пузырьков воздуха.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-054",
+    "category": "Кондитерская наука",
+    "text": "Остывающий концентрированный сироп может стать пересыщенным — и начать кристаллизоваться.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-055",
+    "category": "Кофейное зерно",
+    "text": "Робуста обычно содержит больше кофеина, чем арабика.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-056",
+    "category": "Кофе до обжарки",
+    "text": "Кофейные ягоды во время сушки переворачивают, чтобы они высыхали равномернее.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-057",
+    "category": "Пивная культура",
+    "text": "Хмель добавляет пиву и горечь, и аромат — это разные стороны одного ингредиента.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-058",
+    "category": "Вино без мифов",
+    "text": "Большинство розовых вин получают коротким контактом сока с тёмной кожицей винограда.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-059",
+    "category": "Экономика меню",
+    "text": "Тест выхода помогает узнать реальную стоимость используемой части продукта.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-060",
+    "category": "Кофе в баре",
+    "text": "Весы помогают бариста воспроизводить результат точнее, чем измерение кофе на глаз.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-061",
+    "category": "История ресторанов",
+    "text": "Первые ресторанные звёзды MICHELIN появились в 1926 году.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-062",
+    "category": "Наука хлеба",
+    "text": "Выпечку могут поднимать и дрожжи, и химические разрыхлители — механизмы у них разные.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-063",
+    "category": "Кухня и текстуры",
+    "text": "В духовке воздух внутри суфле расширяется, помогая ему подняться.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-064",
+    "category": "Кондитерская наука",
+    "text": "Перемешивание пересыщенного сиропа может запустить образование сахарных кристаллов.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-065",
+    "category": "Кофейное зерно",
+    "text": "Робуста устойчивее арабики ко многим болезням и вредителям.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-066",
+    "category": "Кофе до обжарки",
+    "text": "Натуральная обработка способна придать кофе выраженные фруктовые оттенки.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-067",
+    "category": "Пивная культура",
+    "text": "Цитрусовый аромат пива может исходить от хмеля, даже если фрукты не добавляли.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-068",
+    "category": "Вино без мифов",
+    "text": "При изготовлении белого вина кожицу обычно отделяют до брожения.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-069",
+    "category": "Экономика меню",
+    "text": "Стандартная порция нужна не только для подачи: от неё зависит точность расчёта себестоимости.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-070",
+    "category": "Кофе в баре",
+    "text": "В полуавтоматической кофемашине давление создаёт машина, а пролив контролирует бариста.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-071",
+    "category": "История ресторанов",
+    "text": "Изначально MICHELIN присуждал ресторанам только одну звезду.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-072",
+    "category": "Наука хлеба",
+    "text": "Сода выделяет газ в реакции с кислотой: так поднимается часть бездрожжевой выпечки.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-073",
+    "category": "Кухня и текстуры",
+    "text": "Майонез — эмульсия: крошечные капли масла распределены в водной среде.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-074",
+    "category": "Кондитерская наука",
+    "text": "Лимонная кислота помогает расщеплять сахарозу на глюкозу и фруктозу.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-075",
+    "category": "Кофейное зерно",
+    "text": "Арабика предпочитает более прохладные условия выращивания, чем робуста.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-076",
+    "category": "Кофе до обжарки",
+    "text": "Мытый кофе часто описывают как чистый по вкусу, с цветочными или цитрусовыми нотами.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-077",
+    "category": "Пивная культура",
+    "text": "Минеральный состав воды способен менять восприятие вкуса пива.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-078",
+    "category": "Вино без мифов",
+    "text": "При изготовлении красного вина брожение обычно проходит вместе с кожицей.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-079",
+    "category": "Экономика меню",
+    "text": "По системе FIFO раньше используют те запасы, которые поступили раньше.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-080",
+    "category": "Кофе в баре",
+    "text": "Помол непосредственно перед приготовлением помогает сохранить свежесть кофейного аромата.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-081",
+    "category": "История ресторанов",
+    "text": "Шкалу из одной, двух и трёх звёзд MICHELIN ввёл в 1931 году.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-082",
+    "category": "Наука хлеба",
+    "text": "При выпекании крахмал поглощает воду и помогает закрепить структуру хлеба.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-083",
+    "category": "Кухня и текстуры",
+    "text": "Яичный желток помогает удерживать вместе масло и воду в соусе голландез.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-084",
+    "category": "Кондитерская наука",
+    "text": "Глюкозный сироп мешает сахарозе собираться в крупные кристаллы в конфетах.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-085",
+    "category": "Кофейное зерно",
+    "text": "Робуста встречается в итальянских эспрессо-смесях, а не только в растворимом кофе.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-086",
+    "category": "Кофе до обжарки",
+    "text": "Одинаковое зерно после разных способов обработки может дать разный профиль чашки.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-087",
+    "category": "Пивная культура",
+    "text": "Дрожжи эля могут создавать фруктовые и пряные оттенки пива.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-088",
+    "category": "Вино без мифов",
+    "text": "На насыщенность цвета вина влияют и время контакта с кожицей, и температура.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-089",
+    "category": "Экономика меню",
+    "text": "Точка безубыточности — объём продаж, при котором выручка покрывает все расходы.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-090",
+    "category": "Кофе в баре",
+    "text": "Жерновая и ножевая кофемолки работают по-разному: жернова лучше контролируют равномерность помола.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  },
+  {
+    "id": "fact-091",
+    "category": "История ресторанов",
+    "text": "Письменные критерии звёзд MICHELIN опубликовали в 1936 году.",
+    "source": "MICHELIN",
+    "url": "https://guide.michelin.com/us/en/about-us"
+  },
+  {
+    "id": "fact-092",
+    "category": "Наука хлеба",
+    "text": "Хлеб можно готовить не только в печи, но и на пару: пример — китайские баоцзы.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html"
+  },
+  {
+    "id": "fact-093",
+    "category": "Кухня и текстуры",
+    "text": "Лецитин желтка работает как связующее между жиром и водой в эмульсиях.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/eggs/eggscience.html"
+  },
+  {
+    "id": "fact-094",
+    "category": "Кондитерская наука",
+    "text": "Масло в ирисе влияет не только на вкус: жир также мешает кристаллизации сахара.",
+    "source": "Exploratorium",
+    "url": "https://annex.exploratorium.edu/cooking/candy/sugar.html"
+  },
+  {
+    "id": "fact-095",
+    "category": "Кофейное зерно",
+    "text": "Вкус кофе зависит не только от вида зерна, но и от места выращивания, обжарки и приготовления.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/varieties/"
+  },
+  {
+    "id": "fact-096",
+    "category": "Кофе до обжарки",
+    "text": "После сушки с кофейного зерна удаляют защитную пергаментную оболочку.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/beans/processes/"
+  },
+  {
+    "id": "fact-097",
+    "category": "Пивная культура",
+    "text": "Для пива используют не только ячмень: в рецептурах встречаются пшеница, овёс и рожь.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/november/what-is-beer-a-beginner-s-guide/"
+  },
+  {
+    "id": "fact-098",
+    "category": "Вино без мифов",
+    "text": "Пино Нуар обычно даёт более светлые вина, чем толстокожий Каберне Совиньон.",
+    "source": "WSET",
+    "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine"
+  },
+  {
+    "id": "fact-099",
+    "category": "Экономика меню",
+    "text": "Кассовые отчёты показывают структуру продаж: какие позиции и в каком количестве выбирают гости.",
+    "source": "BC Cook Articulation Committee · BCcampus",
+    "url": "https://opentextbc.ca/basickitchenandfoodservicemanagement/"
+  },
+  {
+    "id": "fact-100",
+    "category": "Кофе в баре",
+    "text": "Ручная эспрессо-машина позволяет управлять не только временем, но и потоком воды и давлением.",
+    "source": "National Coffee Association",
+    "url": "https://www.aboutcoffee.org/brewing/espresso/"
+  }
+];
+const offset=3*60*60*1000,epoch=Date.UTC(2026,9,31);
+function dayIndex(now=Date.now()){return Math.floor((Number(now)+offset-epoch)/86400000);}
+function fact(now=Date.now()){const day=dayIndex(now);return facts[((day%facts.length)+facts.length)%facts.length];}
+const escape=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function card(){const f=fact();return '<aside class="daily-fact" aria-label="Факт дня"><div class="daily-fact-top"><span>НА ВОЛНЕ ЗНАНИЙ</span><span aria-hidden="true">✦ 90-е</span></div><p class="daily-fact-label">Факт дня · '+escape(f.category)+'</p><p class="daily-fact-text">'+escape(f.text)+'</p><a class="daily-fact-source" href="'+escape(f.url)+'" target="_blank" rel="noopener noreferrer">'+escape(f.source)+' ↗</a></aside>';}
+function refresh(){document.querySelectorAll('[data-daily-fact]').forEach(n=>{n.innerHTML=card();});}
+window.academyFacts=Object.freeze({card,fact,dayIndex,count:facts.length});
+refresh();
+let timer;function schedule(){clearTimeout(timer);timer=setTimeout(()=>{refresh();schedule();},86400000-((Date.now()+offset)%86400000)+50);}
+schedule();document.addEventListener('visibilitychange',()=>{if(!document.hidden){refresh();schedule();}});
+})();
