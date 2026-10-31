@@ -17,6 +17,7 @@ assert.equal(ctx.readLibraryAccess(fd([['libraryAccessEnabled','on'],['libraryDe
 const rank=ctx.ranking();assert(rank.includes('Рейтинг в разработке'));assert(rank.includes('aria-hidden="true"'));assert(!rank.includes('rank-member'));assert(!src.includes("rpc('academy_ranking')"));
 console.log('PASS: badge expiry and live timer; optional library defaults, job/department validation; ranking placeholder contains no staff data or ranking requests.');
 
+ctx.libraryMatchesText=p=>!ctx.s.filter||JSON.stringify(p).toLowerCase().includes(ctx.s.filter.toLowerCase());ctx.librarySearchStatus=()=>'';
 vm.runInContext(['libraryDepartments','libraryDepartmentBadges','libraryMatchesDepartment','library','bindLibraryDepartment'].map(n=>src.split('\n').find(l=>l.startsWith('function '+n+'('))).join('\n'),ctx);
 assert.deepEqual(Array.from(ctx.libraryDepartments({department:'Бар',payload:{department:'Все'}})),['Бар']);
 assert.deepEqual(Array.from(ctx.libraryDepartments({department:null,payload:{department:'Все'}})),['Все подразделения']);
