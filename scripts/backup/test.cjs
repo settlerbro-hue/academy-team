@@ -1,5 +1,11 @@
 const fs=require('node:fs'),os=require('node:os'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict'),{execFileSync}=require('node:child_process');
 const {seal,open}=require('./crypto.cjs'),{backup}=require('./storage.cjs');
+const {connection}=require('./db-connection.cjs');
+const example='p@ss:/?#%+ &';
+assert.equal(decodeURIComponent(new URL(connection({SUPABASE_DB_PASSWORD:example})).password),example);
+assert.equal(new URL(connection({SUPABASE_DB_PASSWORD:example})).searchParams.get('sslmode'),'require');
+assert.throws(()=>connection({}));
+assert.equal(connection({SUPABASE_DB_URL:'postgresql://example'}),'postgresql://example');
 (async()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'academy-backup-test-'));
  try{

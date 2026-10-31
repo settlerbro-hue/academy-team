@@ -35,18 +35,21 @@ jobs:
     timeout-minutes: 90
     env:
       SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       SUPABASE_URL: https://ivlinbwuudxyjaikwaoo.supabase.co
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Prepare masked database connection
+        run: node scripts/backup/db-connection.cjs
       - name: Require backup credentials
         shell: bash
         run: |
           test -n "$SUPABASE_DB_URL" || { echo '::error::Configure SUPABASE_DB_URL in Actions secrets'; exit 1; }
           test -n "$SUPABASE_SERVICE_ROLE_KEY" || { echo '::error::Configure SUPABASE_SERVICE_ROLE_KEY in Actions secrets'; exit 1; }
           test -s scripts/backup/recipient.pem
-      - uses: actions/setup-node@v4
-        with: { node-version: 22 }
       - uses: supabase/setup-cli@v3
         with: { version: latest }
       - name: Database and Storage snapshot

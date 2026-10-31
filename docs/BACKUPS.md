@@ -12,7 +12,7 @@
 
 В Settings → Secrets and variables → Actions нужны:
 
-- `SUPABASE_DB_URL`: URI PostgreSQL через Session pooler, порт 5432, пароль percent-encoded, TLS `?sslmode=require`.
+- `SUPABASE_DB_PASSWORD`: сохранённый пароль PostgreSQL без дополнительного кодирования. Workflow сам формирует URI Session pooler с percent-encoding и TLS. Для нестандартного подключения можно вместо него задать `SUPABASE_DB_URL` с полным URI.
 - `SUPABASE_SERVICE_ROLE_KEY`: существующий серверный service_role key проекта. Не публичный publishable/anon key.
 
 Не вставлять эти значения в исходники, issues, логи или чат. Репозиторий на момент проверки публичный; в артефакты базы допускается только шифротекст. Участник с правом изменения workflows потенциально может использовать Actions secrets: доступ к исходникам требует доверия.
