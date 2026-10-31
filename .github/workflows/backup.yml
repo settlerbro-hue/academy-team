@@ -1,0 +1,78 @@
+name: Backup
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: daily-backup
+  cancel-in-progress: false
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/backup/test.cjs && npm run check && npm run build
+      - run: |
+          node scripts/backup/site.cjs create
+          node scripts/backup/site.cjs verify
+          tar -czf site.tar.gz out site-manifest.json
+          sha256sum site.tar.gz > site.tar.gz.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            site.tar.gz
+            site.tar.gz.sha256
+          retention-days: 90
+          if-no-files-found: error
+  database-and-files:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SUPABASE_URL: https://ivlinbwuudxyjaikwaoo.supabase.co
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require backup credentials
+        shell: bash
+        run: |
+          test -n "$SUPABASE_DB_URL" || { echo '::error::Configure SUPABASE_DB_URL in Actions secrets'; exit 1; }
+          test -n "$SUPABASE_SERVICE_ROLE_KEY" || { echo '::error::Configure SUPABASE_SERVICE_ROLE_KEY in Actions secrets'; exit 1; }
+          test -s scripts/backup/recipient.pem
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: supabase/setup-cli@v3
+        with: { version: latest }
+      - name: Database and Storage snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          mkdir -p "$RUNNER_TEMP/academy-backup/database"
+          supabase db dump --db-url "$SUPABASE_DB_URL" -f "$RUNNER_TEMP/academy-backup/database/roles.sql" --role-only
+          supabase db dump --db-url "$SUPABASE_DB_URL" -f "$RUNNER_TEMP/academy-backup/database/schema.sql"
+          supabase db dump --db-url "$SUPABASE_DB_URL" -f "$RUNNER_TEMP/academy-backup/database/data.sql" --use-copy --data-only -x storage.buckets_vectors -x storage.vector_indexes
+          supabase db dump --db-url "$SUPABASE_DB_URL" -f "$RUNNER_TEMP/academy-backup/database/managed-schema.sql" --schema auth,storage
+          node scripts/backup/storage.cjs "$RUNNER_TEMP/academy-backup/storage"
+          cp -R apps/web/supabase/migrations "$RUNNER_TEMP/academy-backup/migrations"
+          printf '%s\n' "$GITHUB_SHA" > "$RUNNER_TEMP/academy-backup/source-commit.txt"
+          tar -czf "$RUNNER_TEMP/database-and-files.tar.gz" -C "$RUNNER_TEMP/academy-backup" .
+          node scripts/backup/crypto.cjs seal "$RUNNER_TEMP/database-and-files.tar.gz" database-and-files.askbackup scripts/backup/recipient.pem
+          sha256sum database-and-files.askbackup > database-and-files.askbackup.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-data-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            database-and-files.askbackup
+            database-and-files.askbackup.sha256
+          retention-days: 90
+          if-no-files-found: error
+      - name: Remove plaintext from runner
+        if: always()
+        run: rm -rf -- "$RUNNER_TEMP/academy-backup" "$RUNNER_TEMP/database-and-files.tar.gz"

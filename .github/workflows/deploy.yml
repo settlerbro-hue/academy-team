@@ -3,6 +3,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: academy-production
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -10,7 +15,21 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: npm run check && npm run build
+      - run: node scripts/backup/test.cjs && npm run check && npm run build
+      - name: Save verified release before publication
+        run: |
+          node scripts/backup/site.cjs create
+          node scripts/backup/site.cjs verify
+          tar -czf site.tar.gz out site-manifest.json
+          sha256sum site.tar.gz > site.tar.gz.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            site.tar.gz
+            site.tar.gz.sha256
+          retention-days: 90
+          if-no-files-found: error
       - run: |
           mkdir -p ~/.ssh && install -m 600 /dev/null ~/.ssh/id
           echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id

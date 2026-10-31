@@ -9,3 +9,8 @@ node_modules/
 Thumbs.db
 academy-deploy
 academy-deploy.pub
+/site-manifest.json
+/site.tar.gz
+/site.tar.gz.sha256
+/*.askbackup
+/selected-backup/

@@ -1,0 +1,46 @@
+name: Rollback site
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Successful Deploy or Backup run ID containing the site artifact
+        required: true
+        type: string
+      artifact_name:
+        description: Exact site artifact name from that run (site-RUN-ATTEMPT)
+        required: true
+        type: string
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: academy-production
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact_name }}
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: selected-backup
+      - name: Validate archive and file checksums
+        run: |
+          cd selected-backup
+          sha256sum -c site.tar.gz.sha256
+          python3 ../scripts/backup/extract-site.py site.tar.gz restored
+          node ../scripts/backup/site.cjs verify restored
+      - name: Publish selected release
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh && install -m 600 /dev/null ~/.ssh/id
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/id
+          ssh-keyscan -H 80.64.31.169 >> ~/.ssh/known_hosts
+          rsync -rlt --delete -e "ssh -i ~/.ssh/id" selected-backup/restored/out/ deploy@80.64.31.169:
