@@ -2,7 +2,7 @@
   "name": "academy-team-web",
   "version": "1.0.0",
   "private": true,
-  "description": "Академия команды — 90-е и Руки Вверх Бар",
+  "description": "Академия команды — 90-е и Руки ВВерх! Бар",
   "scripts": {
     "dev": "node scripts/preview.cjs",
     "build": "node build-secure.cjs",

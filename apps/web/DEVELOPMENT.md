@@ -53,4 +53,4 @@ npm run build
 
 ## Передача контекста новому чату
 
-«Продолжаем Академию команды 90-е / Руки Вверх Бар. Рабочий frontend — secure-dist, backend — Supabase ivlinbwuudxyjaikwaoo, рабочий домен — askacademy.ru. Прочитай корневой README.md, DEVELOPMENT.md и supabase/README.md. Обновление VPS выполняется GitHub Actions workflow Deploy после push в main. Сохраняй серверные роли и RLS; не публикуй dist, supabase, документы и ключи».
+«Продолжаем Академию команды 90-е / Руки ВВерх! Бар. Рабочий frontend — secure-dist, backend — Supabase ivlinbwuudxyjaikwaoo, рабочий домен — askacademy.ru. Прочитай корневой README.md, DEVELOPMENT.md и supabase/README.md. Обновление VPS выполняется GitHub Actions workflow Deploy после push в main. Сохраняй серверные роли и RLS; не публикуй dist, supabase, документы и ключи».
