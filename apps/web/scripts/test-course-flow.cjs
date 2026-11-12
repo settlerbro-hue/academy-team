@@ -28,3 +28,27 @@ libraryGuides.forEach(d=>d.published=true);
 assert(portal.includes("barPreparationTest(d)?barPreparationResources():''"));
 const intro=portal.slice(portal.indexOf('function testIntroView('),portal.indexOf('function testIntroView(')+1500);assert(intro.indexOf('barPreparationResources()')<intro.indexOf('Начать тест'));
 console.log('PASS: three published library guides before bar tests, once per outline, no lessons/progress/attempts added, unrelated tests unchanged.');
+
+// Both states of the lesson button go to Learning, with no premature navigation on a failed save.
+const courseId=content[0].id,lessonId=String(content[0].payload.lessons[0].id);
+const rpcCalls=[];
+Object.assign(s,{session:{user:{id:'employee'}},course:courseId,lesson:0,tab:'courses',progress:[],testIntro:null});
+context.payload=d=>({lessons:d.payload.lessons.map((lesson,i)=>({...lesson,id:String(lesson.id??i)}))});
+context.rpc=async(name,args)=>{
+ rpcCalls.push([name,args.p_course_id,args.p_lesson_id]);
+ assert.equal(s.course,courseId,'The lesson must remain open until its mark is saved');
+};
+assert(portal.includes("$('#complete-lesson')?.addEventListener('click',()=>act(completeLessonAndReturn))"));
+(async()=>{
+ await context.completeLessonAndReturn();
+ assert.deepEqual(rpcCalls,[['academy_complete_lesson',courseId,lessonId]]);
+ assert.equal(s.progress[0].lesson_id,lessonId);
+ assert.equal(s.course,null);assert.equal(s.tab,'courses');assert.equal(s.testIntro,null);
+ s.course=courseId;
+ await context.completeLessonAndReturn();
+ assert.equal(s.course,null);assert.equal(rpcCalls.length,1,'A completed lesson does not need to be saved again');
+ s.course=courseId;s.progress=[];context.rpc=async()=>{throw Error('save failed');};
+ await assert.rejects(context.completeLessonAndReturn(),/save failed/);
+ assert.equal(s.course,courseId);assert.equal(s.progress.length,0);
+ console.log('PASS: lesson button returns to Learning after saving, skips a duplicate save and keeps failed lessons open.');
+})().catch(error=>{console.error(error);process.exitCode=1;});
