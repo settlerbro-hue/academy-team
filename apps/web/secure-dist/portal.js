@@ -177,7 +177,35 @@ async function restoreRoute(){if(routeTask)return routeTask;routeTask=Promise.re
  if(parts.length>1)routeUnavailable();
  }catch(e){s.routeError='Не удалось открыть страницу. Проверьте адрес и попробуйте обновить её ещё раз.';}
  finally{routeReady=true;routeApplying=false;routeReplaceNext=true;routeTask=null;}});return routeTask;}
-function testIntroView(){const d=s.content.find(x=>x.id===s.testIntro),p=payload(d),course=s.content.find(item=>item.id===d.course_id),hasLessons=!!payload(course||{}).lessons?.length;const attempt=s.attempts.filter(a=>a.test_id===d.id&&!a.submitted_at).sort((a,b)=>Date.parse(b.started_at)-Date.parse(a.started_at))[0];return `${hasLessons?`<button class="ghost" data-course="${esc(d.course_id)}">← К занятиям</button>`:'<button class="ghost" data-go="courses">← Все курсы</button>'}<h1>${esc(d.title)}</h1>${priorityBadge(d)}<p class="muted">${countLabel(p.questionCount??(p.questions||[]).length,['вопрос','вопроса','вопросов'])}</p>${barPreparationTest(d)?barPreparationResources():''}${attempt?`<a class="primary" href="#/tests/${encRoute(d.id)}/attempts/${encRoute(attempt.id)}">Продолжить тест</a> `:''}<button class="${attempt?'secondary':'primary'}" data-test="${esc(d.id)}">${attempt?'Начать заново':'Начать тест'}</button>`;}
+
+function ninetyBarTestPreparation(test){
+ if(test.course_id!=='guru-50011'||restaurantBrand(s.profile?.restaurant_id)!=='90')return '';
+ const sections={
+  alcohol:'Крепкий алкоголь и аперитивы',wine:'Вино и игристое',cocktails:'Коктейли',
+  tinctures:'Настойки',sets:'Сеты',nonalcoholic:'Безалкогольные напитки',hot:'Горячие напитки'
+ };
+ const category=test.id.startsWith('90-assortment-test-')?test.id.slice('90-assortment-test-'.length):'';
+ const groups=new Map();
+ for(const record of ownMenu()){
+  if(menuBrandOf(record)!=='90'||menuSectionOf(record)!=='bar')continue;
+  const item=studyItem(payload(record));
+  const beer=item.subcategory==='Пиво';
+  if(category&&(item.category!==category||beer))continue;
+  const heading=beer?'Пиво':sections[item.category]||'Меню бара';
+  if(!groups.has(heading))groups.set(heading,[]);
+  groups.get(heading).push({record,item});
+ }
+ if(!groups.size)return '';
+ const cards=entries=>entries.map(({record,item})=>{
+  const composition=ingredients(item).map(ingredient=>ingredient.name).filter(Boolean).join(', ');
+  const details=item.tastingNotes||item.taste||item.styleDescription;
+  const distinctDetails=details&&details!==item.description?'<p>'+esc(details)+'</p>':'';
+  const distinctComposition=composition&&composition!==item.description?'<p><strong>Состав</strong> · '+esc(composition)+'</p>':'';
+  return '<article class="card"><h4><a href="#/menu/'+encRoute(record.id)+'">'+esc(item.name||record.title)+'</a></h4><p class="muted">'+[item.subcategory,item.volume].filter(Boolean).map(esc).join(' · ')+'</p>'+(item.description?menuDescription(item):'')+distinctComposition+distinctDetails+'</article>';
+ }).join('');
+ return '<section class="card bar-preparation" aria-label="Ассортимент бара МХП перед тестом"><h2>Ассортимент бара МХП</h2><p class="muted">Откройте раздел, чтобы повторить позиции, состав и вкус перед тестом.</p>'+[...groups].map(([heading,entries])=>'<details class="menu-recipe"><summary>'+esc(heading)+' · '+entries.length+'</summary>'+cards(entries)+'</details>').join('')+'</section>';
+}
+function testIntroView(){const d=s.content.find(x=>x.id===s.testIntro),p=payload(d),course=s.content.find(item=>item.id===d.course_id),hasLessons=!!payload(course||{}).lessons?.length;const attempt=s.attempts.filter(a=>a.test_id===d.id&&!a.submitted_at).sort((a,b)=>Date.parse(b.started_at)-Date.parse(a.started_at))[0];return `${hasLessons?`<button class="ghost" data-course="${esc(d.course_id)}">← К занятиям</button>`:'<button class="ghost" data-go="courses">← Все курсы</button>'}<h1>${esc(d.title)}</h1>${priorityBadge(d)}<p class="muted">${countLabel(p.questionCount??(p.questions||[]).length,['вопрос','вопроса','вопросов'])}</p>${ninetyBarTestPreparation(d)}${barPreparationTest(d)?barPreparationResources():''}${attempt?`<a class="primary" href="#/tests/${encRoute(d.id)}/attempts/${encRoute(attempt.id)}">Продолжить тест</a> `:''}<button class="${attempt?'secondary':'primary'}" data-test="${esc(d.id)}">${attempt?'Начать заново':'Начать тест'}</button>`;}
 function testResultView(){const a=s.testResult,title=s.content.find(x=>x.id===a.test_id)?.title||a.snapshot?.title||'Тест';const courseId=s.content.find(x=>x.id===a.test_id)?.course_id,next=courseId&&nextCourseStep(courseId,a.test_id);return `<span class="eyebrow">Результат теста</span><h1>${esc(title)}</h1><section class="card"><strong class="stat">${a.score??0} / ${a.total??0}</strong><p>${a.needs_review?'На проверке у администратора':a.passed?'Тест пройден':'Повторите материал и попробуйте снова'}</p>${next?`<button class="primary" data-course-next="${esc(courseId)}" data-after-step="${esc(a.test_id)}">${next.type==='test'?'Следующий тест':'Следующее занятие'} →</button>`:''}<button class="ghost" data-result-course="${esc(s.content.find(x=>x.id===a.test_id)?.course_id||'')}">← К курсу</button></section>`;}
 function bindRoutes(){
  all('[data-test-intro]').forEach(b=>b.onclick=()=>{const t=s.content.find(d=>d.id===b.dataset.testIntro);if(t)openCourseStep(t.course_id,{type:'test',id:t.id});});
