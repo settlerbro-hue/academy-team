@@ -157,8 +157,8 @@ async function restoreRoute(){if(routeTask)return routeTask;routeTask=Promise.re
   s.tab='courses';const d=s.content.find(x=>x.id===parts[1]&&x.kind==='test');
   if(parts.length===2){if(!d||d.published===false&&!canEdit(d)){routeUnavailable();return;}s.testIntro=d.id;s.course=null;return;}
   if(!['attempts','results'].includes(parts[2])||! /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(parts[3]||'')){routeUnavailable();return;}
-  const r=await client.from('academy_attempts').select('id,user_id,test_id,started_at,submitted_at,snapshot,answers,score,total,passed,needs_review').eq('id',parts[3]).eq('user_id',s.session.user.id).maybeSingle();if(r.error)throw r.error;const a=r.data;if(!a||a.test_id!==parts[1]){routeUnavailable();return;}
-  if(a.submitted_at){s.testResult=a;return;}
+  const r=await client.from('academy_attempts').select('id,user_id,test_id,started_at,submitted_at,snapshot,answers,score,total,passed,needs_review,feedback').eq('id',parts[3]).eq('user_id',s.session.user.id).maybeSingle();if(r.error)throw r.error;const a=r.data;if(!a||a.test_id!==parts[1]){routeUnavailable();return;}
+  if(a.submitted_at){s.testResult=a;await loadTestMistakes(a);return;}
   s.course=d?.course_id||null;s.lesson=0;s.test={id:a.test_id,attempt_id:a.id,title:d?.title||a.snapshot.title||'Тест',questions:a.snapshot.questions||[],time_limit_seconds:a.snapshot.timeLimitSeconds||0,started_at:a.started_at,startedAt:new Date(a.started_at).getTime(),answers:readDraft('attempt',a.id)||a.answers||{}};return;
  }
  if(!routeTabs.has(tab)){routeUnavailable();return;}s.tab=tab;
@@ -217,7 +217,28 @@ function testOnlyCourseNav(course,currentTestId){
  return '<nav class="card bar-preparation" aria-label="Тесты курса"><h2>Тесты курса</h2><div class="bar-preparation-links">'+links+'</div></nav>';
 }
 function testIntroView(){const d=s.content.find(x=>x.id===s.testIntro),p=payload(d),course=s.content.find(item=>item.id===d.course_id),hasLessons=!!payload(course||{}).lessons?.length;const attempt=s.attempts.filter(a=>a.test_id===d.id&&!a.submitted_at).sort((a,b)=>Date.parse(b.started_at)-Date.parse(a.started_at))[0];return `${hasLessons?`<button class="ghost" data-course="${esc(d.course_id)}">← К занятиям</button>`:'<button class="ghost" data-go="courses">← Все курсы</button>'}<h1>${esc(d.title)}</h1>${priorityBadge(d)}<p class="muted">${countLabel(p.questionCount??(p.questions||[]).length,['вопрос','вопроса','вопросов'])}</p>${hasLessons?'':testOnlyCourseNav(course,d.id)}${ninetyBarTestPreparation(d)}${barPreparationTest(d)?barPreparationResources():''}${attempt?`<a class="primary" href="#/tests/${encRoute(d.id)}/attempts/${encRoute(attempt.id)}">Продолжить тест</a> `:''}<button class="${attempt?'secondary':'primary'}" data-test="${esc(d.id)}">${attempt?'Начать заново':'Начать тест'}</button>`;}
-function testResultView(){const a=s.testResult,title=s.content.find(x=>x.id===a.test_id)?.title||a.snapshot?.title||'Тест';const courseId=s.content.find(x=>x.id===a.test_id)?.course_id,next=courseId&&nextCourseStep(courseId,a.test_id);return `<span class="eyebrow">Результат теста</span><h1>${esc(title)}</h1><section class="card"><strong class="stat">${a.score??0} / ${a.total??0}</strong><p>${a.needs_review?'На проверке у администратора':a.passed?'Тест пройден':'Повторите материал и попробуйте снова'}</p>${next?`<button class="primary" data-course-next="${esc(courseId)}" data-after-step="${esc(a.test_id)}">${next.type==='test'?'Следующий тест':'Следующее занятие'} →</button>`:''}<button class="ghost" data-result-course="${esc(s.content.find(x=>x.id===a.test_id)?.course_id||'')}">← К курсу</button></section>`;}
+async function loadTestMistakes(attempt){
+ if(!attempt.snapshot?.questions?.some(q=>q.type!=='text'))return;
+ try{attempt.mistakes=await rpc('academy_test_mistakes',{p_attempt_id:attempt.id});}
+ catch{attempt.mistakes=undefined;}
+}
+function testMistakesView(attempt){
+ const questions=attempt.snapshot?.questions||[];
+ if(!questions.some(q=>q.type!=='text'))return '';
+ let body;
+ if(attempt.mistakes===undefined)body='<p>Не удалось загрузить разбор.</p><button class="ghost" id="retry-test-mistakes">Загрузить разбор</button>';
+ else if(attempt.mistakes===null)body='<p>Разбор этой попытки недоступен.</p>';
+ else if(!attempt.mistakes.length)body='<p>В вопросах с выбором ответа ошибок нет.</p>';
+ else body=attempt.mistakes.map(({index,selected,wrong,incomplete})=>{
+  const q=questions[index];
+  if(!q)return '';
+  const choices=[...new Set(selected)].filter(i=>Number.isInteger(i)&&i>=0&&i<(q.options||[]).length);
+  const status=!choices.length?'Ответ пропущен':q.type==='multiple'&&incomplete?'Отмечены не все правильные варианты':'Неверный ответ';
+  return `<article class="question test-mistake"><span class="eyebrow">Вопрос ${index+1} из ${questions.length}</span><h3>${esc(q.text)}</h3>${testQuestionImages(q)}<p class="test-mistake-status">${status}</p>${choices.map(i=>`<div class="test-review-choice${wrong.includes(i)?' is-wrong':''}"><strong>${wrong.includes(i)?'Неверный вариант':'Выбрано верно'}</strong><div>${testOptionContent(q,q.options[i],i)}</div></div>`).join('')}</article>`;
+ }).join('');
+ return `<section class="card test-mistakes" aria-labelledby="test-mistakes-title"><h2 id="test-mistakes-title">Работа над ошибками</h2>${body}</section>`;
+}
+function testResultView(){const a=s.testResult,title=s.content.find(x=>x.id===a.test_id)?.title||a.snapshot?.title||'Тест';const courseId=s.content.find(x=>x.id===a.test_id)?.course_id,next=courseId&&nextCourseStep(courseId,a.test_id);return `<span class="eyebrow">Результат теста</span><h1>${esc(title)}</h1><section class="card"><strong class="stat">${a.score??0} / ${a.total??0}</strong><p>${a.needs_review?'На проверке у администратора':a.passed?'Тест пройден':'Повторите материал и попробуйте снова'}</p>${a.feedback?`<p><strong>Комментарий к письменным ответам</strong><br>${esc(a.feedback)}</p>`:''}<div class="row">${next?`<button class="primary" data-course-next="${esc(courseId)}" data-after-step="${esc(a.test_id)}">${next.type==='test'?'Следующий тест':'Следующее занятие'} →</button>`:''}<button class="ghost" data-result-course="${esc(courseId||'')}">← К курсу</button></div></section>${testMistakesView(a)}`;}
 function bindRoutes(){
  all('[data-test-intro]').forEach(b=>b.onclick=()=>{const t=s.content.find(d=>d.id===b.dataset.testIntro);if(t)openCourseStep(t.course_id,{type:'test',id:t.id});});
  all('[data-course-next]').forEach(b=>b.onclick=()=>openCourseStep(b.dataset.courseNext,nextCourseStep(b.dataset.courseNext,b.dataset.afterStep)));
@@ -229,6 +250,7 @@ function bindRoutes(){
  const prefix=s.tab==='ranking'?'rank':s.tab==='manager'?'team':null;if(prefix){let applying=true;for(const key of ['q','department','restaurant',...(prefix==='rank'?['position']:[])]){const node=$('#'+prefix+'-'+(key==='q'?'search':key));if(!node)continue;if(s.listFilters?.[key]){node.value=s.listFilters[key];node.dispatchEvent(new Event('input',{bubbles:true}));}node.addEventListener('input',()=>{if(applying)return;s.listFilters||={};s.listFilters[key]=node.value;syncRoute();});}applying=false;}
  all('[data-menu-item]').forEach(b=>b.onclick=()=>{s.menuItem=b.dataset.menuItem;s.filter='';s.category='';s.subcategory='';render();window.scrollTo(0,0);});
  $('#all-menu')?.addEventListener('click',()=>{s.menuItem=null;render();});
+ $('#retry-test-mistakes')?.addEventListener('click',()=>act(()=>loadTestMistakes(s.testResult)));
  all('[data-result-course]').forEach(b=>b.onclick=()=>{s.testResult=null;s.testIntro=null;s.test=null;s.course=b.dataset.resultCourse||null;s.lesson=0;s.tab='courses';render();window.scrollTo(0,0);});
  syncRoute();
 }
@@ -340,8 +362,30 @@ async function startTest(id){
  s.attempts=[{id:attempt.attempt_id,test_id:id,started_at:new Date(startedAt).toISOString(),submitted_at:null},...s.attempts];
  s.message='';render();window.scrollTo(0,0);
 }
-function testView(){const t=s.test;return `<button class="ghost back" id="leave-test">← К курсу</button><h1>${esc(t.title)}</h1>${priorityBadge(s.content.find(d=>d.id===t.id)||{kind:"test"})}${t.time_limit_seconds?'<div class="timer" id="timer" role="timer"></div>':''}<p class="muted">Отметьте ответы и отправьте тест на проверку.</p><form id="test-form" class="card">${(t.questions||[]).map((q,i)=>`<section class="question"><span class="eyebrow">Вопрос ${i+1} из ${t.questions.length}</span><h3>${esc(q.text)}</h3>${[q.image,...(q.images||[])].filter(Boolean).map(src=>`<img class="material-image" data-private-src="${esc(typeof src==='string'?src:src.src)}" alt="Иллюстрация к вопросу">`).join('')}${q.type==='text'?`<label class="field">Ваш ответ<textarea name="${esc(q.id)}" required>${esc(t.answers?.[q.id]||'')}</textarea></label>`:(q.options||[]).map((o,j)=>`<label class="choice"><input type="${q.type==='multiple'?'checkbox':'radio'}" name="${esc(q.id)}" value="${j}" ${t.answers?.[q.id]?.includes(j)?'checked':''}><span>${esc(typeof o==='string'?o:o.text)}${q.optionImages?.[j]?`<img class="material-image" data-private-src="${esc(q.optionImages[j])}" alt="Вариант ${j+1}">`:''}</span></label>`).join('')}</section>`).join('')}<button class="primary wide" style="margin-top:24px">Завершить тест →</button></form>`;}
-async function submitTest(form){const fd=new FormData(form),answers={};for(const q of s.test.questions)answers[q.id]=q.type==='text'?String(fd.get(q.id)||''):fd.getAll(q.id).map(Number);s.test.answers=answers;const result=await rpc('academy_submit_test',{p_attempt_id:s.test.attempt_id,p_answers:answers});clearInterval(timer);const completed=s.test;deleteDraft('attempt',completed.attempt_id);s.testResult={...result,id:completed.attempt_id,test_id:completed.id};s.test=null;s.message=result.timed_out?'Время на тест истекло. Ответы сохранены, но попытка не засчитана. Повторите материал и пройдите тест ещё раз.':result.needs_review?'Ответы отправлены. Админ проверит письменные задания.':`Результат: ${result.score} из ${result.total}. ${result.passed?'Тест пройден!':'Повторите материал и попробуйте снова.'}`;s.error=false;await load();}
+function testQuestionImages(question){return [...new Set([question.image,...(question.images||[])].filter(Boolean).map(src=>typeof src==='string'?src:src.src))].map(src=>`<img class="material-image" data-private-src="${esc(src)}" alt="Иллюстрация к вопросу">`).join('');}
+function testOptionContent(question,option,index){return `${esc(typeof option==='string'?option:option.text)}${question.optionImages?.[index]?`<img class="material-image" data-private-src="${esc(question.optionImages[index])}" alt="Вариант ${index+1}">`:''}`;}
+function testView(){
+ const t=s.test;
+ const questions=(t.questions||[]).map((q,i)=>{
+  const multiple=q.type==='multiple';
+  const hint=multiple?`<p class="test-multiple-hint" id="multiple-hint-${i}">Можно выбрать несколько вариантов ответа</p>`:'';
+  const fields=q.type==='text'?`<label class="field">Ваш ответ<textarea name="${esc(q.id)}" required>${esc(t.answers?.[q.id]||'')}</textarea></label>`:(q.options||[]).map((o,j)=>`<label class="choice"><input type="${multiple?'checkbox':'radio'}" name="${esc(q.id)}" value="${j}" ${multiple?`aria-describedby="multiple-hint-${i}"`:''} ${t.answers?.[q.id]?.includes(j)?'checked':''}><span>${testOptionContent(q,o,j)}</span></label>`).join('');
+  return `<section class="question"><span class="eyebrow">Вопрос ${i+1} из ${t.questions.length}</span><h3>${esc(q.text)}</h3>${hint}${testQuestionImages(q)}${fields}</section>`;
+ }).join('');
+ return `<button class="ghost back" id="leave-test">← К курсу</button><h1>${esc(t.title)}</h1>${priorityBadge(s.content.find(d=>d.id===t.id)||{kind:'test'})}${t.time_limit_seconds?'<div class="timer" id="timer" role="timer"></div>':''}<p class="muted">Отметьте ответы и отправьте тест на проверку.</p><form id="test-form" class="card">${questions}<button class="primary wide" style="margin-top:24px">Завершить тест →</button></form>`;
+}
+async function submitTest(form){
+ const completed=s.test,answers=captureAnswers(form);
+ completed.answers=answers;
+ const result=await rpc('academy_submit_test',{p_attempt_id:completed.attempt_id,p_answers:answers});
+ clearInterval(timer);
+ deleteDraft('attempt',completed.attempt_id);
+ const attempt={...result,id:completed.attempt_id,test_id:completed.id,snapshot:{title:completed.title,questions:completed.questions}};
+ s.testResult=attempt;s.test=null;
+ s.message=result.timed_out?'Время на тест истекло. Ответы сохранены, но попытка не засчитана. Повторите материал и пройдите тест ещё раз.':result.needs_review?'Ответы отправлены. Админ проверит письменные задания.':`Результат: ${result.score} из ${result.total}. ${result.passed?'Тест пройден!':'Повторите материал и попробуйте снова.'}`;
+ s.error=false;
+ await Promise.all([load(),loadTestMistakes(attempt)]);
+}
 function libraryDepartments(d){const p=d.payload||d,access=p.libraryAccess||{};if(access.enabled){const selected=[...new Set((Array.isArray(access.departments)?access.departments:[]).filter(dep=>typeof dep==='string'&&dep.trim()).map(dep=>dep.trim()))];return selected.length?selected:['Не указано'];}const department=String(d.department||p.department||'').trim();return department&&department!=='Все'?[department]:['Все подразделения'];}
 function libraryDepartmentBadges(d){return '<div class="library-department-badges" aria-label="Подразделения">'+libraryDepartments(d).map(dep=>'<span class="pill">'+esc(dep)+'</span>').join('')+'</div>';}
 const libraryTextSearch=new Map();

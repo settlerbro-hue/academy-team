@@ -11,3 +11,13 @@
 
 /* Wine facts remain readable as separate labelled lines on small screens. */
 .wine-description p{margin:0 0 9px;overflow-wrap:anywhere}.wine-description p:last-child{margin-bottom:0}.wine-description strong{font-weight:700}
+
+.test-multiple-hint{margin:0 0 12px;color:#5f496d;font-size:.9rem;font-weight:650}
+.test-mistakes{margin-top:18px;overflow-wrap:anywhere}
+.test-mistake{padding:16px 0}
+.test-mistake:last-child{border-bottom:0;padding-bottom:0}
+.test-mistake-status{margin:8px 0 10px;color:#8a302b;font-weight:700}
+.test-review-choice{margin-top:8px;padding:10px 12px;border:1px solid #ddd2c6;border-radius:10px}
+.test-review-choice strong{display:block;font-size:.85rem}
+.test-review-choice.is-wrong{background:#fff1ed;border-color:#d5978e;color:#762c26}
+.test-mistake .material-image{display:block;max-height:230px;object-fit:contain}
