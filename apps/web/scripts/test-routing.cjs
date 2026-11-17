@@ -27,6 +27,12 @@ async function open(hash){location.hash=hash;await router.restoreRoute();}
  await open('#/attestation/members/employee');assert.equal(s.oralMember,'employee');assert.equal(router.currentRoute(),'#/attestation/members/employee');
  s.profile.role='employee';await open('#/attestation');assert(s.routeError,'Employees cannot open examination cabinet');s.profile.role='manager';
  await open('#/courses/course-1/lessons/lesson-2');assert.equal(s.course,'course-1');assert.equal(s.lesson,1);assert.equal(router.currentRoute(),'#/courses/course-1/lessons/lesson-2');
+ await open('#/courses?venue=khimki');assert.equal(s.courseVenue,'');assert.equal(router.currentRoute(),'#/courses');
+ s.session.user.id='68a8567e-625e-41bc-bb37-6744d729c3d4';
+ await open('#/courses/course-1/lessons/lesson-2?venue=mytishchi');assert.equal(s.courseVenue,'mytishchi');assert.equal(router.currentRoute(),'#/courses/course-1/lessons/lesson-2?venue=mytishchi');
+ await open('#/tests/test-1?venue=khimki');assert.equal(s.courseVenue,'khimki');assert.equal(router.currentRoute(),'#/tests/test-1?venue=khimki');
+ await open('#/courses?venue=network');assert.equal(s.courseVenue,'');assert.equal(router.currentRoute(),'#/courses');
+ s.session.user.id='employee';
  await open('#/menu?category=alcohol&subcategory=Gin&q=lime');assert.equal(s.category,'alcohol');assert.equal(s.filter,'lime');
  await open('#/menu?brand=90&section=kitchen&restaurant=khimki');assert.equal(s.menuBrand,'90');assert.equal(s.menuSection,'kitchen');assert.equal(s.menuRestaurant,'khimki');assert.equal(router.currentRoute(),'#/menu?brand=90&section=kitchen');
  await open('#/library/doc-1');assert.equal(s.materialView,'doc-1');

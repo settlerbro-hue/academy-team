@@ -13,5 +13,13 @@ Object.assign(s.profile,{restaurant_id:'minsk',department:'Бар',position:'Б�
 s.courseAudience='Хостес';s.progress=[{course_id:'90-bar-techcards-course',lesson_id:'recipe-1'}];s.attempts=[{test_id:'90-example-test',passed:true}];assert(ctx.ninetyPathContext().preview);assert(ctx.ninetyPathSteps().every(step=>!ctx.ninetyPathStatus(step).done));assert(ctx.ninetyTrainingPath().includes('Предпросмотр'));assert(!ctx.ninetyPathSteps().some(x=>x.id==='90-bar-techcards-course'));
 s.courseAudience='mine';s.attempts=[];assert(!ctx.trainingCourseStatus('90-bar-techcards-course').done,'Reading lessons does not pass the test');s.attempts=[{test_id:'90-example-test',passed:true,needs_review:true}];assert(!ctx.trainingCourseStatus('90-bar-techcards-course').done);s.attempts[0].needs_review=false;assert(ctx.trainingCourseStatus('90-bar-techcards-course').done);
 const menuStep=ctx.ninetyPathSteps().find(x=>x.type==='menu');s.marks=[{item_id:'own-drink',status:'learned',user_id:'other'}];assert(!ctx.ninetyPathStatus(menuStep).done);s.marks[0].user_id='self';assert(ctx.ninetyPathStatus(menuStep).done);assert.equal(ctx.ninetyPathStatus(menuStep).detail,'Выучено 1/1');
+s.profile.restaurant_id='minsk';s.courseVenue='mytishchi';s.courseAudience='mine';
+assert(ctx.ninetyPathContext().preview,'Another venue does not inherit personal training progress');
+assert(ctx.courseForRestaurant({restaurant_id:'mytishchi',payload:{}}));
+assert(!ctx.courseForRestaurant({restaurant_id:'khimki',payload:{}}));
+assert(!ctx.courseForRestaurant({payload:{requiredRestaurantIds:['minsk']}}));
+assert(ctx.courseForRestaurant({payload:{requiredRestaurantIds:['pushkino','khimki','mytishchi']}}));
+assert(ctx.ninetyPathSteps().every(step=>!ctx.ninetyPathStatus(step).done));
+s.courseVenue='minsk';assert.equal(ctx.ninetyPathContext(),null);
 assert(source.includes('${ninetyTrainingPath()}'));assert(source.includes('function bind(){bindNinetyPath();'));assert(source.includes("recipe:['rvb-bar-techcards-course','90-bar-techcards-course'].includes(d.id)"));
 console.log('PASS: 90-е routes for all three venues and thirteen jobs, role-specific courses, no RVB programs, isolated previews, reviewed test completion, own menu marks and lazy responsive recipe rendering.');
