@@ -137,7 +137,7 @@ with course_source as (
    select jsonb_agg(
     case when s.id='welcome-90' and l.value->>'id'='123016' then
       (l.value - 'images') || jsonb_build_object('blocks',
-        jsonb_build_array(jsonb_set(l.value->'blocks'->0,'{eyebrow}',to_jsonb('Руки ВВерх! Бар · Минск'::text),true))
+        jsonb_build_array(jsonb_set(l.value->'blocks'->0,'{label}',to_jsonb('Руки ВВерх! Бар · Минск'::text),true))
         || (select jsonb_agg(b.value order by b.n)
               from jsonb_array_elements(s.welcome_draft) with ordinality b(value,n) where b.n>12))
      else coalesce(v.payload,l.value) end order by l.n)
