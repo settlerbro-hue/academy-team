@@ -19,7 +19,7 @@ const context={s,location,URLSearchParams,encodeURIComponent,decodeURIComponent,
  priorityBadge:()=>'',esc:x=>String(x??'').replace(/</g,'&lt;').replace(/>/g,'&gt;'),
  client:{from(table){const filters={};return {select(){return this;},eq(k,v){filters[k]=v;return this;},async maybeSingle(){queries.push({table,filters});return {data:filters.id===attempt.id&&filters.user_id===attempt.user_id?{...attempt}:null,error:null};}};}}
 };
-vm.createContext(context);vm.runInContext(source+'\nglobalThis.router={restoreRoute,currentRoute,syncRoute,draftKey,testView,testMistakesView};',context);
+vm.createContext(context);for(const helper of ["courseAssignedPayload","courseLessonDone","courseTestPassed"])vm.runInContext(portal.split("\n").find(line=>line.startsWith("function "+helper+"(")),context);vm.runInContext(source+'\nglobalThis.router={restoreRoute,currentRoute,syncRoute,draftKey,testView,testMistakesView};',context);
 const {router}=context;
 async function open(hash){location.hash=hash;await router.restoreRoute();}
 (async()=>{

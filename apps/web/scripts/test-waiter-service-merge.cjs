@@ -1,0 +1,42 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const portal=fs.readFileSync('secure-dist/portal.js','utf8'),patches=JSON.parse(fs.readFileSync('supabase/sources/waiter-service-merge/content.json'));
+const content=patches.map(p=>p.record),s={tab:'courses',content,profile:{position:'Официант',training_level:'trainee',restaurant_id:'minsk'},progress:[],attempts:[]};
+const ctx={s,kind:k=>content.filter(d=>d.kind===k&&d.published!==false),coursePosition:()=>s.profile.position,courseLevel:()=>s.profile.training_level,courseForRestaurant:d=>!d.restaurant_id||d.restaurant_id===s.profile.restaurant_id};
+vm.createContext(ctx);
+for(const name of ['courseAssignedPayload','courseLessonDone','courseTestPassed','trainingRouteId','rvbTrainingSteps','courseProgress','courseSteps','trainingCourseStatus','resumeCourseStep'])vm.runInContext(portal.split('\n').find(l=>l.startsWith('function '+name+'(')),ctx);
+ctx.payload=d=>ctx.courseAssignedPayload(d.payload||{});
+for(const prefix of ['','rvb--']){
+ const course=content.find(c=>c.id===prefix+'waiter-internship'),old=content.find(c=>c.id===prefix+'waiter-standards');s.profile.restaurant_id=prefix?'minsk':'pushkino';
+ assert.equal(course.payload.lessons.length,17);assert.equal(course.published,true);assert.equal(old.published,false);
+ assert.equal(ctx.trainingRouteId(old.id,'course'),course.id);
+ assert.equal(ctx.trainingRouteId(prefix+'92995','test'),prefix+'100159');
+ assert.equal(ctx.trainingRouteId('waiter-standards','course'),course.id,'Unprefixed legacy course link resolves inside the selected brand');
+ assert.equal(ctx.trainingRouteId('92995','test'),prefix+'100159','Unprefixed legacy test link resolves inside the selected brand');
+ assert.equal(new Set(course.payload.sequence.map(x=>x.type+':'+x.id)).size,course.payload.sequence.length);
+ if(prefix)assert.deepEqual(Array.from(ctx.rvbTrainingSteps([{id:course.id},{id:old.id}]),x=>x.id),[course.id]);
+ s.profile.position='Официант';s.profile.training_level='trainee';s.progress=[];s.attempts=[];
+ assert.equal(ctx.payload(course).lessons.length,17);assert.equal(ctx.courseProgress(course).total,17);
+ const three=content.filter(t=>t.course_id===course.id&&t.published);
+ s.progress=[{course_id:old.id,lesson_id:'42956'},{course_id:old.id,lesson_id:'42957'},{course_id:old.id,lesson_id:'42959'}];
+ assert(ctx.courseLessonDone(course,'114183'));assert(ctx.courseLessonDone(course,'114185'));assert(!ctx.courseLessonDone(course,'114188'));
+ s.progress.push({course_id:old.id,lesson_id:'42958'});assert(ctx.courseLessonDone(course,'114188'));
+ s.progress.push({course_id:course.id,lesson_id:'114193'});assert.equal(ctx.courseProgress(course).done,4);
+ s.attempts=[{test_id:prefix+'92995',passed:true}];const service=three.find(t=>t.id===prefix+'100159');assert(!ctx.courseTestPassed(service));
+ s.attempts.push({test_id:prefix+'92993',passed:true,needs_review:true});assert(!ctx.courseTestPassed(service));s.attempts[1].needs_review=false;assert(ctx.courseTestPassed(service));
+ s.attempts.push({test_id:prefix+'92988',passed:true},{test_id:prefix+'92998',passed:true});
+ const history=JSON.stringify([s.progress,s.attempts]);s.profile.training_level='certified';assert.equal(ctx.payload(course).lessons.length,3);assert.equal(ctx.courseSteps(course,three).length,6);assert(ctx.trainingCourseStatus(course.id).done);assert.equal(ctx.courseProgress(course).done,3);
+ s.profile.position='Администратор зала';s.profile.training_level='trainee';assert.equal(ctx.payload(course).lessons.length,3);assert(ctx.trainingCourseStatus(course.id).done);
+ assert.equal(JSON.stringify([s.progress,s.attempts]),history,'Rendering and crediting must never rewrite history');
+ s.profile.position='Официант';s.profile.training_level='trainee';assert.equal(ctx.payload(course).lessons.length,17);assert(!ctx.trainingCourseStatus(course.id).done);
+ for(const t of three){const patch=patches.find(p=>p.record.id===t.id);assert.equal(new Set(t.payload.questions.map(q=>q.text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' '))).size,t.payload.questions.length);assert.equal(Object.keys(patch.keys).length,t.payload.questions.length);for(const q of t.payload.questions)assert(patch.keys[q.id].every(i=>i>=0&&i<q.options.length));}
+ const text=JSON.stringify(course.payload);assert(!text.includes('Пречек 🧾 — распечатка заказа для кухни'));assert(!text.includes('будет 2 попытки'));assert(!text.includes('waiter-internship-10-3.jpg'));
+}
+assert(portal.includes("a.snapshot.questions||[]"),'A pending attempt must use its original snapshot');
+Object.assign(ctx,{esc:String,encRoute:encodeURIComponent,countLabel:n=>String(n),priorityBadge:()=>'',learningVenueQuery:()=>'',ninetyBarTestPreparation:()=>'',barPreparationTest:()=>false});
+for(const name of ['historicalTest','historicalTestTitle','testIntroView'])vm.runInContext(portal.split('\n').find(l=>l.startsWith('function '+name+'(')),ctx);
+s.profile.restaurant_id='minsk';s.testIntro='rvb--100075';s.attempts=[{id:'pending-old',test_id:'rvb--92988',submitted_at:null}];
+assert(ctx.testIntroView().includes('#/tests/rvb--92988/attempts/pending-old'),'The new test offers the original unfinished attempt');
+const archived=s.content.filter(d=>d.published===false);s.content=s.content.filter(d=>d.published!==false);
+assert.equal(ctx.historicalTestTitle('rvb--92988'),archived.find(d=>d.id==='rvb--92988').title,'Archived titles remain readable in results');
+assert.equal(ctx.historicalTest('rvb--92988').course_id,'rvb--waiter-internship');
+console.log('PASS: separate merged brands, stable 17 lesson IDs, deduplicated questions, legacy AND/OR credits, partial progress, role/level assignments, unchanged histories and immutable pending attempts.');

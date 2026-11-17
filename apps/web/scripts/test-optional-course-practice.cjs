@@ -2,7 +2,7 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const source=fs.readFileSync('secure-dist/portal.js','utf8');
 const course={id:'management',kind:'course',published:true,payload:{lessons:[{id:'lesson'}],completionTestIds:['core']}},core={id:'core',kind:'test',published:true,course_id:course.id},practice={id:'practice',kind:'test',published:true,course_id:course.id};
 const s={content:[course,core,practice],progress:[{course_id:course.id,lesson_id:'lesson'}],attempts:[{test_id:'core',passed:true,needs_review:false}]};
-const ctx={s,payload:d=>d.payload,kind:k=>s.content.filter(d=>d.kind===k),courseForRestaurant:()=>true};vm.createContext(ctx);vm.runInContext(source.split('\n').find(l=>l.startsWith('function trainingCourseStatus(')),ctx);
+const ctx={s,payload:d=>d.payload,kind:k=>s.content.filter(d=>d.kind===k),courseForRestaurant:()=>true};vm.createContext(ctx);for(const helper of ["courseAssignedPayload","courseLessonDone","courseTestPassed"])vm.runInContext(source.split("\n").find(line=>line.startsWith("function "+helper+"(")),ctx);vm.runInContext(source.split('\n').find(l=>l.startsWith('function trainingCourseStatus(')),ctx);
 assert(ctx.trainingCourseStatus(course.id).done,'Optional practice cannot revoke completed core training');
 assert(ctx.trainingCourseStatus(course.id).detail.includes('Тесты 1/1'));
 s.attempts[0].needs_review=true;assert(!ctx.trainingCourseStatus(course.id).done,'A core answer awaiting review remains incomplete');

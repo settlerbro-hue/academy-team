@@ -4,7 +4,7 @@ const courses=docs.filter(d=>d.kind==='course'),tests=docs.filter(d=>d.kind==='t
 assert.equal(courses.length,3);assert.equal(tests.length,12);assert.equal(courses[0].payload.lessons.length,15);
 const allIds=docs.map(d=>d.id);assert.equal(new Set(allIds).size,allIds.length);
 for(const d of docs){assert.equal(d.restaurant_id,'minsk');assert.equal(d.department,'Бар');assert(!/"correct"|"key_snapshot"/.test(JSON.stringify(d.payload)));}
-const ctx={s:{profile:{id:'me',restaurant_id:'minsk',department:'Бар',position:'Бармен'},courseAudience:'mine',content:docs,progress:[],attempts:[]},payload:d=>d.payload,kind:k=>docs.filter(d=>d.kind===k)};vm.createContext(ctx);
+const ctx={s:{profile:{id:'me',restaurant_id:'minsk',department:'Бар',position:'Бармен'},courseAudience:'mine',content:docs,progress:[],attempts:[]},payload:d=>d.payload,kind:k=>docs.filter(d=>d.kind===k)};vm.createContext(ctx);for(const helper of ["courseAssignedPayload","courseLessonDone","courseTestPassed"])vm.runInContext(source.split("\n").find(line=>line.startsWith("function "+helper+"(")),ctx);
 for(const n of ['trainingRouteId','rvbTrainingSteps','courseForRestaurant','rvbBarPathEnabled','rvbBarPathSteps','trainingCourseStatus'])vm.runInContext(source.split('\n').find(l=>l.startsWith('function '+n+'(')),ctx);
 assert(!ctx.courseForRestaurant({payload:{requiredRestaurantIds:['pushkino','khimki','mytishchi']}}));assert(ctx.courseForRestaurant({payload:{}}));assert(ctx.rvbBarPathEnabled());assert.equal(ctx.rvbBarPathSteps().length,6);
 for(const position of ['Бармен','Барбэк','Старший бармен','Бар-менеджер']){ctx.s.profile.position=position;assert(ctx.rvbBarPathEnabled());}
