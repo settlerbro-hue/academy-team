@@ -14,8 +14,9 @@
 /* Kitchen study cards: open descriptions beside a compact, uncropped dish photo. */
 .lesson-kitchen .lesson-dish{display:grid;grid-template-columns:minmax(0,1fr) clamp(85px,30%,170px);gap:10px 16px;margin:0 0 26px;padding-bottom:20px;border-bottom:1px solid #eee5dc;align-items:start}.lesson-dish>.lesson-block{grid-column:1/-1;min-width:0;margin:0}.lesson-dish .lesson-section-heading{margin:6px 0!important}.lesson-dish.has-photo>.dish-photo{grid-column:2;grid-row:2}.lesson-dish.has-photo>.dish-description{grid-column:1;grid-row:2}.lesson-dish .dish-photo figure{margin:0}.lesson-dish .dish-photo img{display:block;width:100%;height:auto;max-height:180px;object-fit:contain;margin:0!important}.lesson-dish .dish-photo figcaption{font-size:10px;line-height:1.4;margin-top:5px}.lesson-dish .dish-description details{min-width:0;margin-top:12px}.lesson-dish .dish-description summary{font-weight:700;line-height:1.4}.lesson-dish .dish-description p{margin:7px 0 12px}.lesson-dish .dish-description details p{padding:0 8px}@media(max-width:600px){.lesson-kitchen .lesson-dish{grid-template-columns:minmax(0,1fr) 90px;gap:8px 10px}.lesson-dish .dish-photo img{max-height:140px}.lesson-dish .dish-description{font-size:13px;line-height:1.6}}
 
-.lesson-page-header {
+.workspace .lesson-page-header {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   justify-items: start;
   gap: 12px;
   margin-bottom: 16px;
