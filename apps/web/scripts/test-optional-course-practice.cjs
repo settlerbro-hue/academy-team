@@ -9,5 +9,15 @@ s.attempts[0].needs_review=true;assert(!ctx.trainingCourseStatus(course.id).done
 s.attempts[0].needs_review=false;s.progress=[];assert(!ctx.trainingCourseStatus(course.id).done,'Core lessons are still required');
 s.progress=[{course_id:course.id,lesson_id:'lesson'}];delete course.payload.completionTestIds;assert(!ctx.trainingCourseStatus(course.id).done,'Unconfigured courses still require all linked tests');
 s.attempts.push({test_id:'practice',passed:true});assert(ctx.trainingCourseStatus(course.id).done);
+course.payload.completionLessonIds=[];
+course.payload.completionTestIds=['core'];
+s.progress=[];
+assert(ctx.trainingCourseStatus(course.id).done,'Adding optional lessons to an existing test-only course preserves completion');
+assert.equal(ctx.trainingCourseStatus(course.id).detail,'Тесты 1/1');
+s.attempts=[];
+assert(!ctx.trainingCourseStatus(course.id).done,'An optional lesson never replaces the required test');
+course.payload.completionLessonIds=['lesson'];
+s.attempts=[{test_id:'core',passed:true}];
+assert(!ctx.trainingCourseStatus(course.id).done,'An explicitly required lesson still counts');
 console.log('PASS: optional practice preserves completed core training; reviewed answers, lessons and legacy test requirements remain authoritative.');
 
