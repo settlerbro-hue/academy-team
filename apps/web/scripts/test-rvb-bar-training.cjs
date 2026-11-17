@@ -5,7 +5,7 @@ assert.equal(courses.length,3);assert.equal(tests.length,12);assert.equal(course
 const allIds=docs.map(d=>d.id);assert.equal(new Set(allIds).size,allIds.length);
 for(const d of docs){assert.equal(d.restaurant_id,'minsk');assert.equal(d.department,'Бар');assert(!/"correct"|"key_snapshot"/.test(JSON.stringify(d.payload)));}
 const ctx={s:{profile:{id:'me',restaurant_id:'minsk',department:'Бар',position:'Бармен'},courseAudience:'mine',content:docs,progress:[],attempts:[]},payload:d=>d.payload,kind:k=>docs.filter(d=>d.kind===k)};vm.createContext(ctx);
-for(const n of ['courseForRestaurant','rvbBarPathEnabled','rvbBarPathSteps','trainingCourseStatus'])vm.runInContext(source.split('\n').find(l=>l.startsWith('function '+n+'(')),ctx);
+for(const n of ['trainingRouteId','rvbTrainingSteps','courseForRestaurant','rvbBarPathEnabled','rvbBarPathSteps','trainingCourseStatus'])vm.runInContext(source.split('\n').find(l=>l.startsWith('function '+n+'(')),ctx);
 assert(!ctx.courseForRestaurant({payload:{requiredRestaurantIds:['pushkino','khimki','mytishchi']}}));assert(ctx.courseForRestaurant({payload:{}}));assert(ctx.rvbBarPathEnabled());assert.equal(ctx.rvbBarPathSteps().length,6);
 for(const position of ['Бармен','Барбэк','Старший бармен','Бар-менеджер']){ctx.s.profile.position=position;assert(ctx.rvbBarPathEnabled());}
 ctx.s.profile.position='Бармен';ctx.s.profile.restaurant_id='khimki';assert(!ctx.rvbBarPathEnabled());ctx.s.profile.restaurant_id='minsk';ctx.s.courseAudience='Хостес';assert(!ctx.rvbBarPathEnabled());ctx.s.courseAudience='mine';
@@ -16,3 +16,8 @@ ctx.s.attempts[0].needs_review=true;assert(!ctx.trainingCourseStatus(d.id).done,
 for(const c of courses){const seen=new Set();for(const step of c.payload.sequence){assert(!seen.has(step.type+':'+step.id));seen.add(step.type+':'+step.id);assert(step.type==='lesson'?c.payload.lessons.some(l=>l.id===step.id):tests.some(t=>t.id===step.id&&t.course_id===c.id));}assert.equal(c.payload.sequence.filter(x=>x.type==='lesson').length,c.payload.lessons.length);}
 const audit=JSON.parse(fs.readFileSync(path.join(base,'supabase/sources/rvb-bar-training-audit.json')));assert.equal(audit.sourceTab,'Коктейли Осень');assert.equal(audit.questions.length,tests.reduce((n,t)=>n+t.payload.questions.length,0));
 console.log('PASS: six RVB bar stages, own venue/job scope, all 15 handbook sections, 12 tests, source-backed questions, paired lessons/tests, completion requires all lessons and passed reviewed tests.');
+
+const originalWelcome=ctx.s.content.find(c=>c.id==='welcome-90');
+ctx.s.content.push({...originalWelcome,id:'rvb--welcome-90',kind:'course',restaurant_id:'minsk',payload:{...originalWelcome?.payload,trainingSourceId:'welcome-90'}});
+assert.equal(ctx.rvbBarPathSteps()[0].id,'rvb--welcome-90');
+assert.equal(ctx.trainingRouteId('welcome-90','course','khimki'),'welcome-90');
