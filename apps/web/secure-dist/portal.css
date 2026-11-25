@@ -24,7 +24,8 @@
 
 /* Bar foundations share native course navigation, progress and mobile outline. */
 .bar-foundations{margin:28px 0 44px}.bar-foundations>h2{margin:8px 0 12px}.bar-foundations>.muted{max-width:850px;margin-bottom:24px}
-.foundation-course .learning-cover{background:#f7e0e8}.foundation-course[data-foundation-topic="beer"] .learning-cover{background:#ffedb5}.foundation-course[data-foundation-topic="spirits"] .learning-cover{background:#e7dcff}
-.foundation-course .learning-cover img{width:100%;height:100%;inset:0;object-fit:contain;opacity:1}.foundation-course .learning-cover:after{display:none}.foundation-course .cover-label{display:none}.foundation-course .learning-body>p{font-size:15px;line-height:1.65}.foundation-course .learning-body>h3{overflow-wrap:anywhere}.foundation-course .learning-cover .tag{background:#fff}
+.bar-foundations .foundation-course .learning-cover{background:#f7e0e8}.bar-foundations .foundation-course[data-foundation-topic="beer"] .learning-cover{background:#ffedb5}.bar-foundations .foundation-course[data-foundation-topic="spirits"] .learning-cover{background:#e7dcff}
+.bar-foundations .foundation-course .learning-cover img{width:100%;height:100%;inset:0;object-fit:contain;opacity:1}.bar-foundations .foundation-course .learning-cover:after{display:none}.bar-foundations .foundation-course .learning-cover .cover-label{display:none}.foundation-course .learning-body>p{font-size:15px;line-height:1.65}.foundation-course .learning-body>h3{overflow-wrap:anywhere}.foundation-course .learning-cover .tag{background:#fff}
 .foundation-check-note{margin:20px 0}.foundation-check-note p{margin-bottom:0}.test-review-choice.is-correct{background:#e5f6e8;border-color:#67a477}.test-review-choice.is-missing{border-style:dashed}.test-review-explanation{line-height:1.7}
+@media(min-width:1200px){.bar-foundations .course-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:680px){.bar-foundations{margin:24px 0 32px}.foundation-course .learning-cover{min-height:180px}.foundation-check-note{padding:18px}.test-mistake .secondary{display:inline-flex;white-space:normal;max-width:100%}}
